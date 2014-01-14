@@ -2,11 +2,13 @@
 <html>
     <head onload="getScript();">
         <title>MIT Course Picker (alpha)</title>
+	<script src="http://api.simile-widgets.org/exhibit/3.1.0rc/lib/jquery-1.7.2.min.js"></script>
         <script src="http://api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js?log=true" type="text/javascript"></script>
+	<script src="http://static.simile.mit.edu/ajax/api-2.0/simile-ajax-api.js"></script>
+	<script src="http://simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
 	
-        <script src="timegrid/timegrid-api.js" type="text/javascript"></script>
-	<!--<script src="https://simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js" type="text/javascript"></script>-->
-	
+	<script src="timegrid/timegrid-api.js"></script>
+
         <script src="scripts/stored-data.js" type="text/javascript"></script>
         <script src="scripts/config.js" type="text/javascript"></script>
 	<script src="scripts/class-related.js" type="text/javascript"></script>
@@ -107,12 +109,12 @@
 		</div>
 	    </div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
-	    <!--<div id="schedule-preview-pane">
+	    <div id="schedule-preview-pane">
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
                 tg:mini="true" tg:dayStart="8" tg:dayEnd="22"
                 style="height:250px"></div>
-            <div id="total-units"></div>
+            <!--<div id="total-units"></div>
             <div data-ex-role="viewPanel">
                 <div data-ex-role="lens" data-ex-item-types="LectureSession" 
                     class="preview-class-lens" data-ex-background-style-content=".color" style="display: none;">
@@ -132,9 +134,9 @@
                     <button data-ex-sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span data-ex-content=".lab-section-of"></span> -
                     <span data-ex-content=".lab-section-of.label"></span> (lab)
-                </div>
+                </div>-->
 
-                <div data-ex-role="view"
+                <!--<div data-ex-role="view"
                     data-ex-orders=".class.courseNumber"
                     data-ex-show-header="false"
                     data-ex-show-all="false"
