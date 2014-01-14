@@ -1,0 +1,534 @@
+{
+    "items": [
+        {
+            "id":        "14.003",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Microeconomic Theory and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.01",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Principles of Microeconomics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.02",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Principles of Macroeconomics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.03",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Microeconomic Theory and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.05",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Intermediate Applied Macroeconomics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.09",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Economics and Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Reading Seminar in Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.10",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Economics and Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Reading Seminar in Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.123",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Microeconomic Theory III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.124",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Microeconomic Theory IV",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.126",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Game Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.129",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Contract Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.13",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Economics and Psychology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.137",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Psychology for Economists",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.16",
+            "offering":  "Currently Offered",
+            "area":      "General Economics and Theory",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Strategy and Information",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.191",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Independent Research Paper",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.195, 14.196",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Economics and Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Reading Seminar in Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.198, 14.199",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Economics and Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Introductory Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.20",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Organization",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Industrial Organization and Competitive Strategy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.272",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Organization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Organization II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.273",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Organization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Topics in Industrial Organization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.282",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Organization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Organizational Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.286",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Industrial Organization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Health Economics Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.295",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Organization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Collective Choice II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.30",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Statistical Method in Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.32",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Econometrics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.33",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Research and Communication in Economics:  Topics, Methods, and Implementation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.36",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Econometrics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.382",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Econometrics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.387",
+            "offering":  "Currently Offered",
+            "area":      "Statistics and Econometrics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Applied Econometrics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.391",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Statistics and Econometrics",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Workshop in Economic Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.41",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Public Finance and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.42",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Environmental Policy and Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.420",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Environmental Policy and Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.44",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Energy Economics and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.440",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Advanced Financial Economics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.441",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Financial Economics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.442",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Financial Economics III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.444",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Energy Economics and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.453",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Economic Fluctuations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.454",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Economic Crises",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.462",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Macroeconomics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.472",
+            "offering":  "Currently Offered",
+            "area":      "National Income and Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Public Economics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.573",
+            "offering":  "Currently Offered",
+            "area":      "International, Interregional, and Urban Economics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cities and Regions: Urban Economics and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.581",
+            "offering":  "Currently Offered",
+            "area":      "International, Interregional, and Urban Economics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Economics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.63",
+            "offering":  "Currently Offered",
+            "area":      "Labor Economics and Industrial Relations",
+            "category":  "HASS-D 4",
+            "has-final": true,
+            "label":     "The American Labor Force in a Changing Economy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.662",
+            "offering":  "Currently Offered",
+            "area":      "Labor Economics and Industrial Relations",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Labor Economics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.663",
+            "offering":  "Currently Offered",
+            "area":      "Labor Economics and Industrial Relations",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Advanced Topics in Labor Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.70",
+            "offering":  "Currently Offered",
+            "area":      "Economic History",
+            "category":  "HASS-D 5",
+            "has-final": true,
+            "label":     "Medieval Economic History in Comparative Perspective",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.731",
+            "offering":  "Currently Offered",
+            "area":      "Economic History",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Economic History",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.74",
+            "offering":  "Currently Offered",
+            "area":      "Economic Development",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Foundations of Development Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.772",
+            "offering":  "Currently Offered",
+            "area":      "Economic Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Development Economics: Macroeconomics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.773",
+            "offering":  "Currently Offered",
+            "area":      "Economic Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Political Economy: Institutions and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Economic Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Economic Development",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "14.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Economic Development",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

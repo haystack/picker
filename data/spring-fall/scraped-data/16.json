@@ -1,0 +1,624 @@
+{
+    "items": [
+        {
+            "id":        "16.00A",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Fundamentals of Engineering Design: Explore Space, Sea and Earth",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.00",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Aerospace and Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.003",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Unified Engineering III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.004",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Unified Engineering IV",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.101",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Mechanics and Physics of Fluids",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subject in Fluids and Propulsion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.120",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Mechanics and Physics of Fluids",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Compressible Internal Flow and Aeroacoustics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.198",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Mechanics and Physics of Fluids",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Mechanics and Physics of Fluids",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.20",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Structural Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.201",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subject in Materials and Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.230",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Plates and Shells",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.298",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Materials and Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.301",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Information and Control Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subject in Control, Dynamics and Automation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.322",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Stochastic Estimation and Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.323",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Principles of Optimal Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.35",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Real-Time Systems and Software",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.36",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Communication Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.398",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Information and Control Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Information and Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.401",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subject in Communication and Software",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.405",
+            "offering":  "Currently Offered",
+            "area":      "Humans and Automation",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Robotics: Science and Systems I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.412",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cognitive Robotics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.423",
+            "offering":  "Currently Offered",
+            "area":      "Humans and Automation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Aerospace Biomedical and Life Support Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.456",
+            "offering":  "Currently Offered",
+            "area":      "Humans and Automation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomedical Signal and Image Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.459",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Bioengineering Journal Article Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.470",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Methods in Experimental Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.498",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Humans and Automation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.522",
+            "offering":  "Currently Offered",
+            "area":      "Propulsion and Energy Conversion",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Space Propulsion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.55",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Propulsion and Energy Conversion",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Ionized Gases",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.598",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Propulsion and Energy Conversion",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Propulsion and Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.621",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Experimental Projects I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.622",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Experimental Projects II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.64",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Flight Measurement Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.681",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Projects",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.682",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Selected Topics in Aeronautics and Astronautics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.687",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Selected Topics in Aeronautics and Astronautics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.75",
+            "offering":  "Currently Offered",
+            "area":      "Flight Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Airline Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.798",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Flight Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Flight Transportation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.812",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Systems",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Aerospace Industry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.83",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Systems",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Space Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.832",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Space Systems Development II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.855",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Enterprise Architecting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.862",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.863",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "System Safety",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.886",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Air Transportation Systems Architecting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.89",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.891",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Policy Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.895",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Apollo: The Moon Project as a Complex System",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.898",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Aerospace Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Aerospace Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.90",
+            "offering":  "Currently Offered",
+            "area":      "Computation",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Computational Methods in Aerospace Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.930",
+            "offering":  "Currently Offered",
+            "area":      "Computation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Topics in Numerical Methods for Partial Differential Equations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.948",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Computation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.980",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.982",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Special Subject",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.984",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "16.985",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Other Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Proseminar in Manufacturing",
+            "subarea":   undefined
+        }
+    ]
+}

@@ -1,0 +1,489 @@
+/*
+ * Big UI pieces
+ */
+#browsing-interface {
+    position:   relative;
+    width:      100%;
+}
+
+#add-more-select {
+    width: 50%;
+    border: solid;
+    background: transparent;
+    color: #DCDCDC;
+}
+
+#add-more-select:hover {
+    background: #81A594;
+    color: black;
+}
+
+.exhibit-collectionView-header {
+    text-align: center;
+}
+
+div.exhibit-facet-header-filterControl {
+    width: 5px;
+}
+
+div.exhibit-facet-header-filterControl img {
+    display: none;
+    visibility: hidden;
+}
+
+/*
+ * added the code below
+ */
+.exhibit-collectionView-body div.info-body {
+    display: none;
+}
+#schedule-preview-pane {
+    z-index:    1;
+    top:        8em;
+    right:      3px;
+    width:      20em;
+    background: white;
+	overflow:   auto;
+	bottom:     0px;
+    position:   fixed;
+}
+
+#schedule-preview-pane > div {
+    padding:    8px;
+}
+#schedule-preview-pane #mini-timegrid {
+    padding:    0px;
+}
+#schedule-preview-pane #show-panel-title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #81A594;
+    color:          #15243B;
+    text-align:     center;
+    cursor:         pointer;
+}
+
+#schedule-preview-pane #show-panel-title:hover {
+    background: #FFFCE6;
+}
+
+#hide-panel-title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #81A594;
+    color:          #15243B;
+    text-align:     center;
+    cursor:         pointer;
+}
+
+#schedule-preview-pane div.title:hover {
+    cursor:         point;
+}
+
+#schedule-preview-pane div.title span {
+    font-size:      120%;
+    font-weight:    bold;
+}
+#schedule-preview-pane .exhibit-viewPanel {
+    font-size:      80%;
+}
+
+#schedule-preview-pane-collapsed {
+    width:      20em;
+    overflow:   auto;
+	bottom:     0px;
+    position:   fixed;
+    z-index:    1;
+    top:        95%;
+    right:      3px;
+}
+
+#schedule-preview-pane-collapsed #hide-panel-title:hover {
+    background: #FFFCE6;
+}
+
+#schedule-preview-pane-collapsed div.title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #81A594;
+    color:          #15243B;
+    text-align:     center;
+}
+
+#classes-layer {
+    margin: 10px 80px;
+}
+
+#schedule-details-layer {
+    position:       absolute;
+    top:            0px;
+    left:           0px;
+    width:          100%;
+    visibility:     hidden;
+}
+#schedule-details-layer-inner {
+    margin:       1em; 
+    margin-right: 21em;
+}
+@media print {
+    #classes-layer {
+        display:    none;
+    }
+    #schedule-preview-pane {
+        display:    none;
+    }
+    #schedule-details-layer {
+        position:   static;
+        width:      100%;
+    }
+    #schedule-details-layer-inner {
+        margin-right: 1em;
+    }
+    #schedule-details-layer-inner {
+	display: none
+    }
+    
+}
+
+#schedule-details-layer div.title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #9A3334
+    color:          #15243B;
+}
+#schedule-details-layer div.title span {
+    font-size:      120%;
+    font-weight:    bold;
+}
+
+#no-picked-classes {
+    padding:    2em;
+    text-align: center;
+}
+
+#tabs {
+    padding:    0.5em;
+    background: #ffe;
+    text-align: center;
+}
+
+/* No numbering on browsing list of classes */
+.hkn-statistics li {
+    list-style-type: none;
+}
+
+/*
+div.collapsed-facet {
+    border:     none;
+    background: #FCD1AC;
+    padding:    1px 2px;
+    cursor:     pointer;
+    margin-bottom:  0.5em;
+}
+*/
+
+div.exhibit-facet-header {
+    border:     none;
+    padding:    1px 2px;
+    cursor:     pointer;
+    border-bottom: 1px solid lightgray;
+}
+
+div.exhibit-facet-body {
+    background: white;
+    border:     none;
+}
+
+# {
+    margin: 5px;
+    font-size: 80%;
+    border: 0px;
+}
+#mini-timegrid .timegrid-ylabels div.timegrid-label {
+    padding-top: 0px;
+}
+div.timegrid-week-highlight {
+    background: none;
+}
+
+#textbook-list {
+    font-size: 80%;
+}
+
+/*
+ * Lenses
+ */
+div.generic-lens {
+    padding: 3em 2em;
+}
+
+div.course-lens {
+    border-bottom:  1px solid lightgray;
+    margin-bottom:  2em;
+    position: relative;
+    padding: 20px;
+}
+div.course-title {
+    padding:        0.25em;
+    font-weight:    bold;
+    background:     black;
+    color:          #FFFCE6;
+}
+span.course-name {
+    color:          #fff;
+}
+span.course-semester {
+    float: right;
+    color:          #660000;
+}
+span.hasfinal {
+    font-style: italic;
+    font-weight: bold;
+}
+/**
+img.favorite-icon {
+    float: right;
+    cursor: pointer;
+    margin-left: 1em;
+}
+**/
+table.course-body {
+    width: 100%;
+}
+
+div.hkn-statistics {
+    border:     1px solid #aaa;
+    margin-top: 1em;
+}
+div.course-instructor {
+    font-style:    italic;
+}
+div.hkn-stats-header {
+    border-bottom:  1px #aaa solid;
+    background:     #ccc;
+    padding:        1px 3px;
+    font-weight:    bold;
+
+}
+div.each-section-unpicked {
+    background:     #FFFCE6;
+    padding:        2px;
+    clear:          both;
+    margin-left:    10px;
+    margin-bottom:  2px;
+}
+div.each-section-picked {
+    background:     #ddb;
+    padding:        2px;
+    clear:          both;
+    margin-left:    10px;
+    margin-bottom:  2px;
+}
+div.each-section-picked button, div.each-section-unpicked button {
+    width:          7em;
+    /* float:          right; */
+}
+span.section-instructor {
+    font-style:        italic;
+}
+span.section-schedule {
+    font-style:        italic;
+}
+
+#schedule-preview-pane ol.exhibit-tileView-body {
+    padding-left:   1.75em;
+}
+#schedule-preview-pane .exhibit-tileView-body li {
+    clear: both;
+}
+div.preview-class-lens {
+    padding:        2px;
+    color:          white;
+    margin-bottom:  1px;
+}
+button.remove-preview {
+    float:          right;
+    font-family:    monospace;
+    font-size:      7pt;
+}
+
+div.course-topic {
+}
+div.course-description {
+    padding:        0.5em 0 0.5em 0;
+}
+div.course-teacher {
+    padding:        0 0 0.5em 0;
+    font-style:     italic;
+}
+div.course-prereqs {
+    padding-bottom:        0.5em;
+}
+td.course-logistics {
+}
+div.no-offering {
+    font-size: 120%;
+    font-weight: bold;
+    color: red;
+}
+div.report-errors a {
+    font-size: 80%;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+a.external {
+    font-size: 80%;
+    text-decoration: none;
+}
+ul.instructor-ratings {
+    margin:         0px;
+    margin-left:    1em;
+    padding:        0px;
+}
+
+div.course-recitations-disclaimer {
+    color:      red;
+    font-style: italic;
+    padding:    1em;
+}
+
+div.level {
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+div.requirements {
+	font-style: italic;
+	padding: 0.5em 0 0 0;
+}
+
+
+/*
+ * Ratings and Comment styles
+ */
+.rating {
+	margin-top: 1em;
+}
+.rate {
+	cursor: pointer;
+	clear: both;
+	display: block;
+}
+.rate:after {
+	content: '.';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cancel,
+.star {
+	float: left;
+	width: 17px;
+	height: 15px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.cancel,
+.cancel a {background: url('../../images/rating-delete.gif') no-repeat 0 -16px;}
+
+.star,
+.star a {background: url('../../images/rating-star.gif') no-repeat 0 0px;}
+	
+.cancel a,
+.star a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0px;
+}
+
+div.rate span.on a {
+	background-position: 0 -16px;
+}
+div.rate span.hover a,
+div.rate span a:hover {
+	background-position: 0 -32px;
+}
+
+/**
+div.comments {
+	border: 1px solid #AAAAAA;
+	font-size: 80%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+div.comments div {
+	padding: 2px;
+}
+div.comments a div {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-weight: bold;
+}
+div.each-comment {
+	border-bottom: 1px solid #AAAAAA;
+}
+div.comments div.message {
+	display: none;
+}
+div.comments div.input {
+	display: none;
+	padding: 4px;
+}
+**/
+
+#bookspicker-button a {
+	display:block;
+	width: 175px;
+	height: 98px;
+	background: url(http://bookspicker.mit.edu/images/booksPickerButton.png) 0 0 no-repeat;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+
+#bookspicker-button a:hover {
+	background:url(http://bookspicker.mit.edu/images/booksPickerButton_over.png) 0 0 no-repeat;
+}
+
+#bookspicker-button a:active {
+	background:url(http://bookspicker.mit.edu/images/booksPickerButton_down.png) 0 0 no-repeat;
+}
+
+#export-google-cal-button img {
+    display:block;
+    width: 150px;
+    height: 60px;
+    text-decoration: none;
+    margin: 0 auto;
+    -moz-box-shadow: 3px 3px 4px #999; /* Firefox */
+    -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
+    box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
+}
+
+#classes-layer button.collapse-classes{
+    width:          7em;
+    float:          right;
+    margin-right:   1em;
+    margin-top:     1em;
+}
+
+.text_search {
+    width: 50%;
+    margin-left: 25%;
+    border: black;
+	border-style: solid;
+	border-width: 2px;
+	font-size: 20px;
+}
+
+div.exhibit-text-facet input {
+    font-size: 18px;
+}

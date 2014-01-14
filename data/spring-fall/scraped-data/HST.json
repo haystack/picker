@@ -1,0 +1,770 @@
+{
+    "items": [
+        {
+            "id":        "HST.035",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles and Practice of Human Pathology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.061",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Endocrinology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.081",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Hematology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.091",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cardiovascular Pathophysiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.101",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Respiratory Pathophysiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.111",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Renal Pathophysiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.151",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Pharmacology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.187",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subjects in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.196",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.198",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.199",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.200",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Clinical Medicine",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.201",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Clinical Medicine and Medical Engineering I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.202",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Clinical Medicine and Medical Engineering II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.203",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Clinical Experience in Medical Engineering and Medical Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.204",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Experience in Medical Engineering and Medical Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.205",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Enterprise Experience in Medical Engineering & Medical Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.212",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomedical Enterprise Clinical Experience II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.240",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Translational Medicine Preceptorship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.391",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Clinical Investigation Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.422",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "A Clinical Approach to the Human Brain",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.452",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Statistical Physics in Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.460",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Statistics for Neuroscience Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.481-HST.489",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subjects in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.491",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Reviewing Biomedical Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.500",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Frontiers in (Bio)Medical Engineering and Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.509",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational and Functional Genomics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.510",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Genomics, Computing, Economics, and Society",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.513",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Genomic Medicine",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.515",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Aerospace Biomedical and Life Support Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.521",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomaterials and Tissue Engineering in Medical Devices and Artificial Organs",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.523",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cell-Matrix Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.524",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design of Medical Devices and Implants",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.527",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Blood Vessels and Endothelial Phenotypes in Health and Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.531",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Medical Physics of Proton Radiation Therapy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.532",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Hyperthermia and Clinical Applications of Bioheat Transfer",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.542",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.560",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Radiation Biophysics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.572",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Future Medical Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.580",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Data Acquisition and Image Reconstruction in MRI",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.582",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomedical Signal and Image Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.586?589",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in Medical Engineering and Medical Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.590",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biomedical Engineering Seminar Series",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.591",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomedical Engineering Research Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.594",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Translational Medicine Seminars",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.598",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.599",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Health Sciences and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.710",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Speech Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.723",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Neural Coding and Perception of Sound",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.724",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Clinical Aspects of Speech and Hearing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.725",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Music Perception and Cognition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.729",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Speech and Audio Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.750",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Modeling Issues in Hearing and Speech",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.771?HST.779",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in the Speech and Hearing Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.780?789",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in the Speech and Hearing Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.790",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Approaches to Speech and Hearing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.791",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Speech and Hearing Laboratory Visits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.903",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Health Economics Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.905",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Health Care Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.918",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Economics of the Health Care Industries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.922",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Information Technology in the Health Care System of the Future",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.924",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Information Technology in the Health Care System of the Future (Laboratory)",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.934",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Global Medicine:  Bioscience, Technologies, Disparities, Strategies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.937",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.939",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Designing and Sustaining Technology Innovation for Global Health Practice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.947",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Medical Artificial Intelligence",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.957",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biomedical Informatics Research Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.959",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research Topics in Biomedical Informatics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.971",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Strategic Decision Making in the Biomedical Business",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.973",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Evaluating a Biomedical Business Concept",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.977",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Critical Reading and Technical Assessment of Biomedical Information",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Dynamics of Biomedical Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.986-HST.989",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in Biomedical Enterprise",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "HST.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research in Health Sciences and Technology",
+            "subarea":   undefined
+        }
+    ]
+}

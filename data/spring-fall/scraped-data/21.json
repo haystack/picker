@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "id":        "21.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Humanities Pre-Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis in Humanities",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Humanities",
+            "subarea":   undefined
+        }
+    ]
+}

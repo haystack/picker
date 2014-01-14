@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "id":        "13.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        }
+    ]
+}

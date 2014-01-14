@@ -1,0 +1,327 @@
+{
+    "items": [
+        {
+            "id":        "22.00",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": false,
+            "label":     "Introduction to Modeling and Simulation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.002",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating About Technology:  Colossal Failures in Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.012",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Fusion and Plasma Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.06",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Engineering of Nuclear Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.071",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Electronics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.09",
+            "offering":  "Not offered this year",
+            "area":      "Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Principles of Nuclear Radiation Measurement and Protection",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.091",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Nuclear Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.093",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Nuclear Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.THT",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research Opportunities Program",
+            "subarea":   undefined
+        },
+        {
+            "id":        "22.106",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Neutron Interactions and Applications",
+            "subarea":   "Nuclear Physics"
+        },
+        {
+            "id":        "22.211",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nuclear Reactor Physics I",
+            "subarea":   "Nuclear Reactor Physics"
+        },
+        {
+            "id":        "22.313",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Thermal Hydraulics in Power Technology",
+            "subarea":   "Nuclear Reactor Engineering"
+        },
+        {
+            "id":        "22.38",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Probability and Its Applications To Reliability, Quality Control, and Risk Assessment",
+            "subarea":   "Nuclear Reactor Engineering"
+        },
+        {
+            "id":        "22.40",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   "Nuclear Reactor Engineering"
+        },
+        {
+            "id":        "22.55",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Radiation Biophysics",
+            "subarea":   "Radiation Interactions and Applications"
+        },
+        {
+            "id":        "22.612",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Plasma Physics II",
+            "subarea":   "Plasmas and Controlled Fusion"
+        },
+        {
+            "id":        "22.615",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "MHD Theory of Fusion Systems",
+            "subarea":   "Plasmas and Controlled Fusion"
+        },
+        {
+            "id":        "22.62",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Fusion Energy",
+            "subarea":   "Plasmas and Controlled Fusion"
+        },
+        {
+            "id":        "22.70",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Materials for Nuclear Applications",
+            "subarea":   "Nuclear Materials"
+        },
+        {
+            "id":        "22.72",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Corrosion: The Environmental Degradation of Materials",
+            "subarea":   "Nuclear Materials"
+        },
+        {
+            "id":        "22.77",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nuclear Waste Management",
+            "subarea":   "Nuclear Materials"
+        },
+        {
+            "id":        "22.82",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   "Systems, Policy, and Economics"
+        },
+        {
+            "id":        "22.90",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nuclear Science and Engineering Laboratory",
+            "subarea":   "General"
+        },
+        {
+            "id":        "22.901\u001322.904",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Nuclear Science & Engineering",
+            "subarea":   "General"
+        },
+        {
+            "id":        "22.905",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Nuclear Science and Engineering",
+            "subarea":   "General"
+        },
+        {
+            "id":        "22.911",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Nuclear Science and Engineering",
+            "subarea":   "General"
+        },
+        {
+            "id":        "22.93",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Teaching Experience in Nuclear Science & Engineering",
+            "subarea":   "General"
+        },
+        {
+            "id":        "22.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   "General"
+        }
+    ]
+}

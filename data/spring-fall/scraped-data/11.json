@@ -1,0 +1,609 @@
+{
+    "items": [
+        {
+            "id":        "11.003",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Methods of Policy Analysis",
+            "subarea":   "Introductory Subjects"
+        },
+        {
+            "id":        "11.004",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "CityScope",
+            "subarea":   "Introductory Subjects"
+        },
+        {
+            "id":        "11.005",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to International Development",
+            "subarea":   "Introductory Subjects"
+        },
+        {
+            "id":        "11.022",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   "Introductory Subjects"
+        },
+        {
+            "id":        "11.027",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "City to City: Comparing, Researching and Writing about Cities",
+            "subarea":   "Introductory Subjects"
+        },
+        {
+            "id":        "11.123",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Big Plans",
+            "subarea":   "Specialized Subjects"
+        },
+        {
+            "id":        "11.125",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Exploring K-12 Classroom Teaching",
+            "subarea":   "Specialized Subjects"
+        },
+        {
+            "id":        "11.127",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computer Games and Simulations for Investigation and Education",
+            "subarea":   "Specialized Subjects"
+        },
+        {
+            "id":        "11.131",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Education Theory and Practice III",
+            "subarea":   "Specialized Subjects"
+        },
+        {
+            "id":        "11.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Thesis Research Design Seminar",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.190",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Urban Studies and Planning",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.191, 11.192",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Supervised Readings in Urban Studies",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.194, 11.195",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Special Topics in Urban Studies and Planning",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.196",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Urban Fieldwork and Internships",
+            "subarea":   "Tutorials, Fieldwork, and Internships"
+        },
+        {
+            "id":        "11.220",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Quantitative Reasoning and Statistical Methods for Planning I",
+            "subarea":   "Master\\'s Core Subjects"
+        },
+        {
+            "id":        "11.229",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Writing Seminar",
+            "subarea":   "Department-wide Subjects"
+        },
+        {
+            "id":        "11.252",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computer Games and Simulations for Investigation and Education",
+            "subarea":   "Department-wide Subjects"
+        },
+        {
+            "id":        "11.255",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Negotiation and Dispute Resolution in the Public Sector",
+            "subarea":   "Department-wide Subjects"
+        },
+        {
+            "id":        "11.257",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Multi-Party Negotiation Seminar: Addressing the Land Claims of Indigenous Peoples",
+            "subarea":   "Department-wide Subjects"
+        },
+        {
+            "id":        "11.303",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Real Estate Development II",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.304",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Site and Urban Systems Planning",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.306",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Planning Studio",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.330",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Theory of City Form",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.332",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Design Studio",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.333",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Urban Design Seminar",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.337",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Design Policy and Action",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.340",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Legal Issues in the Development Process",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.344",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Innovative Project Delivery in the Public and Private Sectors",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.346",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Housing Markets",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.367",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "The Law and Politics of Land Use",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.369",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Energy Policy for a Sustainable Future",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.375",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Planning for the Impacts of Climate Change - Synthesizing Science and Governance",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.376",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Sustainability in Action: Boston",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.410",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cities and Regions: Urban Economics and Public Policy",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.423",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Information, Asset-building, and the Immigrant City",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.427",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Labor Markets and Employment Policy",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.432",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Real Estate Capital Markets",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.439",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Revitalizing Urban Main Streets",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.468",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "SIGUS Workshop: Learning from Communities",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.469",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Sociology in Theory and Practice",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.479",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Water and Sanitation Infrastructure in Developing Countries",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.481",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Analyzing and Accounting for Regional Economic Change",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.484",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Project Appraisal in Developing Countries",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.521",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Spatial Database Management and Advanced Geographic Information Systems",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.523",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fundamentals of Spatial Database Management",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.524",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Geographic Information System Project",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.541",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Public Transportation Systems",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.543",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Transportation Policy and Environmental Limits",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.631",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   "Program Group Subjects"
+        },
+        {
+            "id":        "11.800",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Doctoral Research Seminar",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.911, 11.912",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supervised Readings in Urban Studies",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.941 - 11.945",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Studies in Urban Studies and Planning",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.962",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Fieldwork and Internships",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.963-11.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Studies in Urban Studies and Planning",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.970",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Studies in Urban Studies and Planning",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.981",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Graduate Tutorial",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        },
+        {
+            "id":        "11.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   "Tutorials, Research, and Field Work Subjects"
+        }
+    ]
+}

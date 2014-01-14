@@ -1,0 +1,466 @@
+{
+    "items": [
+        {
+            "id":        "8.011",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "GIR: Physics 1",
+            "has-final": false,
+            "label":     "Physics I",
+            "subarea":   undefined
+        },
+        {
+            "id": "8.01",
+            "category": "GIR: Physics 1",
+            "label": "Physics I"
+        },
+        {
+            "id": "8.012",
+            "category": "GIR: Physics 1",
+            "label": "Physics I"
+        },
+        {
+            "id": "8.01L",
+            "category": "GIR: Physics 1",
+            "label": "Physics I"
+        },
+        {
+            "id":        "8.02",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "GIR: Physics 2",
+            "has-final": true,
+            "label":     "Physics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.022",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "GIR: Physics 2",
+            "has-final": true,
+            "label":     "Physics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.03",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Physics III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.04",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Quantum Physics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.044",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Statistical Physics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.06",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantum Physics III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.08",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Statistical Physics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.18",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Laboratory and Special Project Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Problems in Undergraduate Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.19",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Laboratory and Special Project Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Readings in Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.224",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Exploring Black Holes: General Relativity and Astrophysics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.225",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Einstein, Oppenheimer, Feynman: Physics in the 20th Century",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.251",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "String Theory for Undergraduates",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.276",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Nuclear and Particle Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.277",
+            "offering":  "Not offered this year",
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Particle Accelerators",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.282",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Elective Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Astronomy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.284",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Modern Astrophysics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.292",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Fluid Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.299",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Physics Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Elective Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Physics Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.311",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Electromagnetic Theory I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.321",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Quantum Theory I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.323",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Relativistic Quantum Field Theory I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.325",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Relativistic Quantum Field Theory III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.391, 8.392",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Graduate Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.395",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching College-Level Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.399",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Physics Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "8.422",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Atomic and Optical Physics II",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.431",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nonlinear Optics",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.512",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Theory of Solids II",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.592",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Physics in Biology",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.594",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Neural Networks",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.614",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Plasma Physics II",
+            "subarea":   "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "id":        "8.701",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Nuclear and Particle Physics",
+            "subarea":   "Nuclear and Particle Physics"
+        },
+        {
+            "id":        "8.831",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supersymmetric Quantum Field Theories",
+            "subarea":   "Nuclear and Particle Physics"
+        },
+        {
+            "id":        "8.881, 8.882",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Selected Topics in Experimental Particle Physics",
+            "subarea":   "Nuclear and Particle Physics"
+        },
+        {
+            "id":        "8.901",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Astrophysics I",
+            "subarea":   "Space Physics and Astrophysics"
+        },
+        {
+            "id":        "8.952",
+            "offering":  "Not offered this year",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Particle Physics of the Early Universe",
+            "subarea":   "Space Physics and Astrophysics"
+        },
+        {
+            "id":        "8.962",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "General Relativity",
+            "subarea":   "Space Physics and Astrophysics"
+        },
+        {
+            "id":        "8.971, 8.972",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Astrophysics Seminar",
+            "subarea":   "Space Physics and Astrophysics"
+        },
+        {
+            "id":        "8.981, 8.982",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Selected Topics in Astrophysics",
+            "subarea":   "Space Physics and Astrophysics"
+        },
+        {
+            "id":        "8.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Physics Thesis",
+            "subarea":   "Space Physics and Astrophysics"
+        }
+    ]
+}

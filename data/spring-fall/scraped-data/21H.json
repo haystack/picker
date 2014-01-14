@@ -1,0 +1,272 @@
+{
+    "items": [
+        {
+            "id":        "21H.102",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "American History since 1865",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.105",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "American Classics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.106",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.112",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The American Revolution",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.115",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Christianity and Slavery in America",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.224",
+            "offering":  "Currently Offered",
+            "area":      "American History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Constitutional Law in US History",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.302",
+            "offering":  "Currently Offered",
+            "area":      "European History",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "The Ancient World: Rome",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.306",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "European History",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "The Middle Ages:  500-1300",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.346",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "European History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "France 1660-1815:  Enlightenment, Revolution, Napoleon",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.416",
+            "offering":  "Currently Offered",
+            "area":      "European History",
+            "category":  "HASS-D 5",
+            "has-final": true,
+            "label":     "Medieval Economic History in Comparative Perspective",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.433",
+            "offering":  "Currently Offered",
+            "area":      "European History",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "The Age of Reason: Europe from the 17th to the Early 19th Centuries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.467",
+            "offering":  "Currently Offered",
+            "area":      "European History",
+            "category":  "HASS-D 4",
+            "has-final": true,
+            "label":     "Soviet and Post-Soviet Politics and Society, 1917-Present",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.511",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Asian History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Chinese Popular Religion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.560",
+            "offering":  "Currently Offered",
+            "area":      "Asian History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Smashing the Iron Rice Bowl: Chinese East Asia",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.615",
+            "offering":  "Currently Offered",
+            "area":      "Middle Eastern History",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "The Middle East in the Twentieth Century",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.631",
+            "offering":  "Currently Offered",
+            "area":      "Middle Eastern History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Palestine and the Arab-Israeli Conflict",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.916",
+            "offering":  "Currently Offered",
+            "area":      "Comparative History Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Ghetto:  From Venice to Harlem",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.917",
+            "offering":  "Currently Offered",
+            "area":      "Comparative History Subjects",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Visualizing Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.927",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative History Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Gender and Work: From the Middle Ages to the Contemporary World",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.931",
+            "offering":  "Currently Offered",
+            "area":      "Special Subjects in History",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Seminar in Historical Methods",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.932",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects in History",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in History",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects in History",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "History Pre-Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects in History",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "History Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.995",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects in History",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Topics in History",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21H.996",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects in History",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Topics in History",
+            "subarea":   undefined
+        }
+    ]
+}

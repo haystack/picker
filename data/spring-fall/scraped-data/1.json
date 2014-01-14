@@ -1,0 +1,779 @@
+{
+    "items": [
+        {
+            "id":        "1.00",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Computers and Engineering Problem Solving",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.001",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Computers and Engineering Problem Solving",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.011",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Project Evaluation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.013",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Senior Civil and Environmental Engineering Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.016",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Communicating Complex Environmental Issues: Designing and Building Interactive Museum Exhibits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.020",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Ecology II: Engineering for Sustainability",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.021",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": false,
+            "label":     "Introduction to Modeling and Simulation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.036",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Structural and Geotechnical Engineering Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.040",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Project Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.041",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Engineering System Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.052",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Mechanics of Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.053",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Dynamics and Control I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.060",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Engineering Mechanics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.080",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Chemistry and Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.081",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Risks for Common Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.083",
+            "offering":  "Currently Offered",
+            "area":      "Fundamentals",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Environmental Health Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.102",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Introduction to Civil and Environmental Engineering Design II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.107",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Environmental Chemistry and Biology Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.138",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Analysis Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wave Propagation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.142",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Systems, Economics, and Optimization",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Systems Optimization: Models and Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.151",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Risk Assessment and Probabilistic Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Probability and Statistics in Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.155",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Risk Assessment and Probabilistic Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.202",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Demand Modeling",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.204",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computer Algorithms in Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.234",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Airline Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.253",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Transportation Policy and Environmental Limits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.254",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Transport Modeling Course",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.255",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Transportation MEng Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.258",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Public Transportation Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.261",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Case Studies in Logistics and Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.265",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.27",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Transportation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.273",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supply Chain Planning",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.274",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Manufacturing System and Supply Chain Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.283",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cities and Regions: Urban Economics and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.284",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Analyzing and Accounting for Regional Economic Change",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.322",
+            "offering":  "Not offered this year",
+            "area":      "Geoenvironmental and Geotechnical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Soil Behavior",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.331",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Geoenvironmental and Geotechnical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Soil Dynamics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.34",
+            "offering":  "Currently Offered",
+            "area":      "Geoenvironmental and Geotechnical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Waste Containment and Remediation Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.381",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Geoenvironmental and Geotechnical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Rock Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.39",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Geoenvironmental and Geotechnical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Geotechnical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.401",
+            "offering":  "Currently Offered",
+            "area":      "Construction Engineering and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Project Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.472",
+            "offering":  "Currently Offered",
+            "area":      "Construction Engineering and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Innovative Project Delivery in the Public and Private Sectors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.482",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Construction Engineering and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Construction Engineering and Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.561",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Motion-Based Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.562",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "High-Performance Structures MEng Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.570",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Durability Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.582",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Design of Steel Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.588",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating About Technology:  Colossal Failures in Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.589",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Structural Design and Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.597",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Construction Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.66",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Hydrodynamics and Coastal Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Problems in Water Resources and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.685",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Hydrodynamics and Coastal Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nonlinear Dynamics and Waves",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.699",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Hydrodynamics and Coastal Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Projects in Oceanographic Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.721",
+            "offering":  "Currently Offered",
+            "area":      "Hydrology and Water Resource Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Subsurface Hydrology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.723",
+            "offering":  "Currently Offered",
+            "area":      "Hydrology and Water Resource Systems",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computational Methods for Flow in Porous Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.77",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Water Quality Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.782",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Environmental Engineering MEng Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.802",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.812",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.814",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Ecology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.82",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Problems in Environmental Microbiology and Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.851",
+            "offering":  "Currently Offered",
+            "area":      "Aquatic Sciences, Water Quality Control, and Environmental Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Water and Sanitation Infrastructure in Developing Countries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.961-1.966",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.968",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Graduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.970-1.977",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.978-1.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Graduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.982",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.983",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.984",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Teaching Experience in Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.991, 1.992",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.999",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Studies in Civil and Environmental Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "1.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Civil and Environmental Engineering",
+            "subarea":   undefined
+        }
+    ]
+}

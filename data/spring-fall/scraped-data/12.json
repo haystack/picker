@@ -1,0 +1,1002 @@
+{
+    "items": [
+        {
+            "id":        "12.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "12.TIP",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Thesis and Independent Study Preparation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "12.IND",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Independent Study",
+            "subarea":   undefined
+        },
+        {
+            "id":        "12.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "12.001",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": false,
+            "label":     "Introduction to Geology",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.005",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Applications of Continuum Mechanics to Earth, Atmospheric, and Planetary Sciences",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.007",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Geobiology",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.011",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Archaeological Science",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.080",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "EAPS Undergraduate Seminar",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.085",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Environmental Science",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.090",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Earth, Atmospheric, and Planetary Sciences",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.092",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Geology and Geochemistry",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.094",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Geophysics",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.096",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Atmospheric Science and Oceanography",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.098",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Planetary Science",
+            "subarea":   "Core and General Science Subjects"
+        },
+        {
+            "id":        "12.103",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Science and Policy of Natural Hazards",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.108",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Structure of Earth Materials",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.115",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Field Geology II",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.119",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Analytical Techniques for Studying Environmental and Geologic Samples",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.159",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Sedimentary and Surficial Geology Investigations",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.207",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Nonlinear Dynamics II: Continuum Systems",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.214",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.222",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Field Geophysics Analysis",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.306",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Atmospheric Physics and Chemistry",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.307",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Weather and Climate Laboratory",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.330",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Fluid Physics",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.333",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Atmospheric and Ocean Circulations",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.402",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Astronomy",
+            "subarea":   "Planetary Science and Astronomy"
+        },
+        {
+            "id":        "12.409",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Hands-On Astronomy: Observing Stars and Planets",
+            "subarea":   "Planetary Science and Astronomy"
+        },
+        {
+            "id":        "12.420",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Physics and Chemistry of the Solar System",
+            "subarea":   "Planetary Science and Astronomy"
+        },
+        {
+            "id":        "12.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "12.450",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Geology and Geochemistry",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.451",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Regional Tectonics",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.153-12.454",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Crosby Lectures in Geology",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.456",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Rock Mechanics",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.457",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Sedimentary Basins",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.459",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Sedimentary and Surficial Geology Investigations",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.460?12.461",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Geology-Geochemistry",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.470",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Essentials of Geology",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.474",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Origin and Evolution of the Earth\\'s Crust",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.475",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Plate Tectonics and Continental Deformation",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.479",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Trace-Element Geochemistry",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.490?12.491",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Seminar in Geology and Geochemistry",
+            "subarea":   "Geology and Geochemistry"
+        },
+        {
+            "id":        "12.507",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.510",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Seismology",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.517",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Dynamics of Complex Systems",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.521",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational Geodynamics Modeling",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.533",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Rock Physics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.540",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Global Positioning System",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.560?12.561",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Exploration Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.570",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topical Issues in  Global Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.571",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.580?12.581",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Geophysics",
+            "subarea":   "Geophysics"
+        },
+        {
+            "id":        "12.601",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Essentials of Planetary Science",
+            "subarea":   "Planetary Science"
+        },
+        {
+            "id":        "12.616",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Occultations, Eclipses, and Transits",
+            "subarea":   "Planetary Science"
+        },
+        {
+            "id":        "12.625",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Exoplanets",
+            "subarea":   "Planetary Science"
+        },
+        {
+            "id":        "12.650",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Current Topics in Planetary Science",
+            "subarea":   "Planetary Science"
+        },
+        {
+            "id":        "12.690?12.691",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Planetary Science",
+            "subarea":   "Planetary Science"
+        },
+        {
+            "id":        "12.707",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Pre-Pleistocene Paleoceanography and Paleoclimatology",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.708",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Paleoclimatology",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.711",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Marine Geology and Geophysics II",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.712",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Marine Seismology",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.714",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational Data Analysis",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.718",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Kinetics and Mass Transport",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.721",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Marine Geology and Geophysics at Woods Hole",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.722",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Chemical Oceanography at Woods Hole",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.730?12.731",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Marine Geology and Geophysics at MIT",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.735?12.736",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Chemical Oceanography at MIT",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.743",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Geochemistry of Marine Sediments",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.746",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Marine Organic Geochemistry",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.751?12.759",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Oceanography at Woods Hole",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.760?12.761",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Marine Geology and Geophysics at MIT",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.770?12.771",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Chemical Oceanography at MIT",
+            "subarea":   "Geological, Geophysical, and Chemical Oceanography"
+        },
+        {
+            "id":        "12.801",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Steady Circulation of the Oceans",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.802",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wave Motions in the Ocean and Atmosphere",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.805",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Laboratory in Physical Oceanography",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.806",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Atmospheric Physics and Chemistry",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.810",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Dynamics of the Atmosphere",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.811",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Tropical Meteorology",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.820",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Turbulence and Nonlinear Waves in the Ocean and Atmosphere",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.822",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nonlinear Waves and Vortices",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.823",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Modeling the Biology and Physics of the Ocean",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.848",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Climate Change: Economics, Science, and Policy",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.862",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Coastal Physical Oceanography",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.863",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Coastal Physical Oceanography",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.864",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Inference from Data and Models-Time Series Methods",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.865",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Inference from Models and Data---Inverse and State Estimation Methods",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.866",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Theory of the General Circulation of the Ocean",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.870",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Air-Sea Interaction: Boundary Layers",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.950?12.951",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Physical Oceanography at MIT",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.960?12.961",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Physical Oceanography at MIT",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.970?12.971",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Physical Oceanography at Woods Hole",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.980?12.981",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Meteorology",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        },
+        {
+            "id":        "12.990?12.991",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in Meteorology",
+            "subarea":   "Atmospheres, Oceans, and Climate"
+        }
+    ]
+}

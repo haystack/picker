@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id":        "CSB.110",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Rotations in Computational and Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CSB.190",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Problems in Computational and Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CSB.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        }
+    ]
+}

@@ -1,0 +1,334 @@
+{
+	"items" : [
+		{
+			"id" :     "11.402",
+			"type" :      "LectureSession",
+			"Instructor" :"Thompson"
+		},
+		{
+			"id" :     "11.S941",
+			"type" :      "LectureSession",
+			"Instructor" : ["Simha","Bonsen"]
+		},
+		{
+			"id" :     "11.466",
+			"type" :      "LectureSession",
+			"Instructor" :"Ashford"
+		},
+		{
+			"id" :     "11.332",
+			"type" :      "LectureSession",
+			"Instructor" : ["D\'Hooghe","Berger"]
+		},
+		{
+			"id" :     "11.483",
+			"type" :      "LectureSession",
+			"Instructor" :"Kim"
+		},
+		{
+			"id" :     "11.168",
+			"type" :      "LectureSession",
+			"Instructor" :"Michaels"
+		},
+		{
+			"id" :     "11.423",
+			"type" :      "LectureSession",
+			"Instructor" :"Glenn"
+		},
+		{
+			"id" :     "11.701",
+			"type" :      "LectureSession",
+			"Instructor" :"Rajagopal"
+		},
+		{
+			"id" :     "11.910",
+			"type" :      "LectureSession",
+			"Instructor" :"Susskind"
+		},
+		{
+			"id" :     "11.545",
+			"type" :      "LectureSession",
+			"Instructor" : ["Sussman","Wilson"]
+		},
+		{
+			"id" :     "11.205",
+			"type" :      "LectureSession",
+			"Instructor" :"Flaxman"
+		},
+		{
+			"id" :     "11.540",
+			"type" :      "LectureSession",
+			"Instructor" : ["Salvucci","Murga"]
+		},
+		{
+			"id" :     "11.520",
+			"type" :      "LectureSession",
+			"Instructor" :"Flaxman"
+		},
+		{
+			"id" :     "11.345",
+			"type" :      "LectureSession",
+			"Instructor" :"Kennedy"
+		},
+		{
+			"id" :     "11.482",
+			"type" :      "LectureSession",
+			"Instructor" :"Polenske"
+		},
+		{
+			"id" :     "11.493",
+			"type" :      "LectureSession",
+			"Instructor" :"Rajagopal"
+		},
+		{
+			"id" :     "11.404",
+			"type" :      "LectureSession",
+			"Instructor" :"Buckley"
+		},
+		{
+			"id" :     "11.165",
+			"type" :      "LectureSession",
+			"Instructor" :"Polenske"
+		},
+		{
+			"id" :     "11.379",
+			"type" :      "LectureSession",
+			"Instructor" :"Michaels"
+		},
+		{
+			"id" :     "11.601",
+			"type" :      "LectureSession",
+			"Instructor" :"Susskind"
+		},
+		{
+			"id" :     "11.314",
+			"type" :      "LectureSession",
+			"Instructor" : ["Wescoat","Spirn"]
+		},
+		{
+			"id" :     "11.201",
+			"type" :      "LectureSession",
+			"Instructor" :"Sanyal"
+		},
+		{
+			"id" :     "11.THT",
+			"type" :      "LectureSession",
+			"Instructor" :"Abbanat"
+		},
+		{
+			"id" :     "11.S942",
+			"type" :      "LectureSession",
+			"Instructor" :"Hammer"
+		},
+		{
+			"id" :     "11.435",
+			"type" :      "LectureSession",
+			"Instructor" :"Roth"
+		},
+		{
+			"id" :     "11.491",
+			"type" :      "LectureSession",
+			"Instructor" :"Amsden"
+		},
+		{
+			"id" :     "11.124",
+			"type" :      "LectureSession",
+			"Instructor" :"Klopfer"
+		},
+		{
+			"id" :     "11.152",
+			"type" :      "LectureSession",
+			"Instructor" :"Wilder"
+		},
+		{
+			"id" :     "11.225",
+			"type" :      "LectureSession",
+			"Instructor" :"Abbanat"
+		},
+		{
+			"id" :     "11.401",
+			"type" :      "LectureSession",
+			"Instructor" :"Thompson"
+		},
+		{
+			"id" :     "11.202",
+			"type" :      "LectureSession",
+			"Instructor" :"Levy"
+		},
+		{
+			"id" :     "11.360",
+			"type" :      "LectureSession",
+			"Instructor" :"Szold"
+		},
+		{
+			"id" :     "11.477",
+			"type" :      "LectureSession",
+			"Instructor" :"Polenske"
+		},
+		{
+			"id" :     "11.301",
+			"type" :      "LectureSession",
+			"Instructor" :"Frenchman"
+		},
+		{
+			"id" :     "11.233",
+			"type" :      "LectureSession",
+			"Instructor" :"Carmin"
+		},
+		{
+			"id" :     "11.463",
+			"type" :      "LectureSession",
+			"Instructor" :"Goethert"
+		},
+		{
+			"id" :     "11.430",
+			"type" :      "LectureSession",
+			"Instructor" :"Schuck"
+		},
+		{
+			"id" :     "11.021",
+			"type" :      "LectureSession",
+			"Instructor" :"Ashford"
+		},
+		{
+			"id" :     "11.328",
+			"type" :      "LectureSession",
+			"Instructor" :"Ben-Joseph"
+		},
+		{
+			"id" :     "11.527",
+			"type" :      "LectureSession",
+			"Instructor" :"Zegras"
+		},
+		{
+			"id" :     "11.315",
+			"type" :      "LectureSession",
+			"Instructor" :"Wescoat"
+		},
+		{
+			"id" :     "11.S968",
+			"type" :      "LectureSession",
+			"Instructor" :"Roth,"
+		},
+		{
+			"id" :     "11.S940",
+			"type" :      "LectureSession",
+			"Instructor" :"Davis"
+		},
+		{
+			"id" :     "11.331",
+			"type" :      "LectureSession",
+			"Instructor" :"Beinart"
+		},
+		{
+			"id" :     "11.THG-CDD",
+			"type" :      "LectureSession",
+			"Instructor" :"Ryan"
+		},
+		{
+			"id" :     "11.470",
+			"type" :      "LectureSession",
+			"Instructor" :"Davis"
+		},
+		{
+			"id" :     "11.001",
+			"type" :      "LectureSession",
+			"Instructor" :"Vale"
+		},
+		{
+			"id" :     "11.437",
+			"type" :      "LectureSession",
+			"Instructor" :"Seidman"
+		},
+		{
+			"id" :     "11.014",
+			"type" :      "LectureSession",
+			"Instructor" :"Fogelson"
+		},
+		{
+			"id" :     "11.534",
+			"type" :      "LectureSession",
+			"Instructor" :"Flaxman"
+		},
+		{
+			"id" :     "11.309",
+			"type" :      "LectureSession",
+			"Instructor" :"Spirn"
+		},
+		{
+			"id" :     "11.S969",
+			"type" :      "LectureSession",
+			"Instructor" :"Tsipis"
+		},
+		{
+			"id" :     "11.015",
+			"type" :      "LectureSession",
+			"Instructor" :"Fogelson"
+		},
+		{
+			"id" :     "11.203",
+			"type" :      "LectureSession",
+			"Instructor" :"Levy"
+		},
+		{
+			"id" :     "11.630",
+			"type" :      "LectureSession",
+			"Instructor" :"Ashford"
+		},
+		{
+			"id" :     "11.129",
+			"type" :      "LectureSession",
+			"Instructor" :"Gibb"
+		},
+		{
+			"id" :     "11.373",
+			"type" :      "LectureSession",
+			"Instructor" :"Layzer"
+		},
+		{
+			"id" :     "11.320",
+			"type" :      "LectureSession",
+			"Instructor" : ["Frenchman","Ratti"]
+		},
+		{
+			"id" :     "11.351 (F12)",
+			"type" :      "LectureSession",
+			"Instructor" :"McGrath"
+		},
+		{
+			"id" :     "11.433",
+			"type" :      "LectureSession",
+			"Instructor" :"Wheaton"
+		},
+		{
+			"id" :     "11.431",
+			"type" :      "LectureSession",
+			"Instructor" :"Geltner"
+		},
+		{
+			"id" :     "11.472",
+			"type" :      "LectureSession",
+			"Instructor" : ["Sanyal","Smith"]
+		},
+		{
+			"id" :     "11.025",
+			"type" :      "LectureSession",
+			"Instructor" : ["Sanyal","Smith"]
+		},
+		{
+			"id" :     "11.002",
+			"type" :      "LectureSession",
+			"Instructor" : ["Layzer","Campbell"]
+		},
+		{
+			"id" :     "11.544",
+			"type" :      "LectureSession",
+			"Instructor" : ["Barnhart","Odoni"]
+		},
+		{
+			"id" :     "11.THG",
+			"type" :      "LectureSession",
+			"Instructor" :"Carmin"
+		}
+	]
+}

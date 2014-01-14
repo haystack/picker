@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>MIT IAP Course Catalogue Pickr (beta) - Calendar</title>
+        <link rel="exhibit/data" type="application/json" href="data/iap/iap-for-credit-classes.js" />
+        <link rel="exhibit/data" type="application/json" href="data/iap/iap-for-credit-lectures.js" />
+        <link rel="exhibit/data" type="application/json" href="data/iap/iap-for-credit-sections.js" />
+        <link rel="exhibit/data" type="application/json" href="data/schema.js" />
+        
+        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
+        
+        <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+        <link type="text/css" rel="stylesheet" href="styles/iap-calendar.css" />
+        <script>
+            var days = [];
+            for (var i = 0; i < 31 + 7; i++) { // go into February, too
+                days.push({ lectures: [], conflict: false });
+            }
+            
+            function onLoad() {
+                window.database = Exhibit.Database.create();
+                window.database.loadDataLinks(onDataLoaded);
+            }
+            function onDataLoaded() {
+                var params = SimileAjax.parseURLParameters();
+                if ("sections" in params) {
+                    var sections = params.sections.split(";");
+                    var db = window.database;
+                    
+                    var addLecture = function(lecID, classLabel) {
+                        var start = db.getObject(lecID, "start");
+                        var end = db.getObject(lecID, "end");
+                        var room = db.getObject(lecID, "room");
+                        
+                        var startTime = SimileAjax.DateTime.parseIso8601DateTime(start + ":00");
+                        if (startTime == null) {
+                            return;
+                        }
+                        
+                        var endTime = null;
+                        try {
+                            endTime = SimileAjax.DateTime.parseIso8601DateTime(end + ":00");
+                        } catch (e) {}
+                        if (endTime == null) {
+                            endTime = new Date(startTime.getTime() + 60 * 60 * 1000);
+                        }
+                        
+                        var startMinute = startTime.getHours() * 60 + startTime.getMinutes();
+                        var endMinute = endTime.getHours() * 60 + endTime.getMinutes();
+                        
+                        var dayOfMonth = (startTime.getMonth() * 31) + startTime.getDate(); // go into February, too
+                        var day = days[dayOfMonth - 1];
+                        if (!day.conflict) {
+                            for (var j = 0; j < day.lectures.length; j++) {
+                                var lecture = day.lectures[j];
+                                if (!(endMinute < lecture.startMinute || startMinute >= lecture.endMinute)) {
+                                    day.conflict = true;
+                                    break;
+                                }
+                            }
+                        }
+                        day.lectures.push({
+                            start:          startTime,
+                            startMinute:    startMinute,
+                            end:            endTime,
+                            endMinute:      endMinute,
+                            description:    classLabel,
+                            location:       room
+                        });
+                    };
+                    
+                    for (var i = 0; i < sections.length; i++) {
+                        var sectionID = sections[i];
+                        var classID = db.getObject(sectionID, "class");
+                        var classLabel = db.getObject(classID, "label");
+                        db.getSubjects(sectionID, "section").visit(function (lecID) { addLecture(lecID, classLabel); });
+                    }
+                    
+                    for (var i = 0; i < days.length; i++) {
+                        var day = days[i];
+                        day.lectures.sort(function(a, b) {
+                            var c = a.startMinute - b.startMinute;
+                            if (c == 0) { c = a.endMinute - b.endMinute; }
+                            if (c == 0) { c = a.description.localeCompare(b.description); }
+                            return c;
+                        });
+                    }
+
+                    var table = document.getElementById("calendar");
+                    
+                    var pad = function(n) {
+                        return n >= 10 ? n : ("0" + n);
+                    }
+                    var formatTime = function(t) {
+                        return t.getHours() + ":" + pad(t.getMinutes());
+                    }
+                    
+                    var makeDay = function(td, d) {
+                        if (d >= 0) {
+                            td.id = "day-" + d;
+                            td.className = "calendar-cell";
+                            td.innerHTML = "<div class='day-of-month'>" + new String((d % 31) + 1) + "</div>" +
+                                "<div class='calendar-cell-content'></div>";
+                                
+                            var contentDiv = td.childNodes[1];
+                            var day = days[d];
+                            if (day.lectures.length == 0) {
+                                contentDiv.innerHTML = "&nbsp;";
+                            } else {
+                                for (var l = 0; l < day.lectures.length; l++) {
+                                    var lecture = day.lectures[l];
+                                    var div = document.createElement("div");
+                                    div.className = "lecture";
+                                    var innerHTML =
+                                        "<span class='time'>" + 
+                                            formatTime(lecture.start) +
+                                            "&mdash;" + 
+                                            formatTime(lecture.end) +
+                                        "</span>" +
+                                        " &bull; " +
+                                        "<span class='description'>" + 
+                                            lecture.description +
+                                        "</span>";
+                                        
+                                    if (lecture.location != null) {
+                                        if (lecture.location == "TBA") {
+                                            innerHTML += " (unknown location)";
+                                        } else {
+                                            innerHTML += " @ <a href='http://whereis.mit.edu/map-jpg?selection=" + 
+                                                lecture.location.split("-")[0] + "&Buildings=go'>" + lecture.location + "</a>";
+                                        }
+                                    }
+                                    
+                                    div.innerHTML = innerHTML;
+                                    
+                                    contentDiv.appendChild(div);
+                                }
+                            }
+                        }
+                    };
+                    
+                    var dayOfMonth = -new Date(2008, 0, 1).getDay(); // 0 is Sunday
+                    while (dayOfMonth < 31) {
+                        var tr = table.insertRow(table.rows.length);
+                        for (var c = 0; c < 7; c++) { // go into February, too
+                            var td = tr.insertCell(c);
+                            makeDay(td, dayOfMonth);
+                            dayOfMonth++;
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body onload="onLoad();">
+        <div style="text-align: center; margin-bottom: 1em; font-size: 150%;">January 2008 IAP Schedule</div>
+        <table id="calendar" cellspacing="2">
+            <tr class="calendar-row">
+                <td class="calendar-cell weekday">Sunday</td>
+                <td class="calendar-cell weekday">Monday</td>
+                <td class="calendar-cell weekday">Tuesday</td>
+                <td class="calendar-cell weekday">Wednesday</td>
+                <td class="calendar-cell weekday">Thursday</td>
+                <td class="calendar-cell weekday">Friday</td>
+                <td class="calendar-cell weekday">Saturday</td>
+            </tr>
+        </table>
+            
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            //_uacct = "UA-355145-1";  Old account
+            uacct = "UA-2506456-4"; // this one is for picker.mit.edu
+            urchinTracker();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,234 @@
+{
+	"items" : [
+		{
+			"id" :      "12.804",
+			"type" :       "LectureSession",
+			"Instructor" : ["Illari", "Flierl"]
+		},
+		{
+			"id" :      "12.803",
+			"type" :       "LectureSession",
+			"Instructor" : "Emanuel"
+		},
+		{
+			"id" :      "12.086",
+			"type" :       "LectureSession",
+			"Instructor" : "Rothman"
+		},
+		{
+			"id" :      "12.808",
+			"type" :       "LectureSession",
+			"Instructor" : ["Price", "Straneo"]
+		},
+		{
+			"id" :      "12.TIP",
+			"type" :       "LectureSession",
+			"Instructor" : "Connor"
+		},
+		{
+			"id" :      "12.831",
+			"type" :       "LectureSession",
+			"Instructor" : "Plumb"
+		},
+		{
+			"id" :      "12.830",
+			"type" :       "LectureSession",
+			"Instructor" : "Lindzen"
+		},
+		{
+			"id" :      "12.301",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wunsch", "Boyle", "Emanuel"]
+		},
+		{
+			"id" :      "12.520",
+			"type" :       "LectureSession",
+			"Instructor" : "Hager"
+		},
+		{
+			"id" :      "12.501",
+			"type" :       "LectureSession",
+			"Instructor" : ["van der Hilst", "Weiss"]
+		},
+		{
+			"id" :      "12.201",
+			"type" :       "LectureSession",
+			"Instructor" : ["van der Hilst", "Weiss"]
+		},
+		{
+			"id" :      "12.021",
+			"type" :       "LectureSession",
+			"Instructor" : ["Hager", "EAPS staff"]
+		},
+		{
+			"id" :      "12.620",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wisdom", "Sussman"]
+		},
+		{
+			"id" :      "12.486",
+			"type" :       "LectureSession",
+			"Instructor" : "Grove"
+		},
+		{
+			"id" :      "12.463",
+			"type" :       "LectureSession",
+			"Instructor" : "Perron"
+		},
+		{
+			"id" :      "12.158",
+			"type" :       "LectureSession",
+			"Instructor" : "Summons"
+		},
+		{
+			"id" :      "12.835",
+			"type" :       "LectureSession",
+			"Instructor" : "Prinn"
+		},
+		{
+			"id" :      "12.652",
+			"type" :       "LectureSession",
+			"Instructor" : "Binzel"
+		},
+		{
+			"id" :      "12.010",
+			"type" :       "LectureSession",
+			"Instructor" : "Herring"
+		},
+		{
+			"id" :      "12.113",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
+		},
+		{
+			"id" :      "12.481",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
+		},
+		{
+			"id" :      "12.114",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
+		},
+		{
+			"id" :      "12.800",
+			"type" :       "LectureSession",
+			"Instructor" : ["Pratt", "Cenedese"]
+		},
+		{
+			"id" :      "12.586",
+			"type" :       "LectureSession",
+			"Instructor" : "Rothman"
+		},
+		{
+			"id" :      "12.842",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wunsch", "Boyle", "Emmanuel"]
+		},
+		{
+			"id" :      "12.812",
+			"type" :       "LectureSession",
+			"Instructor" : "O\'Gorman"
+		},
+		{
+			"id" :      "12.815",
+			"type" :       "LectureSession",
+			"Instructor" : "Seager"
+		},
+		{
+			"id" :      "12.410",
+			"type" :       "LectureSession",
+			"Instructor" : ["Binzel", "Bosh"]
+		},
+		{
+			"id" :      "12.109",
+			"type" :       "LectureSession",
+			"Instructor" : "Grove"
+		},
+		{
+			"id" :      "12.816",
+			"type" :       "LectureSession",
+			"Instructor" : "Seager"
+		},
+		{
+			"id" :      "12.335",
+			"type" :       "LectureSession",
+			"Instructor" : "Prinn"
+		},
+		{
+			"id" :      "12.818",
+			"type" :       "LectureSession",
+			"Instructor" : "Illari"
+		},
+		{
+			"id" :      "12.006",
+			"type" :       "LectureSession",
+			"Instructor" : "Peacock"
+		},
+		{
+			"id" :      "12.002",
+			"type" :       "LectureSession",
+			"Instructor" : ["Weiss", "Royden"]
+		},
+		{
+			"id" :      "12.003",
+			"type" :       "LectureSession",
+			"Instructor" : "Ferrari"
+		},
+		{
+			"id" :      "12.163",
+			"type" :       "LectureSession",
+			"Instructor" : "Perron"
+		},
+		{
+			"id" :      "12.515",
+			"type" :       "LectureSession",
+			"Instructor" : "Morgan"
+		},
+		{
+			"id" :      "12.008",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wisdom", "Sussman"]
+		},
+		{
+			"id" :      "12.552",
+			"type" :       "LectureSession",
+			"Instructor" : ["Rondenay", "Malcolm"]
+		},
+		{
+			"id" :      "12.824",
+			"type" :       "LectureSession",
+			"Instructor" : "Flierl"
+		},
+		{
+			"id" :      "12.845",
+			"type" :       "LectureSession",
+			"Instructor" : "Selin"
+		},
+		{
+			"id" :      "12.458",
+			"type" :       "LectureSession",
+			"Instructor" : "Summons"
+		},
+		{
+			"id" :      "12.571",
+			"type" :       "LectureSession",
+			"Instructor" : "Herring"
+		},
+		{
+			"id" :      "12.456",
+			"type" :       "LectureSession",
+			"Instructor" : "Evans"
+		},
+		{
+			"id" :      "12.102",
+			"type" :       "LectureSession",
+			"Instructor" : "Bowring"
+		},
+		{
+			"id" :      "12.000",
+			"type" :       "LectureSession",
+			"Instructor" : "Bowring"
+		}
+	]
+}

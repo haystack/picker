@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "id":        "NS.100",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Naval Science Leadership Seminar",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.200",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Naval Science Leadership Seminar",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.201",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Naval Weapons Systems",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.202",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seapower and Maritime Affairs",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.300",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Naval Science Leadership Seminar",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.301",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Coastal Piloting and Celestial Navigation",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.400",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Naval Science Leadership Seminar",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "NS.402",
+            "offering":  "Currently Offered",
+            "area":      "Naval Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership and Ethics",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        }
+    ]
+}

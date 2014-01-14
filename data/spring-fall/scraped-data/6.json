@@ -1,0 +1,1130 @@
+{
+    "items": [
+        {
+            "id":        "6.00",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Computer Science and Programming",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.01",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": true,
+            "label":     "Introduction to EECS I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.02",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": true,
+            "label":     "Introduction to EECS II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.002",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Circuits and Electronics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.003",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Signals and Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.004",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computation Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.005",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Principles of Software Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.006",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Algorithms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.007",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Applied Electromagnetics: From Motors to Lasers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.011",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Communication, Control, and Signal Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.012",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Microelectronic Devices and Circuits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.013",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Electromagnetics and Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.022",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.023",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Fields, Forces and Flows in Biological Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.024",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.033",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Computer System Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.034",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Artificial Intelligence",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.035",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computer Language Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.041",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Probabilistic Systems Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.042",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Mathematics for Computer Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.045",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Automata, Computability, and Complexity",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.046",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Design and Analysis of Algorithms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.050",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Information, Entropy and Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.055",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Art of Approximation in Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.061",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Electric Power Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.070",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Electronics Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.071",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Introduction to Electronics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.072",
+            "offering":  "Currently Offered",
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Digital Electronics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.090-6.099",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Basic Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Subjects in Electrical Engineering and Computer Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.100",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Electrical Engineering and Computer Science Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.101",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Introductory Analog Electronics Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.111",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Introductory Digital Systems Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.115",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Microcomputer Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.122",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Instrumentation and Measurement for Biological Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.141",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Robotics: Science and Systems I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.152",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Micro/Nano Processing Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.163",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Strobe Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.182",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Laboratory Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Psychoacoustics Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.UAP",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Senior Projects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Advanced Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.UAT",
+            "offering":  "Currently Offered",
+            "area":      "Senior Projects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Preparation for Undergraduate Advanced Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "6.252",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nonlinear Programming",
+            "subarea":   "Systems Science and Control Engineering"
+        },
+        {
+            "id":        "6.262",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Discrete Stochastic Processes",
+            "subarea":   "Systems Science and Control Engineering"
+        },
+        {
+            "id":        "6.302",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Feedback Systems",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.334",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Power Electronics",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.338",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Parallel Computing",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.342",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wavelets, Approximation, and Compression",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.344",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Digital Image Processing",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.375",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Complex Digital Systems Design",
+            "subarea":   "Electronics, Computers, and Systems"
+        },
+        {
+            "id":        "6.431",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Applied Probability",
+            "subarea":   "Probabilistic Systems and Communication"
+        },
+        {
+            "id":        "6.437",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Inference and Information",
+            "subarea":   "Probabilistic Systems and Communication"
+        },
+        {
+            "id":        "6.441",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Information Theory",
+            "subarea":   "Probabilistic Systems and Communication"
+        },
+        {
+            "id":        "6.442",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Optical Networks",
+            "subarea":   "Probabilistic Systems and Communication"
+        },
+        {
+            "id":        "6.522",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.524",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.541",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Speech Communication",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.555",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomedical Signal and Image Processing",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.556",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Data Acquisition and Image Reconstruction in MRI",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.581",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Foundations of Algorithms and Computational Techniques in Systems Biology",
+            "subarea":   "Bioelectrical Engineering"
+        },
+        {
+            "id":        "6.608",
+            "offering":  "Not offered this year",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Particle Accelerators",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.632",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Electromagnetic Wave Theory",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.634",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nonlinear Optics",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.641",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Electromagnetic Fields, Forces, and Motion",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.652",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Plasma Physics II",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.690",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Electric Power Systems",
+            "subarea":   "Electrodynamics"
+        },
+        {
+            "id":        "6.701",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Nanoelectronics",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.719",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nanoelectronics",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.730",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Physics for Solid-State Applications",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.772",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Compound Semiconductor and Heterostructure Devices",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.775",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "CMOS Analog and Mixed-Signal Circuit Design",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.777",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design and Fabrication of MEMS",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.780",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Control of Manufacturing Processes",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.781",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nanostructure Fabrication",
+            "subarea":   "Solid-State Materials and Devices"
+        },
+        {
+            "id":        "6.803",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Human Intelligence Enterprise",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.813",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "User Interface Design and Implementation",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.815",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Digital and Computational Photography",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.824",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Distributed Computer Systems Engineering",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.826",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Computer Systems",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.829",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computer Networks",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.831",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "User Interface Design and Implementation",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.832",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Underactuated Robotics",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.833",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "The Human Intelligence Enterprise",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.834",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cognitive Robotics",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.835",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Intelligent Multimodal User Interfaces",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.841",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Complexity Theory",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.855",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Optimization",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.856",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Randomized Algorithms",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.857",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network and Computer Security",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.863",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Natural Language and the Computer Representation of Knowledge",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.865",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Computational Photography",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.868",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "The Society of Mind",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.869",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advances in Computer Vision",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.870",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Topics in Computer Vision",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.874",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational Systems Biology",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.875",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cryptography and Cryptanalysis",
+            "subarea":   "Computer Science"
+        },
+        {
+            "id":        "6.910",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Studies in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.911-6.914",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Studies in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.922",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced VI-A Internship",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.938",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.945",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Large-scale Symbolic Systems",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.951",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Graduate VI-A Internship",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.952",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Graduate VI-A Internship",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introductory Research in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.961",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Research in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.963-6.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Studies in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.971-6.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.980",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.981",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.982",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching College-Level Science and Engineering",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.985-6.989",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Subjects in Electrical Engineering",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.991",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.CME",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Study at Cambridge University",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.THM",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Master of Engineering Program Thesis",
+            "subarea":   "Special Subjects"
+        },
+        {
+            "id":        "6.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research in Electrical Engineering and Computer Science",
+            "subarea":   "Special Subjects"
+        }
+    ]
+}

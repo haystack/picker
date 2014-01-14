@@ -1,0 +1,465 @@
+{
+	"items" : [
+		{
+			"id" :      "4.210",
+			"type" :       "LectureSession",
+			"Instructor" : "Harrison"
+		},
+		{
+			"id" :      "4.647",
+			"type" :       "LectureSession",
+			"Instructor" : ["Dutta" , "Jones"]
+		},
+		{
+			"id" :      "4.580",
+			"type" :       "LectureSession",
+			"Instructor" : "Knight"
+		},
+		{
+			"id" :      "4.214",
+			"type" :       "LectureSession",
+			"Instructor" : ["Spirn", "Wescoat"]
+		},
+		{
+			"id" :      "4.503",
+			"type" :       "LectureSession",
+			"Instructor" : "Nagakura"
+		},
+		{
+			"id" :      "4.689",
+			"type" :       "LectureSession",
+			"Instructor" : "Advisor"
+		},
+		{
+			"id" :      "4.217",
+			"type" :       "LectureSession",
+			"Instructor" : "Wescoat"
+		},
+		{
+			"id" :      "4.500",
+			"type" :       "LectureSession",
+			"Instructor" : "Sass"
+		},
+		{
+			"id" :      "4.UR",
+			"type" :       "LectureSession",
+			"Instructor" : "Sass"
+		},
+		{
+			"id" :      "4.215",
+			"type" :       "LectureSession",
+			"Instructor" : "Spirn"
+		},
+		{
+			"id" :      "4.353",
+			"type" :       "LectureSession",
+			"Instructor" : "Nevarez"
+		},
+		{
+			"id" :      "4.352",
+			"type" :       "LectureSession",
+			"Instructor" : "Nevarez"
+		},
+		{
+			"id" :      "4.314",
+			"type" :       "LectureSession",
+			"Instructor" : "Green"
+		},
+		{
+			"id" :      "4.315",
+			"type" :       "LectureSession",
+			"Instructor" : "Green"
+		},
+		{
+			"id" :      "4.189",
+			"type" :       "LectureSession",
+			"Instructor" : "Scott"
+		},
+		{
+			"id" :      "4.119",
+			"type" :       "LectureSession",
+			"Instructor" : "Tejchman"
+		},
+		{
+			"id" :      "4.183",
+			"type" :       "LectureSession",
+			"Instructor" : "Kanda"
+		},
+		{
+			"id" :      "4.589",
+			"type" :       "LectureSession",
+			"Instructor" : "Advisor"
+		},
+		{
+			"id" :      "4.181",
+			"type" :       "LectureSession",
+			"Instructor" : "Kanda"
+		},
+		{
+			"id" :      "4.540",
+			"type" :       "LectureSession",
+			"Instructor" : "Stiny"
+		},
+		{
+			"id" :      "4.116",
+			"type" :       "LectureSession",
+			"Instructor" : "Goulthorpe"
+		},
+		{
+			"id" :      "4.182",
+			"type" :       "LectureSession",
+			"Instructor" : "D\'Hooghe"
+		},
+		{
+			"id" :      "4.114",
+			"type" :       "LectureSession",
+			"Instructor" : "Wampler"
+		},
+		{
+			"id" :      "4.603",
+			"type" :       "LectureSession",
+			"Instructor" : "Anderson"
+		},
+		{
+			"id" :      "4.447",
+			"type" :       "LectureSession",
+			"Instructor" : ["Adams", "Connor"]
+		},
+		{
+			"id" :      "4.112",
+			"type" :       "LectureSession",
+			"Instructor" : ["Lamere", "Parreno"]
+		},
+		{
+			"id" :      "4.601",
+			"type" :       "LectureSession",
+			"Instructor" : "Smentek"
+		},
+		{
+			"id" :      "4.242",
+			"type" :       "LectureSession",
+			"Instructor" : "Beinart"
+		},
+		{
+			"id" :      "4.140",
+			"type" :       "LectureSession",
+			"Instructor" : ["Gershenfeld", "Tibbits"]
+		},
+		{
+			"id" :      "4.606",
+			"type" :       "LectureSession",
+			"Instructor" : "Jones"
+		},
+		{
+			"id" :      "4.581",
+			"type" :       "LectureSession",
+			"Instructor" : "Stiny"
+		},
+		{
+			"id" :      "4.607",
+			"type" :       "LectureSession",
+			"Instructor" : "Jarzombek"
+		},
+		{
+			"id" :      "4.582",
+			"type" :       "LectureSession",
+			"Instructor" : "Stiny"
+		},
+		{
+			"id" :      "4.604",
+			"type" :       "LectureSession",
+			"Instructor" : "Anderson"
+		},
+		{
+			"id" :      "4.240",
+			"type" :       "LectureSession",
+			"Instructor" : "Ben-Joseph"
+		},
+		{
+			"id" :      "4.401",
+			"type" :       "LectureSession",
+			"Instructor" : "Fernandez"
+		},
+		{
+			"id" :      "4.583",
+			"type" :       "LectureSession",
+			"Instructor" : "Knight"
+		},
+		{
+			"id" :      "4.153",
+			"type" :       "LectureSession",
+			"Instructor" : ["Kennedy", "Scott", "Yoon"]
+		},
+		{
+			"id" :      "4.154",
+			"type" :       "LectureSession",
+			"Instructor" : ["Chang", "TBA"]
+		},
+		{
+			"id" :      "4.250",
+			"type" :       "LectureSession",
+			"Instructor" : "Vale"
+		},
+		{
+			"id" :      "4.301",
+			"type" :       "LectureSession",
+			"Instructor" : ["Nevarez", "TBA"]
+		},
+		
+		{
+			"id" :      "4.489",
+			"type" :       "LectureSession",
+			"Instructor" : "Advisor"
+		},
+		{
+			"id" :      "4.343",
+			"type" :       "LectureSession",
+			"Instructor" : "Frank"
+		},
+		{
+			"id" :      "4.488",
+			"type" :       "LectureSession",
+			"Instructor" : "Advisor"
+		},
+		{
+			"id" :      "4.303",
+			"type" :       "LectureSession",
+			"Instructor" : "Urbonas"
+		},
+		{
+			"id" :      "4.390",
+			"type" :       "LectureSession",
+			"Instructor" : "Green"
+		},
+		{
+			"id" :      "4.342",
+			"type" :       "LectureSession",
+			"Instructor" : "Frank"
+		},
+		{
+			"id" :      "4.341",
+			"type" :       "LectureSession",
+			"Instructor" : "Frank"
+		},
+		{
+			"id" :      "4.481",
+			"type" :       "LectureSession",
+			"Instructor" : ["Fernandez", "Glicksman", "Norford"]
+		},
+		{
+			"id" :      "4.190",
+			"type" :       "LectureSession",
+			"Instructor" : "Advisor"
+		},
+		{
+			"id" :      "4.105",
+			"type" :       "LectureSession",
+			"Instructor" : "Lamere"
+		},
+		{
+			"id" :      "4.103",
+			"type" :       "LectureSession",
+			"Instructor" : "Lamere"
+		},
+		{
+			"id" :      "4.614",
+			"type" :       "LectureSession",
+			"Instructor" : "Hedrick"
+		},
+		{
+			"id" :      "4.THT",
+			"type" :       "LectureSession",
+			"Instructor" : "Abbanat"
+		},
+		{
+			"id" :      "4.252",
+			"type" :       "LectureSession",
+			"Instructor" : "Frenchman"
+		},
+		{
+			"id" :      "4.411",
+			"type" :       "LectureSession",
+			"Instructor" : "Norford"
+		},
+		{
+			"id" :      "4.151",
+			"type" :       "LectureSession",
+			"Instructor" : ["O\'Brien", "Tejchman", "Tibbits"]
+		},
+		{
+			"id" :      "4.557",
+			"type" :       "LectureSession",
+			"Instructor" : "Larson"
+		},
+		{
+			"id" :      "4.URG",
+			"type" :       "LectureSession",
+			"Instructor" : "Sass"
+		},
+		{
+			"id" :      "4.236",
+			"type" :       "LectureSession",
+			"Instructor" : "Goethert"
+		},
+		{
+			"id" :      "4.121",
+			"type" :       "LectureSession",
+			"Instructor" : ["Dewart", "Wampler"]
+		},
+		{
+			"id" :      "4.122",
+			"type" :       "LectureSession",
+			"Instructor" : ["Dewart", "Wampler"]
+		},
+		{
+			"id" :      "4.231",
+			"type" :       "LectureSession",
+			"Instructor" : "Goethert"
+		},
+		{
+			"id" :      "4.230",
+			"type" :       "LectureSession",
+			"Instructor" : "Goethert"
+		},
+		{
+			"id" :      "4.360",
+			"type" :       "LectureSession",
+			"Instructor" : "Jonas"
+		},
+		{
+			"id" :      "4.331",
+			"type" :       "LectureSession",
+			"Instructor" : "Urbonas"
+		},
+		{
+			"id" :      "4.330",
+			"type" :       "LectureSession",
+			"Instructor" : "Urbonas"
+		},
+		{
+			"id" :      "4.661",
+			"type" :       "LectureSession",
+			"Instructor" : "Dutta"
+		},
+		{
+			"id" :      "4.163",
+			"type" :       "LectureSession",
+			"Instructor" : ["D\'Hooghe", "Berger"]
+		},
+		{
+			"id" :      "4.162",
+			"type" :       "LectureSession",
+			"Instructor" : "Dennis"
+		},
+		{
+			"id" :      "4.621",
+			"type" :       "LectureSession",
+			"Instructor" : "Bozdogan"
+		},
+		{
+			"id" :      "4.365",
+			"type" :       "LectureSession",
+			"Instructor" : "Bauer"
+		},
+		{
+			"id" :      "4.366",
+			"type" :       "LectureSession",
+			"Instructor" : "Bauer"
+		},
+		{
+			"id" :      "4.520",
+			"type" :       "LectureSession",
+			"Instructor" : "Knight"
+		},
+		{
+			"id" :      "4.461",
+			"type" :       "LectureSession",
+			"Instructor" : "Fernandez"
+		},
+		{
+			"id" :      "4.361",
+			"type" :       "LectureSession",
+			"Instructor" : "Jonas"
+		},
+		{
+			"id" :      "4.463",
+			"type" :       "LectureSession",
+			"Instructor" : "Fernandez"
+		},
+		{
+			"id" :      "4.521",
+			"type" :       "LectureSession",
+			"Instructor" : "Knight"
+		},
+		{
+			"id" :      "4.262",
+			"type" :       "LectureSession",
+			"Instructor" : "D\'Hooghe"
+		},
+		{
+			"id" :      "4.562",
+			"type" :       "LectureSession",
+			"Instructor" : "Nagakura"
+		},
+		{
+			"id" :      "4.566",
+			"type" :       "LectureSession",
+			"Instructor" : "Nagakura"
+		},
+		{
+			"id" :      "4.222",
+			"type" :       "LectureSession",
+			"Instructor" : "Freelon"
+		},
+		{
+			"id" :      "4.225",
+			"type" :       "LectureSession",
+			"Instructor" : "Dennis"
+		},
+		{
+			"id" :      "4.221",
+			"type" :       "LectureSession",
+			"Instructor" : "Dutta"
+		},
+		{
+			"id" :      "4.42",
+			"type" :       "LectureSession",
+			"Instructor" : "Glicksman"
+		},
+		{
+			"id" :      "4.322",
+			"type" :       "LectureSession",
+			"Instructor" : "Jonas"
+		},
+		{
+			"id" :      "4.170",
+			"type" :       "LectureSession",
+			"Instructor" : "Wampler"
+		},
+		{
+			"id" :      "4.171",
+			"type" :       "LectureSession",
+			"Instructor" : "Wampler"
+		},
+		{
+			"id" :      "4.S69",
+			"type" :       "LectureSession",
+			"Instructor" : "Friedman"
+		},
+		{
+			"id" :      "4.S66",
+			"type" :       "LectureSession",
+			"Instructor" : "Smentek"
+		},
+		{
+			"id" :      "4.634",
+			"type" :       "LectureSession",
+			"Instructor" : "Friedman"
+		},
+		{
+			"id" :      "4.635",
+			"type" :       "LectureSession",
+			"Instructor" : "Friedman"
+		}
+	]
+}

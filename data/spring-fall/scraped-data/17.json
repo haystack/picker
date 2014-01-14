@@ -1,0 +1,456 @@
+{
+    "items": [
+        {
+            "id":        "17.000",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Political Philosophy/Social Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Political Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.006",
+            "offering":  "Currently Offered",
+            "area":      "Political Philosophy/Social Theory",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "HASS Elective"
+            ],
+            "has-final": false,
+            "label":     "Feminist Political Thought",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.01",
+            "offering":  "Currently Offered",
+            "area":      "Political Philosophy/Social Theory",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Justice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.181",
+            "offering":  "Currently Offered",
+            "area":      "Political Economy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Sustainable Development: Theory, Research and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.261",
+            "offering":  [
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "American Politics",
+            "category":  [
+                "HASS Elective",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Congress and the American Political System II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.265",
+            "offering":  "Currently Offered",
+            "area":      "American Politics",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Public Opinion and American Democracy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.276",
+            "offering":  "Not offered this year",
+            "area":      "American Politics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Public Opinion Research Training Lab",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.303",
+            "offering":  "Currently Offered",
+            "area":      "Public Policy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Methods of Policy Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.307",
+            "offering":  "Currently Offered",
+            "area":      "Public Policy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "American Public Policy for Washington Interns",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.312",
+            "offering":  "Currently Offered",
+            "area":      "Public Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Doctoral Seminar on Emerging Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.315",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Public Policy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Health Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.398",
+            "offering":  "Currently Offered",
+            "area":      "Public Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Energy Policy for a Sustainable Future",
+            "subarea":   undefined
+        },
+        {
+            "id":        "17.407",
+            "offering":  [
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "International Relations/Security Studies",
+            "category":  [
+                "HASS Elective",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Chinese Foreign Policy",
+            "subarea":   "International Relations"
+        },
+        {
+            "id":        "17.418",
+            "offering":  "Currently Offered",
+            "area":      "International Relations/Security Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Field Seminar in International Relations Theory",
+            "subarea":   "International Relations"
+        },
+        {
+            "id":        "17.42",
+            "offering":  "Currently Offered",
+            "area":      "International Relations/Security Studies",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Causes and Prevention of War",
+            "subarea":   "International Relations"
+        },
+        {
+            "id":        "17.430",
+            "offering":  "Currently Offered",
+            "area":      "International Relations/Security Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Seminar in International Relations",
+            "subarea":   "International Relations"
+        },
+        {
+            "id":        "17.482",
+            "offering":  "Currently Offered",
+            "area":      "International Relations/Security Studies",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "HASS Elective"
+            ],
+            "has-final": true,
+            "label":     "US Military Power",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.506",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative Politics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Ethnic Politics II",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.515",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative Politics",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Comparative Electoral Politics",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.528",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative Politics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Civil Society, Social Capital, and the State in Comparative Perspective",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.537",
+            "offering":  [
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative Politics",
+            "category":  [
+                "HASS Elective",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": true,
+            "label":     "Politics and Policy in Contemporary Japan",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.55",
+            "offering":  "Currently Offered",
+            "area":      "Comparative Politics",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Introduction to Latin American Studies",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.551",
+            "offering":  "Currently Offered",
+            "area":      "Comparative Politics",
+            "category":  [
+                "HASS Elective",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Political Economy of Chinese Reform",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.556",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Comparative Politics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Political Economy of Sustainable Development",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.565",
+            "offering":  "Currently Offered",
+            "area":      "Comparative Politics",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Israel: History, Politics, Culture, and Identity",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.57",
+            "offering":  "Currently Offered",
+            "area":      "Comparative Politics",
+            "category":  "HASS-D 4",
+            "has-final": true,
+            "label":     "Soviet and Post-Soviet Politics and Society, 1917-Present",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.586",
+            "offering":  "Currently Offered",
+            "area":      "Comparative Politics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Warlords, Terrorists, and Militias: Theorizing on Violent Non-State Actors",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.802",
+            "offering":  "Currently Offered",
+            "area":      "Models and Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Quantitative Research Methods II: Multivariate",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.804",
+            "offering":  "Currently Offered",
+            "area":      "Models and Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Quantitative Research Methods III: Advanced Topics",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.814",
+            "offering":  "Currently Offered",
+            "area":      "Models and Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Collective Choice II",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.871",
+            "offering":  "Currently Offered",
+            "area":      "Models and Methods",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Political Science Laboratory",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.901",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Political Science Internship and Research",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.905?17.911",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Reading Seminar in Social Science",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.921",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Independent International Research Project",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.950?17.953",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Topic in Political Science",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.954?17.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Reading Seminar in Social Science",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.962",
+            "offering":  "Currently Offered",
+            "area":      "General Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Second Year Paper Workshop",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Political Science Thesis",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.THT",
+            "offering":  "Currently Offered",
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Thesis Research Design Seminar",
+            "subarea":   "Security Studies"
+        },
+        {
+            "id":        "17.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Political Science Thesis",
+            "subarea":   "Security Studies"
+        }
+    ]
+}

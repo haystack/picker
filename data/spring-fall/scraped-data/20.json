@@ -1,0 +1,296 @@
+{
+    "items": [
+        {
+            "id":        "20.020",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Biological Engineering Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.104",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Risks for Common Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.109",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Laboratory Fundamentals in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.111",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Physical Chemistry of Biomolecular Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.200",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biological Engineering Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.213",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "DNA Damage and Genomic Instability",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.309",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering II: Instrumentation and Measurement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.310",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.330",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Fields, Forces and Flows in Biological Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.361",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Molecular and Engineering Aspects of Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.371",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.380",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.390",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Foundations of Computational and Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.400",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Perspectives in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.409",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering II: Instrumentation and Measurement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.410",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.411",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cell-Matrix Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.450",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular and Cellular Pathophysiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.451",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design of Medical Devices and Implants",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.471",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.482",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Foundations of Algorithms and Computational Techniques in Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.490",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Foundations of Computational and Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.948",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.950",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Problems in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.951",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Thesis Proposal",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.952",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Teaching Experience in Biological Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "20.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research Opportunities",
+            "subarea":   undefined
+        }
+    ]
+}

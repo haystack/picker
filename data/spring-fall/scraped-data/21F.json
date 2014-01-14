@@ -1,0 +1,256 @@
+{
+    "items": [
+        {
+            "id":        "21F.019",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating Across Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.021",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Communicating Across Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.022",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "International Women\\'s Voices",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.023",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Women\\'s Voices: An International Perspective",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.027",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Visualizing Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.030",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "East Asian Culture: From Zen to Pop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.035",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Topics in Culture and Globalization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.037",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Culture and Globalization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.039",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Japanese Popular Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.040",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "A Passage to India: Introduction to Modern Indian Culture and Society",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.044",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Traditional Chinese Literature: Poetry, Fiction, and Drama",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.050",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "French Literature in Translation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.055",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Media in Weimar and Nazi Germany",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.059",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Paradigms of European Thought and Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.084",
+            "offering":  "Currently Offered",
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Introduction to Latin American Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.099",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Studies in International Literatures and Cultures",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Independent International Research Project",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21F.102",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Chinese II (Regular)",
+            "subarea":   "Undergraduate Language Subjects"
+        },
+        {
+            "id":        "21F.104",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Language Option",
+            "has-final": false,
+            "label":     "Chinese IV (Regular)",
+            "subarea":   "Undergraduate Language Subjects"
+        },
+        {
+            "id":        "21F.106",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Chinese VI (Regular): Discovering Chinese Cultures and Societies",
+            "subarea":   "Undergraduate Language Subjects"
+        },
+        {
+            "id":        "21F.108",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Chinese II (Streamlined)",
+            "subarea":   "Undergraduate Language Subjects - Streamlined"
+        },
+        {
+            "id":        "21F.110",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Language Option",
+            "has-final": false,
+            "label":     "Chinese IV (Streamlined)",
+            "subarea":   "Undergraduate Language Subjects - Streamlined"
+        },
+        {
+            "id":        "21F.152",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Chinese II (Regular)",
+            "subarea":   "Graduate Language Subjects"
+        },
+        {
+            "id":        "21F.158",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Chinese II (Streamlined)",
+            "subarea":   "Graduate Language Subjects"
+        },
+        {
+            "id":        "21F.191",
+            "offering":  "Currently Offered",
+            "area":      "Chinese",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Smashing the Iron Rice Bowl: Chinese East Asia",
+            "subarea":   "Chinese Language Option Subjects"
+        }
+    ]
+}

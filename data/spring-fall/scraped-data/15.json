@@ -1,0 +1,761 @@
+{
+    "items": [
+        {
+            "id":        "15.002",
+            "offering":  "Currently Offered",
+            "area":      "Managerial Economics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Sloan Innovation Period Requirement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.012",
+            "offering":  "Currently Offered",
+            "area":      "Managerial Economics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Applied Macro- and International Economics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.014",
+            "offering":  "Currently Offered",
+            "area":      "Managerial Economics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Economic Challenges",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.023",
+            "offering":  "Currently Offered",
+            "area":      "Managerial Economics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Climate Change: Economics, Science, and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.053",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Optimization Methods in Management Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.062",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Data Mining: Finding the Data and Models that Create Value",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.067",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Competitive Decision-Making and Negotiation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.068",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Consulting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.071",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "The Edge: Decision Methodologies for Managers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.077",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Learning and Data Mining",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.082",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.084",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Nonlinear Programming",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.094",
+            "offering":  "Currently Offered",
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Systems Optimization: Models and Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.098",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Applied Probability and Stochastic Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.099",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Operations Research/Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Operations Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.122",
+            "offering":  "Currently Offered",
+            "area":      "Health Care Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Critical Reading and Technical Assessment of Biomedical Information",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.123",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Health Care Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Dynamics of Biomedical Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.124",
+            "offering":  "Currently Offered",
+            "area":      "Health Care Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Evaluating a Biomedical Business Concept",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.127",
+            "offering":  "Currently Offered",
+            "area":      "Health Care Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Designing and Sustaining Technology Innovation for Global Health Practice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.141",
+            "offering":  "Currently Offered",
+            "area":      "Health Care Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Economics of the Health Care Industries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.220",
+            "offering":  "Currently Offered",
+            "area":      "Global Economics & Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Strategy and Organization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.223",
+            "offering":  "Currently Offered",
+            "area":      "Global Economics & Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Markets, National Policies and the Competitive Advantages of Firms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.225",
+            "offering":  "Currently Offered",
+            "area":      "Global Economics & Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Economy and Business in Modern China and India",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.227?229",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Global Economics & Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Seminars in International Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.268",
+            "offering":  "Currently Offered",
+            "area":      "History, Environment and Ethics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Choice Points: Readings on the Exercise of Power and Responsibility",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.270",
+            "offering":  "Currently Offered",
+            "area":      "Communication",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Ethical Practice:  Professionalism, Social Responsibility, and the Purpose of the Corporation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.279",
+            "offering":  "Currently Offered",
+            "area":      "Communication",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Management Communication for Undergraduates",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.281",
+            "offering":  "Currently Offered",
+            "area":      "Communication",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Managerial Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.289",
+            "offering":  "Currently Offered",
+            "area":      "Communication",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Doctoral Seminar: Communication Skills for Academics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.301",
+            "offering":  "Currently Offered",
+            "area":      "Organization Studies",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Managerial Psychology Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.317",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Organization Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Organizational Leadership and Change",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.318",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Organization Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Leadership and Change in Organizations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.320",
+            "offering":  "Currently Offered",
+            "area":      "Organization Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Strategic Organizational Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.326",
+            "offering":  "Currently Offered",
+            "area":      "Organization Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Leadership II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.348",
+            "offering":  "Currently Offered",
+            "area":      "Organization Studies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Doctoral Seminar in Research Methods II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.351",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Managing Innovation and Entrepreneurship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.352",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Innovation in the Internet Age: Emerging Trends",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.354",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Innovation and Entrepreneurship: How to Do It",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.356",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "How to Develop Breakthrough Products and Services",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.363",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Strategic Decision Making in the Biomedical Business",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.365",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Disruptive Technologies: Predator or Prey?",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.371",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Innovation Teams",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.380",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Studies in Entrepreneurship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.387",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Technology Sales and Sales Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.388",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Designing and Leading the Innovative Organization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.389",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Global Entrepreneurship Lab: Emerging Markets",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.390",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "New Enterprises",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.394",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Designing and Leading the Entrepreneurial Organization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.398",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Corporations at the Crossroads: The CEO Perspective",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.399",
+            "offering":  "Currently Offered",
+            "area":      "Technology, Innovation and Entrepreneurship",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Entrepreneurship Lab",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.401",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Finance Theory I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.402",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Finance Theory II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.427",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Real Estate Capital Markets",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.431",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Entrepreneurial Finance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.433",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Investments",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.434",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Corporate Finance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.437",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Options and Futures Markets",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.440",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Advanced Financial Economics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.441",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Financial Economics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.442",
+            "offering":  "Currently Offered",
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Financial Economics III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.448?15.449",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Finance",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Finance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.501",
+            "offering":  "Currently Offered",
+            "area":      "Accounting",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Corporate  Financial Accounting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.516",
+            "offering":  "Currently Offered",
+            "area":      "Accounting",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Corporate Financial Accounting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.521",
+            "offering":  "Currently Offered",
+            "area":      "Accounting",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Management Accounting and Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.535",
+            "offering":  "Currently Offered",
+            "area":      "Accounting",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Business Analysis Using Financial Statements",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.539",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Accounting",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Doctoral Seminar in Accounting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.545",
+            "offering":  "Currently Offered",
+            "area":      "Accounting",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mergers and Acquisitions: The Market for Corporate Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.561",
+            "offering":  "Currently Offered",
+            "area":      "Information Technologies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Information Technology Essentials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.565",
+            "offering":  "Currently Offered",
+            "area":      "Information Technologies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Information Systems: Technical, Strategic, and Organizational Factors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.571",
+            "offering":  "Currently Offered",
+            "area":      "Information Technologies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Generating Business Value from IT",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.578",
+            "offering":  "Currently Offered",
+            "area":      "Information Technologies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Information Systems: Strategic, Technical, and Organizational Perspectives",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.579?15.580",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Information Technologies",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Information Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.615",
+            "offering":  "Currently Offered",
+            "area":      "Law",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Basic Business Law for the Entrepreneur and Manager",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.617",
+            "offering":  "Currently Offered",
+            "area":      "Law",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Basic Business Law, Tilted Towards Finance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.647?15.649",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Law",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Seminar in Law",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.655",
+            "offering":  "Currently Offered",
+            "area":      "Law",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Law, Technology, and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.658",
+            "offering":  "Currently Offered",
+            "area":      "Law",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Legal Issues in the Development Process",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.665",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Relations and Human Resource Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Power and Negotiation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.677",
+            "offering":  "Currently Offered",
+            "area":      "Industrial Relations and Human Resource Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Labor Markets and Employment Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "15.691",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Industrial Relations and Human Resource Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Seminar in Work, Employment and Industrial Relations",
+            "subarea":   undefined
+        }
+    ]
+}

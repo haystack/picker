@@ -1,0 +1,74 @@
+{
+	"items" : [
+		{
+			"id" :      "STS.043",
+			"type" :       "Class",
+			"Instructor" : "Sherry Turkle"
+		},
+		{
+			"id" :      "STS.051",
+			"type" :       "Class",
+			"Instructor" : "Vincent L\u00E9pinay"
+		},
+		{
+			"id" :      "STS.064",
+			"type" :       "Class",
+			"Instructor" : ["Chris Walley", "Chris Boebel"]
+		},
+		{
+			"id" :      "STS.070",
+			"type" :       "Class",
+			"Instructor" : "Graham Jones"
+		},
+		{
+			"id" :      "STS.072",
+			"type" :       "Class",
+			"Instructor" : "Theodore Postol"
+		},
+		{
+			"id" :      "STS.086",
+			"type" :       "Class",
+			"Instructor" : "Stefan Helmreich"
+		},
+		{
+			"id" :      "STS.008",
+			"type" :       "Class",
+			"Instructor" : "Hanna Rose Shell"
+		},
+		{
+			"id" :      "STS.076",
+			"type" :       "Class",
+			"Instructor" : "Theodore Postol"
+		},
+		{
+			"id" :      "STS.046",
+			"type" :       "Class",
+			"Instructor" : ["Abha Sur", "Stefan Helmreich"]
+		},
+		{
+			"id" :      "STS.034",
+			"type" :       "Class",
+			"Instructor" : "John Durant"
+		},
+		{
+			"id" :      "STS.044",
+			"type" :       "Class",
+			"Instructor" : "Sherry Turkle"
+		},
+		{
+			"id" :      "STS.027",
+			"type" :       "Class",
+			"Instructor" : "Merritt Roe Smith"
+		},
+		{
+			"id" :      "STS.011",
+			"type" :       "Class",
+			"Instructor" : "Vincent L\u00E9pinay"
+		},
+		{
+			"id" :      "STS.048",
+			"type" :       "Class",
+			"Instructor" : "Kenneth Manning"
+		}
+	]
+}

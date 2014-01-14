@@ -1,0 +1,370 @@
+{
+	"items" : [
+		{
+			"id" :      "6.438",
+			"type" :       "Item",
+			"Instructor" : "Wornell, G. W."
+		},
+		{
+			"id" :      "6.048",
+			"type" :       "Item",
+			"Instructor" : "Berwick, R. C."
+		},
+		{
+			"id" :      "6.878",
+			"type" :       "Item",
+			"Instructor" : "Kellis, M."
+		},
+		{
+			"id" :      "6.542",
+			"type" :       "Item",
+			"Instructor" : "Braida, L. D."
+		},
+		{
+			"id" :      "6.431",
+			"type" :       "Item",
+			"Instructor" : "Tsitsiklis, J. N."
+		},
+		{
+			"id" :      "6.047",
+			"type" :       "Item",
+			"Instructor" : "Kellis, M."
+		},
+		{
+			"id" :      "6.041",
+			"type" :       "Item",
+			"Instructor" : "Tsitsiklis, J. N."
+		},
+		{
+			"id" :      "6.101",
+			"type" :       "Item",
+			"Instructor" : "Roscoe, B. M."
+		},
+		{
+			"id" :      "6.837",
+			"type" :       "Item",
+			"Instructor" : "Durand, F. P."
+		},
+		{
+			"id" :      "6.021",
+			"type" :       "Item",
+			"Instructor" : "Voldman, J."
+		},
+		{
+			"id" :      "6.858",
+			"type" :       "Item",
+			"Instructor" : "Zeldovich, N. B."
+		},
+		{
+			"id" :      "6.946",
+			"type" :       "Item",
+			"Instructor" : "Sussman, G. J."
+		},
+		{
+			"id" :      "6.853",
+			"type" :       "Item",
+			"Instructor" : "Daskalakis, C."
+		},
+		{
+			"id" :      "6.877",
+			"type" :       "Item",
+			"Instructor" : "Berwick, R. C."
+		},
+		{
+			"id" :      "6.938",
+			"type" :       "Item",
+			"Instructor" : "Apostolakis, G."
+		},
+		{
+			"id" :      "6.111",
+			"type" :       "Item",
+			"Instructor" : "Stojanovic, V. M."
+		},
+		{
+			"id" :      "6.982",
+			"type" :       "Item",
+			"Instructor" : "Rankin, J."
+		},
+		{
+			"id" :      "6.608",
+			"type" :       "Item",
+			"Instructor" : "Barletta, W. A."
+		},
+		{
+			"id" :      "6.161",
+			"type" :       "Item",
+			"Instructor" : "Warde, C."
+		},
+		{
+			"id" :      "6.163",
+			"type" :       "Item",
+			"Instructor" : "Bales, J. W."
+		},
+		{
+			"id" :      "6.866",
+			"type" :       "Item",
+			"Instructor" : "Horn, B. K. P."
+		},
+		{
+			"id" :      "6.UAT",
+			"type" :       "Item",
+			"Instructor" : "Eng, T. L."
+		},
+		{
+			"id" :      "6.932",
+			"type" :       "Item",
+			"Instructor" : "Berners-Lee, T. J."
+		},
+		{
+			"id" :      "6.630",
+			"type" :       "Item",
+			"Instructor" : "Ippen, E. P."
+		},
+		{
+			"id" :      "6.152",
+			"type" :       "Item",
+			"Instructor" : "Kolodziejski, L. A."
+		},
+		{
+			"id" :      "6.172",
+			"type" :       "Item",
+			"Instructor" : "Amarasinghe, S. P."
+		},
+		{
+			"id" :      "6.173",
+			"type" :       "Item",
+			"Instructor" : "Agarwal, A."
+		},
+		{
+			"id" :      "6.207",
+			"type" :       "Item",
+			"Instructor" : "Dahleh, M. A."
+		},
+		{
+			"id" :      "6.436",
+			"type" :       "Item",
+			"Instructor" : "Tsitsiklis, J. N."
+		},
+		{
+			"id" :      "6.561",
+			"type" :       "Item",
+			"Instructor" : "Grodzinsky, A. J."
+		},
+		{
+			"id" :      "6.046",
+			"type" :       "Item",
+			"Instructor" : "Rubinfeld, R."
+		},
+		{
+			"id" :      "6.728",
+			"type" :       "Item",
+			"Instructor" : "Hagelstein, P. L."
+		},
+		{
+			"id" :      "6.251",
+			"type" :       "Item",
+			"Instructor" : "Schulz, A. S."
+		},
+		{
+			"id" :      "6.685",
+			"type" :       "Item",
+			"Instructor" : "Kirtley, J. L."
+		},
+		{
+			"id" :      "6.651",
+			"type" :       "Item",
+			"Instructor" : "Egedal-Pedersen, J."
+		},
+		{
+			"id" :      "6.376",
+			"type" :       "Item",
+			"Instructor" : "Sarpeshkar, R."
+		},
+		{
+			"id" :      "6.374",
+			"type" :       "Item",
+			"Instructor" : "Chandrakasan, A. P."
+		},
+		{
+			"id" :      "6.551",
+			"type" :       "Item",
+			"Instructor" : "Braida, L. D."
+		},
+		{
+			"id" :      "6.003",
+			"type" :       "Item",
+			"Instructor" : "Freeman, D. M."
+		},
+		{
+			"id" :      "6.002",
+			"type" :       "Item",
+			"Instructor" : "Perrault, D. J."
+		},
+		{
+			"id" :      "6.840",
+			"type" :       "Item",
+			"Instructor" : "Sipser, M. F."
+		},
+		{
+			"id" :      "6.341",
+			"type" :       "Item",
+			"Instructor" : "Oppenheim, A. V."
+		},
+		{
+			"id" :      "6.02",
+			"type" :       "Item",
+			"Instructor" : "Balakrishnan, H."
+		},
+		{
+			"id" :      "6.801",
+			"type" :       "Item",
+			"Instructor" : "Horn, B. K. P."
+		},
+		{
+			"id" :      "6.01",
+			"type" :       "Item",
+			"Instructor" : "Lozano-Perez, T."
+		},
+		{
+			"id" :      "6.521",
+			"type" :       "Item",
+			"Instructor" : "Voldman, J."
+		},
+		{
+			"id" :      "6.00",
+			"type" :       "Item",
+			"Instructor" : "Guttag, J. V."
+		},
+		{
+			"id" :      "6.005",
+			"type" :       "Item",
+			"Instructor" : "Miller, R. C."
+		},
+		{
+			"id" :      "6.004",
+			"type" :       "Item",
+			"Instructor" : "Ward, S. A."
+		},
+		{
+			"id" :      "6.007",
+			"type" :       "Item",
+			"Instructor" : "Bulovic, V."
+		},
+		{
+			"id" :      "6.006",
+			"type" :       "Item",
+			"Instructor" : "Devadas, S."
+		},
+		{
+			"id" :      "6.854",
+			"type" :       "Item",
+			"Instructor" : "Karger, D. R."
+		},
+		{
+			"id" :      "6.774",
+			"type" :       "Item",
+			"Instructor" : "Hoyt, J. L."
+		},
+		{
+			"id" :      "6.902",
+			"type" :       "Item",
+			"Instructor" : "Schindall, J. E."
+		},
+		{
+			"id" :      "6.013",
+			"type" :       "Item",
+			"Instructor" : "Ippen, E. P."
+		},
+		{
+			"id" :      "6.720",
+			"type" :       "Item",
+			"Instructor" : "del Alamo, J. A."
+		},
+		{
+			"id" :      "6.012",
+			"type" :       "Item",
+			"Instructor" : "Sodini, C. G."
+		},
+		{
+			"id" :      "6.434",
+			"type" :       "Item",
+			"Instructor" : "Win, M. Z."
+		},
+		{
+			"id" :      "6.763",
+			"type" :       "Item",
+			"Instructor" : "Orlando, T. P."
+		},
+		{
+			"id" :      "6.456",
+			"type" :       "Item",
+			"Instructor" : "Preisig, J. C."
+		},
+		{
+			"id" :      "6.823",
+			"type" :       "Item",
+			"Instructor" : "Arvind"
+		},
+		{
+			"id" :      "6.852",
+			"type" :       "Item",
+			"Instructor" : "Lynch, N. A."
+		},
+		{
+			"id" :      "6.872",
+			"type" :       "Item",
+			"Instructor" : "Szolovits, P."
+		},
+		{
+			"id" :      "6.331",
+			"type" :       "Item",
+			"Instructor" : "Roberge, J. K."
+		},
+		{
+			"id" :      "6.336",
+			"type" :       "Item",
+			"Instructor" : "Daniel, L."
+		},
+		{
+			"id" :      "6.042",
+			"type" :       "Item",
+			"Instructor" : "Meyer, A. R."
+		},
+		{
+			"id" :      "6.034",
+			"type" :       "Item",
+			"Instructor" : "Winston, P. H."
+		},
+		{
+			"id" :      "6.131",
+			"type" :       "Item",
+			"Instructor" : "Leeb, S. B."
+		},
+		{
+			"id" :      "6.631",
+			"type" :       "Item",
+			"Instructor" : "Fujimoto, J. G."
+		},
+		{
+			"Class" :      "6.828",
+			"id" :      "6.828",
+			"type" :       "Item",
+			"Instructor" : "Kaashoek, M. F."
+		},
+		{
+			"id" :      "6.255",
+			"type" :       "Item",
+			"Instructor" : "Parrilo, P."
+		},
+		{
+			"id" :      "6.142",
+			"type" :       "Item",
+			"Instructor" : "Rus, D. L."
+		},
+		{
+			"id" :      "6.637",
+			"type" :       "Item",
+			"Instructor" : "Warde, C."
+		}
+	]
+}

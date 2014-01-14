@@ -1,0 +1,43 @@
+body {
+    margin: 0.5in;
+}
+
+#calendar {
+    font-size:  9pt;
+}
+.calendar-row {
+}
+.calendar-cell {
+    width:      20em;
+    border:     1px solid #ccc;
+    padding:    0;
+}
+div.day-of-month {
+    float:          right;
+    padding:        2px;
+    background:     #eee;
+    border-left:    1px solid #ccc;
+    border-bottom:  1px solid #ccc;
+    color:          #888;
+}
+div.calendar-cell-content {
+    padding:        0.5em;
+    min-height:     10em;
+}
+
+.weekday {
+    font-weight:    bold;
+    text-align:     center;
+    border:         none;
+}
+
+.lecture {
+    margin-bottom:  0.5em;
+}
+.time {
+    color: #888;
+}
+.description {
+}
+.location {
+}

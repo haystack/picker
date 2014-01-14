@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "id":        "MS.102",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Tactical Leadership",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "MS.202",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Foundations of Tactical Leadership",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "MS.302",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership in Changing Environments",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "MS.312",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership Laboratory II",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "MS.402",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership in a Complex World",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "MS.412",
+            "offering":  "Currently Offered",
+            "area":      "Military Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Leadership Laboratory  II",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        }
+    ]
+}

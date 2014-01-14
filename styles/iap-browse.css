@@ -1,0 +1,163 @@
+/*
+ * Big UI pieces
+ */
+
+#no-picked-classes {
+    padding:    2em;
+    text-align: center;
+}
+
+/* No numbering on browsing list of classes */
+#browsing-interface li {
+    list-style-type: none;
+}
+
+#left-column {
+    background:     #E0F0FF; 
+    width:          30em; 
+    padding:        10px; 
+    display:        none; 
+    border-right:   1px solid #B2B0D4;
+    border-bottom:  1px solid #B2B0D4;
+}
+
+/*
+ * Lenses
+ */
+div.generic-lens {
+    padding: 3em 2em;
+}
+
+div.course-lens {
+    border:         1px solid #aac;
+    margin-bottom:  2em;
+    position: relative;
+}
+div.course-title {
+    padding:        0.25em;
+    font-weight:    bold;
+    background:     #9996c5;
+    color:          #FFFCE6;
+}
+span.course-semester {
+    float: right;
+}
+img.favorite-icon {
+    float: right;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+div.course-body {
+    padding: 1em;
+}
+
+div.each-section-unpicked {
+    background:     #FFFCE6;
+	padding:		.25em;
+}
+div.each-section-picked {
+	background:     #ddb;
+	padding:		.25em;
+}
+div.each-section-picked button, div.each-section-unpicked button {
+    width:          7em;
+    float:          right;
+}
+span.section-instructor {
+	font-style:		italic;
+}
+span.section-schedule {
+	font-style:		italic;
+}
+
+#schedule-preview-pane ol.exhibit-tileView-body {
+    padding-left:   1.75em;
+}
+#schedule-preview-pane .exhibit-tileView-body li {
+    clear: both;
+}
+div.preview-class-lens {
+	padding:        2px;
+    color:          white;
+    margin-bottom:  1px;
+}
+button.remove-preview {
+    float: right;
+}
+
+div.course-topic {
+}
+div.course-description {
+    padding:        0.5em 0 0.5em 0;
+}
+td.course-logistics {
+}
+div.report-errors a {
+    font-size: 80%;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+a.external {
+    font-size: 80%;
+    text-decoration: none;
+}
+#calendar {
+    font-size:  9pt;
+}
+.calendar-row {
+    padding-top: 2px;
+    clear:       both;
+}
+.calendar-cell {
+    width:          2em;
+    text-align:     center;
+    cursor:         pointer;
+}
+.weekday {
+    font-weight: bold;
+}
+.free-day {
+    background-color:   white;
+    color:              #888;
+}
+.busy-day {
+    background-color:   #B2B0D4;
+    color:              white;
+}
+.conflict-day {
+    background: #B2B0D4 url(images/x.gif) center center no-repeat;
+    color:      white;
+}
+.preview-free-day {
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+.preview-busy-day {
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+.preview-conflict-day {
+    background: #B2B0D4 url(images/x.gif) center center no-repeat;
+    text-decoration:    underline;
+    color:              black;
+}
+
+.preview-day {
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+
+#balloon {
+    position:   absolute;
+    width:      300px;
+    padding:    5px;
+    background: #FFFCE6;
+    border:     1px solid #aaa;
+    z-index:    100;
+}

@@ -1,0 +1,204 @@
+{
+	"items" : [
+		{
+			"id" :      "21L.325",
+			"type" :       "Class",
+			"Instructor" : "Ruth Perry"
+		},
+		{
+            "id" : "L0321L.003",
+			"type" :       "LectureSession",
+			"Instructor" : "Kate Delaney"
+		},
+		{
+			"id" :      "21L.448",
+			"type" :       "Class",
+			"Instructor" : "James Paradis"
+		},
+		{
+			"id" :      "21L.009",
+			"type" :       "Class",
+			"Instructor" : "Pete Donaldson"
+		},
+		{
+			"id" :      "21L.007",
+			"type" :       "Class",
+			"Instructor" : "William Donaldson"
+		},
+		{
+			"id" :      "21L.423",
+			"type" :       "Class",
+			"Instructor" : "Ruth Perry"
+		},
+		{
+			"id" :      "21L.006",
+			"type" :       "Class",
+			"Instructor" : "Kate Delaney"
+		},
+		{
+			"id" :      "21L.001",
+			"type" :       "Class",
+			"Instructor" : "Howard Eiland"
+		},
+		{
+			"id" :      "21L.421",
+			"type" :       "Class",
+			"Instructor" : "Howard Eiland"
+		},
+		{
+			"id" :      "L0121L.004",
+			"type" :       "LectureSession",
+			"Instructor" : "Stephen Tapscott"
+		},
+		{
+			"id" :      "21L.476",
+			"type" :       "Class",
+			"Instructor" : "Noel Jackson"
+		},
+		{
+			"id" :      "L0121L.003",
+			"type" :       "LectureSession",
+			"Instructor" : "Alisa Braithwaite"
+		},
+		{
+			"id" :      "L0121L.000",
+			"type" :       "LectureSession",
+			"Instructor" : "Noel Jackson"
+		},
+		{
+			"id" :      "21L.504",
+			"type" :       "Class",
+			"Instructor" : "Wyn Kelley"
+		},
+		{
+			"id" :      "21L.020",
+			"type" :       "Class",
+			"Instructor" : "Margery Resnick"
+		},
+		{
+			"id" :      "21L.301",
+			"type" :       "Class",
+			"Instructor" : "Ruth Perry"
+		},
+		{
+			"id" :      "21L.044",
+			"type" :       "Class",
+			"Instructor" : "Emma Teng"
+		},
+		{
+			"id" :      "21L.320",
+			"type" :       "Class",
+			"Instructor" : "Mary Fuller"
+		},
+		{
+			"id" :      "21L.335",
+			"type" :       "Class",
+			"Instructor" : "Randall Colaizzi"
+		},
+		{
+			"id" :      "R0221L.017",
+			"type" :       "RecitationSession",
+			"Instructor" : "Alvin Kibel"
+		},
+		{
+			"id" :      "21L.458",
+			"type" :       "Class",
+			"Instructor" : "Ina Lipkowitz"
+		},
+		{
+			"id" :      "21L.435",
+			"type" :       "Class",
+			"Instructor" : "Pete Donaldson"
+		},
+		{
+			"id" :      "21L.434",
+			"type" :       "Class",
+			"Instructor" : "Alisa Braithwaite"
+		},
+		{
+			"id" :      "21L.702",
+			"type" :       "Class",
+			"Instructor" : "James Buzard"
+		},
+		{
+			"id" :      "21L.012",
+			"type" :       "Class",
+			"Instructor" : "Eugenie Brinkema"
+		},
+		{
+			"id" :      "21L.450",
+			"type" :       "Class",
+			"Instructor" : "Alvin Kibel"
+		},
+		{
+			"id" :      "21L.013",
+			"type" :       "Class",
+			"Instructor" : "Mary Fuller"
+		},
+		{
+			"id" :      "21L.705",
+			"type" :       "Class",
+			"Instructor" : "Wyn Kelley"
+		},
+		{
+			"id" :      "L0121L.017",
+			"type" :       "LectureSession",
+			"Instructor" : ["A. Kibel", "S. Raman"]
+		},
+		{
+			"id" :      "L0221L.000",
+			"type" :       "LectureSession",
+			"Instructor" : "Wyn Kelley"
+		},
+		{
+			"id" :      "R0121L.017",
+			"type" :       "RecitationSession",
+			"Instructor" : "Shankar Raman"
+		},
+		{
+			"id" :      "21L.010",
+			"type" :       "Class",
+			"Instructor" : "Diana Henderson"
+		},
+		{
+			"id" :      "21L.701",
+			"type" :       "Class",
+			"Instructor" : "Shankar Raman"
+		},
+		{
+			"id" :      "21L.481",
+			"type" :       "Class",
+			"Instructor" : "John Picker"
+		},
+		{
+			"id" :      "21L.011",
+			"type" :       "Class",
+			"Instructor" : "David Thorburn"
+		},
+		{
+			"id" :      "L0221L.004",
+			"type" :       "LectureSession",
+			"Instructor" : "Staff"
+		},
+		{
+			"id" : "L0221L.003",
+			"type" :       "LectureSession",
+			"Instructor" : "Ina Lipkowitz"
+		},
+		{
+			"id" :      "21L.330",
+			"type" :       "Class",
+			"Instructor" : "Randall Colaizzi"
+		},
+		{
+			"id" :      "21L.706",
+			"type" :       "Class",
+			"Instructor" : "Eugenie Brinkema"
+		},
+		{
+			"id" :      "21L.707",
+			"type" :       "Class",
+			"Instructor" : ["S. Tapscott", "M. Roholl"]
+		}
+	]
+}

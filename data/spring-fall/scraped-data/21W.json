@@ -1,0 +1,365 @@
+{
+    "items": [
+        {
+            "id":        "21W.730",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive Writing"
+            ],
+            "has-final": false,
+            "label":     "Writing on Contemporary Issues",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21W.731",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive Writing"
+            ],
+            "has-final": false,
+            "label":     "Writing and Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21W.732",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive Writing"
+            ],
+            "has-final": false,
+            "label":     "Introduction to Scientific and Technical Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21W.734",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive Writing"
+            ],
+            "has-final": false,
+            "label":     "Writing About Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21W.754",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Playwriting I",
+            "subarea":   "Introductory"
+        },
+        {
+            "id":        "21W.755",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Writing and Reading Short Stories",
+            "subarea":   "Introductory"
+        },
+        {
+            "id":        "21W.756",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Writing and Reading Poems",
+            "subarea":   "Introductory"
+        },
+        {
+            "id":        "21W.735",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Writing and Reading the Essay",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.741",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.745",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Creative Writing",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Advanced Essay Workshop",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.746",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Humanistic Perspectives on Medicine: From Ancient Greece to Modern America",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.747",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Rhetoric",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.749",
+            "offering":  "Currently Offered",
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Documentary Photography and Photojournalism: Still Images of a World in Motion",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.762",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Poetry Workshop",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.769",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Playwrights\\' Workshop",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.770",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Advanced Fiction Workshop",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.771",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Creative Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Advanced Poetry Workshop",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.777",
+            "offering":  "Currently Offered",
+            "area":      "Science Writing",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Science Essay",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.778",
+            "offering":  "Currently Offered",
+            "area":      "Science Writing",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Science Journalism",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.781",
+            "offering":  "Currently Offered",
+            "area":      "Science Writing",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating About Technology:  Colossal Failures in Engineering",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.785",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating with Web-Based Media",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.787",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Film, Music, and Social Change: Intersections of Media and Society",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.789",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating with Mobile Technology",
+            "subarea":   "Advanced"
+        },
+        {
+            "id":        "21W.792",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Science Writing Internship",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.794",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Graduate Technical Writing Workshop",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.798, 21W.799",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Writing",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.THT",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Writing and Humanistic Studies Pre-Thesis Tutorial",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Writing and Humanistic Studies Thesis",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Writing and Humanistic Studies",
+            "subarea":   "Additional Subjects"
+        },
+        {
+            "id":        "21W.820",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Writing: Science, Technology, and Society",
+            "subarea":   "Graduate Subjects"
+        },
+        {
+            "id":        "21W.826",
+            "offering":  "Currently Offered",
+            "area":      "Digital Media",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Science Writing Seminar II",
+            "subarea":   "Graduate Subjects"
+        },
+        {
+            "id":        "21W.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Digital Media",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   "Graduate Subjects"
+        }
+    ]
+}

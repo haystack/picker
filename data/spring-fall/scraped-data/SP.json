@@ -1,0 +1,517 @@
+{
+    "items": [
+        {
+            "id":        "SP.211",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "ESG (Experimental Study Group)",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.221",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "ESG (Experimental Study Group)",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.231",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "ESG Undergraduate Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.233",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "ESG Special Topics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.2H1",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Philosophy of Love",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.2H3",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Ancient Philosophy and Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.311",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Concourse Program",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.321",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Madness and Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.343",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Concourse Special Topics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.360",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Terrascope Radio",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.702",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Digital Electronics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.705",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Electronics Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.710-SP.715",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics at the Edgerton Center",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.717-SP.719",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics at the Edgerton Center",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.722",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "D-Lab: Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.723",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "D-Lab: Disseminating Innovations for the Common Good",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.731",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Edgerton Center Undergraduate Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.732",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Edgerton Center Graduate Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.747",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Creative Imaging",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.779",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Toy Product Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.784",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Wheelchair Design in Developing Countries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.785",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Digital Video Post-Production",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.792",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.7UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.800",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Freshman/Alumni Summer Internship Program",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.801",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Freshman/Alumni Summer Internship Program II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.400",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Special Topics in Women\\'s and Gender Studies Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.401",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Introduction to Women\\'s and Gender Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.409",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Women and Global Activism in Media and Politics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.448",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Gender and Representation of Asian Women",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.461",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "International Women\\'s Voices",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.466",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Topics in Modern French Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.484",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Anthropology of Computing: Digital Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.493",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Media in Cultural Context",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.510",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Literary Interpretation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.512",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Major Authors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.517",
+            "offering":  "Not offered this year",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "American Authors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.576",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Advanced Essay Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.591",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Traditions in American Concert Dance: Gender and Autobiography",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.601",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Feminist Political Thought",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.610",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Gender and Work: From the Middle Ages to the Contemporary World",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.621",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Violence, Human Rights, and Justice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.650",
+            "offering":  "Currently Offered",
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Psychology of Gender and Race",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.690",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Workshop for Dissertation Writers in Women\\'s and Gender Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.691",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Women\\'s Life Narratives",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.693",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Feminist Inquiry: Strategies for Effective Scholarship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.694",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Women\\'s and Gender Studies Program",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Issues of Representation: Feminist Theory",
+            "subarea":   undefined
+        }
+    ]
+}

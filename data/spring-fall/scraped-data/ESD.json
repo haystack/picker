@@ -1,0 +1,1093 @@
+{
+    "items": [
+        {
+            "id":        "ESD.01",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Engineering System Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.018",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Project Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.032",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating About Technology:  Colossal Failures in Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.053",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmental Risks for Common Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.123",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Ecology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.128",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Climate Change: Economics, Science, and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.129",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Policy Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.132",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Law, Technology, and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.134",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.136",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Technology, Law, and the Working Environment",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.173",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.191",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cities and Regions: Urban Economics and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.192",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Analyzing and Accounting for Regional Economic Change",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.212",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Demand Modeling",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.222",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Transportation Policy and Environmental Limits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.226",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Public Transportation Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.261",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Case Studies in Logistics and Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.263",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Logistics Thesis Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.265",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.267",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supply Chain Planning",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.268",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Manufacturing System and Supply Chain Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.270",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Transportation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.30",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Apollo: The Moon Project as a Complex System",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.32",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Product Design and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.342",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Representations of Complex Engineering Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.352",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.379",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Systems Engineering Taxonomy and Semantics in Commercial Domains",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.38",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Enterprise Architecting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.40",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Product Design and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.52",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to the History of Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.565",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Information Systems: Technical, Strategic, and Organizational Factors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.58",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Disruptive Technologies: Predator or Prey?",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.63",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Control of Manufacturing Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.65",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Aerospace Biomedical and Life Support Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.68",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Communications and Information Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.72",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.721",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis (Abridged)",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.753",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Learning and Data Mining",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.756",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Methods in Experimental Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.762",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Systems Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.78",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.80",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Technology Policy Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.802",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "SDM Thesis Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.804",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Know Thy Team: Leadership Skill Building Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.81",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Transportation and Logistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.85",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Doctoral Seminar on Emerging Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.86",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Models, Data and Inference for Socio-Technical Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.862",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Modeling Risk, Dynamics, and Decisions",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.863",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "System Safety",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.910?ESD.920",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.921?ESD.929",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.930-ESD.933",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.934-ESD.938",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.940",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.950?ESD.951",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.955",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.123",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Ecology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.128",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Global Climate Change: Economics, Science, and Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.129",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Policy Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.132",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Law, Technology, and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.134",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Regulation of Chemicals, Radiation, and Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.136",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Technology, Law, and the Working Environment",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.173",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.191",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cities and Regions: Urban Economics and Public Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.192",
+            "offering":  "Currently Offered",
+            "area":      "Technology and Policy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Analyzing and Accounting for Regional Economic Change",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.212",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Demand Modeling",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.222",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Transportation Policy and Environmental Limits",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.226",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Public Transportation Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.261",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Case Studies in Logistics and Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.263",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Logistics Thesis Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.265",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.267",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supply Chain Planning",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.268",
+            "offering":  "Currently Offered",
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Manufacturing System and Supply Chain Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.270",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Transportation",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Transportation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.30",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Apollo: The Moon Project as a Complex System",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.32",
+            "offering":  "Currently Offered",
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Product Design and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.342",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Representations of Complex Engineering Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.352",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Space Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.379",
+            "offering":  "Currently Offered",
+            "area":      "Systems Design and Management",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Systems Engineering Taxonomy and Semantics in Commercial Domains",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.38",
+            "offering":  "Currently Offered",
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Enterprise Architecting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.40",
+            "offering":  "Currently Offered",
+            "area":      "Systems Design and Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Product Design and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.52",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Technology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to the History of Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.565",
+            "offering":  "Currently Offered",
+            "area":      "Technology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Information Systems: Technical, Strategic, and Organizational Factors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.58",
+            "offering":  "Currently Offered",
+            "area":      "Technology",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Disruptive Technologies: Predator or Prey?",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.63",
+            "offering":  "Currently Offered",
+            "area":      "Technology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Control of Manufacturing Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.65",
+            "offering":  "Currently Offered",
+            "area":      "Technology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Aerospace Biomedical and Life Support Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.68",
+            "offering":  "Currently Offered",
+            "area":      "Technology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Communications and Information Policy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.72",
+            "offering":  "Currently Offered",
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.721",
+            "offering":  "Currently Offered",
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis (Abridged)",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.753",
+            "offering":  "Currently Offered",
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Learning and Data Mining",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.756",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Methods in Experimental Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.762",
+            "offering":  "Currently Offered",
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Systems Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.78",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Methods",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Network Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.80",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Technology Policy Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.802",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "SDM Thesis Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.804",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Know Thy Team: Leadership Skill Building Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.81",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studies in Transportation and Logistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.85",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Integrating Doctoral Seminar on Emerging Technologies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.86",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Models, Data and Inference for Socio-Technical Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.862",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Modeling Risk, Dynamics, and Decisions",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.863",
+            "offering":  "Currently Offered",
+            "area":      "Professional Development",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "System Safety",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.910?ESD.920",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.921?ESD.929",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.930-ESD.933",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.934-ESD.938",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.940",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Graduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.950?ESD.951",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.955",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Studies in Engineering Systems Division",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "ESD Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "ESD.URG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

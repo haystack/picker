@@ -1,0 +1,824 @@
+{
+    "items": [
+        {
+            "id":        "2.00A",
+            "offering":  "Currently Offered",
+            "area":      "Freshman Year Introductory Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Fundamentals of Engineering Design: Explore Space, Sea and Earth",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.00B",
+            "offering":  "Currently Offered",
+            "area":      "Freshman Year Introductory Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Toy Product Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.001",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Mechanics and Materials I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.002",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Mechanics and Materials II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.003",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Dynamics and Control I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.004",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Dynamics and Control II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.005",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Thermal-Fluids Engineering I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.006",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Thermal-Fluids Engineering II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.007",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Design and Manufacturing I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.008",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Design and Manufacturing II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.012",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Mechanics of Structures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.019",
+            "offering":  "Currently Offered",
+            "area":      "Core Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Design of Ocean Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.034",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Dynamics and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nonlinear Dynamics and Waves",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.038",
+            "offering":  "Currently Offered",
+            "area":      "Dynamics and Acoustics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Art of Approximation in Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.062",
+            "offering":  "Currently Offered",
+            "area":      "Dynamics and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wave Propagation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.065",
+            "offering":  "Currently Offered",
+            "area":      "Dynamics and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Acoustics and Sensing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.071",
+            "offering":  "Currently Offered",
+            "area":      "Solid Mechanics and Materials",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mechanics of Solid Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.081",
+            "offering":  "Currently Offered",
+            "area":      "Solid Mechanics and Materials",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Plates and Shells",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.082",
+            "offering":  "Currently Offered",
+            "area":      "Solid Mechanics and Materials",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Ship Structural Analysis and Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.086",
+            "offering":  "Currently Offered",
+            "area":      "Computational Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Numerical Computation for Mechanical Engineers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.110",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Information, Entropy and Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.131",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Instrumentation and Measurement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.14",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Analysis and Design of Feedback Control Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.160",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Identification, Estimation, and Learning",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.165",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Robotics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.167",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "System Dynamics and Control",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Hands-On Marine Robotics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.183",
+            "offering":  "Currently Offered",
+            "area":      "System Dynamics and Control",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biomechanics and Neural Control of Movement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.22",
+            "offering":  "Currently Offered",
+            "area":      "Fluid Mechanics and Combustion",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design Principles for Ocean Vehicles",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.23",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Fluid Mechanics and Combustion",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Hydrofoils and Propellers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.372",
+            "offering":  "Currently Offered",
+            "area":      "MEMS and Nanotechnology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design and Fabrication of MEMS",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.391",
+            "offering":  "Currently Offered",
+            "area":      "MEMS and Nanotechnology",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nanostructure Fabrication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.500",
+            "offering":  "Currently Offered",
+            "area":      "Heat and Mass Transfer",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Desalination and Water Purification",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.55",
+            "offering":  "Currently Offered",
+            "area":      "Heat and Mass Transfer",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Advanced Heat and Mass Transfer",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.58",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Heat and Mass Transfer",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Radiative Transfer",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.59",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Heat and Mass Transfer",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Thermal Hydraulics in Power Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.60",
+            "offering":  "Currently Offered",
+            "area":      "Energy and Power Systems",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.61",
+            "offering":  "Currently Offered",
+            "area":      "Energy and Power Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Internal Combustion Engines",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.62",
+            "offering":  "Currently Offered",
+            "area":      "Energy and Power Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.64",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Energy and Power Systems",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Superconducting Magnets",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.671",
+            "offering":  "Currently Offered",
+            "area":      "Experimental Engineering",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Measurement and Instrumentation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.672",
+            "offering":  "Currently Offered",
+            "area":      "Experimental Engineering",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.673",
+            "offering":  "Currently Offered",
+            "area":      "Experimental Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering II: Instrumentation and Measurement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.674",
+            "offering":  "Currently Offered",
+            "area":      "Experimental Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Micro/Nano Engineering Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.675",
+            "offering":  "Currently Offered",
+            "area":      "Experimental Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Micro/Nano Engineering Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.682",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Oceanographic Engineering and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Acoustical Oceanography",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.683",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Oceanographic Engineering and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Marine Bioacoustics and Geoacoustics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.684",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Oceanographic Engineering and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wave Scattering by Rough Surfaces and Inhomogeneous Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.688",
+            "offering":  "Currently Offered",
+            "area":      "Oceanographic Engineering and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Oceanographic Instrument Systems -- Sensors and Measurements",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.689",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Oceanographic Engineering and Acoustics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Projects in Oceanographic Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.704",
+            "offering":  "Currently Offered",
+            "area":      "Naval Architecture",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Projects in Naval Ship Conversion Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.705",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Naval Architecture",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Projects in New Concept Naval Ship Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.707",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Naval Architecture",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Submarine Structural Acoustics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.71",
+            "offering":  "Currently Offered",
+            "area":      "Optics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Optics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.72",
+            "offering":  "Currently Offered",
+            "area":      "Design",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Elements of Mechanical Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.722",
+            "offering":  "Currently Offered",
+            "area":      "Design",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "D-Lab: Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.739",
+            "offering":  "Currently Offered",
+            "area":      "Design",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Product Design and Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.752",
+            "offering":  "Currently Offered",
+            "area":      "Design",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Development of Mechanical Products",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.753",
+            "offering":  "Currently Offered",
+            "area":      "Design",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Development of Mechanical Products",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.782",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design of Medical Devices and Implants",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.785",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cell-Matrix Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.792",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.793",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Fields, Forces and Flows in Biological Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.796",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Quantitative Physiology: Organ Transport Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.797",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.798",
+            "offering":  "Currently Offered",
+            "area":      "Bioengineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.813",
+            "offering":  "Currently Offered",
+            "area":      "Manufacturing",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Environmentally Benign Design and Manufacturing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.821",
+            "offering":  "Currently Offered",
+            "area":      "Manufacturing",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fabrication Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.83",
+            "offering":  "Currently Offered",
+            "area":      "Manufacturing",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Environmentally Benign Design and Manufacturing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.830",
+            "offering":  "Currently Offered",
+            "area":      "Manufacturing",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Control of Manufacturing Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.852",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Manufacturing",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Manufacturing Systems Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.888",
+            "offering":  "Currently Offered",
+            "area":      "Manufacturing",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Professional Seminar in Global Manufacturing Innovation and Entrepreneurship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.890",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Manufacturing",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Proseminar in Manufacturing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.963",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.965",
+            "offering":  "Currently Offered",
+            "area":      "Engineering Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Supply Chain Management",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.967",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Engineering Management",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Shipping",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.993-2.995",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special and Advanced Topics in Mechanical Engineering",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Mechanical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.996-2.998",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special and Advanced Topics in Mechanical Engineering",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Topics in Mechanical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.999",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Thesis, Research and Practice",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineer\\'s Degree Thesis Proposal Preparation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Thesis, Research and Practice",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Thesis, Research and Practice",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Thesis, Research and Practice",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "2.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Thesis, Research and Practice",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research in Mechanical Engineering",
+            "subarea":   undefined
+        }
+    ]
+}

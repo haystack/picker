@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "id":        "AS.101",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Foundations of the United States Air Force",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.111",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership Laboratory",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.201",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Evolution of USAF Air and Space Power",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.211",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership Laboratory",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.301",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Air Force Leadership Studies",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.311",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership Laboratory",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.401",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "National Security Affairs/Preparation for Active Duty",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "id":        "AS.411",
+            "offering":  "Currently Offered",
+            "area":      "Aerospace Studies",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Leadership Laboratory",
+            "subarea":   "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        }
+    ]
+}

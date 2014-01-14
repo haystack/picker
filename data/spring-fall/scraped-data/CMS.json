@@ -1,0 +1,278 @@
+{
+    "items": [
+        {
+            "id":        "CMS.405",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Media and Methods: Seeing and Expression",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.590",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computer Games and Simulations for Investigation and Education",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.600",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Comparative Media Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.603",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Comparative Media Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.610",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Media Industries and Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis in Comparative Media Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Comparative Media Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.791",
+            "offering":  "Currently Offered",
+            "area":      "Proseminars",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Media Theories and Methods II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.810",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Nature of Creativity",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.820",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Philosophy of Film",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.830",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Studies in Film",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.837",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Film, Music, and Social Change: Intersections of Media and Society",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.863",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Computer Games and Simulations for Investigation and Education",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.871",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Media in Cultural Context",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.874",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Visualizing Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.922",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Media Industries and Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.925",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Film Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.935",
+            "offering":  "Currently Offered",
+            "area":      "Electives",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Documentary Photography and Photojournalism: Still Images of a World in Motion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.951",
+            "offering":  "Currently Offered",
+            "area":      "Workshops",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Workshop II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.980",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Workshops",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Master\\'s Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.990",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Workshops",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Colloquium in Comparative Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.992",
+            "offering":  "Currently Offered",
+            "area":      "Workshops",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Portfolio in Comparative Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.993",
+            "offering":  "Currently Offered",
+            "area":      "Workshops",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Teaching in Comparative Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.994",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Workshops",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Comparative Media Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.995",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Workshops",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in Comparative Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "CMS.996",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Workshops",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Comparative Media Studies",
+            "subarea":   undefined
+        }
+    ]
+}

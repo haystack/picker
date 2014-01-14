@@ -1,0 +1,398 @@
+{
+    "items": [
+        {
+            "id":        "21L.000",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive Writing"
+            ],
+            "has-final": false,
+            "label":     "Writing About Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.002",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Foundations of Western Culture: The Making of the Modern World",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.003",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Reading Fiction",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.004",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Reading Poetry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.006",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "American Literature",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.008",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.009",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Shakespeare",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.011",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "The Film Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.016",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Learning from the Past: Drama, Science, Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.017",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "The Art of the Probable",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.310",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Samplings",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Bestsellers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.320",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Samplings",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Big Books",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21L.421",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Comedy",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.423",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Folk Music of the British Isles and North America",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.433",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Film Styles and Genres",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.434",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Science Fiction and Fantasy",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.450",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Ethics and Literature",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.455",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Classical Literature",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "id":        "21L.471",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Major English Novels",
+            "subarea":   "Periods of World Literature"
+        },
+        {
+            "id":        "21L.481",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Victorian Literature and Culture",
+            "subarea":   "Periods of World Literature"
+        },
+        {
+            "id":        "21L.485",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Modern Fiction",
+            "subarea":   "Periods of World Literature"
+        },
+        {
+            "id":        "21L.488",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Contemporary Literature",
+            "subarea":   "Periods of World Literature"
+        },
+        {
+            "id":        "21L.490",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "French Literature in Translation",
+            "subarea":   "Periods of World Literature"
+        },
+        {
+            "id":        "21L.512",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "American Authors",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.701",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Literary Interpretation",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.702",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Studies in Fiction",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.705",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Major Authors",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.706",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Studies in Film",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.709",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Studies in Literary History",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.715",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Media in Cultural Context",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.993",
+            "offering":  "Currently Offered",
+            "area":      "Seminars",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics:  Studies in Poetry - Latin",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Literature Pre-Thesis Tutorial",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Literature Thesis",
+            "subarea":   "American Literature"
+        },
+        {
+            "id":        "21L.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Seminars",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   "American Literature"
+        }
+    ]
+}

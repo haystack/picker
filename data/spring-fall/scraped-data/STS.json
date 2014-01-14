@@ -1,0 +1,176 @@
+{
+    "items": [
+        {
+            "id":        "STS.001",
+            "offering":  "Currently Offered",
+            "area":      "General Undergraduate Subjects",
+            "category":  [
+                "HASS-D 5",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Technology in American History",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.003",
+            "offering":  "Currently Offered",
+            "area":      "General Undergraduate Subjects",
+            "category":  "HASS-D 5",
+            "has-final": true,
+            "label":     "The Rise of Modern Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.006",
+            "offering":  "Currently Offered",
+            "area":      "General Undergraduate Subjects",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Bioethics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.015",
+            "offering":  "Currently Offered",
+            "area":      "General Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Mapping Controversies: Preparing Scientists and Engineers for a More Complex World",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.042",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Einstein, Oppenheimer, Feynman: Physics in the 20th Century",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.043",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Technology and Self: Science, Technology, and Memoir",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.044",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Technology and Self: Things and Thinking",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.051",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Finance: Culture, Technologies, and Markets",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.060",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Anthropology of Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.086",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Anthropology of Computing: Digital Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.089",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Wealth, Environment, and Health in Africa",
+            "subarea":   undefined
+        },
+        {
+            "id":        "STS.092",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Capstone Seminar in STS Studies II",
+            "subarea":   "Special Topics"
+        },
+        {
+            "id":        "STS.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   "Special Topics"
+        },
+        {
+            "id":        "STS.095, STS.096",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Science, Technology, and Society",
+            "subarea":   "Special Topics"
+        },
+        {
+            "id":        "STS.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis Tutorial",
+            "subarea":   "Special Topics"
+        },
+        {
+            "id":        "STS.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   "Special Topics"
+        }
+    ]
+}

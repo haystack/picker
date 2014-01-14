@@ -1,0 +1,264 @@
+{
+    "items": [
+        {
+            "id":        "MAS.111",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Doing Research in Media Arts & Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.402",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering II: Instrumentation and Measurement",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.490",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Projects in Media Arts and Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research in Media Arts and Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.551",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Design Without Boundaries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.642",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Writing for Computer Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.672",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "New Paradigms for Human-Computer Interaction",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.690",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Projects in Media Arts and Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.731",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "The Society of Mind",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.771",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Autism Theory and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.790",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Projects in Media Arts and Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.826",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Projects in Media and Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.882",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Applications for Neuroengineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.890",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Projects in Media Arts and Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "MAS.910",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in Media Technology",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.912",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching in Media Arts and Sciences",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.940",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for S.M. Thesis",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.945",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for General Exams",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.950",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for Ph.D. Thesis",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Media Technology",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.961\u0013MAS.968",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Media Technology",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Media Technology",
+            "subarea":   "General"
+        },
+        {
+            "id":        "MAS.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   "General"
+        }
+    ]
+}

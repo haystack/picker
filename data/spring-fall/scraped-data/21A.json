@@ -1,0 +1,214 @@
+{
+    "items": [
+        {
+            "id":        "21A.109",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  "HASS-D 4",
+            "has-final": true,
+            "label":     "Understanding Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.113",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "The Supernatural in Music, Literature and Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.114",
+            "offering":  "Currently Offered",
+            "area":      "Introductory",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.225",
+            "offering":  "Currently Offered",
+            "area":      "Social Anthropology",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Violence, Human Rights, and Justice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.253",
+            "offering":  "Currently Offered",
+            "area":      "Social Anthropology",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "God, Violence, and Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.345",
+            "offering":  "Currently Offered",
+            "area":      "Technology in Cultural Context",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Politics of International Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.350",
+            "offering":  "Currently Offered",
+            "area":      "Technology in Cultural Context",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Anthropology of Computing: Digital Cultures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.355",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Technology in Cultural Context",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Anthropology of Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.430",
+            "offering":  "Currently Offered",
+            "area":      "Areal and Historical Studies",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Introduction to Latin American Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.470",
+            "offering":  "Currently Offered",
+            "area":      "Areal and Historical Studies",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Gender and Representation of Asian Women",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.650, 21A.651",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Anthropology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Anthropology Pre-Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis in Anthropology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.URG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21A.800",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Topics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Environmental Conflict and Social Change",
+            "subarea":   "For Doctoral Program in History, Anthropology, and Science, Technology and Society"
+        },
+        {
+            "id":        "21A.830",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Topics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "History and Anthropology of Medicine and Biology",
+            "subarea":   "For Doctoral Program in History, Anthropology, and Science, Technology and Society"
+        },
+        {
+            "id":        "21A.850",
+            "offering":  "Currently Offered",
+            "area":      "Advanced Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Anthropology of Cybercultures",
+            "subarea":   "For Doctoral Program in History, Anthropology, and Science, Technology and Society"
+        },
+        {
+            "id":        "21A.998, 21A.999",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Advanced Topics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Topics in Anthropology",
+            "subarea":   "For Doctoral Program in History, Anthropology, and Science, Technology and Society"
+        }
+    ]
+}

@@ -1,0 +1,801 @@
+{
+    "items": [
+        {
+            "id":        "21M.011",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Introduction to Western Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.013",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "The Supernatural in Music, Literature and Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.026",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS-D 3",
+            "has-final": true,
+            "label":     "Jazz",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.030",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Introduction to World Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.051",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Fundamentals of Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.220",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Early Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.223",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "History/Literature",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Folk Music of the British Isles and North America",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.240",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Haydn, Mozart, and Beethoven",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.273",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Opera",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.284",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Film Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.291",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Music of India",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.294",
+            "offering":  "Currently Offered",
+            "area":      "History/Literature",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Popular Musics of the World",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.301",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS-D 3",
+            "has-final": false,
+            "label":     "Harmony and Counterpoint I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.302",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Harmony and Counterpoint II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.303",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Writing in Tonal Forms I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.304",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Writing in Tonal Forms II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.340",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Jazz Harmony and Arranging",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.351",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Music Composition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.361",
+            "offering":  "Currently Offered",
+            "area":      "Theory/Composition",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Electronic Music Composition I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.401",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Concert Choir",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.405",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Chamber Chorus",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.410",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Vocal Repertoire and Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.421",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Symphony",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.426",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Wind Ensemble",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.442",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Festival Jazz Ensemble",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.445",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Chamber Music Society",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.450",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Balinese Gamelan",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.451",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Studio Accompanying for Pianists",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.460",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "MIT Senegalese Drum Ensemble",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.480",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Music Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.490",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Performance",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Emerson Scholar\\'s Solo Recital",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.505",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Music Composition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.512",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Music Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.515",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Vocal Repertoire and Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.525",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Emerson Scholars Solo Recital",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.531, 21M.533, 21M.536,  21M.538",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.539",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Topics in Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.540",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Selected Topics in Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.542",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Topics/Advanced Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "IAP Music Topics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.565",
+            "offering":  "Currently Offered",
+            "area":      "Music and Media",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Writing for Computer Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.581",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Music and Media",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Projects in Media and Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.600",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to Acting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.604",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Playwriting I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.605",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Voice and Speech for the Actor",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.606",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to Stagecraft",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.616",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Learning from the Past: Drama, Science, Performance",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.630",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.670",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Traditions in American Concert Dance: Gender and Autobiography",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.675",
+            "offering":  "Currently Offered",
+            "area":      "Introductory Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Dance Theory and Composition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.704",
+            "offering":  "Currently Offered",
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Musical Theater Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.705",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Actor and the Text",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.710",
+            "offering":  "Not offered this year",
+            "area":      "Intermediate Subjects",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Script Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.713",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Selected Studies in Theater",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.714",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Selected Topics in Theater Arts",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.715",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Technical Theater Design Exploration",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.733",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Design for the Theater: Scenery",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.785",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Playwrights\\' Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.789",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Playwrights\\' Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.790",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Director\\'s Craft",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.791",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "The Director\\'s Craft",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.805",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Theater Practicum",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.820",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Technical Theater Special Topics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.840",
+            "offering":  "Currently Offered",
+            "area":      "Special Advanced Topics and Practica",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Performance Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.841",
+            "offering":  "Currently Offered",
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Performance Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.851",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Drama",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.863",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Topics in Theater Arts",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.864",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Theater Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.865",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Theater",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Music Pre-Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis in Music",
+            "subarea":   undefined
+        },
+        {
+            "id":        "21M.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Special Advanced Topics and Practica",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Music",
+            "subarea":   undefined
+        }
+    ]
+}

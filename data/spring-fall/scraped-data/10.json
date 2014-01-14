@@ -1,0 +1,655 @@
+{
+    "items": [
+        {
+            "id":        "10.10",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Chemical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.213",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Chemical and Biological Engineering Thermodynamics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.26",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Chemical Engineering Projects Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.29",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering Projects Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.301",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Fluid Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.32",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Separation Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.333",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": false,
+            "label":     "Introduction to Modeling and Simulation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.37",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Chemical Kinetics and Reactor Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.392",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.43",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Interfacial Phenomena",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.441",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Molecular and Engineering Aspects of Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.490",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Integrated Chemical Engineering I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.492",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Integrated Chemical Engineering Topics I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.536",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Thermal Hydraulics in Power Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.537",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.543",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Protein Folding and Human Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.551",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Systems Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.569",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Synthesis of Polymers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.571",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Atmospheric Physics and Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.595",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular Design and Bioprocess Development of Immunotherapies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.65",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Chemical Reactor Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.702",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": true,
+            "label":     "Introduction to Experimental Biology and Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.74",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Radiative Transfer",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.792",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Proseminar in Manufacturing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.805",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Technology, Law, and the Working Environment",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.807",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Innovation Teams",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.816",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.80 (10.82, 10.84, 10.86)",
+            "offering":  "Currently Offered",
+            "area":      "School of Chemical Engineering Practice",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "School of Chemical Engineering Practice -- Technical Accomplishment",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.81 (10.83, 10.85, 10.87)",
+            "offering":  "Currently Offered",
+            "area":      "School of Chemical Engineering Practice",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "School of Chemical Engineering Practice -- Communication Skills and Human Relations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.90",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Independent Research Problem",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.910",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Independent Research Problem",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.95",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Chemical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Student Seminar in Polymer Science and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.961",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Advanced Air Pollution Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.962",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Molecular Cell Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Molecular Engineering Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.970",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Molecular Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.971",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Fluid Mechanics and Transport Phenomena",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.972",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biochemical Engineering Research Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.973",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Bioengineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.974",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Chemical Engineering Nanotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.975",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Polymer Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.976",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Process Design, Operations, and Control",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Plasma Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.98",
+            "offering":  "Currently Offered",
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Chemical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.981",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Colloid and Interface Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.982",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Experimental Colloid and Surface Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.983",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Reactive Processing and Microfabricated Chemical Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.984",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biomedical Applications of Chemical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.987",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Solid Thin Films and Interfaces",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.989",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.991",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Seminar in Chemical Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.994",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Molecular Bioengineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.995",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Cellular and Metabolic Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.996",
+            "offering":  "Currently Offered",
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Cellular Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.997",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Theoretical and Computational Immunology Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "10.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

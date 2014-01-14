@@ -1,0 +1,614 @@
+{
+    "items": [
+        {
+            "id":        "7.012",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "GIR: Biology",
+            "has-final": true,
+            "label":     "Introductory Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.02",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Institute LAB",
+            "has-final": true,
+            "label":     "Introduction to Experimental Biology and Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.03",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Genetics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.05",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "General Biochemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.06",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Cell Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.08",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Biological Chemistry II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.10",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Physical Chemistry of Biomolecular Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.11",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biology Teaching",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.16",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Experimental Molecular Biology: Biotechnology II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.17",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Experimental Molecular Biology: Biotechnology III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.18",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Experimental Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.19",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Communication in Experimental Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.23",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "General Immunology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.25",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Regulatory Mechanisms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.27",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Principles of Human Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.28",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Molecular Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.29",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Cellular Neurobiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.340?7.349",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Advanced Undergraduate Seminars",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.36",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Foundations of Computational and Systems Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.37",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Molecular and Engineering Aspects of Biotechnology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.39",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Selected Topics in Biology for Undergraduates",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.391",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Biology for Undergraduates",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Undergraduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "7.430",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Quantitative Marine Science",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.431",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Marine Ecology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.432",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Marine Physiology and Biochemistry",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.433",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Biological Oceanography",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.434",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Zooplankton Biology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.435",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Benthic Biology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.436",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Phytoplankton Biology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.437",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Molecular Biological Oceanography",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.438",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in the Behavior of Marine Animals",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.439",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Marine Microbiology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.440",
+            "offering":  "Not offered this year",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "An Introduction to Mathematical Ecology",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.47",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Biological Oceanography",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.491",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in Biological Oceanography",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "id":        "7.499",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Rotations in Microbiology",
+            "subarea":   "Microbiology (MICRO)"
+        },
+        {
+            "id":        "7.548",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Perspectives in Biological Engineering",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.56",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Foundations of Cell Biology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.57",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Quantitative Biology for Graduate Students",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.58",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Molecular Biology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.59",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching College-Level Science and Engineering",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.60",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cell Biology: Structure and Functions of the Nucleus",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.63",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Immunology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.68",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cellular and Molecular Neurobiology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.70",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Regulation of Gene Expression",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.76",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Protein Biochemistry",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.77",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nucleic Acids, Structure, Function, Evolution and Their Interactions with Proteins",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.80",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Biological Chemistry II",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.82",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics of Mammalian Development and Genetics",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.88",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Protein Folding and Human Disease",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.91",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Foundations of Computational and Systems Biology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.92",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular Pathology and Cognitive Sequelae of Age-dependent Neurological Disease",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.93",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Selected Topics in Biology for Graduate Students",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.931",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Topics in Biology for Graduate Students",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.941",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Research Problems",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.95",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cancer Biology",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.98",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Neural Plasticity in Learning and Memory",
+            "subarea":   "Biology"
+        },
+        {
+            "id":        "7.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Biology Thesis",
+            "subarea":   "Biology"
+        }
+    ]
+}

@@ -1,0 +1,476 @@
+{
+    "items": [
+        {
+            "id":        "24.00",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Problems of Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.04",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Justice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.06",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Bioethics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.08",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Philosophical Issues in Brain Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.112",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Space, Time, and Relativity",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.120",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Moral Psychology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.201",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Topics in the History of Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.211",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Theory of Knowledge",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.213",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Philosophy of Film",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.237",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Feminist Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.253",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Philosophy of Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.263",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "The Nature of Creativity",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.293",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.400",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Proseminar in Philosophy I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.601",
+            "offering":  "Currently Offered",
+            "area":      "Philosophy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Moral Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.611",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Political Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.711",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Philosophical Logic",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.729",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Philosophy of Language",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.891",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Graduate Topics in Philosophy",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.URG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Philosophy",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.900",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Introduction to Linguistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.903",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Language and Its Structure III: Semantics and Pragmatics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.905",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Psycholinguistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.910",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Topics in Linguistic Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.912",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.919",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Undergraduate Topics in Linguistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.921",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Graduate Topics in Linguistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.933",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Language and Its Structure III: Semantics and Pragmatics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.942",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in the Grammar of a Less Familiar Language",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.952",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Syntax",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.954",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Pragmatics in Linguistic Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.955",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "More Advanced Syntax",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.956",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Syntax",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.962",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Phonology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.967",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Experimental Phonology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.968",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Speech Communication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.969",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Workshop in Phonology and Morphology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.973",
+            "offering":  "Currently Offered",
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Semantics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.979",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Semantics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.993",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Tutorial in Linguistics and Related Fields",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "24.URG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Linguistics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

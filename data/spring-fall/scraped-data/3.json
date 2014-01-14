@@ -1,0 +1,586 @@
+{
+    "items": [
+        {
+            "id":        "3.003",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Principles of Engineering Practice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.021",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": false,
+            "label":     "Introduction to Modeling and Simulation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.022",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Microstructural Evolution in Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.024",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Electronic, Optical and Magnetic Properties of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.035, 3.036, 3.037",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Problems in Materials Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.042",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Materials Project Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.044",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Materials Processing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.052",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Nanomechanics of Materials and Biomaterials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.053",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.063",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Polymer Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.070",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Communicating About Technology:  Colossal Failures in Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.073",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Diffraction and Structure",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.074",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Imaging of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.083",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.091",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "GIR: Chemistry",
+            "has-final": true,
+            "label":     "Introduction to Solid-State Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.094",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Materials in Human Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.153",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Nanoscale Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.155",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Micro/Nano Processing Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.201",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Engineering Internship",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.202",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Industrial Internship Technology Development",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.207",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Technology Development and Evaluation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.21",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Kinetic Processes in Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.22",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mechanical Behavior of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.271",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Diffraction and Structure",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.29",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Emerging and Fundamental Studies in Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.320",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Atomistic Computer Modeling of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.34",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Imaging of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.37",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Welding and Joining Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.371",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fabrication Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.47",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Processing of Materials on the Nanoscale",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.49",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Electronic, Photonic and Magnetic Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.54",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Corrosion: The Environmental Degradation of Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.560",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Ecology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.577",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Engineering Risk-Benefit Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.595",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Structural and Environmental Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.64",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.691-3.699",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Materials Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.80",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Proseminar in Manufacturing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.901",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Bio and Polymeric Materials",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.903",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Student Seminar in Polymer Science and Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.91",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mechanical Behavior of Polymers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.932",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Industrial Practice",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.961",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Design of Medical Devices and Implants",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.97",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cell-Matrix Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.971",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.983",
+            "offering":  "Currently Offered",
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Ancient Mesoamerican Civilization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.985",
+            "offering":  "Currently Offered",
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Archaeological Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.987",
+            "offering":  "Currently Offered",
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Human Origins and Evolution",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.989",
+            "offering":  "Currently Offered",
+            "area":      "Archaeology and Archaeological Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Materials in Ancient Societies: Ceramics Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.990",
+            "offering":  "Currently Offered",
+            "area":      "Archaeology and Archaeological Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Archaeological Method and Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.993",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Archaeology of the Middle East",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.997",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Fieldwork in Materials Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.EPE",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "UPOP Summer Practice Experience",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "3.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Archaeology and Archaeological Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

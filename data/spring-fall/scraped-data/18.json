@@ -1,0 +1,802 @@
+{
+    "items": [
+        {
+            "id":        "18.01",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "GIR: Calculus 1",
+            "has-final": true,
+            "label":     "Calculus",
+            "subarea":   undefined
+        },
+        {
+            "id" : "18.014",
+            "category" : "GIR: Calculus 1"
+        },
+            {
+            "id" : "18.01A",
+            "category" : "GIR: Calculus 1"
+        },
+        {
+            "id":        "18.02",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "GIR: Calculus 2",
+            "has-final": true,
+            "label":     "Calculus",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.02A",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "GIR: Calculus 2",
+            "has-final": false,
+            "label":     "Calculus",
+            "subarea":   undefined
+        },
+        {
+            "id" : "18.022",
+            "category" : "GIR: Calculus 2"
+        },
+        {
+            "id":        "18.024",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "GIR: Calculus 2",
+            "has-final": true,
+            "label":     "Calculus with Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.03",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Differential Equations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.034",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Differential Equations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.04",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Complex Variables with Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.06",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Linear Algebra",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.062",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Mathematics for Computer Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.075",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Calculus for Engineers",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.085",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational Science and Engineering I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.086",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Computational Science and Engineering II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.094",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching College-Level Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.096",
+            "offering":  "Currently Offered",
+            "area":      "General Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Principles of Mathematics Presentation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.099",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "General Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Independent Activities",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.100",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Analysis I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.102",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Functional Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.116",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Riemann Surfaces",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.125",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Real and Functional Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.135",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Geometric Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.155",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Differential Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.175",
+            "offering":  "Currently Offered",
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Theory of Probability",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.177",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Stochastic Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.199",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Analysis Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.276",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Analysis",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mathematical Methods in Physics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.304",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Seminar in Discrete Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.306",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Partial Differential Equations with Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.310C",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Principles of Applied Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.311",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Principles of Applied Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.312",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Algebraic Combinatorics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.316",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Seminar in Combinatorics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.318",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Combinatorics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.325",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Applied Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.330",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Numerical Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.336",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Numerical Methods for Partial Differential Equations",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.337",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Parallel Computing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.354",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Nonlinear Dynamics II: Continuum Systems",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.369",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Mathematical Methods in Nanophotonics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.376",
+            "offering":  "Currently Offered",
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Wave Propagation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.377",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Nonlinear Dynamics and Waves",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.396",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Applied Mathematics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Supersymmetric Quantum Field Theories",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.400",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Automata, Computability, and Complexity",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.405",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Theoretical Computer Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Complexity Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.410",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Design and Analysis of Algorithms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.416",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Theoretical Computer Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Randomized Algorithms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.417",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Computational Molecular Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.418",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Theoretical Computer Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Computational Molecular Biology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.425",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Cryptography and Cryptanalysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.433",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Combinatorial Optimization",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.434",
+            "offering":  "Currently Offered",
+            "area":      "Theoretical Computer Science",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Theoretical Computer Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.440",
+            "offering":  "Currently Offered",
+            "area":      "Probability and Statistics",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Probability and Random Variables",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.443",
+            "offering":  "Currently Offered",
+            "area":      "Probability and Statistics",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Statistics for Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.445",
+            "offering":  "Currently Offered",
+            "area":      "Probability and Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Stochastic Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.465",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Probability and Statistics",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Statistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.504",
+            "offering":  "Currently Offered",
+            "area":      "Logic",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Logic",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.575",
+            "offering":  "Currently Offered",
+            "area":      "Logic",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Model Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.701",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Algebra I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.703",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Modern Algebra",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.704",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Algebra",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.725",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Algebraic Geometry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.735",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Algebra",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.757",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Representations of Lie Groups",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.758",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Representations of Lie Groups",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.769",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Lie Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.786",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Algebraic Number Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.787",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Algebra and Number Theory",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Number Theory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.821",
+            "offering":  "Currently Offered",
+            "area":      "Algebra and Number Theory",
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Project Laboratory in Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.901",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Topology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.904",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Topology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.906",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Algebraic Topology II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.937",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Geometric Topology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.952",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Theory of Differential Forms",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.965",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Geometry of Manifolds",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Topics in Geometry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.994",
+            "offering":  "Currently Offered",
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Seminar in Geometry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.999",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Research in Mathematics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "18.CME",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Topology and Geometry",
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Study at Cambridge University",
+            "subarea":   undefined
+        }
+    ]
+}

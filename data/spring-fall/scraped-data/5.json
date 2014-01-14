@@ -1,0 +1,408 @@
+{
+    "items": [
+        {
+            "id":        "5.03",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Principles of Inorganic Chemistry I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.05",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Principles of Inorganic Chemistry III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.063",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Organometallic Compounds in Catalytic Reactions",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.068",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Physical Inorganic Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.069",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Crystal Structure Analysis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.08",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Biological Chemistry II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.111",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "GIR: Chemistry",
+            "has-final": true,
+            "label":     "Principles of Chemical Science",
+            "subarea":   undefined
+        },
+        {
+            "id": "5.112",
+            "label" : "Principles of Chemical Science",
+            "category": "GIR: Chemistry"
+        },
+        {
+            "id":        "5.12",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Organic Chemistry I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.22",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biological Engineering Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.24",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Archaeological Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.310",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Laboratory Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.35",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Introduction to Experimental Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.35U",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Introduction to Experimental Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.36",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biochemistry and Organic Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.36U",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Biochemistry and Organic Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.37",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Organic and Inorganic Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.37U",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Organic and Inorganic Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.38",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Physical Chemistry Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.44",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Organometallic Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.46",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "NMR Spectroscopy and Organic Structure Determination",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.48",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Protein Folding and Human Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.512",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Synthetic Organic Chemistry II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.561",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Chemistry in Industry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.60",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Thermodynamics and Kinetics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.62",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Physical Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.72",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Mechanics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.74",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introductory Quantum Mechanics II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.891",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Topics in Chemistry for Undergraduates",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.90",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.913",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Seminar in Organic Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.921",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Seminar in Biological Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.931",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Seminar in Physical Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.941",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Seminar in Inorganic Chemistry",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.95",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching College-Level Science and Engineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "5.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

@@ -1,0 +1,395 @@
+{
+    "items": [
+        {
+            "id":        "9.00",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Introduction to Psychology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.012",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cognitive Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.013",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Cellular and Molecular Neurobiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.02",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Systems Neuroscience Laboratory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.036",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "The Visual System",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.073",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Statistics for Neuroscience Research",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.09",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Cellular Neurobiology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.110",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Molecular Pathology and Cognitive Sequelae of Age-dependent Neurological Disease",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.14",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Brain Structure and Its Origins",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.205",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Neurobiology of Animal Behavior",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.22",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "A Clinical Approach to the Human Brain",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.285",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Neural Coding and Perception of Sound",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.301",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Neural Plasticity in Learning and Memory",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.35",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Sensation and Perception",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.364",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in Cognitive Architectures",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.41",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Neuroscience and Cognitive Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.433",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Applications for Neuroengineering",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.48",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": false,
+            "label":     "Philosophical Issues in Brain Science",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.50",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Research in Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.51?9.52",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.520",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Statistical Learning Theory and Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.59",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Psycholinguistics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.61",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Institute LAB",
+            "has-final": false,
+            "label":     "Laboratory in Higher Level Cognition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.611",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Natural Language and the Computer Representation of Knowledge",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.641",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Introduction to Neural Networks",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.65",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Cognitive Processes",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.675",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "The Development of Object and Face Recognition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.68",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Affect: Biological, Psychological, and Social Aspects of \\\"Feelings\\\"",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.70",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Social Psychology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.75",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Psychology of Gender and Race",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.85",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Infant and Early Childhood Cognition",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.91",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Topics in Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.911-9.917",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Topics in Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.919",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Teaching Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.921",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research in Brain and Cognitive Sciences",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.941",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis Proposals",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "9.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research",
+            "subarea":   undefined
+        }
+    ]
+}

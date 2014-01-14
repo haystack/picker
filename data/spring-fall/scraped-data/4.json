@@ -1,0 +1,1179 @@
+{
+    "items": [
+        {
+            "id":        "4.001",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "CityScope",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.106",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Architectural Design Skills II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.111",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Experiencing Architecture Studio",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.113",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Applied Architecture Design Studio I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.115",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Applied Architecture Design Studio III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.122",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Workshop in Making and Designing Space",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.123, 4.124",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Architectural Design: Level I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.144",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Architectural Design: Level II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.155",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Architectural Design:Level III",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.163",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Design Studio",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.170",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "International Architecture Design Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.180",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Architectural Design Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.189",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Preparation for MArch Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.191, 4.192",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Architectural Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.218, 4.219",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Urban Housing",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.230",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "SIGUS Workshop: Learning from Communities",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.237",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "The New Practitioner: Dialogue Tools and Techniques",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.241",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Theory of City Form",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.244",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Urban Design Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.247",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Urban Design Policy and Action",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.248, 4.249",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in City Form",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.254",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Real Estate Development II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.255",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Site and Urban Systems Planning",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.259",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Urban Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.278",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Theory in Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.285, 4.286",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Topics in Architecture Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.288",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for SMArchS Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.290",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "S.M.Arch.S. Pre-Thesis Preparation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.291",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": true,
+            "label":     "Special Problems in Architecture Studies",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.301",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS-D 3",
+            "has-final": false,
+            "label":     "Introduction to the Visual Arts",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.302",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Foundations in the Visual Arts for Majors",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.322",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to Sculpture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.341",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to Photography and Related Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.343",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Photography and Related Media",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.351",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Introduction to Video",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.352",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Advanced Video",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.353",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Video",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.366",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Advanced Projects in Visual Arts",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.367",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Studio Seminar in Public Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.368",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": false,
+            "label":     "Studio Seminar in Public Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.370",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Interrogative Design Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.371",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Interrogative Design Workshop",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.381",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Visual Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.388",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for SMVisS Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.389",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "SMVisS Thesis Tutorial",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.390",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Visual Arts Independent Studio",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.391-4.393",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Visual Arts",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.401",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Introduction to Building Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.408",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Building Construction",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.428, 4.429",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Energy in Buildings",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.431",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Architectural Acoustics",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.438",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Architectural Lighting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.439",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Architectural Lighting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.440",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "Restricted Electives in Science and Technology",
+            "has-final": true,
+            "label":     "Basic Structural Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.448, 4.449",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Structural Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.462",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Building Technologies II: Building Structural Systems I",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.464",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Building Technologies IV: Energy in Building Design",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.488",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for S.M.B.T. Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.489",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for Building Technology Ph.D. Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.491-4.493",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Problems in Building Technology",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.501",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Architectural Computing and Construction",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.502",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Design Scripting",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.512",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Projects in Architectural Digital Fabrication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.513",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Digital Fabrication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.514",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Digital Fabrication",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.522",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Computational Design II: Theory and Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.523",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "Computational Design II: Theory and Applications",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.541",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Introduction to Shape Grammars II",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.542",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Background to Shape Grammars",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.543",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Shape Grammars",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.552 - 4.555",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": true,
+            "label":     "Workshop in Architectural Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.556",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Design Without Boundaries",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.564",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Formal Design Knowledge and Programmed Constructs",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.581",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Proseminar in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.582",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Research Seminar in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.583",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "PhD Forum in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.589",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for Design & Computation PhD Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.590",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Problems in Architectural Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.591",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Special Problems in Architectural Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.592",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.593",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.598",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.599",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Computation",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.602",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
+            "label":     "Modern Art and Mass Culture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.617",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Issues in Islamic Urbanism",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.627",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Problems in Islamic and NonWestern Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.634",
+            "offering":  [
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "Renaissance Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.640",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Study in Critical Theory of Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.641",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  "HASS Elective",
+            "has-final": true,
+            "label":     "19th-Century Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.642",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Study in Modern Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.644",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": true,
+            "label":     "19th-Century Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.654-4.656",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Study in Modern Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.662",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Study in the History of Urban Form",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.665",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Contemporary Architecture and Critical Debate",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.666-4.669",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Studies in the History, Theory, and Criticism of Architecture and Urban Form",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.680-4.682",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Advanced Studies in the History, Theory, and Criticism of Art and Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.689",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Preparation for History, Theory, and Criticism \u0014 Ph.D. Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.691",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Special Studies in the History, Theory, and Criticism of Art",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.694",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "has-final": false,
+            "label":     "Special Studies in the History, Theory, and Criticism of Art and Architecture",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "H-LEVEL Grad Credit",
+            "has-final": false,
+            "label":     "Graduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.THT",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Thesis Research Design Seminar",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.THU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Thesis",
+            "subarea":   undefined
+        },
+        {
+            "id":        "4.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "Undergraduate Research in Architecture",
+            "subarea":   undefined
+        }
+    ]
+}
