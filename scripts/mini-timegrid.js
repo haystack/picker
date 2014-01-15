@@ -7,8 +7,8 @@
  * A type of EventSource that allows the creation and display of recurring 
  * events that are not tied to a specific date, e.g. 8am on MWF.
  */
-/**var miniEventSource = new Timegrid.RecurringEventSource();
-var timegridEventSource = new Timegrid.RecurringEventSource();**/
+var miniEventSource = new Timegrid.RecurringEventSource();
+var timegridEventSource = new Timegrid.RecurringEventSource();
 
 function updateMiniTimegrid(preview, previewSectionID) {
     //var collection = window.exhibit.getCollection("picked-sections");
