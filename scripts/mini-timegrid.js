@@ -11,10 +11,10 @@ var miniEventSource = new Timegrid.RecurringEventSource();
 var timegridEventSource = new Timegrid.RecurringEventSource();
 
 function updateMiniTimegrid(preview, previewSectionID) {
-    //var collection = window.exhibit.getCollection("picked-sections");
+    var collection = readCookie("picked-sections");
+    console.log(collection);
     var dayMap = {'M' : 1, 'T' : 2, 'W' : 3, 'R' : 4, 'F' : 5 };
-   
-    var itemSet = collection.getRestrictedItems();
+
     var db = window.exhibit.getDatabase();
     var events = [];
     var addEvent = function(label, dayLetter, start, end, color) {
@@ -37,6 +37,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
     var addSection = function(sectionID) {
         // example: type = "LectureSession"
         var type = db.getObject(sectionID, "type");
+
         var sectionData = sectionTypeToData[type];
         // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
         var classID = db.getObject(sectionID, sectionData.linkage);
@@ -82,9 +83,10 @@ function updateMiniTimegrid(preview, previewSectionID) {
         });
     };
     
-    itemSet.visit(addSection);
+    //itemSet.visit(addSection);
     if (preview) {
         if (previewSectionID) {
+            console.log(previewSectionID);
             addSection(previewSectionID);
         }
         miniEventSource.setEventPrototypes(events);
