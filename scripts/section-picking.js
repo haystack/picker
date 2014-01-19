@@ -6,28 +6,11 @@ function onPickUnpick(button) {
     var picked = window.database.getObject(sectionID, "picked") == "true";
     // if the class is already picked, unpick it
     if (picked) {
-        /**simile-widgets.org/wiki/SimileAjax/History
-        SimileAjax.History.addLengthyAction(
-            // Does doUnpick; does doPick if back button hit
-            function() { doUnpick(sectionID) },
-            function() { doPick(sectionID) },
-            "Unpicked " + sectionID
-        );**/
-	/**history.pushState({picked:false, sectionID:sectionID});
-	history.pushState({picked:false, sectionID:sectionID});*/
-	doUnpick(sectionID);
+	   doUnpick(sectionID);
     // Otherwise, pick it
     } else {
-        /**SimileAjax.History.addLengthyAction(
-            function() { doPick(sectionID) },
-            function() { doUnpick(sectionID) },
-            "Picked " + sectionID
-        );**/
-	/**history.pushState({picked:true, sectionID:sectionID});
-	history.pushState({picked:true, sectionID:sectionID});*/
-	doPick(sectionID);
+	   doPick(sectionID);
     }
-    //updateStoredDataFromExhibit();
 };
 
 function onUnpick(button) {
@@ -48,31 +31,42 @@ function sectionIDtoClass(sectionID) {
 
 // Does the actual picking of a class
 function doPick(sectionID) {
+    var picked_classes = readCookie("picked-classes");
+    if (picked_classes != null) {
+        picked_classes = picked_classes + "+sectionID:" + sectionID + ",color:" + getNewColor();
+    } else {
+        picked_classes = "+sectionID:" + sectionID + ",color:" + getNewColor();
+    }
+    writeCookie("picked-classes", picked_classes);
+
     window.database.addStatement(sectionID, "picked", "true");
-    window.database.addStatement(sectionID, "color", getNewColor());
-    window.database.removeStatement(sectionID, "temppick", "true");
-    //window.exhibit.getCollection("picked-sections")._update();
 
     showHidePickDiv(sectionID, true);
-
-    var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
+    var classID = sectionIDtoClass(sectionID)
     var data = {items: [ {"label":classID, "selected":"yes"}]};
     window.database.loadData(data);
+    //doUnpick("L011.00");
 }
 
 function doUnpick(sectionID) {
-    var color = window.database.getObject(sectionID, "color");
-    releaseColor(color);
-    
+    var picked_classes = readCookie("picked-classes");
+    var class_data = parseSavedClasses(picked_classes);
+    console.log(class_data);
     window.database.removeStatement(sectionID, "picked", "true");
-    window.database.removeStatement(sectionID, "color", color);
-    
-    //window.exhibit.getCollection("picked-sections")._update();
+    var cookie = "";
+    for (c in class_data) {
+        if (class_data[c].sectionID != sectionID) {
+            console.log(class_data[c].sectionID);
+            console.log(class_data[c]);
+            cookie = cookie + "+sectionID" + class_data[c].sectionID + ",color:" + class_data[c].color;
+        } else {
+            releaseColor(class_data[c].color);
+        }
+    }
+    writeCookie("picked-classes", cookie);
     
     showHidePickDiv(sectionID, false);
-
-    var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
-    window.database.removeStatement(classID, "selected", "yes");
+    window.database.removeStatement(sectionIDtoClass(sectionID), "selected", "yes");
 }
 
 function onMouseOverSection(div) {
@@ -147,19 +141,22 @@ function toggleBody(a, collapse) {
     howManyCollapsed();
 }
 
-/**$(function () {
-    $(window).on("popstate",function(e){
-	console.log('what?');
-	console.log(e);
-	if (e.originalEvent.state)
-	    console.log("NOT WORKING!");
-	    console.log(e.originalEvent.state);
-	    if (e.originalEvent.state.picked == true) {
-		console.log("is it true???");
-		doUnpick(e.originalEvent.state.sectionID);
-	    } else if (e.originalEvent.state.picked == false) {
-		console.log("now I need to do unpick");
-		doPick(e.originalEvent.state.sectionID);
-	    }
-    });
-});**/
+function parseSavedClasses(classes) {
+    var picked_classes = classes.split("+");
+    var class_data = []
+    for (c in picked_classes) {
+        if (c != 0) {
+            var data = picked_classes[c].split(",");
+            var saved = new Object();
+            for (i in data) {
+                var attr = data[i].split(":")[0];
+                if (attr == "sectionID") 
+                    saved.sectionID = data[i].split(":")[1];
+                else
+                    saved.color = data[i].split(":")[1];
+            }
+            class_data.push(saved);
+        }
+    }
+    return class_data;
+}
