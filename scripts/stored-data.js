@@ -1,7 +1,5 @@
 function writeCookie(cookieName, data) {
-    console.log(data);
     var exDate = new Date();
-    debugger;
     if (data == '') {
         exDate.setDate(exDate.getDate() - 1); // erase
     } else {

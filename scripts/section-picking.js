@@ -38,27 +38,27 @@ function doPick(sectionID) {
         picked_classes = "+sectionID:" + sectionID + ",color:" + getNewColor();
     }
     writeCookie("picked-classes", picked_classes);
+    //writeCookie("testing", "again with the testing values");
 
     window.database.addStatement(sectionID, "picked", "true");
+    window.database.removeStatement(sectionID, "temppick", "true");
 
     showHidePickDiv(sectionID, true);
+
     var classID = sectionIDtoClass(sectionID)
-    var data = {items: [ {"label":classID, "selected":"yes"}]};
-    window.database.loadData(data);
-    //doUnpick("L011.00");
+    //var data = {items: [ {"label":classID, "selected":"yes"}]};
+    //window.database.loadData(data);
+    window.database.addStatement(classID, "selected", "yes");
 }
 
 function doUnpick(sectionID) {
     var picked_classes = readCookie("picked-classes");
     var class_data = parseSavedClasses(picked_classes);
-    console.log(class_data);
     window.database.removeStatement(sectionID, "picked", "true");
     var cookie = "";
     for (c in class_data) {
         if (class_data[c].sectionID != sectionID) {
-            console.log(class_data[c].sectionID);
-            console.log(class_data[c]);
-            cookie = cookie + "+sectionID" + class_data[c].sectionID + ",color:" + class_data[c].color;
+            cookie = cookie + "+sectionID:" + class_data[c].sectionID + ",color:" + class_data[c].color;
         } else {
             releaseColor(class_data[c].color);
         }
@@ -142,20 +142,22 @@ function toggleBody(a, collapse) {
 }
 
 function parseSavedClasses(classes) {
-    var picked_classes = classes.split("+");
     var class_data = []
-    for (c in picked_classes) {
-        if (c != 0) {
-            var data = picked_classes[c].split(",");
-            var saved = new Object();
-            for (i in data) {
-                var attr = data[i].split(":")[0];
-                if (attr == "sectionID") 
-                    saved.sectionID = data[i].split(":")[1];
-                else
-                    saved.color = data[i].split(":")[1];
+    if (classes != null) {
+        var picked_classes = classes.split("+");
+        for (c in picked_classes) {
+            if (c != 0) {
+                var data = picked_classes[c].split(",");
+                var saved = new Object();
+                for (i in data) {
+                    var attr = data[i].split(":")[0];
+                    if (attr == "sectionID") 
+                        saved.sectionID = data[i].split(":")[1];
+                    else
+                        saved.color = data[i].split(":")[1];
+                }
+                class_data.push(saved);
             }
-            class_data.push(saved);
         }
     }
     return class_data;

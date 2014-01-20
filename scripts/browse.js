@@ -40,6 +40,7 @@
 
 function onLoad() {
     loadURLs(null, null, null);
+    getAddOrRemove();
     //alertLoadData();
     // simile-widgets.org/wiki/SimileAjax/Debug
     //SimileAjax.Debug.silent = false;
@@ -64,48 +65,6 @@ function onLoadHelper() {
     /*var courseIDs = classesToCourses(picked_classes.concat(selected));
     addCourses(courseIDs, urls);*/
     urls.push('http://coursews.mit.edu/coursews/?term='+current_year+term);
-
-    var fDone = function() {
-        setupLogin();
-
-        document.getElementById("browsing-interface").style.display = "block";
-
-        // simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Collection
-        var pickedSections = new Exhibit.Collection("picked-sections", window.database);
-        var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
-
-        pickedSections._update = function() {
-            this._items = this._database.getSubjects("true", "picked");
-            // defined in enableUnitAdder()
-            this._onRootItemsChanged();
-        };
-		pickedClasses._update = function() {
-		    this._items = this._database.getSubjects("true", "sectionPicked");
-            this._items.visit(function(classID) {
-                window.database.getItem(classID).picked = true;
-
-                });
-		    this._onRootItemsChanged();
-		};
-        pickedSections._update();
-        pickedClasses._update();
-
-        window.exhibit = Exhibit.create();
-
-        window.exhibit.setCollection("picked-sections", pickedSections);
-        window.exhibit.setCollection("picked-classes", pickedClasses);
-
-        // loads picked classes
-        updateExhibitSections();
-        window.exhibit.configureFromDOM();
-        //enableMiniTimegrid();
-        enableUnitAdderListener();
-        //fillAddMoreSelect();
-        enableClassList();
-        //pickedSections._update();
-	findPrereqs();
-	checkPrereqs();
-    };
     //loadURLs(urls, fDone, null);
 }
 
@@ -410,6 +369,17 @@ function toggle_schedule_preview_pane() {
 
 function showMediumView(){
     lecrecs = $("#lecture-recitation-sections").css("display: none", "visibility:hidden");
+}
+
+function getAddOrRemove() {
+    var picked_classes = readCookie("picked-classes");
+    picked_classes = parseSavedClasses(picked_classes);
+
+    for (c in picked_classes) {
+        var sectionID = picked_classes[c].sectionID;
+        window.database.addStatement(sectionID, "picked", "true");
+        window.database.removeStatement(sectionID, "temppick", "true");
+    }
 }
 
 /**$(".facet-click").click(
