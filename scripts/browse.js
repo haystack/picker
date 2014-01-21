@@ -41,6 +41,7 @@
 function onLoad() {
     loadURLs(null, null, null);
     getAddOrRemove();
+    updateMiniTimegrid();
     //alertLoadData();
     // simile-widgets.org/wiki/SimileAjax/Debug
     //SimileAjax.Debug.silent = false;

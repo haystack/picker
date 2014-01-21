@@ -15,11 +15,6 @@ function onPickUnpick(button) {
 
 function onUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
-    SimileAjax.History.addLengthyAction(
-        function() { doUnpick(sectionID) },
-        function() { doPick(sectionID) },
-        "Unpicked " + sectionID
-    );
 };
 
 function sectionIDtoClass(sectionID) {
@@ -31,16 +26,31 @@ function sectionIDtoClass(sectionID) {
 
 // Does the actual picking of a class
 function doPick(sectionID) {
+    var db = window.exhibit.getDatabase();
     var picked_classes = readCookie("picked-classes");
+    var color = getNewColor();
+    // example: type = "LectureSession"
+    var type = db.getObject(sectionID, "type");
+    var sectionData = sectionTypeToData[type];
+    // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
+    var classID = db.getObject(sectionID, sectionData.linkage);
+    var classLabel = db.getObject(classID, "label");
+    var timeandplace = db.getObject(sectionID, "timeAndPlace")
+
     if (picked_classes != null) {
-        picked_classes = picked_classes + "+sectionID:" + sectionID + ",color:" + getNewColor();
+        picked_classes = picked_classes + "+sectionID:" + sectionID + ",color:" + color 
+                        + ",type:" + type + ",classID:" + classID + ",classLabel:" + classLabel 
+                        + ",timeandplace:" + timeandplace + ",sectionData:" + sectionData;
     } else {
-        picked_classes = "+sectionID:" + sectionID + ",color:" + getNewColor();
+        picked_classes = "+sectionID:" + sectionID + ",color:" + color
+                        + ",type:" + type + ",classID:" + classID + ",classLabel:" + classLabel 
+                        + ",timeandplace:" + timeandplace + ",sectionData:" + sectionData;
     }
     writeCookie("picked-classes", picked_classes);
     //writeCookie("testing", "again with the testing values");
 
     window.database.addStatement(sectionID, "picked", "true");
+    window.database.addStatement(sectionID, "color", color);
     window.database.removeStatement(sectionID, "temppick", "true");
 
     showHidePickDiv(sectionID, true);
@@ -49,6 +59,7 @@ function doPick(sectionID) {
     //var data = {items: [ {"label":classID, "selected":"yes"}]};
     //window.database.loadData(data);
     window.database.addStatement(classID, "selected", "yes");
+    updateMiniTimegrid(false);
 }
 
 function doUnpick(sectionID) {
@@ -57,16 +68,22 @@ function doUnpick(sectionID) {
     window.database.removeStatement(sectionID, "picked", "true");
     var cookie = "";
     for (c in class_data) {
+        var cd = class_data[c];
         if (class_data[c].sectionID != sectionID) {
-            cookie = cookie + "+sectionID:" + class_data[c].sectionID + ",color:" + class_data[c].color;
+            cookie = cookie + "+sectionID:" + cd.sectionID + ",color:" + cd.color
+                    + ",type:" + cd.type + ",classID:" + cd.classID + ",classLabel:" + cd.classLabel 
+                    + ",timeandplace:" + cd.timeandplace + ",sectionData:" + cd.sectionData;
         } else {
-            releaseColor(class_data[c].color);
+            var color = class_data[c].color;
+            releaseColor(color);
         }
     }
+    window.database.removeStatement(sectionID, "color", color);
     writeCookie("picked-classes", cookie);
     
     showHidePickDiv(sectionID, false);
     window.database.removeStatement(sectionIDtoClass(sectionID), "selected", "yes");
+    updateMiniTimegrid(false);
 }
 
 function onMouseOverSection(div) {
@@ -151,11 +168,22 @@ function parseSavedClasses(classes) {
                 var saved = new Object();
                 for (i in data) {
                     var attr = data[i].split(":")[0];
+                    var value = data[i].split(":")[1];
                     if (attr == "sectionID") 
-                        saved.sectionID = data[i].split(":")[1];
-                    else
-                        saved.color = data[i].split(":")[1];
-                }
+                        saved.sectionID = value;
+                    else if (attr == "color")
+                        saved.color = value;
+                    else if (attr == "type") 
+                        saved.type = value;
+                    else if (attr == "classID") 
+                        saved.classID = value;
+                    else if (attr == "classLabel")
+                        saved.classLabel = value;
+                    else if (attr == "timeandplace") 
+                        saved.timeandplace = value;
+                    else if (attr == "sectionData") 
+                        saved.sectionData = value
+                 }
                 class_data.push(saved);
             }
         }

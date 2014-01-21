@@ -9,32 +9,16 @@
  */
 var miniEventSource = new Timegrid.RecurringEventSource();
 var timegridEventSource = new Timegrid.RecurringEventSource();
+var events = [];
+
+var dayMap = {'M' : 1, 'T' : 2, 'W' : 3, 'R' : 4, 'F' : 5 };
 
 function updateMiniTimegrid(preview, previewSectionID) {
-    var collection = readCookie("picked-sections");
-    console.log(collection);
-    var dayMap = {'M' : 1, 'T' : 2, 'W' : 3, 'R' : 4, 'F' : 5 };
+    events = [];
 
-    var db = window.exhibit.getDatabase();
-    var events = [];
-    var addEvent = function(label, dayLetter, start, end, color) {
-        var day   = dayMap[dayLetter];
-        var event = new Timegrid.RecurringEventSource.EventPrototype(
-            [ day ], 
-            start, 
-            end, 
-            label, 
-            "", 
-            "", 
-            "", 
-            "", 
-            color, 
-            "white"
-        );
-        events.push(event);
-    };
+    var addPreviewSection = function(sectionID) {
+        var db = window.exhibit.getDatabase();
 
-    var addSection = function(sectionID) {
         // example: type = "LectureSession"
         var type = db.getObject(sectionID, "type");
 
@@ -43,51 +27,18 @@ function updateMiniTimegrid(preview, previewSectionID) {
         var classID = db.getObject(sectionID, sectionData.linkage);
         var classLabel = db.getObject(classID, "label");
         var color = db.getObject(sectionID, "color");
-        
+
         // Definition of visit(function) given in Exhibit documentation
         //"Exhibit.Set.prototype.visit=function(A){for(var B in this._hash){if(A(B)==true){break;}"
         //api/exhibit-bundle.js line 8235 
-        db.getObjects(sectionID, "timeAndPlace").visit(function(timeAndPlace) {
-        	if (timeAndPlace.search(/arranged/) < 0) {
-			    var timePlaceArray = timeAndPlace.split(" ");
-                var sessions = [];
-			    // deals with EVE classes but ignores location changes
-                // EVE format: "W EVE (5-8.30 PM) 56-202" 
-			    if (timePlaceArray.length > 4 && timePlaceArray[1] == 'EVE') {
-				    var days = timePlaceArray[0];
-				    var time = timePlaceArray[2].replace('(', '');
-                    var startEnd = processTime(time, true);
-				    var room = timePlaceArray.length > 4 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
-                    sessions = [{'days':days, 'time':time, 'startEnd':startEnd, 'room':room}];
-			    } 
-                else {
-                    // non-EVE format: "MWF9-10.30 56-114"
-                    // or perhaps: "MWF9-10.30,TR11-2 56-114"
-				    var timeAndDay = timePlaceArray[0].split(",");
-				    for (var t = 0; t < timeAndDay.length; t++) {
-					    var days = timeAndDay[t].substring(0, timeAndDay[t].search(/\d/));
-					    var time = timeAndDay[t].substr(timeAndDay[t].search(/\d/));
-                        var startEnd = processTime(time, false);
-					    var room = timePlaceArray.length > 1 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
-                        sessions.push({'days':days, 'time':time, 'startEnd':startEnd, 'room':room});
-				    }
-			    }
-                for (var j=0; j<sessions.length; j++) {                               
-			        var start = Date.parseString(sessions[j].startEnd[0], 'H:mm');
-			        var end = sessions[j].startEnd.length > 1 ? Date.parseString(sessions[j].startEnd[1], 'H:mm') : start.clone().add('h', 1);
-			        for (var d = 0; d < sessions[j].days.length ; d++) {
-				        addEvent(classLabel + room + " " + sectionData.postfix, sessions[j].days.substr(d,1), start, end, color);
-			        }
-                }
-		    }
-        });
+        var timeAndPlace = db.getObject(sectionID, "timeAndPlace")
+        processTimeAndPlace(sectionID, color, type, classID, classLabel, timeAndPlace, sectionData);
     };
-    
-    //itemSet.visit(addSection);
+
+    addPickedClasses();
     if (preview) {
         if (previewSectionID) {
-            console.log(previewSectionID);
-            addSection(previewSectionID);
+            addPreviewSection(previewSectionID);
         }
         miniEventSource.setEventPrototypes(events);
     } else {
@@ -117,9 +68,6 @@ function processTime(time, eve) {
 }
 
 function enableMiniTimegrid() {
-    var collection = window.exhibit.getCollection("picked-sections");
-    
-    collection.addListener({ onItemsChanged: function() { updateMiniTimegrid(false); } });
     updateMiniTimegrid();
     
     window.timegrids = [
@@ -129,3 +77,71 @@ function enableMiniTimegrid() {
     
     window.onresize = function() { Timegrid.resize(); };
 };
+
+function addPickedClasses() {
+    var picked_classes = readCookie("picked-classes");
+    var collection = parseSavedClasses(picked_classes);
+
+    for (c in collection) {
+        var sectionID = collection[c].sectionID;
+        var color = collection[c].color;
+        var type = collection[c].type;
+        var classID = collection[c].classID;
+        var classLabel = collection[c].classLabel;
+        var timeandplace = collection[c].timeandplace;
+        var sectionData = collection[c].sectionData;
+        processTimeAndPlace(sectionID, color, type, classID, classLabel, timeandplace, sectionData);
+    }
+}
+
+function processTimeAndPlace (sectionID, color, type, classID, classLabel, timeAndPlace, sectionData) { 
+    if (timeAndPlace.search(/arranged/) < 0) {
+        var timePlaceArray = timeAndPlace.split(" ");
+        var sessions = [];
+        // deals with EVE classes but ignores location changes
+        // EVE format: "W EVE (5-8.30 PM) 56-202" 
+        if (timePlaceArray.length > 4 && timePlaceArray[1] == 'EVE') {
+            var days = timePlaceArray[0];
+            var time = timePlaceArray[2].replace('(', '');
+            var startEnd = processTime(time, true);
+            var room = timePlaceArray.length > 4 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
+            sessions = [{'days':days, 'time':time, 'startEnd':startEnd, 'room':room}];
+        } 
+        else {
+            // non-EVE format: "MWF9-10.30 56-114"
+            // or perhaps: "MWF9-10.30,TR11-2 56-114"
+            var timeAndDay = timePlaceArray[0].split(",");
+            for (var t = 0; t < timeAndDay.length; t++) {
+                var days = timeAndDay[t].substring(0, timeAndDay[t].search(/\d/));
+                var time = timeAndDay[t].substr(timeAndDay[t].search(/\d/));
+                var startEnd = processTime(time, false);
+                var room = timePlaceArray.length > 1 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
+                sessions.push({'days':days, 'time':time, 'startEnd':startEnd, 'room':room});
+            }
+        }
+        for (var j=0; j<sessions.length; j++) {                               
+            var start = Date.parseString(sessions[j].startEnd[0], 'H:mm');
+            var end = sessions[j].startEnd.length > 1 ? Date.parseString(sessions[j].startEnd[1], 'H:mm') : start.clone().add('h', 1);
+            for (var d = 0; d < sessions[j].days.length ; d++) {
+                addEvent(classLabel + room + " " + sectionData.postfix, sessions[j].days.substr(d,1), start, end, color);
+            }
+        }
+    }
+}
+
+function addEvent(label, dayLetter, start, end, color) {
+    var day   = dayMap[dayLetter];
+    var event = new Timegrid.RecurringEventSource.EventPrototype(
+        [ day ], 
+        start, 
+        end, 
+        label, 
+        "", 
+        "", 
+        "", 
+        "", 
+        color, 
+        "white"
+    );
+    events.push(event);
+}
