@@ -98,7 +98,7 @@
 		<div id="classes-layer">
 		    <div data-ex-role="collection" data-ex-item-types="Class"></div>
 		    <div class="container">
-			</div><div data-ex-role="view"
+			</div><div data-ex-role="exhibit-view"
 			    data-ex-orders=".listing-index"
 			    data-ex-possible-orders=".label, .listing-index, .semester, .offering, .level, .category, .units, .total-units"
 			    data-ex-show-all="false"
@@ -107,46 +107,15 @@
 			<div data-ex-role="collection" id="class" data-ex-item-types="Class"></div>
 			<div data-ex-role="collection" id="lectures" data-ex-item-types="LectureSession"></div>
 		</div>
-	    </div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
 	    <div id="schedule-preview-pane">
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
                 tg:mini="true" tg:dayStart="8" tg:dayEnd="22"
                 style="height:250px"></div>
-            <!--<div id="total-units"></div>
-            <div data-ex-role="viewPanel">
-                <div data-ex-role="lens" data-ex-item-types="LectureSession" 
-                    class="preview-class-lens" data-ex-background-style-content=".color" style="display: none;">
-                    <button data-ex-sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span data-ex-content=".lecture-section-of"></span> -
-                    <span data-ex-content=".lecture-section-of.label"></span> (lectures)
-                </div>
-
-                <div data-ex-role="lens" data-ex-item-types="RecitationSession" 
-                    class="preview-class-lens" data-ex-background-style-content=".color" style="display: none;">
-                    <button data-ex-sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span data-ex-content=".rec-section-of"></span> -
-                    <span data-ex-content=".rec-section-of.label"></span> (rec)
-                </div>
-                <div data-ex-role="lens" data-ex-item-types="LabSession" 
-                    class="preview-class-lens" data-ex-background-style-content=".color" style="display: none;">
-                    <button data-ex-sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span data-ex-content=".lab-section-of"></span> -
-                    <span data-ex-content=".lab-section-of.label"></span> (lab)
-                </div>-->
-
-                <!--<div data-ex-role="view"
-                    data-ex-orders=".class.courseNumber"
-                    data-ex-show-header="false"
-                    data-ex-show-all="false"
-                    data-ex-grouped="false"
-                    data-ex-collectionID="picked-sections"
-                    data-ex-showToolbox="false">
-                </div>
-            </div>
-
-			<div id="pre-register" style="text-align:center"></div>
+            <div id="picked-classes-list"></div>
+			<!--<div id="pre-register" style="text-align:center"></div>
+			<div id="total-units"></div>
 
 			<div id="textbook-list"
 				data-ex-role="view"

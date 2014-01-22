@@ -42,6 +42,7 @@ function onLoad() {
     loadURLs(null, null, null);
     getAddOrRemove();
     updateMiniTimegrid();
+    updatePickedClassesList();
     //alertLoadData();
     // simile-widgets.org/wiki/SimileAjax/Debug
     //SimileAjax.Debug.silent = false;
@@ -380,6 +381,19 @@ function getAddOrRemove() {
         var sectionID = picked_classes[c].sectionID;
         window.database.addStatement(sectionID, "picked", "true");
         window.database.removeStatement(sectionID, "temppick", "true");
+    }
+}
+
+function updatePickedClassesList() {
+    var picked_classes = readCookie("picked-classes");
+    picked_classes = parseSavedClasses(picked_classes);
+    for (c in picked_classes) {
+        var clss = picked_classes[c];
+        $("#picked-classes-list").append("<div class='preview-class-lens' id = " + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1] + "></div>");
+        $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<span " + clss.sectionID + " style='display: block; background-color:" + clss.color
+            + "; color: white'>" + clss.classID + " - " + clss.classLabel + " (" + clss.type + ")</span>");
+        $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<button onclick='onUnpick(this);' class='remove-preview' sectionID='" 
+            + clss.sectionID + "'>X</button>");
     }
 }
 

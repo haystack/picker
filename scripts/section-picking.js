@@ -11,10 +11,13 @@ function onPickUnpick(button) {
     } else {
 	   doPick(sectionID);
     }
+    updatePickedClassesList();
 };
 
 function onUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
+    doUnpick(sectionID);
+    updatePickedClassesList();
 };
 
 function sectionIDtoClass(sectionID) {
