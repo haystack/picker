@@ -387,6 +387,7 @@ function getAddOrRemove() {
 function updatePickedClassesList() {
     var picked_classes = readCookie("picked-classes");
     picked_classes = parseSavedClasses(picked_classes);
+    $("#picked-classes-list").empty();
     for (c in picked_classes) {
         var clss = picked_classes[c];
         $("#picked-classes-list").append("<div class='preview-class-lens' id = " + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1] + "></div>");
