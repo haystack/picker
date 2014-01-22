@@ -487,3 +487,7 @@ div.comments div.input {
 div.exhibit-text-facet input {
     font-size: 18px;
 }
+
+.clickable-classes {
+    cursor: pointer;
+}
