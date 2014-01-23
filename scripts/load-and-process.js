@@ -6,6 +6,8 @@
  * use it.
  **/
 
+var classes_by_time = {};
+
 function loadURLs(urls, fDone, individualClasses) {
     /**var fNext = function() {
         if (urls.length > 0) {
@@ -114,7 +116,8 @@ function processOfficialDataItem(item) {
 
     if (item.type == 'LectureSession') {
         item["lecture-section-of"] = item["section-of"];
-        delete item["section-of"];
+        processBeginningTime(item.timeAndPlace, item["section-of"]);
+        delete item["section-of"]; 
     }
     else if (item.type == 'RecitationSession') {
         item["rec-section-of"] = item["section-of"];
@@ -207,4 +210,44 @@ function loadStaticData(link, database, cont) {
         error : fError,
         success: fSuccess,
         dataType: 'json' });
+}
+
+function processBeginningTime(time, section) {
+    var beg = time.split("-")[0];
+    var half = false;
+    var time = "";
+    if (beg != "To be arranged") {
+        var days = [];
+        var validDay = /^[a-zA-Z]+$/;
+        if (beg.indexOf(' ') === -1) {
+            beg = beg.split(".")[0].split("");
+        } else if (beg.indexOf('EVE') != -1) {
+            var parts = beg.split(" ");
+            beg = (parts[0] + parts[2].split("(")[1]).split("");
+        } else {
+            if (beg.indexOf(",") === -1)
+                beg = beg.split(" ")[0].split("");
+            else 
+                beg = beg.split(" ")[0].split(",");
+                for (item in beg) 
+                    processBeginningTime(beg[item], section);
+                beg = [];
+        }
+        for (c in beg) {
+            if (beg[c].match(validDay)) {
+                days.push(beg[c]);
+            } else {
+                if (!half) {
+                    time = time + beg[c];
+                    if (beg[c] == ".")
+                        half = true;
+                }
+            }
+        }
+        for (d in days) {
+            if (classes_by_time[days[d]+time] == null) 
+                classes_by_time[days[d]+time] = [];
+            classes_by_time[days[d]+time].push(section);
+        }
+    }
 }
