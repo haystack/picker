@@ -229,7 +229,6 @@ function processBeginningTime(time, section) {
                 beg = beg.split(" ")[0].split("");
             else {
                 beg = beg.split(" ")[0].split(",");
-                console.log(beg);
                 for (item in beg) 
                     processBeginningTime(beg[item], section);
                 beg = [];
