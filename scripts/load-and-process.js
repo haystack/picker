@@ -216,10 +216,10 @@ function processBeginningTime(time, section) {
     var beg = time.split("-")[0];
     var half = false;
     var time = "";
-    if (beg != "To be arranged") {
+    if (beg != "To be arranged" && beg.indexOf("SELECTED") === -1) {
         var days = [];
         var validDay = /^[a-zA-Z]+$/;
-        if (beg.indexOf(' ') === -1) {
+        if (beg.indexOf(' ') === -1 && beg.indexOf(",") === -1) {
             beg = beg.split(".")[0].split("");
         } else if (beg.indexOf('EVE') != -1) {
             var parts = beg.split(" ");
@@ -227,11 +227,13 @@ function processBeginningTime(time, section) {
         } else {
             if (beg.indexOf(",") === -1)
                 beg = beg.split(" ")[0].split("");
-            else 
+            else {
                 beg = beg.split(" ")[0].split(",");
+                console.log(beg);
                 for (item in beg) 
                     processBeginningTime(beg[item], section);
                 beg = [];
+            }
         }
         for (c in beg) {
             if (beg[c].match(validDay)) {
