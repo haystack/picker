@@ -227,7 +227,7 @@ function processBeginningTime(time, section) {
             beg = beg.split(".")[0].split("");
         } else if (beg.indexOf('EVE') != -1) {
             var parts = beg.split(" ");
-            beg = (parts[0] + parts[2].split("(")[1]).split("");
+            beg = (parts[0] + (parseInt(parts[2].split("(")[1]) + 12) + "").split("");
         } else {
             if (beg.indexOf(",") === -1)
                 beg = beg.split(" ")[0].split("");
