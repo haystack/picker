@@ -212,10 +212,14 @@ function loadStaticData(link, database, cont) {
         dataType: 'json' });
 }
 
+/*
+    Function for processing the classes to fit within time slots
+*/
 function processBeginningTime(time, section) {
     var beg = time.split("-")[0];
     var half = false;
     var time = "";
+
     if (beg != "To be arranged" && beg.indexOf("SELECTED") === -1) {
         var days = [];
         var validDay = /^[a-zA-Z]+$/;
@@ -251,4 +255,11 @@ function processBeginningTime(time, section) {
             classes_by_time[days[d]+time].push(section);
         }
     }
+}
+
+/*
+    Pass in listener for calendar cells
+*/
+function showClassesDuringTime(obj) {
+    console.log(classes_by_time[obj[0].id]);
 }
