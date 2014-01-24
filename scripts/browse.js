@@ -304,7 +304,6 @@ function onAddMoreSelectChange() {
 function showPrereq(elmt, itemID, coords) {
     console.log(coords);
     coords = coords || null;
-    debugger;
     if (coords) {
         var obj = new Object();
         obj.coords = {x: 1, y: 1};
