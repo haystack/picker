@@ -301,8 +301,17 @@ function onAddMoreSelectChange() {
     }
 }
 
-function showPrereq(elmt, itemID) {
-    Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
+function showPrereq(elmt, itemID, coords) {
+    console.log(coords);
+    coords = coords || null;
+    debugger;
+    if (coords) {
+        var obj = new Object();
+        obj.coords = {x: 1, y: 1};
+        Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext(), obj);
+    }
+    else
+        Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
 }
 
 /*function logFacet(facetName) {

@@ -130,7 +130,8 @@ function processOfficialDataItem(item) {
 }
 
 // Puts a string of prereqs into correct URL format so can be links
-function processPrereqs(prereqs) {
+function processPrereqs(prereqs, coords) {
+    coords = coords || null;
     if (prereqs == "") {
 		prereqs = "--";
 	}
@@ -144,17 +145,19 @@ function processPrereqs(prereqs) {
 	    }
     }
     // Makes prereqs appear as links
-    prereqs = coursesToLinks(prereqs);
+    prereqs = coursesToLinks(prereqs, coords);
     return prereqs;
 }
 
-function courseArrayToLinks(array) {
+function courseArrayToLinks(array, coords) {
+    coords = coords || null;
     string = array.join(',, ');
     string = coursesToLinks(string);
     return string.split(',, ');
 }
 
-function coursesToLinks(courseString) {
+function coursesToLinks(courseString, coords) {
+    coords = coords || null;
     // Any number of spaces followed by any number of digits
     // followed by, optionally, a letter
     var courseArray = courseString.match(/([^\s\/]+\.[\d]+\w?)/g);
@@ -165,7 +168,7 @@ function coursesToLinks(courseString) {
         for (var c=0; c<courseArray.length; c++) {
             var course = courseArray[c];
             var index = string.indexOf(course, upTo);
-            var replacement = '<a href=\'javascript:{}\' onclick=\'showPrereq(this, "' + course.replace(/J/, '')+'");\'>' + course + '</a>';
+            var replacement = '<a href=\'javascript:{}\' onclick=\'showPrereq(this, "' + course.replace(/J/, '') + '", ' + coords + ');\'>' + course + '</a>';
             // string.substring(upTo, index) is everything not being replaced
             output += string.substring(upTo, index) + replacement;
             upTo = index + course.length;
@@ -262,7 +265,14 @@ function processBeginningTime(time, section) {
 */
 function showClassesDuringTime(obj) {
     var classes = classes_by_time[obj[0].id]
-    for (i in classes) {
-        $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span>" + "<br>");
-    } 
+    if ($("#schedule-details-layer").css("visibility") != "visible") {
+        for (i in classes) {
+            $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span><br>");
+        } 
+    } else {
+        for (i in classes) {
+            var coords = {x: 1, y: 1};
+            $("#right-time-wrapper").append(processPrereqs(classes[i], true));
+        }
+    }
 }

@@ -76,6 +76,17 @@ div.exhibit-facet-header-filterControl img {
     cursor:         pointer;
 }
 
+#right-time-wrapper {
+    z-index: 1;
+    top: 12em;
+    right: 3px;
+    width: 20em;
+    background: white;
+    overflow: auto;
+    bottom: 0px;
+    position: fixed;
+}
+
 #schedule-preview-pane div.title:hover {
     cursor:         point;
 }
