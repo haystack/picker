@@ -116,9 +116,9 @@ div.exhibit-facet-header-filterControl img {
 
 #schedule-details-layer {
     position:       absolute;
-    top:            0px;
-    left:           0px;
-    width:          100%;
+    top:            90px;
+    left:           20px;
+    width:          90%;
     visibility:     hidden;
 }
 #schedule-details-layer-inner {

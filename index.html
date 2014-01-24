@@ -43,6 +43,35 @@
 			</div>
 		</div>
 	</div>
+	<!-- ==================== Schedule Details Layer ==================== -->
+	<div id="schedule-details-layer">
+	    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
+		<span>Weekly Schedule</span>
+	    </div>
+	    <div id="schedule-details-layer-inner">
+		<p><b>To print, in Firefox 2.0:</b>
+		    <ol>
+			<li>Select the browser's menu File &rarr; Print Preview.</li>
+			<li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
+
+			<li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
+			<li>Click OK.</li>
+			<li>Then click "Print...".</li>
+		    </ol>
+		</p>
+
+		<p style="color: #800; font-size: 100%; font-weight: bold; padding: 1em; margin: 2em 0; width: 30em; border: 1px solid #800;">
+
+		    WARNING: This calendar is not an official schedule. WebSIS will produce
+		    your schedule of the classes in which you are registered. All changes
+		    will then need to be processed through Drop/Add forms after Registration Day.
+		    </p>
+
+		<div id="timegrid" tg:role="grid"
+		    tg:views="week" tg:eventSource="timegridEventSource"
+		    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
+	    </div>
+	</div>
 	<div id="left-wrapper">
 	<div id="left-column">
 	    <table width="100%">
@@ -60,35 +89,6 @@
 	    <!-- ==================== Browsing Interface ==================== -->
 	    <div id="container" style="text-align: left;">
 	    <div id="browsing-interface">
-		<!-- ==================== Schedule Details Layer ==================== -->
-		<div id="schedule-details-layer">
-		    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
-			<span>Weekly Schedule</span>
-		    </div>
-		    <div id="schedule-details-layer-inner">
-			<p><b>To print, in Firefox 2.0:</b>
-			    <ol>
-				<li>Select the browser's menu File &rarr; Print Preview.</li>
-				<li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
-
-				<li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
-				<li>Click OK.</li>
-				<li>Then click "Print...".</li>
-			    </ol>
-			</p>
-
-			<p style="color: #800; font-size: 100%; font-weight: bold; padding: 1em; margin: 2em 0; width: 30em; border: 1px solid #800;">
-
-			    WARNING: This calendar is not an official schedule. WebSIS will produce
-			    your schedule of the classes in which you are registered. All changes
-			    will then need to be processed through Drop/Add forms after Registration Day.
-			    </p>
-
-			<div id="timegrid" tg:role="grid"
-			    tg:views="week" tg:eventSource="timegridEventSource"
-			    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
-		    </div>
-		</div>
 		<!-- ==================== Search for a Class ==================== -->
 		<div class="introduction">
 		    <h2>Search for a class:</h2>
@@ -187,7 +187,7 @@
 
 							    <div class="each-comment">
 								    <div data-ex-content=".comment"></div>
-								    -- <span data-ex-content=".author"></span>,
+								    <span data-ex-content=".author"></span>,
 								    <span data-ex-content=".timestamp"
 									    data-ex-formats="date { mode: medium }"></span>
 								    <a data-ex-if-exists=".is-current-user"
