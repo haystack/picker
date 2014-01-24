@@ -61,7 +61,7 @@
 	    <div id="container" style="text-align: left;">
 	    <div id="browsing-interface">
 		<!-- ==================== Schedule Details Layer ==================== -->
-		<!--<div id="schedule-details-layer">
+		<div id="schedule-details-layer">
 		    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
 			<span>Weekly Schedule</span>
 		    </div>
@@ -88,7 +88,7 @@
 			    tg:views="week" tg:eventSource="timegridEventSource"
 			    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
 		    </div>
-		</div>-->
+		</div>
 		<!-- ==================== Search for a Class ==================== -->
 		<div class="introduction">
 		    <h2>Search for a class:</h2>
@@ -109,6 +109,8 @@
 		</div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
 	    <div id="schedule-preview-pane">
+	    <button onclick="onShowScheduleDetails();">Full View</button>
+
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
                 tg:mini="true" tg:dayStart="8" tg:dayEnd="22" 
