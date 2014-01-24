@@ -261,5 +261,8 @@ function processBeginningTime(time, section) {
     Pass in listener for calendar cells
 */
 function showClassesDuringTime(obj) {
-    console.log(classes_by_time[obj[0].id]);
+    var classes = classes_by_time[obj[0].id]
+    for (i in classes) {
+        $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span>" + "<br>");
+    } 
 }
