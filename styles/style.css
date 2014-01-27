@@ -357,13 +357,18 @@ span {
 }
 
 #left-column {
-    position: absolute;
+    position: fixed;
 }
 
 div.exhibit-facet {
     padding-left: 30px;
     padding-top: 20px;
     width: 170px;
+}
+
+.facet-click {
+	width: 17%;
+	padding: 20px 20px;
 }
 
 a.exhibit-facet-value-link {
