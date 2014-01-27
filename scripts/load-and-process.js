@@ -26,14 +26,14 @@ function loadURLs(urls, fDone, individualClasses) {
     };
     fNext();**/
     var number = Math.random();
-    if (number < 0.5) {
+    //if (number < 0.5) {
 	jQuery( document ).ready(function( $ ) {
 	    $.getJSON("http://coursews.mit.edu/coursews/?term=2014SP&callback=?", function(data) {
-		json = processOfficialData(data, null);
-		$.post("writeJSON.php", {jsonp : JSON.stringify(json)});
+		  json = processOfficialData(data, null);
+		  $.post("writeJSON.php", {jsonp : JSON.stringify(json)});
 	    });
 	});
-    }
+    //}
 }
 
 function processOfficialData(json, individualClasses) {
@@ -88,6 +88,10 @@ function processOfficialData(json, individualClasses) {
  **/
 function processOfficialDataItem(item) {
     if ('prereqs' in item) { item.prereqs = processPrereqs(item.prereqs); }
+
+    if ('id' in item) {
+        item['courseNumber'] = parseNumber(item.master_subject_id);
+    }
 
     for (attribute in item) {
         if (item[attribute] == '') { delete item[attribute]; }
@@ -258,6 +262,22 @@ function processBeginningTime(time, section) {
             classes_by_time[days[d]+time].push(section);
         }
     }
+}
+
+function parseNumber(num) {
+    numNoLetters = "";
+    counter = 0;
+    for (l in num) {
+        if (!num.charAt(l).match("[a-zA-Z]+")) {
+            numNoLetters += num.charAt(l);
+        } else {
+            counter = 100;
+        }
+    }
+    if (numNoLetters != ".") 
+        return parseFloat(numNoLetters) + counter;
+    else 
+        return counter;
 }
 
 /*

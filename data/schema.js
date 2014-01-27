@@ -1,27 +1,27 @@
 {
-    types: {
+    "types": {
         "Class" : {
-            pluralLabel: "Classes"
+            "pluralLabel": "Classes"
         },
         "Lecture" : {
-            pluralLabel: "Lectures"
+            "pluralLabel": "Lectures"
         }
     },
-    properties: {
+    "properties": {
         "courseNumber" : {
-            label: "course number"
+            "valueType": "number"
         },
         "totalUnits" : {
-            label: "total units"
+            "label": "total units"
         },
         "timestamp" : {
-        	valueType: "date"
+        	"valueType": "date"
         },
         "start" : {
-            valueType: "date"
+            "valueType": "date"
         },
         "end" : {
-            valueType: "date"
+            "valueType": "date"
         }
     }
 }

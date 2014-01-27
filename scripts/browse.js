@@ -209,8 +209,7 @@ function setupLogin() {
     if (window.location.host.search(/localhost/) >= 0 ) {
         if (athena != null) {
             $('#localhostLogin').html(' &bull; logged in as '+athena+'&bull; <a href="'+url+'" onClick="toggleLogin(false);">log out on localhost</a>');
-        }
-        else {
+        } else {
             $('#localhostLogin').html(' &bull; <a href="'+url+'" onClick="toggleLogin(true);">log in on localhost</a>');
         }
     }
@@ -219,8 +218,7 @@ function setupLogin() {
 		url = url.replace('https:', 'http:');
 		$('#httpsStatus').html(' &bull; logged in as ' + athena +
 			'&bull; <a href="' + url + '">logout</a>');
-	}
-	else {
+	} else {
 		url = url.replace('http:', 'https:');
 		$('#httpsStatus').html(' &bull; <a href="' + url + '">login</a>');
 	}
@@ -302,7 +300,6 @@ function onAddMoreSelectChange() {
 }
 
 function showPrereq(elmt, itemID, coords) {
-    console.log(coords);
     coords = coords || null;
     if (coords) {
         var obj = new Object();
@@ -329,8 +326,7 @@ function toggleClassBody(a) {
 }
 
 //Checks to see if location is secure (ie uses https)
-function isSecure()
-{
+function isSecure() {
    return location.protocol == 'https:';
 }
 
