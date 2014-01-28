@@ -7,6 +7,9 @@ ExhibitImporter = {
  	_type: "processClassData"
  }
 
+/*
+registers json importer for processing class data
+*/
 ExhibitImporter._register = function(evt, reg) {
     if (!reg.isRegistered(
     Exhibit.Importer.JSONP._registryKey,
@@ -19,6 +22,10 @@ ExhibitImporter._register = function(evt, reg) {
 	}
 };
 
+/*
+@json input json for course data from data warehouse
+@return processed json for class data
+*/
 ExhibitImporter.transformJSON = function(json, url, link) {
 	console.log(json);
 	console.log(url);
@@ -48,11 +55,18 @@ ExhibitImporter.transformJSON = function(json, url, link) {
 	return json;
 }
 
+/*
+called by importer to process url 
+but does nothing because url does not need to be processed
+*/
 ExhibitImporter.preprocessURL = function(url) {
     console.log("processing url " + url);
     return url;
 };
 
+/* 
+registers importer using jquery
+*/
 $(document).one(
     "registerJSONPImporters.exhibit",
     ExhibitImporter._register
