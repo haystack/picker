@@ -289,12 +289,13 @@ function parseNumber(num) {
 function showClassesDuringTime(obj) {
     var classes = classes_by_time[obj[0].id]
     if ($("#schedule-details-layer").css("visibility") != "visible") {
+        $("#timed-classes-list").empty();
+        $("#timed-classes-list").append("<h1>Showing classes occuring at: " + obj[0].id + "</h1><br>");
         for (i in classes) {
             $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span><br>");
         } 
     } else {
         for (i in classes) {
-            var coords = {x: 1, y: 1};
             $("#right-time-wrapper").append(processPrereqs(classes[i], true));
         }
     }
