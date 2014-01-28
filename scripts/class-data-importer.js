@@ -27,9 +27,6 @@ ExhibitImporter._register = function(evt, reg) {
 @return processed json for class data
 */
 ExhibitImporter.transformJSON = function(json, url, link) {
-	console.log(json);
-	console.log(url);
-	console.log(link);
 	var crossListedClasses = [];
 	var items = json.items;
     for (var i = 0; i < items.length; i++) {
@@ -60,7 +57,6 @@ called by importer to process url
 but does nothing because url does not need to be processed
 */
 ExhibitImporter.preprocessURL = function(url) {
-    console.log("processing url " + url);
     return url;
 };
 

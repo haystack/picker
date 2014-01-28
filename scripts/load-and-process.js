@@ -222,8 +222,8 @@ function loadStaticData(link, database, cont) {
 /*
     Function for processing the classes to fit within time slots
 */
-function processBeginningTime(time, section) {
-    var beg = time.split("-")[0];
+function processBeginningTime(t, section) {
+    var beg = t.split("-")[0];
     var half = false;
     var time = "";
 
@@ -255,6 +255,9 @@ function processBeginningTime(time, section) {
                         half = true;
                 }
             }
+        }
+        if (parseInt(time) < 8) {
+            time = parseInt(time) + 12;
         }
         for (d in days) {
             if (classes_by_time[days[d]+time] == null) 
