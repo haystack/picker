@@ -39,7 +39,7 @@
 **/
 
 function onLoad() {
-    loadURLs(null, null, null);
+    //loadURLs(null, null, null);
     getAddOrRemove();
     updateMiniTimegrid();
     updatePickedClassesList();
