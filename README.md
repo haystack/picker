@@ -15,3 +15,7 @@ BUGS:<br>
 8. Using the same/similar colors multiple times<br>
 9. Add easy login option: currently working on this<br>
 10. Would be nice to have all browsers read from same cookie<br>
+11. Need to clear all tag selections when clicking on a class for details <br>
+12. Clicking on classes on calendar pulls up class details <br>
+13. Clicking on empty squares will color the square and display the available classes during that timeblock. Toggle classes selected and deselected. <br>
+14. Need general code cleanup.<br>
