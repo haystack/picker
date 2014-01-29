@@ -290,7 +290,7 @@ function showClassesDuringTime(obj) {
     var classes = classes_by_time[obj[0].id]
     if ($("#schedule-details-layer").css("visibility") != "visible") {
         $("#timed-classes-list").empty();
-        $("#timed-classes-list").append("<h1>Showing classes occuring at: " + obj[0].id + "</h1><br>");
+        $("#timed-classes-list").append("<h1>Showing classes occuring on " + parseDayAndTime(obj[0].id) + ":</h1><br>");
         for (i in classes) {
             $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span><br>");
         } 
@@ -300,3 +300,37 @@ function showClassesDuringTime(obj) {
         }
     }
 }
+
+/*
+Parses the day and time from calendar to words
+*/
+function parseDayAndTime(dayAndTime) {
+    var elts = dayAndTime.split("");
+
+    var days = {
+        "M": "Monday",
+        "T": "Tuesday",
+        "W": "Wednesday",
+        "R": "Thursday",
+        "F": "Friday"
+    }
+
+    var times = {
+        "8": "8 am",
+        "9": "9 am",
+        "10": "10 am",
+        "11": "11 am",
+        "12": "12 pm",
+        "13": "1 pm",
+        "14": "2 pm",
+        "15": "3 pm",
+        "16": "4 pm",
+        "17": "5 pm",
+        "18": "6 pm",
+        "19": "7 pm",
+        "20": "8 pm",
+        "21": "9 pm"
+    }
+
+    return days[elts[0]] + ", " + times[dayAndTime.slice(1, dayAndTime.length)]
+} 
