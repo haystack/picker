@@ -296,7 +296,6 @@ function showClassesDuringTime(obj) {
         var classesPerColumn = Math.ceil(numClasses/3);
         var counter = 0;
         for (var i = 0; i < 3; i++) {
-            console.log("how many times");
             $("#timed-classes-list table").append("<td width='35%'></td>");
             counter = 0;
             while (counter < classesPerColumn && (i * classesPerColumn + counter) < numClasses) {
