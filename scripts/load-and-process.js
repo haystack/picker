@@ -291,8 +291,18 @@ function showClassesDuringTime(obj) {
     if ($("#schedule-details-layer").css("visibility") != "visible") {
         $("#timed-classes-list").empty();
         $("#timed-classes-list").append("<h1>Showing classes occuring on " + parseDayAndTime(obj[0].id) + ":</h1><br>");
-        for (i in classes) {
-            $("#timed-classes-list").append("<span onclick='showClickedClassDetails(" + "&quot;" + classes[i] + "&quot;" + ");'>"+ classes[i] + "</span><br>");
+        $("#timed-classes-list").append("<table></table>");
+        var numClasses = classes.length;
+        var classesPerColumn = Math.ceil(numClasses/3);
+        var counter = 0;
+        for (var i = 0; i < 3; i++) {
+            console.log("how many times");
+            $("#timed-classes-list table").append("<td width='35%'></td>");
+            counter = 0;
+            while (counter < classesPerColumn && (i * classesPerColumn + counter) < numClasses) {
+                $($("#timed-classes-list table td")[i]).append("<a href='javascript:{}' onclick='showClickedClassDetails(" + "&quot;" + classes[i * classesPerColumn + counter] + "&quot;" + ");'>"+ classes[i * classesPerColumn + counter] + "</a><br>");
+                counter++;
+            }
         } 
     } else {
         for (i in classes) {
