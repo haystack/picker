@@ -304,8 +304,10 @@ function showClassesDuringTime(obj) {
             }
         } 
     } else {
+        $("#right-time-wrapper").append("<br><br><h1>Showing classes occuring on " + parseDayAndTime(obj[0].id) + ":</h1>");
         for (i in classes) {
-            $("#right-time-wrapper").append(processPrereqs(classes[i], true));
+            if (window.database.getObject(classes[i], "label") != null) 
+                $("#right-time-wrapper").append("<br>" + processPrereqs(classes[i], true) + " " + window.database.getObject(classes[i], "label") + "<br>");
         }
     }
 }
