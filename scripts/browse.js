@@ -406,15 +406,15 @@ function showClickedClassDetails(clss) {
 
 function showExtraDetails(elem) {
     $($(elem).find(".hidden-class-details")).css({
-            visibility: "visible",
-            display: "block"
+        visibility: "visible",
+        display: "block"
     });
 }
 
 function hideExtraDetails(elem) {
     $($(elem).find(".hidden-class-details")).css({
-            visibility: "hidden",
-            display: "none"
+        visibility: "hidden",
+        display: "none"
     });
 }
 

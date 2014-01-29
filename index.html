@@ -172,44 +172,6 @@
 			<div data-ex-content=".description" class="course-description"></div>
 			<div data-ex-class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" data-ex-content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
 			<div data-ex-if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span data-ex-content=".prereqs"></span></div>
-			<!--
-			<div class="comments">
-			    <a href="#"
-				    data-ex-classid-content="value"
-				    onclick="userData.toggleComments(this);return false;">
-				    <div class="comments-toggle">toggle comments</div>
-			    </a>
-
-						    <div data-ex-content="!class-comment-of"
-							    class="comment-body" style="display:none">
-
-							    <div class="each-comment">
-								    <div data-ex-content=".comment"></div>
-								    <span data-ex-content=".author"></span>,
-								    <span data-ex-content=".timestamp"
-									    data-ex-formats="date { mode: medium }"></span>
-								    <a data-ex-if-exists=".is-current-user"
-									    data-ex-classid-content=".class-comment-of"
-									    href="#"
-									    onclick="userData.deleteComment(this);return false;">
-									    delete</a>
-							    </div>
-						    </div>
-
-						    <div class="message" style="display:none"></div>
-
-						    <div class="input" style="display:none">
-							    <textarea></textarea><br/>
-							    <button data-ex-classid-content="value"
-								    data-ex-content="if(exists(
-									    !class-comment-of.is-current-user),
-
-									    'Replace comment', 'Leave comment')"
-								    onclick="userData.comment(this);"></button>
-
-						    </div>
-			</div>
-			-->
 		<div id="lecture-recitation-sections" style="display:block">
 			<div data-ex-if-exists="!lecture-section-of"><b>Lecture Sections:</b>
 			    <div data-ex-content="!lecture-section-of">
@@ -280,6 +242,34 @@
 		    <tr><td>
 		    	<div class="hidden-class-details" style="visibility: hidden; display: none;">
 		    		<div class="class-comments">Class Comments:</div>
+				    <a href="#"
+					    data-ex-classid-content="value"
+					    onclick="userData.toggleComments(this);return false;">
+					    <div class="comments-toggle">toggle comments</div></a>
+						    <div data-ex-content="!class-comment-of"
+							    class="comment-body" style="display:none">
+							    <div class="each-comment">
+								    <div data-ex-content=".comment"></div>
+								    <span data-ex-content=".author"></span>,
+								    <span data-ex-content=".timestamp"
+									    data-ex-formats="date { mode: medium }"></span>
+								    <a data-ex-if-exists=".is-current-user"
+									    data-ex-classid-content=".class-comment-of"
+									    href="#"
+									    onclick="userData.deleteComment(this);return false;">
+									    delete</a>
+							    </div>
+						    </div>
+						    <div class="message" style="display:none"></div>
+						    <div class="input" style="display:none">
+						    <textarea></textarea><br/>
+						    <button data-ex-classid-content="value"
+							    data-ex-content="if(exists(
+								    !class-comment-of.is-current-user),
+
+								    'Replace comment', 'Leave comment')"
+							    onclick="userData.comment(this);"></button>
+					</div>
 		   	 	</div>
 			</td></tr>
 		</table>
