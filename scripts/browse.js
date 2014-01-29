@@ -404,6 +404,20 @@ function showClickedClassDetails(clss) {
     $('.text_search input').keyup();
 }
 
+function showExtraDetails(elem) {
+    $($(elem).find(".hidden-class-details")).css({
+            visibility: "visible",
+            display: "block"
+    });
+}
+
+function hideExtraDetails(elem) {
+    $($(elem).find(".hidden-class-details")).css({
+            visibility: "hidden",
+            display: "none"
+    });
+}
+
 /**$(".facet-click").click(
     function() {
 	if ($(this).attr("ex:collapsed") == "true") {
