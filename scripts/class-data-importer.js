@@ -49,6 +49,19 @@ ExhibitImporter.transformJSON = function(json, url, link) {
     if (crossListedClasses.length >0) {
         loadIndividualClasses(crossListedClasses);
     }
+    /*
+    	Moved from onLoad in browse.js because
+    	of database loading issues
+    */
+    getAddOrRemove();
+    updateMiniTimegrid();
+    updatePickedClassesList();
+    if (Timegrid.listener) {
+        $(".timegrid-vline").each(function(i, obj) {
+            $(this).bind("click", function() {Timegrid.listener($(this))});
+        });
+    }
+    
 	return json;
 }
 

@@ -10,7 +10,8 @@ BUGS:
 3. Mobile picking doesn't work
 4. No comments or ratings yet
 5. Extra functionality needs to be added
-6. Sometimes loading issue occurs when trying to load classes onto calendar
+6. Sometimes loading issue occurs when trying to load classes onto calendar:FIXED!
 7. Loading initial classes take too much time
 8. Using the same/similar colors multiple times
 9. Add easy login option
+10. Would be nice to have all browsers read from same cookie

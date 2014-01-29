@@ -40,14 +40,6 @@
 
 function onLoad() {
     //loadURLs(null, null, null);
-    getAddOrRemove();
-    updateMiniTimegrid();
-    updatePickedClassesList();
-    if (Timegrid.listener) {
-        $(".timegrid-vline").each(function(i, obj) {
-            $(this).bind("click", function() {Timegrid.listener($(this))});
-        });
-    }
     //alertLoadData();
     // simile-widgets.org/wiki/SimileAjax/Debug
     //SimileAjax.Debug.silent = false;
