@@ -12,3 +12,4 @@ BUGS:
 5. Extra functionality needs to be added
 6. Sometimes loading issue occurs when trying to load classes onto calendar
 7. Loading initial classes take too much time
+8. Using the same/similar colors multiple times
