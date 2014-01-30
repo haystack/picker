@@ -22,3 +22,4 @@ BUGS:<br>
 15. Insecure content loading issue: FIXED! <br>
 16. When moving to picker locker, change the login link to just https:// don't need the port like I had in scripts. Only scripts need the 444 port.<br>
 17. Make sure all secure content is under a login <br>
+18. STYLING <br>
