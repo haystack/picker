@@ -2,9 +2,9 @@
 <html>
     <head onload="getScript();">
         <title>MIT Course Picker (alpha)</title>
-		<script src="http://api.simile-widgets.org/exhibit/3.1.0rc/lib/jquery-1.7.2.min.js"></script>
-        <script src="http://api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js?log=true" type="text/javascript"></script>
-        <script src="http://simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
+		<script src="https://api.simile-widgets.org/exhibit/3.1.0rc/lib/jquery-1.7.2.min.js"></script>
+        <script src="https://api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js?log=true" type="text/javascript"></script>
+        <script src="https://simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
 		<script src="timegrid/scripts/jquery.simile.ajax.js"></script>
 
 		<script src="timegrid/timegrid-api.js"></script>
@@ -22,13 +22,13 @@
 	    <script src="scripts/load-and-process.js" type="text/javascript"></script>
 		<script src="scripts/google-cal-exporter.js" type="text/javascript"></script>
 	
-		<link rel="exhibit/data" type="application/jsonp" href="http://coursews.mit.edu/coursews/?term=2014SP&callback=?" data-ex-converter="processClassData"/>
+		<link rel="exhibit/data" type="application/jsonp" href="https://coursews.mit.edu/coursews/?term=2014SP&callback=?" data-ex-converter="processClassData"/>
 		<link rel="exhibit/data" type="application/json" href="data/schema.js" />
 
         <link type="text/css" rel="stylesheet" href="styles/style.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
     </head>
-    <body data-ex-bubbleWidth="600">
+    <body data-ex-bubbleWidth="600" onload="onLoad();">
 	<div id="headerStripe">
 		<div id="header">
 			<div id="logo">
