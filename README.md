@@ -24,3 +24,4 @@ BUGS:<br>
 17. Make sure all secure content is under a login <br>
 18. STYLING <br>
 19. Remember to replace "#httpsStatus" with url instead of url with port 444 when migrated to picker namespace.
+20. Need to re-position the dialogue bubble when clicking on a class for a particular time.
