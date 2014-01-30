@@ -19,3 +19,5 @@ BUGS:<br>
 12. Clicking on classes on calendar pulls up class details <br>
 13. Clicking on empty squares will color the square and display the available classes during that timeblock. Toggle classes selected and deselected. <br>
 14. Need general code cleanup.<br>
+15. Insecure content loading issue: FIXED! <br>
+16. When moving to picker locker, change the login link to just https:// don't need the port like I had in scripts. Only scripts need the 444 port.<br>
