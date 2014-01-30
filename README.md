@@ -8,7 +8,8 @@ BUGS:<br>
 1. event listener goes away after picking classes<br>
 2. Safari filter boxes loses styling <br>
 3. Mobile picking doesn't work <br>
-4. No comments or ratings yet: working on this <br>
+4. No comments or ratings yet: DONE! <br>
+4.a. Need to fix getting and pushing comments: working on this. <br>
 5. Extra functionality needs to be added <br>
 6. Sometimes loading issue occurs when trying to load classes onto calendar: FIXED! <br>
 7. Loading initial classes take too much time<br>
