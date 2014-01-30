@@ -202,10 +202,10 @@ function loadStaticData(link, database, cont) {
                 if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "Class") {
                     jsonObject = processOfficialData(jsonObject, null);
                 }
-                database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url));
+                database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), cont);
             }
         } catch (error) {
-            SimileAjax.Debug.exception(error, "Error loading Exhibit JSON data from " + url);
+            Exhibit.Debug.exception(error, "Error loading Exhibit JSON data from " + url);
         } finally {
             if (cont) cont();
         }

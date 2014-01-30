@@ -46,7 +46,6 @@ function onLoad() {
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
     //window.database = Exhibit.Database.create();
     // Loads file, then calls onLoadHelper
-    loadStaticData("data/user.php", window.database, setupLogin);
     //loadStaticData("data/getcomments.php", window.database, onLoadHelper);
 }
 
