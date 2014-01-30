@@ -400,10 +400,10 @@ div.requirements {
 	cursor: pointer;
 }
 .cancel,
-.cancel a {background: url('../../images/rating-delete.gif') no-repeat 0 -16px;}
+.cancel a {background: url('../images/rating-delete.gif') no-repeat 0 -16px;}
 
 .star,
-.star a {background: url('../../images/rating-star.gif') no-repeat 0 0px;}
+.star a {background: url('../images/rating-star.gif') no-repeat 0 0px;}
 	
 .cancel a,
 .star a {

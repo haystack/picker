@@ -243,23 +243,23 @@
 		    <tr><td>
 		    	<div class="hidden-class-details" style="visibility: hidden; display: none;">
 		    		<div class="class-ratings">Class Ratings:
-		    			<div ex:id-subcontent="rating-{{value}}" class="rating">
+		    			<div data-ex-id-subcontent="rating-{{value}}" class="rating">
                             <div class="info">
                                     Your Rating:
                                     <div class="rate"
-                                             ex:classid-content="value"
-                                             ex:curvalue-subcontent="{{ !class-urating-of.rating }}">
+                                             data-ex-classid-content="value"
+                                             data-ex-curvalue-subcontent="{{ !class-urating-of.rating }}">
                                              <span class="cancel"
                                                     onmouseover="userData.cancelOn(this);return false;"
                                                     onclick="userData.cancelClick(this);return false;"
                                                     onmouseout="userData.cancelOff(this);return false">
                                                     <a href="#">Cancel Rating</a></span>
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r1), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r1), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">1</a></span>
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r2), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r2), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
@@ -267,39 +267,39 @@
                                                     <a href="#">2</a></span>
 
 
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">3</a></span>
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r4), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r4), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">4</a></span>
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r5), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r5), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">5</a></span>
 
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">6</a></span>
-                                             <span ex:class-subcontent="{{ if(exists(!class-urating-of.r7), 'star on', 'star') }}"
+                                             <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r7), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">7</a></span>
                                     </div>
-                                    <div ex:if="exists(!class-avg-rating-of)">
-                                            <div ex:content="!class-avg-rating-of">
+                                    <div data-ex-if="exists(!class-avg-rating-of)">
+                                            <div data-ex-content="!class-avg-rating-of">
                                                     Average Rating:<br/>
 
-                                                    <span ex:content=".rating"></span>
-                                                    based on <span ex:content=".total"></span>
+                                                    <span data-ex-content=".rating"></span>
+                                                    based on <span data-ex-content=".total"></span>
                                                     reviews
                                             </div>
                                             <div>No other reviews yet</div>

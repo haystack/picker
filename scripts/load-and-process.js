@@ -323,7 +323,8 @@ function parseDayAndTime(dayAndTime) {
         "T": "Tuesday",
         "W": "Wednesday",
         "R": "Thursday",
-        "F": "Friday"
+        "F": "Friday",
+        "S": "Saturday/Sunday"
     }
 
     var times = {
