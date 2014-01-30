@@ -486,6 +486,17 @@ div.comments div.input {
     margin-top:     1em;
 }
 
+#httpsStatus {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 5%;
+}
+
+#httpsStatus a {
+    color: #FFFFFF;
+}
+
 .text_search {
     width: 50%;
     margin-left: 25%;

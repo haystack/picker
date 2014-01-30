@@ -46,9 +46,8 @@ function onLoad() {
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
     //window.database = Exhibit.Database.create();
     // Loads file, then calls onLoadHelper
-    loadStaticData("data/user.php", window.database, null);
+    loadStaticData("data/user.php", window.database, setupLogin);
     //loadStaticData("data/getcomments.php", window.database, onLoadHelper);
-    setupLogin();
 }
 
 function onLoadHelper() {
@@ -209,11 +208,15 @@ function setupLogin() {
 
 	else if (document.location.protocol == 'https:' && athena != null) {
 		url = url.replace('https:', 'http:');
-		$('#httpsStatus').html(' &bull; logged in as ' + athena +
-			'&bull; <a href="' + url + '">logout</a>');
+        //TODO: REPLACE WHEN MIGRATED TO PICKER NAMESPACE
+        url = "http://quanquan.scripts.mit.edu/demo1/upgrade/";
+		$('#httpsStatus').html('logged in as ' + athena +
+			' &bull; <a href="' + url + '">LOGOUT</a>');
 	} else {
 		url = url.replace('http:', 'https:');
-		$('#httpsStatus').html(' &bull; <a href="' + url + '">login</a>');
+        //TODO: REPLACE WHEN MIGRATED TO PICKER NAMESPACE
+        url = "https://quanquan.scripts.mit.edu:444/demo1/upgrade/";
+		$('#httpsStatus').html('<a href="' + url + '">LOGIN</a>');
 	}
 }
 
