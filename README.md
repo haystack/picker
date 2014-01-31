@@ -34,3 +34,4 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 21. Move all onLoad methods to importer to avoid race conditions.<br>
 22. Make the mouse over expansion smooth like toggle comments <br>
 23. Not saving classes after login :(: working on right now <br>
+24. Revise so that all years' records of picked classes are saved. Better for recommendation building.<br>
