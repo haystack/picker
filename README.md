@@ -33,4 +33,4 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 20. Need to re-position the dialogue bubble when clicking on a class for a particular time.<br>
 21. Move all onLoad methods to importer to avoid race conditions.<br>
 22. Make the mouse over expansion smooth like toggle comments <br>
-23. Not saving classes after login :( <br>
+23. Not saving classes after login :(: working on right now <br>
