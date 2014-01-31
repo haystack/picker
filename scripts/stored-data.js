@@ -42,7 +42,7 @@ function updateStoredDataFromExhibit() {
     }
 
     if (window.database.getObject('user', 'userid') != null) {
-		$.post("./scripts/post.php",
+		$.post("scripts/post.php",
 			{ userid: window.database.getObject('user', 'userid'),
 			  pickedsections: sections.join(','),
 			  pickedclasses: classes.join(',')
