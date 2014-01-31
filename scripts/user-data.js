@@ -38,7 +38,7 @@ userData = {
 	
 	comment: function(button) {
 		var classID = button.getAttribute("classid");
-		
+
 		var textarea = $(button).parent().find('textarea');
 		
 		// hide input
@@ -52,7 +52,7 @@ userData = {
 				{ "userid": userID,
 				  "comment": $(textarea).val(),
 				  "class": classID,
-				  "anonymous": anonymous
+				  "anonymous": anonymous + ""
 				  },
 				function(data){
 					userData.setMsg(button, 'Successfully commented: ' + data);
