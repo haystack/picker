@@ -29,16 +29,24 @@ function readCookie(cookieName) {
 
 // formerly updateCookies
 function updateStoredDataFromExhibit() {
-    var sections = window.exhibit.getCollection("picked-sections").getRestrictedItems();
-    var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
-    writeCookie('picked-sections', sections.toArray());
-    writeCookie('picked-classes', classes.toArray());
+    var picked_classes = readCookie("picked-classes");
+    var saved_data = parseSavedClasses(picked_classes);
+
+    var sections = [];
+    var classes = [];
+    console.log(saved_data);
+    for (i in saved_data) {
+        var clss = saved_data[i];
+        sections.push(clss.sectionID);
+        classes.push(clss.classID);
+    }
+
     if (window.database.getObject('user', 'userid') != null) {
 		$.post("./scripts/post.php",
 			{ userid: window.database.getObject('user', 'userid'),
-			  pickedsections: sections.toArray().join(','),
-			  pickedclasses: classes.toArray().join(',')
-			  });
+			  pickedsections: sections.join(','),
+			  pickedclasses: classes.join(',')
+			});
     }
 }
 

@@ -12,6 +12,7 @@ function onPickUnpick(button) {
 	   doPick(sectionID);
     }
     updatePickedClassesList();
+    updateStoredDataFromExhibit();
 };
 
 function onUnpick(button) {
