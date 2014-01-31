@@ -141,15 +141,20 @@ while ($row = mysql_fetch_row($result)) {
 }
 
 // pull comments. we assume scrubbing occurs on comment ingestion
-$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment
+$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_votes, o_anonymous
 	FROM comments INNER JOIN users ON u_userid = o_userid
-	WHERE o_flagged = 0 ORDER BY o_timestamp DESC;");
+	WHERE o_flagged = 0 ORDER BY o_votes, o_timestamp DESC;");
 $count = 0;
 while ($row = mysql_fetch_row($result)) {
 	$count++;
 	$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $count . '",
-		"class-comment-of":"' . $row[1] . '","author":"' . $row[0] . '",
-		"timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
+		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
+	if ($row[5]) {
+		 $string .= ',"author": "anonymous"' ;
+	} else {
+		$string .= ',"author":"' . $row[0] . '"';
+	}
+
 	if (isset($athena) && $row[0] == $athena)
 		$string .= ',"is-current-user":"true"';	
 	$string .= '}';
@@ -169,7 +174,7 @@ while($row = mysql_fetch_row($result)) {
 
 mysql_close();
 
-mysql_connect('sql.mit.edu', 'picker', 'haystackpicker')
+/*mysql_connect('sql.mit.edu', 'picker', 'haystackpicker')
 	or die('MySQL connect failed');
 mysql_select_db('picker+classcomment');
 
@@ -184,7 +189,7 @@ while($row = mysql_fetch_row($result)) {
 	}
 }
 
-mysql_close();
+mysql_close();*/
 
 echo '{"items": [' . implode(",", $items) . '] }';
 

@@ -45,12 +45,14 @@ userData = {
 		$(button).parent().hide();
 		
 		var userID = this.getUserID(button);
+		var anonymous = $(button).parent().find("input").prop('checked');
+
 		if (userID != null) {
 			$.post("scripts/post.php",
 				{ "userid": userID,
-                  // $(textarea).getAttribute doesn't seem to work
-				  "comment": $(textarea).getAttribute('value'),
-				  "class": classID
+				  "comment": $(textarea).val(),
+				  "class": classID,
+				  "anonymous": anonymous
 				  },
 				function(data){
 					userData.setMsg(button, 'Successfully commented: ' + data);

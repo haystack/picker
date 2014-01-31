@@ -9,7 +9,11 @@ BUGS:<br>
 2. Safari filter boxes loses styling <br>
 3. Mobile picking doesn't work <br>
 4. No comments or ratings yet: DONE! <br>
-4.a. Need to fix getting and pushing comments: working on this. <br>
+4.a. Need to fix getting and pushing comments: FIXED! <br>
+4.b. Need to implement anonymous commenting.<br>
+4.c. Need to implement up and down voting.<br>
+4.d. Need to implement flagging.<br>
+4.e. Need to implement loading more comments with scrolling, could do this last with my day of css styling. <br>
 5. Extra functionality needs to be added <br>
 6. Sometimes loading issue occurs when trying to load classes onto calendar: FIXED! <br>
 7. Loading initial classes take too much time<br>
