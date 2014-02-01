@@ -42,11 +42,13 @@ function updateStoredDataFromExhibit(sections) {
 
 // formerly checkForCookies()
 function updateExhibitSections() {
-    var sections = getStoredSections();
+    var saved_sections = getStoredSections();
     var picked_classes = readCookie("picked-classes");
     var saved_data = parseSavedClasses(picked_classes);
-    var cookie_sections = saved_data.map(function (element) { return element.sectionID });
-    sections = uniqueArray(sections.concat(cookie_sections));
+    var sections = saved_data.map(function (element) { return element.sectionID });
+    if (saved_sections) {
+        sections = uniqueArray(sections.concat(saved_sections));
+    }
 
     for (i in sections) {
         var sectionID = sections[i];
