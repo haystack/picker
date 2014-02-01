@@ -183,7 +183,8 @@ function coursesToLinks(courseString, coords) {
 }
 
 // http://api.jquery.com/jQuery.ajax/
-function loadStaticData(link, database, cont) {
+function loadStaticData(link, database, cont, callback) {
+    callback = callback || null;
     var url = typeof link == "string" ? link : link.href;
     // Documentation: simile-widgets.org/wiki/Exhibit/API/2.2.0/Persistence
     // Given a relative or absolute URL, returns the absolute URL
@@ -203,6 +204,11 @@ function loadStaticData(link, database, cont) {
                     jsonObject = processOfficialData(jsonObject, null);
                 }
                 database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), cont);
+                if (cont && callback) {
+                    cont(callback);
+                } else if (cont) {
+                    cont();
+                }
             }
         } catch (error) {
             Exhibit.Debug.exception(error, "Error loading Exhibit JSON data from " + url);

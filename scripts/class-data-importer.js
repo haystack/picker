@@ -56,8 +56,8 @@ ExhibitImporter.transformJSON = function(json, url, link) {
     getAddOrRemove();
     updateMiniTimegrid();
     updatePickedClassesList();
-    loadStaticData("data/user.php", window.database, setupLogin);
-    
+    loadStaticData("data/user.php", window.database, setupLogin, updateExhibitSections);
+
     if (Timegrid.listener) {
         $(".timegrid-vline").each(function(i, obj) {
             $(this).bind("click", function() {Timegrid.listener($(this))});

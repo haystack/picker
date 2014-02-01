@@ -193,7 +193,8 @@ function classesToCourses(classList) {
     On clicking "login", protocol changes to https, certificates are processed,
     and window.database.getObject("user", "athena") becomes a kerberos ID.
 **/
-function setupLogin() {
+function setupLogin(callback) {
+    callback = callback || null;
 	var athena = window.database.getObject("user", "athena");
 	var url = document.location.href;
 
@@ -217,6 +218,10 @@ function setupLogin() {
         url = "https://quanquan.scripts.mit.edu:444/demo1/upgrade/";
 		$('#httpsStatus').html('<a href="' + url + '">LOGIN</a>');
 	}
+
+    if (callback) {
+        callback();
+    }
 }
 
 function toggleLogin(login) {

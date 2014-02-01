@@ -130,7 +130,7 @@ function getStoredSections() {
             dataType: 'json',
             success: function(data) {
                 mysqlSections = data;
-                }
+            }
         });
         return mysqlSections;
     }

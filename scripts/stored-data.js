@@ -28,18 +28,8 @@ function readCookie(cookieName) {
 }
 
 // formerly updateCookies
-function updateStoredDataFromExhibit() {
-    var picked_classes = readCookie("picked-classes");
-    var saved_data = parseSavedClasses(picked_classes);
-
-    var sections = [];
-    var classes = [];
-    console.log(saved_data);
-    for (i in saved_data) {
-        var clss = saved_data[i];
-        sections.push(clss.sectionID);
-        classes.push(clss.classID);
-    }
+function updateStoredDataFromExhibit(sections) {
+    var classes = uniqueArray(sections.map(function (element) { return sectionIDtoClass(element) }));
 
     if (window.database.getObject('user', 'userid') != null) {
 		$.post("scripts/post.php",
@@ -52,24 +42,21 @@ function updateStoredDataFromExhibit() {
 
 // formerly checkForCookies()
 function updateExhibitSections() {
-    var sections = getExhibitSet('picked-sections');
-    var mysqlSections = new Exhibit.Set(getStoredSections());
-    sections.addSet(mysqlSections);
-    
-    sections.visit( function(sectionID) {
-            if (window.database.containsItem(sectionID) && sectionID.length != 0) {
-                window.database.addStatement(sectionID, 'picked', 'true');
-                window.database.addStatement(sectionID, 'color', getNewColor());
+    var sections = getStoredSections();
+    var picked_classes = readCookie("picked-classes");
+    var saved_data = parseSavedClasses(picked_classes);
+    var cookie_sections = saved_data.map(function (element) { return element.sectionID });
+    sections = uniqueArray(sections.concat(cookie_sections));
 
-                var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
-                var data = {items: [ {"label":classID, "selected":"yes"}]};
-                window.database.loadData(data);
-            }
-        });
-
-    window.exhibit.getCollection('picked-sections')._update();
+    for (i in sections) {
+        var sectionID = sections[i];
+        if (window.database.containsItem(sectionID) && sectionID.length != 0) {
+            window.database.addStatement(sectionID, 'picked', 'true');
+            window.database.addStatement(sectionID, 'color', getNewColor());
+        }
+    }
     
-    updateStoredDataFromExhibit();  
+    updateStoredDataFromExhibit(sections);  
 }
 
 // formerly PersistentData.stored
@@ -87,3 +74,14 @@ function getExhibitSet(category) {
     }
     return exhibitSet;
 }
+
+function uniqueArray(array) {
+    var a = array.concat();
+    for(var i=0; i < a.length; i++) {
+        for(var j = i+1; j < a.length; j++) {
+            if (a[i] === a[j])
+                a.splice(j--, 1);
+        }
+    }
+    return a;
+};

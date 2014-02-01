@@ -22,7 +22,7 @@ function onUnpick(button) {
 };
 
 function sectionIDtoClass(sectionID) {
-    var db = window.exhibit.getDatabase();
+    var db = window.database;
     var type = db.getObject(sectionID, "type");
     var classID = db.getObject(sectionID, sectionTypeToData[type].linkage);
     return classID;
