@@ -183,7 +183,7 @@ function coursesToLinks(courseString, coords) {
 }
 
 // http://api.jquery.com/jQuery.ajax/
-function loadStaticData(link, database, cont, callback) {
+function loadStaticData(link, database, cont, callback, sections) {
     callback = callback || null;
     var url = typeof link == "string" ? link : link.href;
     // Documentation: simile-widgets.org/wiki/Exhibit/API/2.2.0/Persistence
@@ -205,7 +205,9 @@ function loadStaticData(link, database, cont, callback) {
                 }
                 database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), cont);
                 if (cont && callback) {
-                    cont(callback);
+                    if (sections) {
+                        cont(callback, sections);
+                    }
                 } else if (cont) {
                     cont();
                 }

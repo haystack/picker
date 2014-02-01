@@ -30,7 +30,7 @@ function readCookie(cookieName) {
 // formerly updateCookies
 function updateStoredDataFromExhibit(sections) {
     if (sections) {
-        var classes = uniqueArray(sections.map(function (element) { return sectionIDtoClass(element) }));
+        var classes = uniqueArray(sections.map(function (element) { return element.substring(3) }));
     } else {
         var picked_classes = readCookie("picked-classes");
         var saved_data = parseSavedClasses(picked_classes);
@@ -49,21 +49,18 @@ function updateStoredDataFromExhibit(sections) {
 }
 
 // formerly checkForCookies()
-function updateExhibitSections() {
-    var saved_sections = getStoredSections();
-    var picked_classes = readCookie("picked-classes");
-    var saved_data = parseSavedClasses(picked_classes);
-    var sections = saved_data.map(function (element) { return element.sectionID });
-    if (saved_sections) {
-        sections = uniqueArray(sections.concat(saved_sections));
+function updateExhibitSections(sections) {
+    if (!sections) {
+        var saved_sections = getStoredSections();
+        var picked_classes = readCookie("picked-classes");
+        var saved_data = parseSavedClasses(picked_classes);
+        var sections = saved_data.map(function (element) { return element.sectionID });
+        if (saved_sections) {
+            sections = uniqueArray(sections.concat(saved_sections));
+        }
     }
-
-    console.log(window.database);
-
     for (i in sections) {
         var sectionID = sections[i];
-        console.log("L016.875");
-        console.log(window.database.containsItem("L016.875"));
         if (sectionID.length != 0) {
             window.database.addStatement(sectionID, 'picked', 'true');
             window.database.addStatement(sectionID, 'color', getNewColor());

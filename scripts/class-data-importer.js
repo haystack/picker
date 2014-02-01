@@ -29,8 +29,37 @@ ExhibitImporter._register = function(evt, reg) {
 ExhibitImporter.transformJSON = function(json, url, link) {
 	var crossListedClasses = [];
 	var items = json.items;
+
+    var saved_sections = getStoredSections();
+    console.log(saved_sections);
+    var picked_classes = readCookie("picked-classes");
+    var saved_data = parseSavedClasses(picked_classes);
+    var sections = saved_data.map(function (element) { return element.sectionID });
+
+    if (saved_sections) {
+        sections = uniqueArray(sections.concat(saved_sections));
+    }
+
+    var cookies = [];
+    var idToNames = {};
+
     for (var i = 0; i < items.length; i++) {
         var item = items[i];
+
+        if (sections.indexOf(item.label) > -1) {
+            var c = new Object();
+            c.sectionID = item.label;
+            c.classID = item['section-of'];
+            c.timeAndPlace = item.timeAndPlace;
+            c.type = item.type;
+            c.sectionData = sectionTypeToData[item.type];
+            cookies.push(c);
+        }
+
+        if (item.type === "Class") {
+            idToNames[item.id] = item.label;
+        }
+
         // If true this is a cross-listed class, and this is not the "master" class
         // Ex. if this class is 18.062, rename it 6.042 and load 6.042
         if ('master_subject_id' in item && item.id != item.master_subject_id) {
@@ -46,17 +75,24 @@ ExhibitImporter.transformJSON = function(json, url, link) {
             processOfficialDataItem(item);
         }
     }
-    if (crossListedClasses.length >0) {
+
+    if (crossListedClasses.length > 0) {
         loadIndividualClasses(crossListedClasses);
     }
     /*
     	Moved from onLoad in browse.js because
     	of database loading issues
     */
+
+    for (i in cookies) {
+        cookies[i].classLabel = idToNames[cookies[i].classID]
+        updateCookie(cookies[i].sectionID, true, cookies[i].classID, cookies[i].classLabel, cookies[i].timeAndPlace, cookies[i].type, cookies[i].sectionData);
+        console.log(cookies[i].sectionID + true + cookies[i].classID + cookies[i].classLabel + cookies[i].timeAndPlace + cookies[i].type + cookies[i].sectionData);
+    }
+
     getAddOrRemove();
-    updateMiniTimegrid();
     updatePickedClassesList();
-    loadStaticData("data/user.php", window.database, setupLogin, updateExhibitSections);
+    loadStaticData("data/user.php", window.database, setupLogin, updateExhibitSections, sections);
 
     if (Timegrid.listener) {
         $(".timegrid-vline").each(function(i, obj) {

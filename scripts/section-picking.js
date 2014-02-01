@@ -160,32 +160,38 @@ function parseSavedClasses(classes) {
     return class_data;
 }
 
-function updateCookie(sectionID, add) {
+function updateCookie(sectionID, add, classID, classLabel, timeAndPlace, type, sectionData) {
+    console.log(classID);
     var db =  window.database;
-    console.log(db);
+
     var picked_classes = readCookie("picked-classes");
     var class_data = parseSavedClasses(picked_classes);
+    var class_sectionIDs = class_data.map(function (element) { return element.sectionID });
+
     if (add) {
         var color = getNewColor();
-        // example: type = "LectureSession"
-        var type = db.getObject(sectionID, "type");
-        var sectionData = sectionTypeToData[type];
-        // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
-        var classID = db.getObject(sectionID, sectionData.linkage);
-        var classLabel = db.getObject(classID, "label");
-        var timeandplace = db.getObject(sectionID, "timeAndPlace")
+        if (!classID) {
+            // example: type = "LectureSession"
+            var type = db.getObject(sectionID, "type");
+            var sectionData = sectionTypeToData[type];
+            // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
+            var classID = db.getObject(sectionID, sectionData.linkage);
+            var classLabel = db.getObject(classID, "label");
+            var timeandplace = db.getObject(sectionID, "timeAndPlace");
+            db.addStatement(sectionID, "color", color);
+        }
 
-        if (picked_classes != null) {
+        if (class_sectionIDs.indexOf(sectionID) < 0) {
+            if (picked_classes != null) {
             picked_classes = picked_classes + "+sectionID:" + sectionID + ",color:" + color 
                             + ",type:" + type + ",classID:" + classID + ",classLabel:" + classLabel 
                             + ",timeandplace:" + timeandplace + ",sectionData:" + sectionData.linkage;
-        } else {
-            picked_classes = "+sectionID:" + sectionID + ",color:" + color
-                            + ",type:" + type + ",classID:" + classID + ",classLabel:" + classLabel 
-                            + ",timeandplace:" + timeandplace + ",sectionData:" + sectionData.linkage;
+            } else {
+                picked_classes = "+sectionID:" + sectionID + ",color:" + color
+                                + ",type:" + type + ",classID:" + classID + ",classLabel:" + classLabel 
+                                + ",timeandplace:" + timeandplace + ",sectionData:" + sectionData.linkage;
+            }
         }
-        console.log(picked_classes);
-        db.addStatement(sectionID, "color", color);
         writeCookie("picked-classes", picked_classes);
     } else {
         var cookie = "";
@@ -200,7 +206,7 @@ function updateCookie(sectionID, add) {
                 releaseColor(color);
             }
         }
-        if (color)
+        if (color && !classID)
             db.removeStatement(sectionID, "color", color);
         writeCookie("picked-classes", cookie);
     }
