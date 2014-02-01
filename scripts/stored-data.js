@@ -29,7 +29,14 @@ function readCookie(cookieName) {
 
 // formerly updateCookies
 function updateStoredDataFromExhibit(sections) {
-    var classes = uniqueArray(sections.map(function (element) { return sectionIDtoClass(element) }));
+    if (sections) {
+        var classes = uniqueArray(sections.map(function (element) { return sectionIDtoClass(element) }));
+    } else {
+        var picked_classes = readCookie("picked-classes");
+        var saved_data = parseSavedClasses(picked_classes);
+        var sections = saved_data.map(function (element) { return element.sectionID });
+        var classes = saved_data.map(function (element) { return element.classID });
+    }
 
     if (window.database.getObject('user', 'userid') != null) {
 		$.post("scripts/post.php",
@@ -38,6 +45,7 @@ function updateStoredDataFromExhibit(sections) {
 			  pickedclasses: classes.join(',')
 			});
     }
+    updateMiniTimegrid(false);
 }
 
 // formerly checkForCookies()
@@ -50,14 +58,17 @@ function updateExhibitSections() {
         sections = uniqueArray(sections.concat(saved_sections));
     }
 
+    console.log(window.database);
+
     for (i in sections) {
         var sectionID = sections[i];
-        if (window.database.containsItem(sectionID) && sectionID.length != 0) {
+        console.log("L016.875");
+        console.log(window.database.containsItem("L016.875"));
+        if (sectionID.length != 0) {
             window.database.addStatement(sectionID, 'picked', 'true');
             window.database.addStatement(sectionID, 'color', getNewColor());
         }
     }
-    
     updateStoredDataFromExhibit(sections);  
 }
 
