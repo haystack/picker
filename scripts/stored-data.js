@@ -29,21 +29,24 @@ function readCookie(cookieName) {
 
 // formerly updateCookies
 function updateStoredDataFromExhibit(sections) {
-    if (sections) {
-        var classes = uniqueArray(sections.map(function (element) { return element.substring(3) }));
-    } else {
-        var picked_classes = readCookie("picked-classes");
-        var saved_data = parseSavedClasses(picked_classes);
-        var sections = saved_data.map(function (element) { return element.sectionID });
-        var classes = saved_data.map(function (element) { return element.classID });
-    }
+    var picked_classes = readCookie("picked-classes");
+    var saved_data = parseSavedClasses(picked_classes);
 
     if (window.database.getObject('user', 'userid') != null) {
-		$.post("scripts/post.php",
-			{ userid: window.database.getObject('user', 'userid'),
-			  pickedsections: sections.join(','),
-			  pickedclasses: classes.join(',')
-			});
+        for (i in saved_data) {
+            var clss = saved_data[i];
+    		$.post("scripts/post.php",
+    			{ userid: window.database.getObject('user', 'userid'),
+                  sectionID: clss.sectionID,
+    			  classID: clss.classID,
+                  color: clss.color,
+                  type: clss.type,
+                  classLabel: clss.classLabel,
+                  timeandplace: clss.timeandplace,
+                  sectionData: clss.sectionData,
+                  userathena: window.database.getObject('user', 'athena')
+    			});
+        }
     }
     updateMiniTimegrid(false);
 }

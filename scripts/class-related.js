@@ -122,6 +122,7 @@ function submitBooksQuery() {
 function getStoredSections() {
     var mysqlSections;
     var userID = window.database.getObject('user', 'userid');
+    console.log(userID);
     if (userID != null) {
         $.ajax({ type: 'POST',
             url: 'data/user.php',

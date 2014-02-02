@@ -29,12 +29,40 @@ ExhibitImporter._register = function(evt, reg) {
 ExhibitImporter.transformJSON = function(json, url, link) {
 	var crossListedClasses = [];
 	var items = json.items;
+    var link = "data/user.php";
+    var url = typeof link == "string" ? link : link.href;
+    url = Exhibit.Persistence.resolveURL(url);
 
-    var saved_sections = getStoredSections();
-    console.log(saved_sections);
+    var fSuccess = function(jsonObject, textStatus, jqXHR) {
+        try {
+            if (jsonObject != null) {
+                if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "Class") {
+                    jsonObject = processOfficialData(jsonObject, null);
+                }
+                database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), function () {console.log("waiting waiting " + getStoredSections());});
+            }
+        } catch (error) {
+            Exhibit.Debug.exception(error, "Error loading Exhibit JSON data from " + url);
+        }
+    };
+
+    var fError = function(jqXHR, textStatus, errorThrown) {
+        Exhibit.UI.hideBusyIndicator();
+        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
+    };
+
+    // Calls fSuccess if data is json in correct form, else calls fError
+    $.ajax({ url : url,
+        error : fError,
+        success: fSuccess,
+        dataType: 'json' });
+
     var picked_classes = readCookie("picked-classes");
     var saved_data = parseSavedClasses(picked_classes);
     var sections = saved_data.map(function (element) { return element.sectionID });
+    
+    var saved_sections = getStoredSections();
+    console.log("stored sections!" + saved_sections);
 
     if (saved_sections) {
         sections = uniqueArray(sections.concat(saved_sections));
@@ -92,7 +120,9 @@ ExhibitImporter.transformJSON = function(json, url, link) {
 
     getAddOrRemove();
     updatePickedClassesList();
+    updateMiniTimegrid();
     loadStaticData("data/user.php", window.database, setupLogin, updateExhibitSections, sections);
+
 
     if (Timegrid.listener) {
         $(".timegrid-vline").each(function(i, obj) {
