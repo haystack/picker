@@ -33,6 +33,10 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 20. Need to re-position the dialogue bubble when clicking on a class for a particular time.<br>
 21. Move all onLoad methods to importer to avoid race conditions.<br>
 22. Make the mouse over expansion smooth like toggle comments <br>
-23. Not saving classes after login :(: working on right now <br>
+23. Not saving classes after login :(: FIXED! <br>
+23.a. Need to add functionality for deleting classes from database.<br>
+23.b. Incorporate choosing right semester as defined in config file<br>
+23.c. Need to update database each time a new class is picked while logged in.<br>
+23.d. Just as a thought: maybe prompt users when new classes are added without the user being logged in. <br>
 24. Revise so that all years' records of picked classes are saved. Better for recommendation building: doing something else but making a note so I don't forget: when adding this, just delete the line "mysql_query("DELETE FROM classes WHERE c_userid=$userid;");"<br>
 25. Fix all database stuff when changing from local to mit scripts
