@@ -193,8 +193,7 @@ function classesToCourses(classList) {
     On clicking "login", protocol changes to https, certificates are processed,
     and window.database.getObject("user", "athena") becomes a kerberos ID.
 **/
-function setupLogin(callback, sections) {
-    callback = callback || null;
+function setupLogin() {
 	var athena = window.database.getObject("user", "athena");
 	var url = document.location.href;
 
@@ -219,12 +218,17 @@ function setupLogin(callback, sections) {
 		$('#httpsStatus').html('<a href="' + url + '">LOGIN</a>');
 	}
 
-    if (callback) {
-        if (sections) {
-            callback(sections);
-        }
-        callback();
-    }
+    setupCookiesAndMiniTimegrid();
+}
+
+function setupCookiesAndMiniTimegrid() {
+    var saved_sections = getStoredSections();
+    var picked_classes = readCookie("picked-classes");
+    if (saved_sections) 
+        picked_classes = picked_classes + saved_sections.join("");
+    writeCookie("picked-classes", picked_classes);
+    getAddOrRemove();
+
 }
 
 function toggleLogin(login) {
@@ -388,17 +392,28 @@ function showMediumView(){
 function getAddOrRemove() {
     var picked_classes = readCookie("picked-classes");
     picked_classes = parseSavedClasses(picked_classes);
+    picked_classes = uniqueObjArray(picked_classes);
 
     for (c in picked_classes) {
         var sectionID = picked_classes[c].sectionID;
         window.database.addStatement(sectionID, "picked", "true");
         window.database.removeStatement(sectionID, "temppick", "true");
     }
+    updatePickedClassesList();
+    updateMiniTimegrid();
+
+    if (Timegrid.listener) {
+        $(".timegrid-vline").each(function(i, obj) {
+            $(this).bind("click", function() {Timegrid.listener($(this))});
+        });
+    }
 }
 
 function updatePickedClassesList() {
     var picked_classes = readCookie("picked-classes");
     picked_classes = parseSavedClasses(picked_classes);
+    picked_classes = uniqueObjArray(picked_classes);
+
     $("#picked-classes-list").empty();
     for (c in picked_classes) {
         var clss = picked_classes[c];

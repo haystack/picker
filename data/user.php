@@ -42,12 +42,13 @@ if (isset($_POST['userid'])) {
         echo $jsonPickedClasses;
     }
     else if (isset($_POST['getPickedSections'])) {
-        $result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
+        $result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0;");
 	    $arr = array();
  	    while ($row = mysql_fetch_row($result)) {
- 		    $arr[] = '"' . $row[0] . '"';
+ 		    $arr[] = '"+sectionID:' . $row[2] . ',color:' . $row[3] . ',type:' . $row[4] . ',classID:' . $row[5] . ',classLabel:'
+ 		    			. $row[6] . ',timeandplace:' . $row[7] . ',sectionData:' . $row[8] . '"';
  	    }
-	    $jsonPickedSections = '[' . implode(",", $arr) . ']';
+        $jsonPickedSections = '[' . implode(",", $arr) . ']';
         echo $jsonPickedSections;
     }
 }

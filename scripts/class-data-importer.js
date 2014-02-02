@@ -29,64 +29,9 @@ ExhibitImporter._register = function(evt, reg) {
 ExhibitImporter.transformJSON = function(json, url, link) {
 	var crossListedClasses = [];
 	var items = json.items;
-    var link = "data/user.php";
-    var url = typeof link == "string" ? link : link.href;
-    url = Exhibit.Persistence.resolveURL(url);
-
-    var fSuccess = function(jsonObject, textStatus, jqXHR) {
-        try {
-            if (jsonObject != null) {
-                if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "Class") {
-                    jsonObject = processOfficialData(jsonObject, null);
-                }
-                database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), function () {console.log("waiting waiting " + getStoredSections());});
-            }
-        } catch (error) {
-            Exhibit.Debug.exception(error, "Error loading Exhibit JSON data from " + url);
-        }
-    };
-
-    var fError = function(jqXHR, textStatus, errorThrown) {
-        Exhibit.UI.hideBusyIndicator();
-        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
-    };
-
-    // Calls fSuccess if data is json in correct form, else calls fError
-    $.ajax({ url : url,
-        error : fError,
-        success: fSuccess,
-        dataType: 'json' });
-
-    var picked_classes = readCookie("picked-classes");
-    var saved_data = parseSavedClasses(picked_classes);
-    var sections = saved_data.map(function (element) { return element.sectionID });
-    
-    var saved_sections = getStoredSections();
-    console.log("stored sections!" + saved_sections);
-
-    if (saved_sections) {
-        sections = uniqueArray(sections.concat(saved_sections));
-    }
-
-    var cookies = [];
-    var idToNames = {};
 
     for (var i = 0; i < items.length; i++) {
         var item = items[i];
-
-        if (sections.indexOf(item.label) > -1) {
-            var c = new Object();
-            c.sectionID = item.label;
-            c.classID = item['section-of'];
-            c.timeAndPlace = item.timeAndPlace;
-            c.type = item.type;
-            c.sectionData = sectionTypeToData[item.type];
-            cookies.push(c);
-        }
-
-        if (item.type === "Class") {
-            idToNames[item.id] = item.label;
-        }
 
         // If true this is a cross-listed class, and this is not the "master" class
         // Ex. if this class is 18.062, rename it 6.042 and load 6.042
@@ -107,28 +52,8 @@ ExhibitImporter.transformJSON = function(json, url, link) {
     if (crossListedClasses.length > 0) {
         loadIndividualClasses(crossListedClasses);
     }
-    /*
-    	Moved from onLoad in browse.js because
-    	of database loading issues
-    */
 
-    for (i in cookies) {
-        cookies[i].classLabel = idToNames[cookies[i].classID]
-        updateCookie(cookies[i].sectionID, true, cookies[i].classID, cookies[i].classLabel, cookies[i].timeAndPlace, cookies[i].type, cookies[i].sectionData);
-        console.log(cookies[i].sectionID + true + cookies[i].classID + cookies[i].classLabel + cookies[i].timeAndPlace + cookies[i].type + cookies[i].sectionData);
-    }
-
-    getAddOrRemove();
-    updatePickedClassesList();
-    updateMiniTimegrid();
-    loadStaticData("data/user.php", window.database, setupLogin, updateExhibitSections, sections);
-
-
-    if (Timegrid.listener) {
-        $(".timegrid-vline").each(function(i, obj) {
-            $(this).bind("click", function() {Timegrid.listener($(this))});
-        });
-    }
+    loadStaticData("data/user.php", window.database, setupLogin);
 
 	return json;
 }

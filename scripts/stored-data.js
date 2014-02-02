@@ -92,9 +92,36 @@ function uniqueArray(array) {
     var a = array.concat();
     for(var i=0; i < a.length; i++) {
         for(var j = i+1; j < a.length; j++) {
-            if (a[i] === a[j])
+            if (a[i] === a[j]) {
                 a.splice(j--, 1);
+            }
         }
     }
     return a;
-};
+}
+
+function uniqueObjArray(array) {
+    var a = array.concat();
+    for (i in a) {
+        for (j in a) {
+            if (compareObject(a[i], a[j]) && i !== j) {
+                a.splice(j--, 1);
+            }
+        }
+    }
+    return a;
+}
+
+function compareObject(o1, o2){
+    for(var p in o1){
+        if(o1[p] !== o2[p]){
+            return false;
+        }
+    }
+    for(var p in o2){
+        if(o1[p] !== o2[p]){
+            return false;
+        }
+    }
+    return true;
+}
