@@ -161,7 +161,6 @@ function parseSavedClasses(classes) {
 }
 
 function updateCookie(sectionID, add, classID, classLabel, timeAndPlace, type, sectionData) {
-    console.log(classID);
     var db =  window.database;
 
     var picked_classes = readCookie("picked-classes");

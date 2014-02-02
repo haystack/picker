@@ -42,7 +42,8 @@ if (isset($_POST['userid'])) {
         echo $jsonPickedClasses;
     }
     else if (isset($_POST['getPickedSections'])) {
-        $result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0;");
+    	$semester = mysql_real_escape_string($_POST['semester']);
+        $result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0 AND semester='$semester';");
 	    $arr = array();
  	    while ($row = mysql_fetch_row($result)) {
  		    $arr[] = '"+sectionID:' . $row[2] . ',color:' . $row[3] . ',type:' . $row[4] . ',classID:' . $row[5] . ',classLabel:'

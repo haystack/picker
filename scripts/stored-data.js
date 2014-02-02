@@ -44,7 +44,8 @@ function updateStoredDataFromExhibit(sections) {
                   classLabel: clss.classLabel,
                   timeandplace: clss.timeandplace,
                   sectionData: clss.sectionData,
-                  userathena: window.database.getObject('user', 'athena')
+                  userathena: window.database.getObject('user', 'athena'),
+                  semester: term + current_year
     			});
         }
     }

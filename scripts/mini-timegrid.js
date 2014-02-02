@@ -83,14 +83,16 @@ function addPickedClasses() {
     var collection = parseSavedClasses(picked_classes);
 
     for (c in collection) {
-        var sectionID = collection[c].sectionID;
-        var color = collection[c].color;
-        var type = collection[c].type;
-        var classID = collection[c].classID;
-        var classLabel = collection[c].classLabel;
-        var timeandplace = collection[c].timeandplace;
-        var sectionData = collection[c].sectionData;
-        processTimeAndPlace(sectionID, color, type, classID, classLabel, timeandplace, sectionData);
+        if (collection[c]) {
+            var sectionID = collection[c].sectionID;
+            var color = collection[c].color;
+            var type = collection[c].type;
+            var classID = collection[c].classID;
+            var classLabel = collection[c].classLabel;
+            var timeandplace = collection[c].timeandplace;
+            var sectionData = collection[c].sectionData;
+            processTimeAndPlace(sectionID, color, type, classID, classLabel, timeandplace, sectionData);
+        }
     }
 }
 
