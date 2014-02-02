@@ -28,7 +28,7 @@ function readCookie(cookieName) {
 }
 
 // formerly updateCookies
-function updateStoredDataFromExhibit(sections) {
+function updateStoredDataFromExhibit() {
     var picked_classes = readCookie("picked-classes");
     var saved_data = parseSavedClasses(picked_classes);
 
@@ -36,7 +36,8 @@ function updateStoredDataFromExhibit(sections) {
         for (i in saved_data) {
             var clss = saved_data[i];
     		$.post("scripts/post.php",
-    			{ userid: window.database.getObject('user', 'userid'),
+    			{ addingClass: true,
+                  userid: window.database.getObject('user', 'userid'),
                   sectionID: clss.sectionID,
     			  classID: clss.classID,
                   color: clss.color,
@@ -50,6 +51,18 @@ function updateStoredDataFromExhibit(sections) {
         }
     }
     updateMiniTimegrid(false);
+}
+
+function deleteClassFromStoredData(sectionID) {
+    console.log(sectionID);
+    if (window.database.getObject('user', 'userid') != null) {
+        $.post("scripts/post.php",
+            {   deletingClass: true,
+                userid: window.database.getObject('user', 'userid'),
+                sectionID: sectionID,
+                semester: term + current_year
+            });
+    }
 }
 
 // formerly checkForCookies()
@@ -103,10 +116,14 @@ function uniqueArray(array) {
 
 function uniqueObjArray(array) {
     var a = array.concat();
-    for (i in a) {
-        for (j in a) {
-            if (compareObject(a[i], a[j]) && i !== j) {
-                a.splice(j--, 1);
+    for (var i=0; i < a.length; i++) {
+        if (a[i] && a[i] != "undefined") {
+            for (var j = i+1; j < a.length; j++) {
+                if (a[j] && a[j] != "undefined") {
+                    if (compareObject(a[i], a[j])) {
+                        a.splice(j--, 1);
+                    }
+                }
             }
         }
     }

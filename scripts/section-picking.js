@@ -7,17 +7,19 @@ function onPickUnpick(button) {
     // if the class is already picked, unpick it
     if (picked) {
 	   doUnpick(sectionID);
+       deleteClassFromStoredData(sectionID);
     // Otherwise, pick it
     } else {
 	   doPick(sectionID);
+       updateStoredDataFromExhibit();
     }
     updatePickedClassesList();
-    updateStoredDataFromExhibit();
 };
 
 function onUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
     doUnpick(sectionID);
+    deleteClassFromStoredData(sectionID);
     updatePickedClassesList();
 };
 
