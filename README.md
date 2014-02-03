@@ -39,4 +39,5 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 23.c. Need to update database each time a new class is picked while logged in: DONE! <br>
 23.d. Just as a thought: maybe prompt users when new classes are added without the user being logged in. <br>
 24. Revise so that all years' records of picked classes are saved. Better for recommendation building: doing something else but making a note so I don't forget: when adding this, just delete the line "mysql_query("DELETE FROM classes WHERE c_userid=$userid;");"<br>
-25. Fix all database stuff when changing from local to mit scripts
+25. Fix all database stuff when changing from local to mit scripts <br>
+26. For some reason, the classes are interspersing themselves in between the blocks of time. WHY???? Gotta fix.<br>
