@@ -50,6 +50,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
         $(".timegrid-vline").each(function(i, obj) {
             $(this).bind("click", function() {Timegrid.listener($(this))});
         });
+    }
     
 };
 
