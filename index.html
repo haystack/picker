@@ -21,6 +21,9 @@
 	    <script src="scripts/panel-switching.js" type="text/javascript"></script>
 	    <script src="scripts/load-and-process.js" type="text/javascript"></script>
 		<script src="scripts/google-cal-exporter.js" type="text/javascript"></script>
+
+		<link href="jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+		<script src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
 	
 		<link rel="exhibit/data" type="application/jsonp" href="//coursews.mit.edu/coursews/?term=2014SP&callback=?" data-ex-converter="processClassData"/>
 		<link rel="exhibit/data" type="application/json" href="data/schema.js" />
@@ -320,9 +323,9 @@
 									    <span data-ex-content=".author"></span>,
 									    <span data-ex-content=".timestamp"
 										    data-ex-formats="date { mode: medium }"></span>
-										<span class="ui-icon-circle-triangle-n"></span>
-							    		<span class="ui-icon-circle-triangle-s"></span>
-							    		<span class="ui-icon-flag"></span>
+										<span class="ui-icon ui-icon-plusthick"></span>
+							    		<span class="ui-icon ui-icon-minusthick"></span>
+							    		<span class="ui-icon ui-icon-flag"></span>
 									    <a data-ex-if-exists=".is-current-user"
 										    data-ex-classid-content=".class-comment-of"
 										    href="#"
