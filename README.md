@@ -5,7 +5,7 @@ TODO:
 look to see if SimileAjax functionalities is included in Exhibit 3. They could be: for example, Exhibit.includeJavascriptFiles() is included.
 
 BUGS:<br>
-1. event listener goes away after picking classes<br>
+1. event listener goes away after picking classes: DONE! <br>
 2. Safari filter boxes loses styling <br>
 3. Mobile picking doesn't work <br>
 4. No comments or ratings yet: DONE! <br>

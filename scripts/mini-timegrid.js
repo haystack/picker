@@ -45,6 +45,12 @@ function updateMiniTimegrid(preview, previewSectionID) {
         miniEventSource.setEventPrototypes(events);
         timegridEventSource.setEventPrototypes(events);
     }
+
+    if (Timegrid.listener) {
+        $(".timegrid-vline").each(function(i, obj) {
+            $(this).bind("click", function() {Timegrid.listener($(this))});
+        });
+    
 };
 
 function processTime(time, eve) {

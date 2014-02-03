@@ -401,12 +401,6 @@ function getAddOrRemove() {
     }
     updatePickedClassesList();
     updateMiniTimegrid();
-
-    if (Timegrid.listener) {
-        $(".timegrid-vline").each(function(i, obj) {
-            $(this).bind("click", function() {Timegrid.listener($(this))});
-        });
-    }
 }
 
 function updatePickedClassesList() {
