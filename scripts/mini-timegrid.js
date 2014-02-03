@@ -51,7 +51,6 @@ function updateMiniTimegrid(preview, previewSectionID) {
             $(this).bind("click", function() {Timegrid.listener($(this))});
         });
     }
-    
 };
 
 function processTime(time, eve) {
