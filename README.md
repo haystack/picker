@@ -28,7 +28,7 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 15. Insecure content loading issue: FIXED! <br>
 16. When moving to picker locker, change the login link to just https:// don't need the port like I had in scripts. Only scripts need the 444 port.<br>
 17. Make sure all secure content is under a login <br>
-18. STYLING <br>
+18. STYLING: USE THIS USE THIS: http://jqueryui.com/demos/  <br>
 19. Remember to replace "#httpsStatus" with url instead of url with port 444 when migrated to picker namespace.
 20. Need to re-position the dialogue bubble when clicking on a class for a particular time.<br>
 21. Move all onLoad methods to importer to avoid race conditions.<br>
