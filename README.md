@@ -7,7 +7,7 @@ look to see if SimileAjax functionalities is included in Exhibit 3. They could b
 BUGS:<br>
 1. event listener goes away after picking classes: DONE! <br>
 2. Safari filter boxes loses styling: pretty sure I didn't do anything so it magically FIXED itself!  <br>
-3. Mobile picking doesn't work <br>
+3. Mobile picking doesn't work: took a look at this, might be a lot of work, put with final styling changes. <br>
 4. No comments or ratings yet: DONE! <br>
 4.a. Need to fix getting and pushing comments: FIXED! <br>
 4.b. Need to implement anonymous commenting: DONE! <br>
