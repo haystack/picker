@@ -66,7 +66,7 @@ function deleteClassFromStoredData(sectionID) {
 }
 
 // formerly checkForCookies()
-function updateExhibitSections(sections) {
+/**function updateExhibitSections(sections) {
     if (!sections) {
         var saved_sections = getStoredSections();
         var picked_classes = readCookie("picked-classes");
@@ -84,7 +84,7 @@ function updateExhibitSections(sections) {
         }
     }
     updateStoredDataFromExhibit(sections);  
-}
+}**/
 
 // formerly PersistentData.stored
 function getExhibitSet(category) {

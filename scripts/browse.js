@@ -325,9 +325,9 @@ function showPrereq(elmt, itemID, coords) {
 function toggleClassBody(a) {
     var div=$(a.parentNode).siblings("div")[0];
     if (div.style.display == "none") {
-	div.style.display = "block";
+	   div.style.display = "block";
     } else {
-	div.style.display = "none";
+	   div.style.display = "none";
     }
     howManyCollapsed();
 }
@@ -394,12 +394,22 @@ function getAddOrRemove() {
     picked_classes = parseSavedClasses(picked_classes);
     picked_classes = uniqueObjArray(picked_classes);
 
+    resetColorTable();
+
     for (c in picked_classes) {
-        var sectionID = picked_classes[c].sectionID;
+        var clss = picked_classes[c];
+        var sectionID = clss.sectionID;
+        console.log(clss.color);
+        clss.color = reserveColor(clss.color);
+        console.log("new color " + clss.color);
         window.database.addStatement(sectionID, "picked", "true");
         window.database.removeStatement(sectionID, "temppick", "true");
+        window.database.addStatement(sectionID, "color", clss.color);
     }
+
+    fromSavedClassesToCookie(picked_classes);
     updatePickedClassesList();
+    updateStoredDataFromExhibit();
     updateMiniTimegrid();
 }
 

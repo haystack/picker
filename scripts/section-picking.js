@@ -120,11 +120,11 @@ function countCollapsed(a) {
 }
 
 function toggleBody(a, collapse) {
-    var div=$(a.parentNode).siblings("div")[0];
+    var div = $(a.parentNode).siblings("div")[0];
     if (collapse) {
-	div.style.display = "block";
+	   div.style.display = "block";
     } else {
-	div.style.display = "none";
+	   div.style.display = "none";
     }
     howManyCollapsed();
 }
@@ -160,6 +160,17 @@ function parseSavedClasses(classes) {
         }
     }
     return class_data;
+}
+
+function fromSavedClassesToCookie(classes) {
+    var cookie = "";
+    for (var c in classes) {
+        var cd = classes[c];
+        cookie = cookie + "+sectionID:" + cd.sectionID + ",color:" + cd.color
+                + ",type:" + cd.type + ",classID:" + cd.classID + ",classLabel:" + cd.classLabel 
+                + ",timeandplace:" + cd.timeandplace + ",sectionData:" + cd.sectionData;
+    }
+    writeCookie("picked-classes", cookie);
 }
 
 function updateCookie(sectionID, add, classID, classLabel, timeAndPlace, type, sectionData) {
