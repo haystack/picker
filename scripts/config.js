@@ -15,11 +15,7 @@ Dates of the first classes starting
 on each day of the week
 Format: YYYY-MM-DDT
 */
-var first_monday = "2014-02-10T";
-var first_tuesday = "2014-02-04T";
-var first_wednesday = "2014-02-05T";
-var first_thursday = "2014-02-06T";
-var first_friday = "2014-02-07T";
+var first_date = "2014-02-04T";
 
 var courses = [
     {   number: "1",

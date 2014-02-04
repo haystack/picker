@@ -35,7 +35,7 @@ var exportCalendarToGoogle = function() {
     var exportPickerCalendar = function() {
       var $ = jQuery;
       
-      var picked_classes = getCookie("picked-classes");
+      var picked_classes = readCookie("picked-classes");
       picked_classes = parseSavedClasses(picked_classes);
       
       for (var i in picked_classes) {
@@ -57,18 +57,7 @@ var exportCalendarToGoogle = function() {
                 var startDateTime = firstEvent.startHour + ":" + firstEvent.startMinute + ":00";
                 var endDateTime = firstEvent.endHour + ":" + firstEvent.endMinute + ":00";
                 var firstDay = firstEvent.day;
-                var firstDate;
-                if (firstDay == "MO") {
-                    firstDate = first_monday;
-                } else if (firstDay == "TU") {
-                    firstDate = first_tuesday;
-                } else if (firstDay == "WE") {
-                    firstDate = first_wednesday;
-                } else if (firstDay == "TH") {
-                    firstDate = first_thursday;
-                } else if (firstDay == "FR") {
-                    firstDate = first_friday;
-                }
+                var firstDate = first_date;
                 var request = gapi.client.calendar.events.insert(
                     {"calendarId": "primary",
                         resource: {
@@ -177,7 +166,7 @@ var exportCalendarToGoogle = function() {
   }
   
   var getClassLocandTime = function(item) {
-    var locandtime = item.timeAndPlace;
+    var locandtime = item.timeandplace;
     return locandtime.split(" ");
   }
   
@@ -186,7 +175,7 @@ var exportCalendarToGoogle = function() {
   }
   
   var getClassNumber = function(item) {
-    return item.substring(3);
+    return item.classID;
   }
   
   var getClassLocation = function(item) {
