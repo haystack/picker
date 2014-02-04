@@ -132,12 +132,12 @@ function uniqueObjArray(array) {
 
 function compareObject(o1, o2){
     for(var p in o1){
-        if(o1[p] !== o2[p]){
+        if(o1[p] !== o2[p] && p != "color"){
             return false;
         }
     }
     for(var p in o2){
-        if(o1[p] !== o2[p]){
+        if(o1[p] !== o2[p] && p != "color"){
             return false;
         }
     }
