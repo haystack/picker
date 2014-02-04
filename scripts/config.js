@@ -242,16 +242,13 @@ function releaseColor(c) {
 }
 
 function reserveColor(c) {
-    console.log("color! " + c);
     for (var i = 0; i < colorTable.length; i++) {
         var entry = colorTable[i];
         if (c == entry.color) {
             if (!entry.used) {
-                console.log("not used");
                 entry.used = true;
                 return entry.color;
             } else {
-                console.log("USED");
                 return getNewColor();
             }
         }

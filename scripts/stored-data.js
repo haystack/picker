@@ -54,7 +54,6 @@ function updateStoredDataFromExhibit() {
 }
 
 function deleteClassFromStoredData(sectionID) {
-    console.log(sectionID);
     if (window.database.getObject('user', 'userid') != null) {
         $.post("scripts/post.php",
             {   deletingClass: true,
