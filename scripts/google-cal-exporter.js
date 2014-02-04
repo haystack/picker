@@ -17,7 +17,7 @@ var exportCalendarToGoogle = function() {
       setTimeout(function() {
           gapi.client.setApiKey(apiKey);
           gapi.auth.init(checkAuth);
-        }, 100);
+        }, 500);
     }
     
     var checkAuth = function() {
@@ -35,23 +35,23 @@ var exportCalendarToGoogle = function() {
     var exportPickerCalendar = function() {
       var $ = jQuery;
       
-      var collection = window.exhibit.getCollection("picked-sections");
-      var itemSet = collection.getRestrictedItems();
-      var labels = itemSet._hash;
-      var db = window.exhibit.getDatabase();
+      var picked_classes = getCookie("picked-classes");
+      picked_classes = parseSavedClasses(picked_classes);
       
-      for (var item in itemSet._hash) {
-        var type = getSessionType(item, db);
-        var time = getClassTime(item, db);
-        var number = getClassNumber(item, db);
-        var loc = getClassLocation(item, db);
+      for (var i in picked_classes) {
+        var clss = picked_classes[i];
+
+        var type = getSessionType(clss);
+        var time = getClassTime(clss);
+        var number = getClassNumber(clss);
+        var loc = getClassLocation(clss);
         
         if(type != null) {
             var times = parseTimeString(time);
              if (times) {
                 var recurList = [];
                 for(var i = 0; i < times.length; i++) {
-                    recurList.push("RRULE:FREQ=WEEKLY;UNTIL=20130516;BYHOUR=" + times[i].startHour + ";BYMINUTE=" + times[i].startMinute+";BYDAY=" + times[i].days2String);
+                    recurList.push("RRULE:FREQ=WEEKLY;UNTIL=" + last_date + ";BYHOUR=" + times[i].startHour + ";BYMINUTE=" + times[i].startMinute+";BYDAY=" + times[i].days2String);
                 }
                 var firstEvent = findFirstEvent(times);
                 var startDateTime = firstEvent.startHour + ":" + firstEvent.startMinute + ":00";
@@ -59,19 +59,15 @@ var exportCalendarToGoogle = function() {
                 var firstDay = firstEvent.day;
                 var firstDate;
                 if (firstDay == "MO") {
-                    firstDate = "2013-02-11T";
+                    firstDate = first_monday;
                 } else if (firstDay == "TU") {
-                    firstDate = "2013-02-05T";
+                    firstDate = first_tuesday;
                 } else if (firstDay == "WE") {
-                    firstDate = "2013-02-06T";
+                    firstDate = first_wednesday;
                 } else if (firstDay == "TH") {
-                    firstDate = "2013-02-07T";
+                    firstDate = first_thursday;
                 } else if (firstDay == "FR") {
-                    firstDate = "2013-02-08T";
-                } else if (firstDay == "SA") {
-                    firstDate = "2013-02-09T";
-                } else if (firstDay == "SU") {
-                    firstDate = "2013-02-10T";
+                    firstDate = first_friday;
                 }
                 var request = gapi.client.calendar.events.insert(
                     {"calendarId": "primary",
@@ -175,26 +171,26 @@ var exportCalendarToGoogle = function() {
       return retObj;
   }
 
-  var getSessionType = function(item, database) {
-    var itemname = database.getObject(item, "type");
+  var getSessionType = function(item) {
+    var itemname = item.type;
     return itemname.split("S")[0];
   }
   
-  var getClassLocandTime = function(item, database) {
-    var locandtime = database.getObject(item, "timeAndPlace");
+  var getClassLocandTime = function(item) {
+    var locandtime = item.timeAndPlace;
     return locandtime.split(" ");
   }
   
-  var getClassTime = function(item, database) {
-    return getClassLocandTime(item, database)[0];
+  var getClassTime = function(item) {
+    return getClassLocandTime(item)[0];
   }
   
-  var getClassNumber = function(item, database) {
+  var getClassNumber = function(item) {
     return item.substring(3);
   }
   
-  var getClassLocation = function(item, database) {
-    var arr = getClassLocandTime(item, database);
+  var getClassLocation = function(item) {
+    var arr = getClassLocandTime(item);
     return arr[arr.length-1];
   }
   

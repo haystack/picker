@@ -4,6 +4,23 @@ var current_year = "2014";
 
 var current_term_facet = "Spring";
 
+/*
+Need in formate YYYYMMDD
+no spaces for google calendar exporter
+*/
+var last_date = "20140515";
+
+/*
+Dates of the first classes starting
+on each day of the week
+Format: YYYY-MM-DDT
+*/
+var first_monday = "2014-02-10T";
+var first_tuesday = "2014-02-04T";
+var first_wednesday = "2014-02-05T";
+var first_thursday = "2014-02-06T";
+var first_friday = "2014-02-07T";
+
 var courses = [
     {   number: "1",
         name:   "Civil and Environmental Engineering"
