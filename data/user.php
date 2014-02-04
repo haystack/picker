@@ -134,6 +134,27 @@ if (isset($userid)) {
 		
 		$items[] = $str;
 	}
+
+	$result = mysql_query("SELECT commentid FROM votes 
+		WHERE vote = 1 AND userid = $userid");
+	while ($row = mysql_fetch_row($result)) {
+		$items[] = '{"type":"UserData", "label":"Upvote-' . $row[0] . '", 
+		"comment-upvote-of":"Comment-' . $row[0] . '"}';
+	}
+
+	$result = mysql_query("SELECT commentid FROM votes 
+		WHERE vote = 2 AND userid = $userid");
+	while ($row = mysql_fetch_row($result)) {
+		$items[] = '{"type":"UserData", "label":"Downvote-' . $row[0] . '", 
+		"comment-downvote-of":"Comment-' . $row[0] . '"}';
+	}
+
+	$result = mysql_query("SELECT commentid FROM votes 
+		WHERE flag = 1 AND userid = $userid");
+	while ($row = mysql_fetch_row($result)) {
+		$items[] = '{"type":"UserData", "label":"Flag-' . $row[0] . '", 
+		"comment-flag-of":"Comment-' . $row[0] . '"}';
+	}
 }
 
 /* ==== THINGS THAT SHOULD BE PULLED REGARDLESS OF AUTHENTICATION ==== */
@@ -148,14 +169,14 @@ while ($row = mysql_fetch_row($result)) {
 }
 
 // pull comments. we assume scrubbing occurs on comment ingestion
-$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_votes, o_anonymous
+$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_votes, o_anonymous, commentid
 	FROM comments INNER JOIN users ON u_userid = o_userid
 	WHERE o_flagged = 0 ORDER BY o_votes, o_timestamp DESC;");
 $count = 0;
 while ($row = mysql_fetch_row($result)) {
 	$count++;
-	$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $count . '",
-		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
+	$string = '{"type":"UserData","label":"Comment-' . $row[6] . '",
+		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $row[3] . '", "commentid":"' . $row[6] . '"';
 	if ($row[5]) {
 		 $string .= ',"author": "anonymous"' ;
 	} else {

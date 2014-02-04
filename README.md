@@ -11,10 +11,11 @@ BUGS:<br>
 4. No comments or ratings yet: DONE! <br>
 4.a. Need to fix getting and pushing comments: FIXED! <br>
 4.b. Need to implement anonymous commenting: DONE! <br>
-UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/icons/
-4.c. Need to implement up and down voting.<br>
-4.d. Need to implement flagging.<br>
+UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/icons/ DONE!
+4.c. Need to implement up and down voting. DONE! <br>
+4.d. Need to implement flagging. DONE! <br>
 4.e. Need to implement loading more comments with scrolling, could do this last with my day of css styling. <br>
+4.f. Various small UI bugs, such as both plus and minus highlighting, deleting, and ordering by votes and least recent comment can be done with minor changes (probably by adding some javascript or changing the label of the comment).<br>
 5. Extra functionality needs to be added <br>
 6. Sometimes loading issue occurs when trying to load classes onto calendar: FIXED! <br>
 7. Loading initial classes take too much time<br>

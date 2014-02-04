@@ -513,3 +513,27 @@ div.exhibit-text-facet input {
 .clickable-classes {
     cursor: pointer;
 }
+
+.flagClicked {
+    background-color: #ff7f50;
+}
+
+.flagOn {
+    background-color: #f5f5dc;
+}
+
+.plusOn {
+    background-color: #f5f5dc;
+}
+
+.minusOn {
+    background-color: #f5f5dc;
+}
+
+.plusClicked {
+    background-color: #f7e7ce;
+}
+
+.minusClicked {
+    background-color: #f7e7ce;
+}

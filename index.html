@@ -323,11 +323,26 @@
 									    <span data-ex-content=".author"></span>,
 									    <span data-ex-content=".timestamp"
 										    data-ex-formats="date { mode: medium }"></span>
-										<span class="ui-icon ui-icon-plusthick"></span>
-							    		<span class="ui-icon ui-icon-minusthick"></span>
-							    		<span class="ui-icon ui-icon-flag"></span>
+										<span data-ex-class-subcontent="{{ if(exists(!comment-upvote-of), 'ui-icon ui-icon-plusthick plusClicked', 
+											'ui-icon ui-icon-plusthick') }}"
+											data-ex-classid-content=".commentid"
+											onmouseover="userData.plusOn(this);return false;"
+                                            onclick="userData.plusClick(this);return false;"
+                                            onmouseout="userData.plusOff(this);return false;"></span>
+							    		<span data-ex-class-subcontent="{{ if(exists(!comment-downvote-of), 'ui-icon ui-icon-minusthick minusClicked',
+							    			'ui-icon ui-icon-minusthick') }}"
+							    			data-ex-classid-content=".commentid"
+							    			onmouseover="userData.minusOn(this);return false;"
+                                            onclick="userData.minusClick(this);return false;"
+                                            onmouseout="userData.minusOff(this);return false;"></span>
+							    		<span data-ex-class-subcontent="{{ if(exists(!comment-flag-of), 'ui-icon ui-icon-flag flagClicked',
+							    			'ui-icon ui-icon-flag') }}"
+							    			data-ex-classid-content=".commentid"
+							    			onmouseover="userData.flagOn(this);return false;"
+                                            onclick="userData.flagClick(this);return false;"
+                                            onmouseout="userData.flagOff(this);return false;"></span>
 									    <a data-ex-if-exists=".is-current-user"
-										    data-ex-classid-content=".class-comment-of"
+										    data-ex-classid-content=".commentid"
 										    href="#"
 										    onclick="userData.deleteComment(this);return false;">
 										    delete</a>

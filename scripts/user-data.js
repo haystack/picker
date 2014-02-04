@@ -192,4 +192,67 @@ userData = {
 			'semester': $(classcomment).parent().attr('semester')**/
 		});
 	},
+
+	plusOn:  function(anchor) {
+		$(anchor).addClass("plusOn");
+	},
+
+	plusOff:  function(anchor) {
+		$(anchor).removeClass("plusOn");
+	},
+
+	plusClick:  function(anchor) {
+		if (window.database.getObject('user', 'userid') != null) {
+			var commentID = anchor.getAttribute("classid");
+
+    		$.post("scripts/post.php",
+    			{ userid: window.database.getObject('user', 'userid'),
+                  plus: true,
+    			  commentid: commentID
+    			}, 
+    			function (data) { $(anchor).toggleClass('plusClicked'); } );
+        }
+	},
+
+	minusOn:  function(anchor) {
+		$(anchor).addClass("minusOn");
+	},
+
+	minusOff:  function(anchor) {
+		$(anchor).removeClass("minusOn");
+	},
+
+	minusClick:  function(anchor) {
+		if (window.database.getObject('user', 'userid') != null) {
+			var commentID = anchor.getAttribute("classid");
+
+    		$.post("scripts/post.php",
+    			{ userid: window.database.getObject('user', 'userid'),
+                  minus: true,
+    			  commentid: commentID
+    			}, 
+    			function (data) { $(anchor).toggleClass('minusClicked'); } );
+        }
+	},
+
+	flagOn:  function(anchor) {
+		$(anchor).addClass("flagOn");
+	},
+
+	flagOff:  function(anchor) {
+		$(anchor).removeClass("flagOn");
+	},
+
+	flagClick:  function(anchor) {
+		if (window.database.getObject('user', 'userid') != null) {
+			var commentID = anchor.getAttribute("classid");
+
+    		$.post("scripts/post.php",
+    			{ userid: window.database.getObject('user', 'userid'),
+                  flag: true,
+    			  commentid: commentID
+    			}, 
+    			function (data) { $(anchor).toggleClass('flagClicked'); } );
+        }
+	}
 }
