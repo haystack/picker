@@ -19,7 +19,7 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 5. Extra functionality needs to be added: DONE! (Getting rid of bookspicker because not really used/not in keeping with purpose of Course Picker) <br>
 6. Sometimes loading issue occurs when trying to load classes onto calendar: FIXED! <br>
 7. Loading initial classes take too much time<br>
-8. Using the same/similar colors multiple times<br>
+8. Using the same/similar colors multiple times: FIXED! <br>
 9. Add easy login option: DONE!<br>
 10. Would be nice to have all browsers read from same cookie<br>
 11. Need to clear all tag selections when clicking on a class for details <br>
