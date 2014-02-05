@@ -454,6 +454,10 @@ function hideExtraDetails(elem) {
     });
 }
 
+function getClickedClass(evt) {
+    return evt.split("@")[0];
+}
+
 /**$(".facet-click").click(
     function() {
 	if ($(this).attr("ex:collapsed") == "true") {
