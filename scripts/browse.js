@@ -428,11 +428,15 @@ function updatePickedClassesList() {
 }
 
 function showClickedClassDetails(clss) {
+    removeSelectedTags();
     $(".text_search input").val(clss);
     $('.text_search input').keyup();
-    var cloudFacets = $(".exhibit-cloudFacet-value");
+}
+
+function removeSelectedTags() {
+    var cloudFacets = $(".exhibit-cloudFacet-value.exhibit-cloudFacet-value-selected");
     for (var i = 0; i < cloudFacets.length; i++) {
-        $(cloudFacets[i]).removeClass("exhibit-cloudFacet-value-selected");
+        $(cloudFacets[i]).trigger("click");
     }
 }
 
