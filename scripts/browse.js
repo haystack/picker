@@ -430,6 +430,10 @@ function updatePickedClassesList() {
 function showClickedClassDetails(clss) {
     $(".text_search input").val(clss);
     $('.text_search input').keyup();
+    var cloudFacets = $(".exhibit-cloudFacet-value");
+    for (var i = 0; i < cloudFacets.length; i++) {
+        $(cloudFacets[i]).removeClass("exhibit-cloudFacet-value-selected");
+    }
 }
 
 function showExtraDetails(elem) {
