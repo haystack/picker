@@ -78,14 +78,15 @@ function onMouseOutSection(div) {
     }
 }
 
-//
+//Changes the words in the button when a class is picked or unpicked
 function showHidePickDiv(sectionID, picked) {
-    var thediv = document.getElementById("divid-" + sectionID);
-    if (thediv != null) {
-        thediv.className = picked ? "each-section-picked" : "each-section-unpicked";
+    var thediv = $("#divid-" + sectionID.split(".")[0] + "\\." + sectionID.split(".")[1]);
+    if (thediv) {
+        var className = picked ? "each-section-picked" : "each-section-unpicked";
+        thediv.attr("class", className); 
         
-        var button = thediv.getElementsByTagName("button")[0];
-        button.innerHTML = picked ? "Remove" : "Add";
+        var button = thediv.find("button")[0];
+        $(button).html(picked ? "Remove" : "Add");
     }
 }
 
