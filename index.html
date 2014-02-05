@@ -37,7 +37,7 @@
 			<div id="logo">
 				<a target="_blank" href="http://web.mit.edu/"><img src="styles/MIT.gif"
 				    alt="MIT" /></a>
-				<div id="betaText"><a id="home-link" href="#">Course Picker (ALPHA)</a></div>
+				<div id="betaText"><a id="home-link" href="#">Course Picker</a></div>
 			</div>
 			<span id="httpsStatus"><a href="https://quanquan.scripts.mit.edu:444/demo1/upgrade/">LOGIN</a></span>
 			<div id="topNav">
@@ -55,17 +55,6 @@
 		<span>Weekly Schedule</span>
 	    </div>
 	    <div id="schedule-details-layer-inner">
-		<p><b>To print, in Firefox 2.0:</b>
-		    <ol>
-			<li>Select the browser's menu File &rarr; Print Preview.</li>
-			<li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
-
-			<li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
-			<li>Click OK.</li>
-			<li>Then click "Print...".</li>
-		    </ol>
-		</p>
-
 		<p style="color: #800; font-size: 100%; font-weight: bold; padding: 1em; margin: 2em 0; width: 30em; border: 1px solid #800;">
 
 		    WARNING: This calendar is not an official schedule. WebSIS will produce
@@ -167,7 +156,7 @@
 		    <span data-ex-content=".semester" class="course-semester"></span>
 
 				    <!-- .url property may exclusively come from scraped data -->
-				    <a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span data-ex-content="concat(value, ' - ', .label)" class="course-name"></span></a> <a data-ex-href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
+		    <a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span data-ex-content="concat(value, ' - ', .label)" class="course-name"></span></a> <a data-ex-href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
 
 		</div>
 		<div id="show-info" class="info-body" style="display:block;">
@@ -269,10 +258,7 @@
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
-
                                                     <a href="#">2</a></span>
-
-
                                              <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
@@ -288,7 +274,6 @@
                                                     onclick="userData.starClick(this);return false;"
                                                     onmouseout="userData.starOff(this);return false;">
                                                     <a href="#">5</a></span>
-
                                              <span data-ex-class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
                                                     onmouseover="userData.starOn(this);return false;"
                                                     onclick="userData.starClick(this);return false;"
@@ -303,7 +288,6 @@
                                     <div data-ex-if="exists(!class-avg-rating-of)">
                                             <div data-ex-content="!class-avg-rating-of">
                                                     Average Rating:<br/>
-
                                                     <span data-ex-content=".rating"></span>
                                                     based on <span data-ex-content=".total"></span>
                                                     reviews
@@ -312,7 +296,7 @@
                                     </div>
                             </div>
                             <div class="message"></div>
-                    </div>
+                    	</div>
 		    		</div>
 		    		<div class="class-comments">Class Comments:
 					    <a href="#"
