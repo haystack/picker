@@ -23,7 +23,8 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 9. Add easy login option: DONE!<br>
 10. Would be nice to have all browsers read from same cookie<br>
 11. Need to clear all tag selections when clicking on a class for details: DONE! <br>
-12. Clicking on classes on calendar pulls up class details: URGENT <br>
+12. Clicking on classes on calendar pulls up class details: DONE! <br>
+12.a. Highlighting these picked classes, add with final styling.
 13. Clicking on empty squares will color the square and display the available classes during that timeblock. Toggle classes selected and deselected. <br>
 14. Need general code cleanup: URGENT BUT DO LAST<br>
 15. Insecure content loading issue: FIXED! <br>
@@ -42,4 +43,4 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 24. Revise so that all years' records of picked classes are saved. Better for recommendation building: doing something else but making a note so I don't forget: when adding this, just delete the line "mysql_query("DELETE FROM classes WHERE c_userid=$userid;");": DONE in another way but DONE! <br>
 25. Fix all database stuff when changing from local to mit scripts <br>
 26. For some reason, the classes are interspersing themselves in between the blocks of time. WHY???? Gotta fix. Took a look, pixel colors might be caused by using the same color for multiple classes. Fix that and then see if this bug still exists.<br>
-27. clicking on class and having the class show up in the search filter not working when doing another function: URGENT <br>
+27. clicking on class and having the class show up in the search filter not working when doing another function: heisenbug? I can't reproduce the bug anymore, oh well...  <br>
