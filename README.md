@@ -44,3 +44,4 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 25. Fix all database stuff when changing from local to mit scripts <br>
 26. For some reason, the classes are interspersing themselves in between the blocks of time. WHY???? Gotta fix. Took a look, pixel colors might be caused by using the same color for multiple classes. Fix that and then see if this bug still exists.<br>
 27. clicking on class and having the class show up in the search filter not working when doing another function: heisenbug? I can't reproduce the bug anymore, oh well...  <br>
+28. add HKN and course evaluations ratings <br>

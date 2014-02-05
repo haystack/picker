@@ -1,5 +1,8 @@
 /* Formerly part of browse.js ; look there for svn history */
 
+/*
+When the picked/unpick button is clicked in the class details section
+*/
 function onPickUnpick(button) {
     // Check to see whether the class is currently picked by user
     var sectionID = button.getAttribute("sectionID");
@@ -16,6 +19,9 @@ function onPickUnpick(button) {
     updatePickedClassesList();
 };
 
+/*
+When the "x"-button is clicked in the left sidebar
+*/
 function onUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
     doUnpick(sectionID);
@@ -23,6 +29,9 @@ function onUnpick(button) {
     updatePickedClassesList();
 };
 
+/*
+Gets the class from the sectionID
+*/
 function sectionIDtoClass(sectionID) {
     var db = window.database;
     var type = db.getObject(sectionID, "type");
@@ -32,31 +41,28 @@ function sectionIDtoClass(sectionID) {
 
 // Does the actual picking of a class
 function doPick(sectionID) {
-    var db = window.exhibit.getDatabase();
+    var db = window.database;
     updateCookie(sectionID, true);
-    //writeCookie("testing", "again with the testing values");
 
-    window.database.addStatement(sectionID, "picked", "true");
-    window.database.removeStatement(sectionID, "temppick", "true");
+    db.addStatement(sectionID, "picked", "true");
+    db.removeStatement(sectionID, "temppick", "true");
 
     showHidePickDiv(sectionID, true);
-
-    var classID = sectionIDtoClass(sectionID)
-    //var data = {items: [ {"label":classID, "selected":"yes"}]};
-    //window.database.loadData(data);
-    window.database.addStatement(classID, "selected", "yes");
     updateMiniTimegrid(false);
 }
 
+//Does the actual unpicking of a class
 function doUnpick(sectionID) {
     window.database.removeStatement(sectionID, "picked", "true");
     updateCookie(sectionID, false);
     
     showHidePickDiv(sectionID, false);
-    window.database.removeStatement(sectionIDtoClass(sectionID), "selected", "yes");
     updateMiniTimegrid(false);
 }
 
+/*
+Shows the classes on the timegrid when moused over pick
+*/
 function onMouseOverSection(div) {
     var sectionID = div.getAttribute("sectionID");
     if (window.database.getObject(sectionID, "picked") == null) {
@@ -64,6 +70,7 @@ function onMouseOverSection(div) {
     }
 }
 
+//Gets rid of the classes on the timegrid when no longer hovering over pick
 function onMouseOutSection(div) {
     var sectionID = div.getAttribute("sectionID");
     if (window.database.getObject(sectionID, "picked") == null) {
@@ -71,6 +78,7 @@ function onMouseOutSection(div) {
     }
 }
 
+//
 function showHidePickDiv(sectionID, picked) {
     var thediv = document.getElementById("divid-" + sectionID);
     if (thediv != null) {
@@ -81,44 +89,13 @@ function showHidePickDiv(sectionID, picked) {
     }
 }
 
-function collapseShowAll() {
-    collapse = howManyCollapsed();
-    
-    $(".link-show").each(function(index) {
-        toggleBody(this, collapse); });
-    
-    howManyCollapsed();
-}
-
-function howManyCollapsed(){
-    var thediv = document.getElementById("classes-layer");
-    var numShown = 0;
-    var collapse = false;
-    
-    $(".link-show").each(function(index) {
-        if(countCollapsed(this)) {
-            numShown ++; }});
-    
-    if (numShown > 0) {
-        collapse = false;
-    } else {
-        collapse = true; }
-        
-    var button = thediv.getElementsByTagName("button")[0];
-    button.innerHTML = collapse ? "Show" : "Collapse";
-    
-    return collapse
-}
-
-function countCollapsed(a) {
-    var div=$(a.parentNode).siblings("div")[0];
-    if (div.style.display == "block") {
-	return true;
-    } else {
-	return false;
-    }
-}
-
+/*
+Toggles the details of a class when header clicked
+Different from toggleClassBody in browse.js
+This refers to all class descripts
+toggleClassBody is only for the comments and extra details when the 
+class is hovered over
+*/
 function toggleBody(a, collapse) {
     var div = $(a.parentNode).siblings("div")[0];
     if (collapse) {
@@ -126,9 +103,11 @@ function toggleBody(a, collapse) {
     } else {
 	   div.style.display = "none";
     }
-    howManyCollapsed();
 }
 
+/*
+Turns the cookie into a list of class objects
+*/
 function parseSavedClasses(classes) {
     var class_data = []
     if (classes != null) {
@@ -162,6 +141,9 @@ function parseSavedClasses(classes) {
     return class_data;
 }
 
+/*
+Turns the list of class objects to string for cookie
+*/
 function fromSavedClassesToCookie(classes) {
     var cookie = "";
     for (var c in classes) {
@@ -173,6 +155,9 @@ function fromSavedClassesToCookie(classes) {
     writeCookie("picked-classes", cookie);
 }
 
+/*
+Updates the saved classes cookie when a change is made
+*/
 function updateCookie(sectionID, add, classID, classLabel, timeAndPlace, type, sectionData) {
     var db =  window.database;
 
