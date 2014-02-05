@@ -22,7 +22,7 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 8. Using the same/similar colors multiple times: FIXED! <br>
 9. Add easy login option: DONE!<br>
 10. Would be nice to have all browsers read from same cookie<br>
-11. Need to clear all tag selections when clicking on a class for details: URGENT <br>
+11. Need to clear all tag selections when clicking on a class for details: DONE! <br>
 12. Clicking on classes on calendar pulls up class details: URGENT <br>
 13. Clicking on empty squares will color the square and display the available classes during that timeblock. Toggle classes selected and deselected. <br>
 14. Need general code cleanup: URGENT BUT DO LAST<br>
