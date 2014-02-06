@@ -46,4 +46,5 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 27. clicking on class and having the class show up in the search filter not working when doing another function: heisenbug? I can't reproduce the bug anymore, oh well...  <br>
 28. add HKN and course evaluations ratings <br>
 29. add preregistration but only make it visible during times when preregistration is open. to look for example code, look at previous code in class-related.<br>
-30. On second thought maybe add back bookspicker for each class under class descriptions
+30. On second thought maybe add back bookspicker for each class under class descriptions<br>
+31. Fix unit adder so we get total units. But onwards to UI!<br>
