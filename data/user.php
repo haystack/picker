@@ -1,7 +1,7 @@
 <?php
 
 // This file stores user data using MySQL
-// Generates course ratings
+// Generates course ratings and comments
 // Checks whether user is enrolled in a class
 
 ini_set('display_errors', 'On');
@@ -16,49 +16,22 @@ mysql_select_db('picker+userdata');
 if (isset($_POST['userid'])) {
 	$userid = mysql_real_escape_string($_POST['userid']);
 
-	// user has picked a new section
-	if (isset($_POST['doPick'])) {
-	
-		$userid = mysql_real_escape_string($_POST['userid']);
-		$sec = mysql_real_escape_string($_POST['doPick']);
-		
-		mysql_query("INSERT INTO sections VALUES($userid, $sec);");
+	// Returns picked sections as JSON
+	if (isset($_POST['getPickedSections'])) {
+		$semester = mysql_real_escape_string($_POST['semester']);
+		$result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0 AND semester='$semester';");
+		    $arr = array();
+		    while ($row = mysql_fetch_row($result)) {
+			    $arr[] = '"+sectionID:' . $row[2] . ',color:' . $row[3] . ',type:' . $row[4] . ',classID:' . $row[5] . ',classLabel:'
+						. $row[6] . ',timeandplace:' . $row[7] . ',sectionData:' . $row[8] . '"';
+		    }
+		$jsonPickedSections = '[' . implode(",", $arr) . ']';
+		echo $jsonPickedSections;
 	}
-	// user has removed a section
-	else if (isset($_POST['doUnpick'])) {
-		$userid = mysql_real_escape_string($_POST['userid']);
-		$sec = mysql_real_escape_string($_POST['doUnpick']);
-	
-		mysql_query("DELETE FROM sections WHERE s_userid=$userid AND s_sectionid=$sec;");
-	}
-    // Returns picked classes as a JSON
-    else if (isset($_POST['getPickedClasses'])) {
-        $result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=$userid;");
-	    $arr = array();
-     	while ($row = mysql_fetch_row($result)) {
-     		$arr[] = '"' . $row[0] . '"';
-     	}
-	    $jsonPickedClasses = '[' . implode(",", $arr) . ']';
-        echo $jsonPickedClasses;
-    }
-    else if (isset($_POST['getPickedSections'])) {
-    	$semester = mysql_real_escape_string($_POST['semester']);
-        $result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0 AND semester='$semester';");
-	    $arr = array();
- 	    while ($row = mysql_fetch_row($result)) {
- 		    $arr[] = '"+sectionID:' . $row[2] . ',color:' . $row[3] . ',type:' . $row[4] . ',classID:' . $row[5] . ',classLabel:'
- 		    			. $row[6] . ',timeandplace:' . $row[7] . ',sectionData:' . $row[8] . '"';
- 	    }
-        $jsonPickedSections = '[' . implode(",", $arr) . ']';
-        echo $jsonPickedSections;
-    }
 }
 
-else { // OTHERWISE - do everything else. main JS body starts here ---- ?>
-
-
-<?
-
+else {
+	
 /*  This is the only file that should be connecting to
 	the database and should be interpreted by the application
 	as a Javascript file */
@@ -84,21 +57,13 @@ if (isset($_SERVER['SSL_CLIENT_S_DN_CN'])) {
 	$userid = getUser($athena, $_SERVER['SSL_CLIENT_S_DN_Email']);
 }
 
-// Not doing anything in live website.
-/**else if (isset($_COOKIE['loggedIn'])) {
-    if ($_COOKIE['loggedIn'] == "true") {
-        $athena = 'lizs';
-        $userid = getUser($athena, 'lizs@mit.edu');
-    }
-}**/
-
 $items = array();
+
 /**
 DELETE DELETE DELETE AFTER MOVING FROM LOCAL
 **/
 $athena = "quanquan";
 $userid = "1101";
-
 
 if (isset($userid)) {
 	$arr = '{"type":"UserData","label":"user",
@@ -169,14 +134,14 @@ while ($row = mysql_fetch_row($result)) {
 		"rating":"' . round($row[1],1) . '","total":"' . $row[2] . '"}';
 }
 
-// pull comments. we assume scrubbing occurs on comment ingestion
+// assuming comments were scrubbed before insertion
 $result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_votes, o_anonymous, commentid
 	FROM comments INNER JOIN users ON u_userid = o_userid
 	WHERE o_flagged = 0 ORDER BY o_votes, o_timestamp DESC;");
 $count = 0;
 while ($row = mysql_fetch_row($result)) {
 	$count++;
-	$string = '{"type":"UserData","label":"Comment-' . $row[6] . '",
+	$string = '{"type":"UserData","label":"Comment-' . $comment . '",
 		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $row[3] . '", "commentid":"' . $row[6] . '"';
 	if ($row[5]) {
 		 $string .= ',"author": "anonymous"' ;
@@ -202,23 +167,6 @@ while($row = mysql_fetch_row($result)) {
 }
 
 mysql_close();
-
-/*mysql_connect('sql.mit.edu', 'picker', 'haystackpicker')
-	or die('MySQL connect failed');
-mysql_select_db('picker+classcomment');
-
-$result = mysql_query("SELECT number_name, title, id FROM mitclass;");
-while($row = mysql_fetch_row($result)) {
-	$classid = $row[2];
-	$commentresult = mysql_query("SELECT user_name, id FROM django_comments WHERE object_pk = '$classid' ORDER BY submit_date;");
-	if($rowone = mysql_fetch_row($commentresult)) {
-		$items[] = '{"type":"UserData", "label":"Comment-' . $row[0] . '",
-		"class-comment":"' .$row[0] .'",
-		"recent":" Last comment made by: ' . $rowone[0] . '"}';
-	}
-}
-
-mysql_close();*/
 
 echo '{"items": [' . implode(",", $items) . '] }';
 
