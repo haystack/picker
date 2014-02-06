@@ -253,6 +253,6 @@ userData = {
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('flagClicked'); } );
-        }
+		}
 	}
 }
