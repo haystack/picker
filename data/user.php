@@ -15,7 +15,6 @@ mysql_select_db('picker+userdata');
 // POST handling
 if (isset($_POST['userid'])) {
 	$userid = mysql_real_escape_string($_POST['userid']);
-
 	// Returns picked sections as JSON
 	if (isset($_POST['getPickedSections'])) {
 		$semester = mysql_real_escape_string($_POST['semester']);
@@ -141,8 +140,9 @@ $result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_vot
 $count = 0;
 while ($row = mysql_fetch_row($result)) {
 	$count++;
-	$string = '{"type":"UserData","label":"Comment-' . $comment . '",
-		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $row[3] . '", "commentid":"' . $row[6] . '"';
+	$comment = trim(preg_replace('/\n+/', ' ', $row[3]));
+	$string = '{"type":"UserData","label":"Comment-' . $row[6] . '",
+		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $comment . '", "commentid":"' . $row[6] . '"';
 	if ($row[5]) {
 		 $string .= ',"author": "anonymous"' ;
 	} else {
