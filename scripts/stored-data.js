@@ -1,3 +1,6 @@
+/*
+Writes the cookie that stores class data
+*/
 function writeCookie(cookieName, data) {
     var exDate = new Date();
     if (data == '') {
@@ -8,8 +11,7 @@ function writeCookie(cookieName, data) {
     document.cookie = cookieName+'='+data+'; expires='+exDate+'; path=/';
 }
 
-// formerly PersistentData.readCookie
-// cookie format: 'picked-classes=1.00; loggedIn=false; picked-sections=L011.00'
+//Reads a cookie to get the saved class sections
 function readCookie(cookieName) {
     var start = document.cookie.indexOf(cookieName + '=');
     if (start != -1) {
@@ -27,7 +29,7 @@ function readCookie(cookieName) {
     return null;
 }
 
-// formerly updateCookies
+//updates the database with data stored in cookies
 function updateStoredDataFromExhibit() {
     var picked_classes = readCookie("picked-classes");
     var saved_data = parseSavedClasses(picked_classes);
@@ -53,6 +55,7 @@ function updateStoredDataFromExhibit() {
     updateMiniTimegrid(false);
 }
 
+//Deletes a class from the database if the user is logged in
 function deleteClassFromStoredData(sectionID) {
     if (window.database.getObject('user', 'userid') != null) {
         $.post("scripts/post.php",
@@ -64,43 +67,7 @@ function deleteClassFromStoredData(sectionID) {
     }
 }
 
-// formerly checkForCookies()
-/**function updateExhibitSections(sections) {
-    if (!sections) {
-        var saved_sections = getStoredSections();
-        var picked_classes = readCookie("picked-classes");
-        var saved_data = parseSavedClasses(picked_classes);
-        var sections = saved_data.map(function (element) { return element.sectionID });
-        if (saved_sections) {
-            sections = uniqueArray(sections.concat(saved_sections));
-        }
-    }
-    for (i in sections) {
-        var sectionID = sections[i];
-        if (sectionID.length != 0) {
-            window.database.addStatement(sectionID, 'picked', 'true');
-            window.database.addStatement(sectionID, 'color', getNewColor());
-        }
-    }
-    updateStoredDataFromExhibit(sections);  
-}**/
-
-// formerly PersistentData.stored
-function getExhibitSet(category) {
-    var exhibitSet;
-    var exhibitDb = window.database;
-
-    if (exhibitDb && exhibitDb.getObjects(category, 'list').size() > 0) {
-        exhibitSet = exhibitDb.getObjects(category, 'list');
-    }
-    else {
-        elts = readCookie(category);
-        if (elts) {elts = elts.split(',')};
-        exhibitSet = new Exhibit.Set(elts);
-    }
-    return exhibitSet;
-}
-
+// Checks to see if an array contains only unique elements
 function uniqueArray(array) {
     var a = array.concat();
     for(var i=0; i < a.length; i++) {
@@ -113,6 +80,7 @@ function uniqueArray(array) {
     return a;
 }
 
+// Checks to see if an array of objects only contains unique elements
 function uniqueObjArray(array) {
     var a = array.concat();
     for (var i=0; i < a.length; i++) {
@@ -129,6 +97,7 @@ function uniqueObjArray(array) {
     return a;
 }
 
+//Compares two objects to see if they are equal
 function compareObject(o1, o2){
     for(var p in o1){
         if(o1[p] !== o2[p] && p != "color"){
