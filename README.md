@@ -48,3 +48,5 @@ UI STUFF: DO IT WITH STYLING and use jQuery UI: http://api.jqueryui.com/theming/
 29. add preregistration but only make it visible during times when preregistration is open. to look for example code, look at previous code in class-related.<br>
 30. On second thought maybe add back bookspicker for each class under class descriptions<br>
 31. Fix unit adder so we get total units. But onwards to UI!<br>
+32. UI jquery useful things: shopping cart: http://jqueryui.com/droppable/#shopping-cart, resizable: http://jqueryui.com/resizable/, text comment use resizable, selectable: http://jqueryui.com/selectable/ use for selecting between classes, portlets: http://jqueryui.com/sortable/#portlets interesting...
+
