@@ -21,49 +21,49 @@ var first_date = "2014-02-04T";
 Color table to be used to determine event color in the mini-calendar
 */
 var colorTable = [
-    {   color:      "#F01E4F",
+    {   color:      "#447C69",
         used:       false
     },
-    {   color:      "#41607F",
+    {   color:      "#9162B6",
         used:       false
     },
-    {   color:      "#C69EE4",
+    {   color:      "#E279A3",
         used:       false
     },
-    {   color:      "#C28F0E",
+    {   color:      "#5698C4",
         used:       false
     },
-    {   color:      "#79CE9D",
+    {   color:      "#74C493",
         used:       false
     },
-    {   color:      "#7A652F",
+    {   color:      "#E6E6FA",
         used:       false
     },
-    {   color:      "#CCFF33",
+    {   color:      "#A34974",
         used:       false
     },
-    {   color:      "#66FF00",
+    {   color:      "#F19670",
         used:       false
     },
-    {   color:      "#3333FF",
+    {   color:      "#8B0000",
         used:       false
     },
-    {   color:      "#9900CC",
+    {   color:      "#8E8C6D",
         used:       false
     },
-    {   color:      "#CCCCCC",
+    {   color:      "#7C9FB0",
         used:       false
     },
-    {   color:      "#FF0099",
+    {   color:      "#4E2472",
         used:       false
     },
-    {   color:      "#CCFFFF",
+    {   color:      "#E2975D",
         used:       false
     },
-    {   color:      "#666699",
+    {   color:      "#ADFF2F",
         used:       false
     },
-    {   color:      "#FF6600",
+    {   color:      "#51574A",
         used:       false
     }
 ];
