@@ -1,6 +1,6 @@
 /**
  * @description Javascript code for loading the mini Timegrid displaying
- *   picked classes
+ * picked classes
  */
 
 /**
@@ -21,20 +21,17 @@ function updateMiniTimegrid(preview, previewSectionID) {
 
         // example: type = "LectureSession"
         var type = db.getObject(sectionID, "type");
-
         var sectionData = sectionTypeToData[type];
         // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
         var classID = db.getObject(sectionID, sectionData.linkage);
         var classLabel = db.getObject(classID, "label");
         var color = db.getObject(sectionID, "color");
-
-        // Definition of visit(function) given in Exhibit documentation
-        //"Exhibit.Set.prototype.visit=function(A){for(var B in this._hash){if(A(B)==true){break;}"
-        //api/exhibit-bundle.js line 8235 
         var timeAndPlace = db.getObject(sectionID, "timeAndPlace")
+
         processTimeAndPlace(sectionID, color, type, classID, classLabel, timeAndPlace, sectionData);
     };
 
+    //add all classes already picked and saved in cookie
     addPickedClasses();
     if (preview) {
         if (previewSectionID) {
@@ -46,6 +43,10 @@ function updateMiniTimegrid(preview, previewSectionID) {
         timegridEventSource.setEventPrototypes(events);
     }
 
+    /*
+        Binds the Timegrid listener to each empty square in mini-event schedule 
+        to allow picking classes by time
+    */
     if (Timegrid.listener) {
         $(".timegrid-vline").each(function(i, obj) {
             $(this).bind("click", function() {Timegrid.listener($(this))});
@@ -53,6 +54,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
     }
 };
 
+//Processes the time for insertion into mini-timegrid
 function processTime(time, eve) {
     var startEnd = time.split("-");
     for (var x = 0; x < startEnd.length; x++) {
@@ -73,6 +75,7 @@ function processTime(time, eve) {
     return startEnd;
 }
 
+//Creates mini-timegrid and place into page
 function enableMiniTimegrid() {
     updateMiniTimegrid();
     
@@ -84,6 +87,7 @@ function enableMiniTimegrid() {
     window.onresize = function() { Timegrid.resize(); };
 };
 
+//Adds classes already saved into cookie into mini-timegrid
 function addPickedClasses() {
     var picked_classes = readCookie("picked-classes");
     var collection = parseSavedClasses(picked_classes);
@@ -102,6 +106,7 @@ function addPickedClasses() {
     }
 }
 
+//Processes time and place for insertion into mini-timegrid
 function processTimeAndPlace (sectionID, color, type, classID, classLabel, timeAndPlace, sectionData) { 
     if (timeAndPlace.search(/arranged/) < 0) {
         var timePlaceArray = timeAndPlace.split(" ");
@@ -137,6 +142,7 @@ function processTimeAndPlace (sectionID, color, type, classID, classLabel, timeA
     }
 }
 
+//Actually adds event into mini-timegrid
 function addEvent(label, dayLetter, start, end, color) {
     var day   = dayMap[dayLetter];
     var event = new Timegrid.RecurringEventSource.EventPrototype(
