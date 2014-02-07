@@ -169,13 +169,26 @@ function showExtraDetails(elem) {
 	"display": "block"
     });
     
+    $eval = "https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=" + $(elem).attr("itemid") + "&instructorName=&search=Search";
+    $link = $("<a></a>", {
+	href: $eval,
+	text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
+    });
+    $(elem).find(".course-eval").append($link);
+    if ($(elem).attr("itemid").split(".")[0] == "6") {
+	$hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-s2013";
+	$hknlink = $("<a></a>", {href: $hkn,
+		     text: "HKN Evaluation"});
+	$(elem).find(".course-eval").append("<br>").append($hknlink);
+    }
 }
 
 /*
 Hides class details (comments and ratings)
 */
 function hideExtraDetails(elem) {
-    //$($(elem).find(".hidden-class-details")).slideUp("fast");
+    $($(elem).find(".hidden-class-details")).slideUp("fast");
+    $(elem).find(".course-eval").empty();
 }
 
 /*
@@ -204,4 +217,3 @@ function editMiniTimegridTitles() {
 	}
     });
 }
-
