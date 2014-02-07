@@ -36,7 +36,7 @@ var colorTable = [
     {   color:      "#74C493",
         used:       false
     },
-    {   color:      "#E6E6FA",
+    {   color:      "#4E2472",
         used:       false
     },
     {   color:      "#A34974",
@@ -54,7 +54,7 @@ var colorTable = [
     {   color:      "#7C9FB0",
         used:       false
     },
-    {   color:      "#4E2472",
+    {   color:      "#E6E6FA",
         used:       false
     },
     {   color:      "#E2975D",
@@ -65,7 +65,28 @@ var colorTable = [
     },
     {   color:      "#51574A",
         used:       false
-    }
+    },
+    {   color:      "#191970",
+        used:       false
+    },
+    {   color:      "#006400",
+        used:       false
+    },
+    {   color:      "#483D8B",
+        used:       false
+    },
+    {   color:      "#800000",
+        used:       false
+    },
+    {   color:      "#CD5C5C",
+        used:       false
+    },
+    {   color:      "#FF00FF",
+        used:       false
+    },
+    {   color:      "#BDB76B",
+        used:       false
+    },
 ];
 
 /*

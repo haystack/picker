@@ -136,7 +136,7 @@ function processTimeAndPlace (sectionID, color, type, classID, classLabel, timeA
             var start = Date.parseString(sessions[j].startEnd[0], 'H:mm');
             var end = sessions[j].startEnd.length > 1 ? Date.parseString(sessions[j].startEnd[1], 'H:mm') : start.clone().add('h', 1);
             for (var d = 0; d < sessions[j].days.length ; d++) {
-                addEvent(classLabel + room + " " + sectionData.postfix, sessions[j].days.substr(d,1), start, end, color);
+                addEvent(classID + "-" + classLabel + room + " (" + type.split("S")[0] + ")", sessions[j].days.substr(d,1), start, end, color);
             }
         }
     }

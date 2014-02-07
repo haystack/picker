@@ -17,6 +17,7 @@ function onPickUnpick(button) {
        updateStoredDataFromExhibit();
     }
     updatePickedClassesList();
+    editMiniTimegridTitles();
 };
 
 /*
@@ -27,6 +28,7 @@ function onUnpick(button) {
     doUnpick(sectionID);
     deleteClassFromStoredData(sectionID);
     updatePickedClassesList();
+    editMiniTimegridTitles();
 };
 
 /*
@@ -68,6 +70,7 @@ function onMouseOverSection(div) {
     if (window.database.getObject(sectionID, "picked") == null) {
         updateMiniTimegrid(true, sectionID);
     }
+    editMiniTimegridTitles();
 }
 
 //Gets rid of the classes on the timegrid when no longer hovering over pick
@@ -76,6 +79,7 @@ function onMouseOutSection(div) {
     if (window.database.getObject(sectionID, "picked") == null) {
         updateMiniTimegrid(true, null);
     }
+    editMiniTimegridTitles();
 }
 
 //Changes the words in the button when a class is picked or unpicked

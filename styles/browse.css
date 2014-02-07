@@ -537,3 +537,7 @@ div.exhibit-text-facet input {
 .minusClicked {
     background-color: #f7e7ce;
 }
+
+.timegrid-event {
+    cursor: pointer;
+}

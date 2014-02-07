@@ -7,6 +7,7 @@ function onShowScheduleDetails() {
     
     $("#schedule-details-layer").css("visibility", "visible");
     
+    editMiniTimegridTitles();
     scroll(0, 0);
 }
 
@@ -17,5 +18,6 @@ function onShowSchedulePreview() {
     $("#schedule-preview-pane").css("visibility", "visible");
     $("#left-wrapper").css("visibility", "visible");
     
+    editMiniTimegridTitles();
     scroll(0, 0);
 }

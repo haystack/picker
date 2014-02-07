@@ -119,6 +119,7 @@ function getAddOrRemove() {
     updatePickedClassesList();
     updateStoredDataFromExhibit();
     updateMiniTimegrid();
+    editMiniTimegridTitles();
 }
 
 /*
@@ -160,28 +161,47 @@ function removeSelectedTags() {
 }
 
 /*
-Shows class details (comments and ratings)
+Shows and hides class details (comments and ratings) on mouseover
 */
 function showExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).css({
-        visibility: "visible",
-        display: "block"
+    $($(elem).find(".hidden-class-details")).slideDown("fast").css({
+	"visibility": "visible",
+	"display": "block"
     });
+    
 }
 
 /*
 Hides class details (comments and ratings)
 */
 function hideExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).css({
-        visibility: "hidden",
-        display: "none"
-    });
+    $($(elem).find(".hidden-class-details")).slideUp("fast");
 }
 
 /*
 Gets the class text to search when clicking on the class in the calendar
 */
 function getClickedClass(evt) {
-    return evt.split("@")[0];
+    return evt.split("-")[0];
 }
+
+/*
+Edits the mini-timegrid titles to account for tooltip dropdown
+*/
+function editMiniTimegridTitles() {
+    $(".timegrid-event").each(function (i, obj) {
+	if ($("#schedule-details-layer").css("visibility") != "visible") {
+		var title = $(obj).attr("title");
+		title = title.split("-")[0];
+		var child = $(obj).find("div");
+		child.html(title);
+		child.css("font-size", "10px");
+	} else {
+		var child = $(obj).find("div");
+		var title = $(obj).attr("title");
+		child.html(title);
+		child.css("font-size", "12px");
+	}
+    });
+}
+
