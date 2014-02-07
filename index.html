@@ -6,11 +6,9 @@
         <script src="//api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js?log=true" type="text/javascript"></script>
         <script src="//simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
 		<script src="timegrid/scripts/jquery.simile.ajax.js"></script>
-
 		<script src="scripts/config.js" type="text/javascript"></script>
 		<script src="timegrid/timegrid-api.js"></script>
 		<script src="scripts/mini-timegrid.js" type="text/javascript"></script>
-
 		<script src="scripts/class-data-importer.js" type="text/javascript"></script>
 	    <script src="scripts/stored-data.js" type="text/javascript"></script>
 		<script src="scripts/class-related.js" type="text/javascript"></script>
@@ -20,7 +18,6 @@
 	    <script src="scripts/section-picking.js" type="text/javascript"></script>
 	    <script src="scripts/panel-switching.js" type="text/javascript"></script>
 		<script src="scripts/google-cal-exporter.js" type="text/javascript"></script>
-
 		<link href="jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
 		<script src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
 	
@@ -82,7 +79,7 @@
 		<div class="introduction">
 		    <h2>Search for a class:</h2>
 		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch"></div></br></br>
-		    <a href="javascript:void(0)"><img src="images/google-exp.png" onclick="exportCalendarToGoogle();"></a>
+		    <a href="javascript:void(0)"><img src="images/google-exp.png" onclick="exportCalendarToGoogle();" /></a>
 		</div>
 		<!-- ==================== Classes Layer ==================== -->
 		<div id="classes-layer">
@@ -110,35 +107,6 @@
                 style="height:250px"></div>
             <div id="timed-classes-list"></div>
             <div id="picked-classes-list"></div>
-			<!--<div id="pre-register" style="text-align:center"></div>
-			<div id="total-units"></div>
-
-			<div id="textbook-list"
-				data-ex-role="view"
-				data-ex-view-class="Tabular"
-				data-exshowSummary="false"
-				data-excolumns="if(exists(!class-textbook-of), value, ''),
-					if(exists(!class-textbook-of), !class-textbook-of.label, '')"
-				data-ex-column-labels=", Book list"
-				data-ex-columnFormats="text, list"
-				data-ex-border="0"
-				data-ex-cellPadding="1"
-				data-ex-grouped="false"
-				data-ex-collectionID="picked-classes"
-				data-ex-showToolbox="false">
-			</div>
-
-		    <div id="bookspicker-button">-->
-            <!--<a href="javascript:void(0)"><img src="images/bookspicker_button.jpg" onClick="submitBooksQuery();"></a>-->
-            <!--</div> 
-
-            <div id="no-picked-classes">No Classes Picked.</div>
-            <p style="color: #800; margin: 1em; font-size: 80%;">
-                WARNING: This calendar is not an official schedule. WebSIS will produce your 
-                schedule of the classes in which you are registered. All changes will then 
-                need to be processed through Drop/Add forms after Registration Day.
-                </p>
-	    </div>-->
 	    </div>
 	    <!-- ==================== Generic Lens ==================== -->
 
@@ -150,12 +118,8 @@
 	    <div data-ex-role="exhibit-lens" class="course-lens" style="display: none;" data-ex-item-types="Class" 
 	    	onmouseenter="showExtraDetails(this);" onmouseleave="hideExtraDetails(this);">
 		<div class="course-title">
-		    <!--<img data-ex-src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" data-ex-classID-content="value" onclick="toggleFavorite(this);" />-->
 		    <span data-ex-content=".semester" class="course-semester"></span>
-
-				    <!-- .url property may exclusively come from scraped data -->
 		    <a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span data-ex-content="concat(value, ' - ', .label)" class="course-name"></span></a> <a data-ex-href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
-
 		</div>
 		<div id="show-info" class="info-body" style="display:block;">
 		<table class="course-body" cellspacing="10"><tr>
@@ -169,7 +133,6 @@
 		<div id="lecture-recitation-sections" style="display:block">
 			<div data-ex-if-exists="!lecture-section-of"><b>Lecture Sections:</b>
 			    <div data-ex-content="!lecture-section-of">
-				<!-- onMouseOverSection, onMouseOutSection, onPickUnpick : In section-picking.js as of rev. 9565 -->
 				<div data-ex-class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}"
 				    data-ex-id-subcontent="divid-{{value}}"
 				    data-ex-sectionID-content="value"
@@ -179,7 +142,6 @@
 					data-ex-sectionID-content="value"
 					data-ex-content="if(exists(.picked), 'Remove', 'Add')"
 					onclick="onPickUnpick(this);"></button>
-
 				    <span class="section-schedule" data-ex-content=".timeAndPlace"></span>
 				    <span data-ex-if-exists=".Instructor"> &bull; </span>
 				    <span class="section-instructor" data-ex-content=".Instructor"></span>
