@@ -175,7 +175,7 @@ function showExtraDetails(elem) {
 Hides class details (comments and ratings)
 */
 function hideExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).slideUp("fast");
+    //$($(elem).find(".hidden-class-details")).slideUp("fast");
 }
 
 /*

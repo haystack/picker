@@ -376,7 +376,10 @@ div.requirements {
  */
 .rating {
 	margin-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: thick dotted #F6F6F6;
 }
+
 .rate {
 	cursor: pointer;
 	clear: both;
@@ -540,4 +543,16 @@ div.exhibit-text-facet input {
 
 .timegrid-event {
     cursor: pointer;
+}
+
+.picker-ratings {
+    font-size: 14px;
+}
+
+div.timegrid-view {
+    background: #000000;
+}
+
+div.timegrid-xlabels-window, div.timegrid-ylabels-window {
+    background: #FFFCE6;
 }
