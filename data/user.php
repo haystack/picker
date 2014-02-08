@@ -156,16 +156,6 @@ while ($row = mysql_fetch_row($result)) {
 	$items[] = $string;
 }
 
-// pull enrollment numbers
-$result = mysql_query("SELECT r_classid, COUNT(r_userid)
-		      FROM attendance WHERE semester='S2013' GROUP BY r_classid;");
-
-while($row = mysql_fetch_row($result)) {
-	$items[] = '{"type":"UserData", "label":"Enrollment-' . $row[0] . '",
-	"class-enrollment":"' .$row[0] .'",
-	"number":"' . $row[1] . '"}';
-}
-
 mysql_close();
 
 echo '{"items": [' . implode(",", $items) . '] }';

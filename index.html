@@ -116,7 +116,7 @@
 
 	    <!-- ==================== Class Lens ==================== -->
 	    <div data-ex-role="exhibit-lens" class="course-lens" style="display: none;" data-ex-item-types="Class" 
-	    	onmouseenter="showExtraDetails(this);" onmouseleave="hideExtraDetails(this);">
+	    	onmouseover="showExtraDetails(this);">
 		<div class="course-title">
 		    <span data-ex-content=".semester" class="course-semester"></span>
 		    <a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span data-ex-content="concat(value, ' - ', .label)" class="course-name"></span></a> <a data-ex-href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
@@ -258,7 +258,9 @@
                             </div>
 				</td>
 				    <td width="100%">
-					<span class="picker-ratings course-eval"></span><br>
+					<span class="picker-ratings course-eval"></span><br><br>
+					<span class="picker-ratings enrollment"></span><br>
+					<button type="button" data-ex-id-subcontent="enroll-button-{{value}}" class="browse-button" onclick="userData.enrollUnenroll(this);">Show me as enrolled!</button>
 				    </td>
 				</tr></table>
                     	</div>

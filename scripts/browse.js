@@ -163,24 +163,63 @@ function removeSelectedTags() {
 /*
 Shows and hides class details (comments and ratings) on mouseover
 */
+var slideDowns = {};
 function showExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).slideDown("fast").css({
-	"visibility": "visible",
-	"display": "block"
-    });
-    
-    $eval = "https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=" + $(elem).attr("itemid") + "&instructorName=&search=Search";
-    $link = $("<a></a>", {
-	href: $eval,
-	text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
-    });
-    $(elem).find(".course-eval").append($link);
-    if ($(elem).attr("itemid").split(".")[0] == "6") {
-	$hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-s2013";
-	$hknlink = $("<a></a>", {href: $hkn,
-		     text: "HKN Evaluation"});
-	$(elem).find(".course-eval").append("<br>").append($hknlink);
+    if (slideDowns[$(elem).attr("itemid")] != 1) {
+	$($(elem).find(".hidden-class-details")).slideDown("fast").css({
+		"visibility": "visible",
+		"display": "block"
+	});
+	
+	if ($(elem).find("#course-eval-" + $(elem).attr("itemid")).length == 0) {
+		$eval = "https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=" + $(elem).attr("itemid") + "&instructorName=&search=Search";
+		$link = $("<a></a>", {
+		    id: "course-eval-" + $(elem).attr("itemid"),
+		    href: $eval,
+		    text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
+		});
+		$(elem).find(".course-eval").append($link);
+	}
+	
+	if ($(elem).attr("itemid").split(".")[0] == "6" && $(elem).find("#hkn-eval-" + $(elem).attr("itemid")).length == 0) {
+	    $hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-" + hknreviewyear;
+	    $hknlink = $("<a></a>", {href: $hkn,
+			 id: "hkn-eval-" + $(item).attr("itemid"),
+			 text: "HKN Evaluation"});
+	    $(elem).find(".course-eval").append("<br>").append($hknlink);
+	}
+	
+	if ($(elem).find("#enrollment-" + $(elem).attr("itemid")).length == 0) {
+		$.post("data/getExtraDetails.php", {
+		    getEnrollment: true,
+		    classID: $(elem).attr("itemid"),
+		    semester: term + current_year
+		}, function (data) {
+		    var obj = jQuery.parseJSON( data );
+		    if (obj.items.length == 0) {
+			    $(elem).find(".enrollment").append("<p id='enrollment-'"+ $(elem).attr("itemid") + "'>Currently no Picker users enrolled in " + $(elem).attr("itemid") + "</p>");
+		    } else {
+			    $(elem).find(".enrollment").append("<b>Picker users enrolled in " + $(elem).attr("itemid") + ":</b></br>");
+		    }
+		    $(elem).find(".enrollment").append("<p id='enrollment-" + $(elem).attr("itemid") + "'>" + obj.items.join(", ") + "</p>");
+		    if (obj.items.indexOf(window.database.getObject("user", "athena")) > -1) {
+			var id = "#enroll-button-" + $(elem).attr("itemid");
+			id = id.replace(".", "\\.");
+			$(elem).find(id).html("Disenroll");
+		    }
+		});
+	}
+	    
+	slideDowns[$(elem).attr("itemid")] = 1;
     }
+    $(elem).hover(function(){
+	$($(elem).find(".hidden-class-details")).slideDown("fast").css({
+		"visibility": "visible",
+		"display": "block"
+	});
+	}, function () {
+		$($(elem).find(".hidden-class-details")).slideUp("fast");
+	});
 }
 
 /*
@@ -189,6 +228,7 @@ Hides class details (comments and ratings)
 function hideExtraDetails(elem) {
     $($(elem).find(".hidden-class-details")).slideUp("fast");
     $(elem).find(".course-eval").empty();
+    $(elem).find(".enrollment").empty();
 }
 
 /*

@@ -18,6 +18,11 @@ Format: YYYY-MM-DDT
 var first_date = "2014-02-04T";
 
 /*
+ Year of most recent HKN reviews
+ */
+var hknreviewyear = "s2013";
+
+/*
 Color table to be used to determine event color in the mini-calendar
 */
 var colorTable = [

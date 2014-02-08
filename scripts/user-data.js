@@ -154,23 +154,23 @@ userData = {
 	},
 	
 	enrollUnenroll: function(enrollment) {
-		var userID = userData.getUserID($(enrollment).parent()[0]);
+		var userID = window.database.getObject("user", "userid");
 		
 		if (userID != null) {
-			if ($(enrollment).text() == "Enroll") {
+			if ($(enrollment).text() == "Show me as enrolled!") {
 				$(enrollment).text("Disenroll");
-				$.post('./scripts/post.php', {
+				$.post('scripts/post.php', {
 					'userid': userID,
-					'class' : $(enrollment).parent().attr('classid'),
+					'semester': term + current_year,
+					'class' : $(enrollment).attr('id').split("-")[2],
 					'enroll': '1'
 				});
-			}
-			
-			else {
-				$(enrollment).text("Enroll");
-				$.post('./scripts/post.php', {
+			} else {
+				$(enrollment).text("Show me as enrolled!");
+				$.post('scripts/post.php', {
 					'userid': userID,
-					'class' : $(enrollment).parent().attr('classid'),
+					'semester': term + current_year,
+					'class' : $(enrollment).attr('id').split("-")[2],
 					'enroll': '0'
 				});
 			}
