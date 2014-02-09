@@ -69,8 +69,7 @@ function showPrereq(elmt, itemID, coords) {
     //shows the class details for a class shown in time preview
     if (coords) {
         var obj = new Object();
-        //TODO: optimize this
-        obj.coords = {x: 1, y: 1};
+        obj.coords = {x: 550, y: 100};
         Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext(), obj);
     }
     else
@@ -137,7 +136,7 @@ function updatePickedClassesList() {
 	$("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<button onclick='onUnpick(this);' class='remove-preview' sectionID='" 
             + clss.sectionID + "'>X</button>");
         $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<a href='javascript: {}' class='clickable-classes'" + clss.sectionID + " style='display: block; background-color:" + clss.color
-            + "; color: white; width: 90%; padding: 5px;' onclick = 'showClickedClassDetails(" + clss.classID + ");' >" + clss.classID + " - " + clss.classLabel + " (" + clss.type + ")</a>");
+            + "; color: white; width: 90%; padding: 5px;' onclick = 'showClickedClassDetails(\"" + clss.classID + "\");' >" + clss.classID + " - " + clss.classLabel + " (" + clss.type.split("S")[0] + ")</a>");
     }
 }
 
@@ -148,6 +147,7 @@ function showClickedClassDetails(clss) {
     removeSelectedTags();
     $(".text_search input").val(clss);
     $('.text_search input').keyup();
+    $('.text_search input').keyDown();
 }
 
 /*
@@ -155,8 +155,9 @@ Removes a selected cloud facet tag when clicking class details
 */
 function removeSelectedTags() {
     var cloudFacets = $(".exhibit-cloudFacet-value.exhibit-cloudFacet-value-selected");
-    for (var i = 0; i < cloudFacets.length; i++) {
-        $(cloudFacets[i]).trigger("click");
+    while (cloudFacets.length > 0) {
+	$(cloudFacets[0]).trigger("click");
+	cloudFacets = $(".exhibit-cloudFacet-value.exhibit-cloudFacet-value-selected");
     }
 }
 

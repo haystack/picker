@@ -143,6 +143,10 @@ function processOfficialDataItem(item) {
     if ('offering' in item) {
         item.offering = ((item.offering == 'Y') ? "Currently Offered" : "Not Offered This Term");
     }
+    
+    if (item.level == "High Graduate") {
+	item.level = "Graduate";
+    }
 
     if (item.type == 'LectureSession') {
         item["lecture-section-of"] = item["section-of"];
@@ -315,10 +319,23 @@ function parseNumber(num) {
     Pass in listener for calendar cells
 */
 function showClassesDuringTime(obj) {
-    var classes = classes_by_time[obj[0].id]
+    var classes = classes_by_time[$(obj[0]).attr("classid")]
+    var backgroundc = $($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color");
+    if ( backgroundc == "rgb(0, 0, 128)" || backgroundc == "#000080" ) {
+	console.log(backgroundc);
+	console.log("yeah");
+	$("#timed-classes-list").empty();
+	$("#right-time-wrapper-list").empty();
+	$($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color", "#FFFFFF");
+	return null;
+    }
+    
+    $(".timegrid-vline").css("background-color", "#FFFFFF");
+    $($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color", "#000080");
+    
     if ($("#schedule-details-layer").css("visibility") != "visible") {
         $("#timed-classes-list").empty();
-        $("#timed-classes-list").append("<h1>Showing classes occuring on " + parseDayAndTime(obj[0].id) + ":</h1><br>");
+        $("#timed-classes-list").append("<h1>Showing classes occuring on " + parseDayAndTime($(obj[0]).attr("classid")) + ":</h1><br>");
         $("#timed-classes-list").append("<table></table>");
         var numClasses = classes.length;
         var classesPerColumn = Math.ceil(numClasses/3);
@@ -332,10 +349,11 @@ function showClassesDuringTime(obj) {
             }
         } 
     } else {
-        $("#right-time-wrapper").append("<br><br><h1>Showing classes occuring on " + parseDayAndTime(obj[0].id) + ":</h1>");
+	$("#right-time-wrapper-list").empty();
+        $("#right-time-wrapper-list").append("<br><br><h1>Showing classes occuring on " + parseDayAndTime($(obj[0]).attr("classid")) + ":</h1>");
         for (i in classes) {
             if (window.database.getObject(classes[i], "label") != null) 
-                $("#right-time-wrapper").append("<br>" + processPrereqs(classes[i], true) + " " + window.database.getObject(classes[i], "label") + "<br>");
+                $("#right-time-wrapper-list").append("<br>" + processPrereqs(classes[i], true) + " " + window.database.getObject(classes[i], "label") + "<br>");
         }
     }
 }

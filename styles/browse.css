@@ -3,7 +3,9 @@
  */
 #browsing-interface {
     position:   relative;
-    width:      100%;
+    width:      80%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #add-more-select {
@@ -39,12 +41,12 @@ div.exhibit-facet-header-filterControl img {
 }
 #schedule-preview-pane {
     z-index:    1;
-    top:        8em;
-    right:      3px;
+    top:        5em;
+    right:      10px;
     width:      20em;
     background: white;
-	overflow:   auto;
-	bottom:     0px;
+    overflow:   auto;
+    bottom:     5px;
     position:   fixed;
 }
 
@@ -78,12 +80,12 @@ div.exhibit-facet-header-filterControl img {
 
 #right-time-wrapper {
     z-index: 1;
-    top: 12em;
-    right: 3px;
-    width: 20em;
+    top: 20%;
+    right: 3%;
+    width: 20%;
     background: white;
     overflow: auto;
-    bottom: 0px;
+    bottom: 5%;
     position: fixed;
 }
 
@@ -163,7 +165,7 @@ div.exhibit-facet-header-filterControl img {
     color:          #15243B;
 }
 #schedule-details-layer div.title span {
-    font-size:      120%;
+    font-size:      14px;
     font-weight:    bold;
 }
 
@@ -570,9 +572,13 @@ div.timegrid-xlabels-window, div.timegrid-ylabels-window {
 }
 
 .exhibit-cloudFacet-header {
-    width: 100px;
+    width: 250px;
 }
 
 .exhibit-cloudFacet-body {
     width: 200px;
+}
+
+.timegrid-vline {
+    cursor: pointer;
 }

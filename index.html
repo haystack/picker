@@ -48,26 +48,22 @@
 	<!-- ==================== Schedule Details Layer ==================== -->
 	<div id="schedule-details-layer">
 	    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
-		<span>Weekly Schedule</span>
+		<span class="picker-ratings">Weekly Schedule (WARNING: not your official schedule given by the Registrar)</span>
 	    </div>
 	    <div id="schedule-details-layer-inner">
-		<p style="color: #800; font-size: 100%; font-weight: bold; padding: 1em; margin: 2em 0; width: 30em; border: 1px solid #800;">
-
-		    WARNING: This calendar is not an official schedule. WebSIS will produce
-		    your schedule of the classes in which you are registered. All changes
-		    will then need to be processed through Drop/Add forms after Registration Day.
-		    </p>
 
 		<div id="timegrid" tg:role="grid"
 		    tg:views="week" tg:eventSource="timegridEventSource"
 		    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
 	    </div>
-	    <div id="right-time-wrapper"><b>Select a few time slots to see which classes are offered starting at that time.</b></div>
+	    <div id="right-time-wrapper"><span><a href="javascript:void(0)"><img src="images/google-exp.png" height="70px" onclick="exportCalendarToGoogle();" /></a></span></br></br>
+	    <span id="right-time-wrapper-list">Select a <b>time slot</b> on the calendar to see which classes are offered starting at that time.</span>
+	    </div>
 	</div>
 	<div id="left-wrapper">
 	<div id="left-column" width="25%">
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "170"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "170"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
 	</div>
 	</div>
@@ -77,8 +73,7 @@
 		<!-- ==================== Search for a Class ==================== -->
 		<div class="introduction">
 		    <h2>Search for a class:</h2>
-		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch"></div></br></br>
-		    <a href="javascript:void(0)"><img src="images/google-exp.png" onclick="exportCalendarToGoogle();" /></a>
+		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch" onclick="removeSelectedTags();" data-ex-expressions="value, .label, .equivalent_subjects, .joint_subjects, .Instructor"></div></br></br>
 		</div>
 		<!-- ==================== Classes Layer ==================== -->
 		<div id="classes-layer">
@@ -95,15 +90,16 @@
 		</div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
 	    <div id="schedule-preview-pane">
-	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button>
-
+	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button><br>
+	    <p class="picker-ratings">Select a <b>time slot</b> on the calendar to see what classes are offered at that time.</p>
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
                 tg:mini="true" tg:dayStart="8" tg:dayEnd="22" 
                 tg:listener = "showClassesDuringTime"
                 tg:gridlistener = "showClickedClassDetails"
                 tg:gridlistenerinput = "getClickedClass"
-                style="height:250px"></div>
+                style="height:250px"></div><br>
+	    <a href="#" class="picker-ratings" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
             <div id="timed-classes-list"></div>
             <div id="picked-classes-list"></div>
 	    </div>
