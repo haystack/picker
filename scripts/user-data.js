@@ -175,22 +175,6 @@ userData = {
 			}
 		}
 	},
-	
-	getcomment: function(classcomment, slug) {
-		
-		$.post('./scripts/getcomments.php', {
-			'slug': slug,
-			'number': $(classcomment).parent().attr('classid'),
-			'title': $(classcomment).parent().attr('title'),
-			'description': $(classcomment).parent().attr('description'),
-			'semester': $(classcomment).parent().attr('semester')
-			/**'instructors': $(classcomment).parent().attr('instructors'),
-			'prereqs': $(classcomment).parent().attr('prereqs'),
-			'classtype': $(classcomment).parent().attr('classtype'),
-			'units': $(classcomment).parent().attr('units'),
-			'semester': $(classcomment).parent().attr('semester')**/
-		});
-	},
 
 	plusOn:  function(anchor) {
 		$(anchor).addClass("plusOn");
@@ -203,15 +187,27 @@ userData = {
 	plusClick:  function(anchor) {
 		if (window.database.getObject('user', 'userid') != null) {
 			var commentID = anchor.getAttribute("classid");
-
+		}
+		
+		var currentVotes = $($(anchor).parents("tr").find(".picker-ratings")[0]);
+		var votechange = 0;
+		if ($(anchor).parents("tr").find(".plusClicked").length != 0) {
+			votechange = -1;
+		} else if ($(anchor).parents("tr").find(".minusClicked").length != 0) {
+			votechange = 2;
+		} else {
+			votechange = 1;
+		}
+		currentVotes.html(parseInt(currentVotes.html()) + votechange);
+		$(anchor).parent().find(".ui-icon-minusthick").removeClass("minusClicked");
+		
     		$.post("scripts/post.php",
     			{ userid: window.database.getObject('user', 'userid'),
                   plus: true,
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('plusClicked'); } );
-        }
-	},
+        },
 
 	minusOn:  function(anchor) {
 		$(anchor).addClass("minusOn");
@@ -224,14 +220,26 @@ userData = {
 	minusClick:  function(anchor) {
 		if (window.database.getObject('user', 'userid') != null) {
 			var commentID = anchor.getAttribute("classid");
+		}
+		
+		var currentVotes = $($(anchor).parents("tr").find(".picker-ratings")[0]);
+		var votechange = 0;
+		if ($(anchor).parents("tr").find(".minusClicked").length != 0) {
+			votechange = 1;
+		} else if ($(anchor).parents("tr").find(".plusClicked").length != 0) {
+			votechange = -2;
+		} else {
+			votechange = -1;
+		}
+		currentVotes.html(parseInt(currentVotes.html()) + votechange);
+		$(anchor).parent().find(".ui-icon-plusthick").removeClass("plusClicked");
 
     		$.post("scripts/post.php",
     			{ userid: window.database.getObject('user', 'userid'),
-                  minus: true,
+			  minus: true,
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('minusClicked'); } );
-        }
 	},
 
 	flagOn:  function(anchor) {
@@ -245,13 +253,13 @@ userData = {
 	flagClick:  function(anchor) {
 		if (window.database.getObject('user', 'userid') != null) {
 			var commentID = anchor.getAttribute("classid");
-
+		}
+		
     		$.post("scripts/post.php",
     			{ userid: window.database.getObject('user', 'userid'),
-                  flag: true,
+			  flag: true,
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('flagClicked'); } );
-		}
 	}
 }

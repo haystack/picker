@@ -111,7 +111,7 @@
 
 	    <!-- ==================== Class Lens ==================== -->
 	    <div data-ex-role="exhibit-lens" class="course-lens" style="display: none;" data-ex-item-types="Class" 
-	    	onmouseover="showExtraDetails(this);">
+	    	onmouseover="showMoreDetails(this);" onmouseout="hideMoreDetails(this);">
 		<div class="course-title">
 		    <span data-ex-content=".semester" class="course-semester"></span>
 		    <a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span data-ex-content="concat(value, ' - ', .label)" class="course-name"></span></a> <a data-ex-href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
@@ -191,6 +191,7 @@
 		    </td>
 		    </tr>
 		    <tr><td>
+			<br><br><div class="show-more-details" style="visibility: hidden; display: none;"><a href="javascript: {}" onclick = "showExtraDetails($(this).parent().parent().parent().parent().parent().parent().parent());" style="margin:40%" class="picker-ratings">Show more details</a></div>
 		    	<div class="hidden-class-details" style="visibility: hidden; display: none;">
 		    		<div class="class-ratings">
 		    			<div data-ex-id-subcontent="rating-{{value}}" class="rating">

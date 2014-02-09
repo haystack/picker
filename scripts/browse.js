@@ -164,10 +164,15 @@ function removeSelectedTags() {
 /*
 Shows and hides class details (comments and ratings) on mouseover
 */
-var slideDowns = {};
+function showMoreDetails(elem) {
+	$($(elem).find(".show-more-details")[0]).css({
+		"visibility": "visible",
+		"display": "block"
+	});
+}
+
 function showExtraDetails(elem) {
-    if (slideDowns[$(elem).attr("itemid")] != 1) {
-	$($(elem).find(".hidden-class-details")).slideDown("fast").css({
+	$($(elem).find(".hidden-class-details")).slideToggle("fast").css({
 		"visibility": "visible",
 		"display": "block"
 	});
@@ -211,7 +216,7 @@ function showExtraDetails(elem) {
 		});
 	}
 	
-	if ($(elem).find(".comments-of-" + $(elem).attr("itemid")).length == 0) {
+	if ($(elem).find((".comments-of-" + $(elem).attr("itemid")).replace(".", "\\.")).length == 0) {
 		$.post("data/getExtraDetails.php", {
 			getComments: true,
 			classID: $(elem).attr("itemid")
@@ -223,13 +228,10 @@ function showExtraDetails(elem) {
 			} else {
 				thisComment.append("<table width='100%'></table>");
 				$.each(json.items, function (i, obj) {
-					console.log(obj);
-					console.log(i);
 					thisTable = $(thisComment.find("table")[0]);
 					thisTable.append("<tr style='border-bottom: thin solid #f3f3f3;'></tr>");
 					
 					var thisRow = $(thisTable.find("tr")[i]);
-					console.log(thisRow);
 					thisRow.append("<td class='comments-first-col' width='3%' style='padding:10px'></td>");
 					thisRow.append("<td class = 'comments-second-col' width='17%' style='padding:10px'></td>");
 					thisRow.append("<td class='comments-third-col' width='80%' style='padding:10px'></td>");
@@ -238,9 +240,9 @@ function showExtraDetails(elem) {
 					var secondColumn = $(thisRow.find("td")[1]);
 					var thirdColumn = $(thisRow.find("td")[2]);
 					
-					secondColumn.append("<span class='ui-icon ui-icon-plusthick" + ((obj.votedUp == true) ? " plusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.plusOn(this);return false;' onclick='userData.plusClick(this);return false;' onmouseout='userData.plusOff(this);return false;'></span>" );
-					secondColumn.append("<span class='ui-icon ui-icon-minusthick" + ((obj.votedDown == true) ? " minusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.minusOn(this);return false;' onclick='userData.minusClick(this);return false;' onmouseout='userData.minusOff(this);return false;'></span>" );
-					secondColumn.append("<span class='ui-icon ui-icon-flag" + ((obj.flagClicked == true) ? " flagClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.flagOn(this);return false;' onclick='userData.flagClick(this);return false;' onmouseout='userData.flagOff(this);return false;'></span>" );
+					secondColumn.append("<span class='ui-icon ui-icon-plusthick" + ((obj.votedUp == "true") ? " plusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.plusOn(this);return false;' onclick='userData.plusClick(this);return false;' onmouseout='userData.plusOff(this);return false;'></span>" );
+					secondColumn.append("<span class='ui-icon ui-icon-minusthick" + ((obj.votedDown == "true") ? " minusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.minusOn(this);return false;' onclick='userData.minusClick(this);return false;' onmouseout='userData.minusOff(this);return false;'></span>" );
+					secondColumn.append("<span class='ui-icon ui-icon-flag" + ((obj.flagClicked == "true") ? " flagClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.flagOn(this);return false;' onclick='userData.flagClick(this);return false;' onmouseout='userData.flagOff(this);return false;'></span>" );
 					firstColumn.append("<span class='picker-ratings'>" + obj.votes + "</span>");
 					thirdColumn.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>" + obj.comment + "</p><br>");
 					if (obj['is-current-user']) {
@@ -250,25 +252,31 @@ function showExtraDetails(elem) {
 			}
 		});
 	}
-	slideDowns[$(elem).attr("itemid")] = 1;
-    }
-    $(elem).hover(function(){
-	$($(elem).find(".hidden-class-details")).slideDown("fast").css({
-		"visibility": "visible",
-		"display": "block"
-	});
-	}, function () {
-		$($(elem).find(".hidden-class-details")).slideUp("fast");
-	});
+	
+	$($($(elem).find(".show-more-details")[0]).find("a")).html("Hide more details");
+	showOrHide(elem);
+}
+
+/*
+ Hides the prompt for more details.
+ */
+function hideMoreDetails(elem) {
+	$($(elem).find(".show-more-details")[0]).css({
+		"visibility": "hidden",
+		"display": "none"
+	});	
 }
 
 /*
 Hides class details (comments and ratings)
 */
 function hideExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).slideUp("fast");
+    $($(elem).find(".hidden-class-details")).slideToggle("fast");
     $(elem).find(".course-eval").empty();
     $(elem).find(".enrollment").empty();
+    $(elem).find(("#comment-" + elem.attr("itemid")).replace(".", "\\.")).empty();
+    $($($(elem).find(".show-more-details")[0]).find("a")).html("Show more details");
+    showOrHide(elem);
 }
 
 /*
@@ -276,6 +284,16 @@ Gets the class text to search when clicking on the class in the calendar
 */
 function getClickedClass(evt) {
     return evt.split("-")[0];
+}
+
+/*
+ Either shows or hides the extra details
+ */
+function showOrHide(elem) {
+	var moreDeets = $($($(elem).find(".show-more-details")[0]).find("a"));
+	var showHideOnclick = (moreDeets.html() == "Show more details") ?  "showExtraDetails($(this).parents('.course-lens'));" : "hideExtraDetails($(this).parents('.course-lens'));";
+	moreDeets.attr("onclick", showHideOnclick);
+	moreDeets.html((moreDeets.html() == "Show more details") ? "Show more details" : "Hide more details" );
 }
 
 /*

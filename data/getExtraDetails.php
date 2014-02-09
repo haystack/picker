@@ -27,7 +27,7 @@ if(isset($_POST['getEnrollment'])) {
 	if (!isset($_POST['getAll'])) {
 		// pull enrollment
 		$result = mysql_query("SELECT r_userid
-			      FROM attendance WHERE semester='" . $semester . "' AND r_classid='" . $classid . "' LIMIT 10;");
+			      FROM attendance WHERE semester='" . $semester . "' AND r_classid='" . $classid . "';"); /*LIMIT 10 --- add this after getting enough traffic */
 
 		while($row = mysql_fetch_row($result)) {
 			$query = mysql_query("SELECT u_athena FROM users WHERE u_userid = " . $row[0]);
@@ -52,9 +52,9 @@ if (isset($_POST['getComments'])) {
     $classid = mysql_real_escape_string($_POST['classID']);
     if (!isset($_POST['getAll'])) {
         // assuming comments were scrubbed before insertion
-        $result = mysql_query("SELECT u_athena, o_timestamp, o_comment, o_votes, o_anonymous, commentid
+        $result = mysql_query("SELECT u_athena, o_timestamp, o_comment, o_votes, o_anonymous, commentid, negative
                 FROM comments INNER JOIN users ON u_userid = o_userid
-                WHERE o_flagged = 0 AND o_classid = '" . $classid . "' ORDER BY o_votes DESC, o_timestamp DESC LIMIT 5;");
+                WHERE o_flagged = 0 AND o_classid = '" . $classid . "' ORDER BY o_votes DESC, o_timestamp DESC;");  /*LIMIT 5 ---- add this after getting enough traffic */
     } else {
         $result = mysql_query("SELECT u_athena, o_timestamp, o_comment, o_votes, o_anonymous, commentid
                FROM comments INNER JOIN users ON u_userid = o_userid
@@ -65,35 +65,38 @@ if (isset($_POST['getComments'])) {
             $string = '{"id": "' . $row[5] . '","timestamp":"' . $row[1] . '",
                 "comment":"' . $comment . '", "votes":"' . $row[3] . '"';
             if ($row[4]) {
-                     $string .= ',"author": "anonymous"' ;
+                $string .= ',"author": "anonymous"' ;
             } else {
-                    $string .= ',"author":"' . $row[0] . '"';
+                $string .= ',"author":"' . $row[0] . '"';
+            }
+            
+            if ($row[6]) {
+                $string .= ', "negative" : "true"';
             }
     
             if ($row[0] == $athena) {
                 $string .= ',"is-current-user":"true"';	
             }
             
-            $query = mysql_query("SELECT * FROM votes 
-		WHERE vote = 1 AND userid = $userid AND commentid = '$row[5]'");
-            
-            if ($vup = mysql_fetch_row($query)) {
+            $query1 = mysql_query("SELECT * FROM votes 
+		WHERE vote = 1 AND userid = $userid AND commentid = '$row[5]'"); 
+            if ($vup = mysql_fetch_row($query1)) {
                 $string .= ', "votedUp": "true"';
             } else {
                 $string .= ', "votedUp": "false"';
             }
     
-            $query = mysql_query("SELECT commentid FROM votes 
+            $query2 = mysql_query("SELECT commentid FROM votes 
                     WHERE vote = 2 AND userid = $userid AND commentid = '$row[5]'");
-            if ($row = mysql_fetch_row($query)) {
+            if ($vdown = mysql_fetch_row($query2)) {
                 $string .= ', "votedDown": "true"';
             } else {
                 $string .= ', "votedDown": "false"';
             }
     
-            $query = mysql_query("SELECT commentid FROM votes 
+            $query3 = mysql_query("SELECT commentid FROM votes 
                     WHERE flag = 1 AND userid = $userid AND commentid = '$row[5]'");
-            if ($row = mysql_fetch_row($query)) {
+            if ($vflag = mysql_fetch_row($query3)) {
                 $string .= ', "flagClicked": "true"';
             } else {
                 $string .= ', "flagClicked": "false"';

@@ -319,11 +319,9 @@ function parseNumber(num) {
     Pass in listener for calendar cells
 */
 function showClassesDuringTime(obj) {
-    var classes = classes_by_time[$(obj[0]).attr("classid")]
+    var classes = classes_by_time[$(obj[0]).attr("classid")];
     var backgroundc = $($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color");
     if ( backgroundc == "rgb(0, 0, 128)" || backgroundc == "#000080" ) {
-	console.log(backgroundc);
-	console.log("yeah");
 	$("#timed-classes-list").empty();
 	$("#right-time-wrapper-list").empty();
 	$($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color", "#FFFFFF");

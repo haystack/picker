@@ -521,27 +521,27 @@ div.exhibit-text-facet input {
 }
 
 .flagClicked {
-    background-color: #ff7f50;
+    background-image: url(../images/ui-icons_ff0000_256x240.png);
 }
 
 .flagOn {
-    background-color: #f5f5dc;
+    background-image: url(../images/ui-icons_ff0000_256x240.png);
 }
 
 .plusOn {
-    background-color: #f5f5dc;
+    background-image: url(../images/ui-icons_00BFFF_256x240.png);
 }
 
 .minusOn {
-    background-color: #f5f5dc;
+    background-image: url(../images/ui-icons_00BFFF_256x240.png);
 }
 
 .plusClicked {
-    background-color: #f7e7ce;
+    background-image: url(../images/ui-icons_00BFFF_256x240.png);
 }
 
 .minusClicked {
-    background-color: #f7e7ce;
+    background-image: url(../images/ui-icons_00BFFF_256x240.png);
 }
 
 .timegrid-event {
