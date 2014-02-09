@@ -88,38 +88,6 @@ if (isset($userid)) {
 		
 		$items[] = $str;
 	}
-	
-	// pull user's enrollment details
-	$result = mysql_query("SELECT r_classid FROM attendance
-		WHERE r_userid=$userid;");
-	while ($row = mysql_fetch_row($result)) {
-		
-		$str = '{"type":"UserData","label":"UserEnrollment-' . $row[0] . '",
-			"class-uenrolled-in":"' . $row[0] . '"}';
-		
-		$items[] = $str;
-	}
-
-	$result = mysql_query("SELECT commentid FROM votes 
-		WHERE vote = 1 AND userid = $userid");
-	while ($row = mysql_fetch_row($result)) {
-		$items[] = '{"type":"UserData", "label":"Upvote-' . $row[0] . '", 
-		"comment-upvote-of":"Comment-' . $row[0] . '"}';
-	}
-
-	$result = mysql_query("SELECT commentid FROM votes 
-		WHERE vote = 2 AND userid = $userid");
-	while ($row = mysql_fetch_row($result)) {
-		$items[] = '{"type":"UserData", "label":"Downvote-' . $row[0] . '", 
-		"comment-downvote-of":"Comment-' . $row[0] . '"}';
-	}
-
-	$result = mysql_query("SELECT commentid FROM votes 
-		WHERE flag = 1 AND userid = $userid");
-	while ($row = mysql_fetch_row($result)) {
-		$items[] = '{"type":"UserData", "label":"Flag-' . $row[0] . '", 
-		"comment-flag-of":"Comment-' . $row[0] . '"}';
-	}
 }
 
 /* ==== THINGS THAT SHOULD BE PULLED REGARDLESS OF AUTHENTICATION ==== */
@@ -131,29 +99,6 @@ while ($row = mysql_fetch_row($result)) {
 	$items[] = '{"type":"UserData","label":"AvgRating-' . $row[0] . '",
 		"class-avg-rating-of":"' . $row[0] . '",
 		"rating":"' . round($row[1],1) . '","total":"' . $row[2] . '"}';
-}
-
-// assuming comments were scrubbed before insertion
-$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment, o_votes, o_anonymous, commentid
-	FROM comments INNER JOIN users ON u_userid = o_userid
-	WHERE o_flagged = 0 ORDER BY o_votes, o_timestamp DESC;");
-$count = 0;
-while ($row = mysql_fetch_row($result)) {
-	$count++;
-	$comment = trim(preg_replace('/\n+/', ' ', $row[3]));
-	$string = '{"type":"UserData","label":"Comment-' . $row[6] . '",
-		"class-comment-of":"' . $row[1] . '","timestamp":"' . $row[2] . '","comment":"' . $comment . '", "commentid":"' . $row[6] . '"';
-	if ($row[5]) {
-		 $string .= ',"author": "anonymous"' ;
-	} else {
-		$string .= ',"author":"' . $row[0] . '"';
-	}
-
-	if (isset($athena) && $row[0] == $athena)
-		$string .= ',"is-current-user":"true"';	
-	$string .= '}';
-	
-	$items[] = $string;
 }
 
 mysql_close();

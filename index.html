@@ -66,7 +66,6 @@
 	</div>
 	<div id="left-wrapper">
 	<div id="left-column" width="25%">
-		<h1 style="padding: 50px 20px 0px 30px; font-size:18px;">Filters</h1>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "170"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
@@ -96,7 +95,7 @@
 		</div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
 	    <div id="schedule-preview-pane">
-	    <button onclick="onShowScheduleDetails();">Full View</button>
+	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button>
 
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
@@ -200,8 +199,8 @@
 		    		<div class="class-ratings">
 		    			<div data-ex-id-subcontent="rating-{{value}}" class="rating">
 					<div class="info">
-					<table><tr><td width="75%">
-					<span class="picker-ratings">Your Rating:</span></br></br>
+					<table width="100%"><tr><td width="60%">
+					<span class="picker-ratings-header">Your Rating:</span></br></br>
 					<div class="rate"
 						 data-ex-classid-content="value"
 						 data-ex-curvalue-subcontent="{{ !class-urating-of.rating }}">
@@ -257,63 +256,26 @@
                                     </div>
                             </div>
 				</td>
-				    <td width="100%">
+				    <td width="40%">
 					<span class="picker-ratings course-eval"></span><br><br>
 					<span class="picker-ratings enrollment"></span><br>
 					<button type="button" data-ex-id-subcontent="enroll-button-{{value}}" class="browse-button" onclick="userData.enrollUnenroll(this);">Show me as enrolled!</button>
 				    </td>
 				</tr></table>
                     	</div>
-		    		</div><br>
-		    		<div class="class-comments"><span class="picker-ratings">Class Comments:</span>
-					    <a href="#"
-						    data-ex-classid-content="value"
-						    onclick="userData.toggleComments(this);return false;">
-						    <div class="comments-toggle">toggle comments</div></a>
-							    <div data-ex-content="!class-comment-of"
-								    class="comment-body" style="display:none">
-								    <div class="each-comment">
-									    <div data-ex-content=".comment"></div>
-									    <span data-ex-content=".author"></span>,
-									    <span data-ex-content=".timestamp"
-										    data-ex-formats="date { mode: medium }"></span>
-										<span data-ex-class-subcontent="{{ if(exists(!comment-upvote-of), 'ui-icon ui-icon-plusthick plusClicked', 
-											'ui-icon ui-icon-plusthick') }}"
-											data-ex-classid-content=".commentid"
-											onmouseover="userData.plusOn(this);return false;"
-                                            onclick="userData.plusClick(this);return false;"
-                                            onmouseout="userData.plusOff(this);return false;"></span>
-							    		<span data-ex-class-subcontent="{{ if(exists(!comment-downvote-of), 'ui-icon ui-icon-minusthick minusClicked',
-							    			'ui-icon ui-icon-minusthick') }}"
-							    			data-ex-classid-content=".commentid"
-							    			onmouseover="userData.minusOn(this);return false;"
-                                            onclick="userData.minusClick(this);return false;"
-                                            onmouseout="userData.minusOff(this);return false;"></span>
-							    		<span data-ex-class-subcontent="{{ if(exists(!comment-flag-of), 'ui-icon ui-icon-flag flagClicked',
-							    			'ui-icon ui-icon-flag') }}"
-							    			data-ex-classid-content=".commentid"
-							    			onmouseover="userData.flagOn(this);return false;"
-                                            onclick="userData.flagClick(this);return false;"
-                                            onmouseout="userData.flagOff(this);return false;"></span>
-									    <a data-ex-if-exists=".is-current-user"
-										    data-ex-classid-content=".commentid"
-										    href="#"
-										    onclick="userData.deleteComment(this);return false;">
-										    delete</a>
-								    </div>
-							    </div>
-							    <div class="message" style="display:none"></div>
-							    <div class="input" style="display:none">
-							    <input type="checkbox"></input><br>
-							    <textarea></textarea><br/>
-							    <button data-ex-classid-content="value"
-								    data-ex-content="if(exists(
-									    !class-comment-of.is-current-user),
-
-									    'Replace comment', 'Leave comment')"
-								    onclick="userData.comment(this);"></button>
-						</div>
-					</div>
+		    		</div><br/>
+		    		<div class="class-comments"><span class="picker-ratings-header">Class Comments:</span><br><br>
+						<span data-ex-id-subcontent="comment-{{value}}"></span><br>
+						<div class="input">
+						<textarea style="margin: 10px; width: 50%; border: 1px solid #d3d3d3; height: 80px;"></textarea><br>
+						<input type="checkbox" style="margin: 10px;"></input>
+						<span class="picker-ratings"> Leave anonymous comment. </span>
+						<br><button class="browse-button"
+							data-ex-classid-content="value"
+							onclick="userData.comment(this);"
+							style="margin: 10px;">Leave comment</button>
+				</div>
+				</div>
 		   	 	</div>
 			</td></tr>
 		</table>

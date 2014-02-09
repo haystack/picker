@@ -61,16 +61,15 @@ userData = {
 	},
 	
 	deleteComment: function(anchor) {
-		var classID = anchor.getAttribute("classid");
+		var commentid = anchor.getAttribute("classid");
 		
 		var userID = this.getUserID($(anchor).parent());
 		if (userID != null) {
-			
 			$.post("scripts/post.php",
 				{ "userid": userID,
 				  "comment": true,
 				  "deleteComment": true,
-				  "class": classID
+				  "commentid": parseInt(commentid)
 				  },
 				function(data){
 					// hide comment div

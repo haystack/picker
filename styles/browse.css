@@ -315,7 +315,8 @@ div.preview-class-lens {
 button.remove-preview {
     float:          right;
     font-family:    monospace;
-    font-size:      7pt;
+    font-size:      10pt;
+    padding:	    5px;
 }
 
 div.course-topic {
@@ -549,10 +550,29 @@ div.exhibit-text-facet input {
     font-size: 14px;
 }
 
+.picker-ratings-header {
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
 div.timegrid-view {
     background: #000000;
 }
 
 div.timegrid-xlabels-window, div.timegrid-ylabels-window {
     background: #FFFCE6;
+}
+
+.browse-button {
+    padding: 5px;
+    margin: 5px;
+}
+
+.exhibit-cloudFacet-header {
+    width: 100px;
+}
+
+.exhibit-cloudFacet-body {
+    width: 200px;
 }

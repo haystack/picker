@@ -134,10 +134,10 @@ function updatePickedClassesList() {
     for (c in picked_classes) {
         var clss = picked_classes[c];
         $("#picked-classes-list").append("<div class='preview-class-lens' id = " + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1] + "></div>");
-        $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<a href='javascript: {}' class='clickable-classes'" + clss.sectionID + " style='display: block; background-color:" + clss.color
-            + "; color: white' onclick = 'showClickedClassDetails(" + clss.classID + ");' >" + clss.classID + " - " + clss.classLabel + " (" + clss.type + ")</a>");
-        $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<button onclick='onUnpick(this);' class='remove-preview' sectionID='" 
+	$("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<button onclick='onUnpick(this);' class='remove-preview' sectionID='" 
             + clss.sectionID + "'>X</button>");
+        $("#" + clss.sectionID.split(".")[0] + clss.sectionID.split(".")[1]).append("<a href='javascript: {}' class='clickable-classes'" + clss.sectionID + " style='display: block; background-color:" + clss.color
+            + "; color: white; width: 90%; padding: 5px;' onclick = 'showClickedClassDetails(" + clss.classID + ");' >" + clss.classID + " - " + clss.classLabel + " (" + clss.type + ")</a>");
     }
 }
 
@@ -195,13 +195,13 @@ function showExtraDetails(elem) {
 		    classID: $(elem).attr("itemid"),
 		    semester: term + current_year
 		}, function (data) {
-		    var obj = jQuery.parseJSON( data );
+		    var obj = $.parseJSON( data );
 		    if (obj.items.length == 0) {
-			    $(elem).find(".enrollment").append("<p id='enrollment-'"+ $(elem).attr("itemid") + "'>Currently no Picker users enrolled in " + $(elem).attr("itemid") + "</p>");
+			    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-'"+ $(elem).attr("itemid") + "'>Currently no Picker users enrolled in " + $(elem).attr("itemid") + "</p>");
 		    } else {
-			    $(elem).find(".enrollment").append("<b>Picker users enrolled in " + $(elem).attr("itemid") + ":</b></br>");
+			    $(elem).find(".enrollment").append("<b class='picker-ratings'>Picker users enrolled in " + $(elem).attr("itemid") + ":</b></br>");
 		    }
-		    $(elem).find(".enrollment").append("<p id='enrollment-" + $(elem).attr("itemid") + "'>" + obj.items.join(", ") + "</p>");
+		    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-" + $(elem).attr("itemid") + "'>" + obj.items.join(", ") + "</p>");
 		    if (obj.items.indexOf(window.database.getObject("user", "athena")) > -1) {
 			var id = "#enroll-button-" + $(elem).attr("itemid");
 			id = id.replace(".", "\\.");
@@ -209,7 +209,46 @@ function showExtraDetails(elem) {
 		    }
 		});
 	}
-	    
+	
+	if ($(elem).find(".comments-of-" + $(elem).attr("itemid")).length == 0) {
+		$.post("data/getExtraDetails.php", {
+			getComments: true,
+			classID: $(elem).attr("itemid")
+		}, function (data) {
+			var json = $.parseJSON(data);
+			var thisComment = $(elem).find(("#comment-" + $(elem).attr("itemid")).replace(".", "\\."));
+			if (json.items.length == 0) {
+				thisComment.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>Currently no comments.</p>");
+			} else {
+				thisComment.append("<table width='100%'></table>");
+				$.each(json.items, function (i, obj) {
+					console.log(obj);
+					console.log(i);
+					thisTable = $(thisComment.find("table")[0]);
+					thisTable.append("<tr style='border-bottom: thin solid #f3f3f3;'></tr>");
+					
+					var thisRow = $(thisTable.find("tr")[i]);
+					console.log(thisRow);
+					thisRow.append("<td class='comments-first-col' width='3%' style='padding:10px'></td>");
+					thisRow.append("<td class = 'comments-second-col' width='17%' style='padding:10px'></td>");
+					thisRow.append("<td class='comments-third-col' width='80%' style='padding:10px'></td>");
+					
+					var firstColumn = $(thisRow.find("td")[0]);
+					var secondColumn = $(thisRow.find("td")[1]);
+					var thirdColumn = $(thisRow.find("td")[2]);
+					
+					secondColumn.append("<span class='ui-icon ui-icon-plusthick" + ((obj.votedUp == true) ? " plusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.plusOn(this);return false;' onclick='userData.plusClick(this);return false;' onmouseout='userData.plusOff(this);return false;'></span>" );
+					secondColumn.append("<span class='ui-icon ui-icon-minusthick" + ((obj.votedDown == true) ? " minusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.minusOn(this);return false;' onclick='userData.minusClick(this);return false;' onmouseout='userData.minusOff(this);return false;'></span>" );
+					secondColumn.append("<span class='ui-icon ui-icon-flag" + ((obj.flagClicked == true) ? " flagClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.flagOn(this);return false;' onclick='userData.flagClick(this);return false;' onmouseout='userData.flagOff(this);return false;'></span>" );
+					firstColumn.append("<span class='picker-ratings'>" + obj.votes + "</span>");
+					thirdColumn.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>" + obj.comment + "</p><br>");
+					if (obj['is-current-user']) {
+						thirdColumn.append("<span class='picker-ratings'><i>Comment by:</i> " + obj.author + " <i>on</i> " + obj.timestamp + "</span><br><span><a classid='" + obj.id + "' href='#'" + " onclick='userData.deleteComment(this);return false;'>delete</a></span><br>" );	
+					}
+				});
+			}
+		});
+	}
 	slideDowns[$(elem).attr("itemid")] = 1;
     }
     $(elem).hover(function(){

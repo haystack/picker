@@ -357,7 +357,8 @@ span {
 }
 
 #left-column {
-    position: fixed;
+    position: absolute;
+    padding: 10px;
 }
 
 div.exhibit-facet {
