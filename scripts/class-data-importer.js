@@ -48,7 +48,7 @@ ExhibitImporter.transformJSON = function(json, url, link) {
 
     loadStaticData("data/user.php", window.database, setupLogin);
 
-	return json;
+    return json;
 }
 
 /*

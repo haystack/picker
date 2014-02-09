@@ -247,19 +247,13 @@ span.course-name {
 }
 span.course-semester {
     float: right;
-    color:          #660000;
+    color: #FFFFFF;
 }
 span.hasfinal {
     font-style: italic;
     font-weight: bold;
 }
-/**
-img.favorite-icon {
-    float: right;
-    cursor: pointer;
-    margin-left: 1em;
-}
-**/
+
 table.course-body {
     width: 100%;
 }
@@ -494,9 +488,9 @@ div.comments div.input {
 
 #httpsStatus {
     color: #FFFFFF;
-    font-size: 18px;
     text-align: center;
     padding-left: 5%;
+    padding-right:40%;
 }
 
 #httpsStatus a {

@@ -46,7 +46,6 @@ function setupCookiesAndMiniTimegrid() {
         picked_classes = picked_classes + saved_sections.join("");
     writeCookie("picked-classes", picked_classes);
     getAddOrRemove();
-
 }
 
 /*
@@ -144,10 +143,14 @@ function updatePickedClassesList() {
 Shows a clicked class's detail by using the search facet
 */
 function showClickedClassDetails(clss) {
-    removeSelectedTags();
-    $(".text_search input").val(clss);
-    $('.text_search input').keyup();
-    $('.text_search input').keyDown();
+	if ($("#schedule-details-layer").css("visibility") != "visible") {
+		removeSelectedTags();
+		$(".text_search input").val(clss);
+		$('.text_search input').keyup();
+		$('.text_search input').keydown();
+	} else {
+		$(processPrereqs(clss, true)).click();
+	}
 }
 
 /*
@@ -172,88 +175,92 @@ function showMoreDetails(elem) {
 }
 
 function showExtraDetails(elem) {
-	$($(elem).find(".hidden-class-details")).slideToggle("fast").css({
-		"visibility": "visible",
-		"display": "block"
-	});
-	
-	if ($(elem).find("#course-eval-" + $(elem).attr("itemid")).length == 0) {
-		$eval = "https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=" + $(elem).attr("itemid") + "&instructorName=&search=Search";
-		$link = $("<a></a>", {
-		    id: "course-eval-" + $(elem).attr("itemid"),
-		    href: $eval,
-		    text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
+	if (window.database.getObject("user", "userid") != null && window.database.getObject("user", "userid") != undefined) {
+		$($(elem).find(".hidden-class-details")).slideToggle("fast").css({
+			"visibility": "visible",
+			"display": "block"
 		});
-		$(elem).find(".course-eval").append($link);
+		
+		if ($(elem).find("#course-eval-" + $(elem).attr("itemid")).length == 0) {
+			$eval = "https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=" + $(elem).attr("itemid") + "&instructorName=&search=Search";
+			$link = $("<a></a>", {
+			    id: "course-eval-" + $(elem).attr("itemid"),
+			    href: $eval,
+			    text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
+			});
+			$(elem).find(".course-eval").append($link);
+		}
+		
+		if ($(elem).attr("itemid").split(".")[0] == "6" && $(elem).find("#hkn-eval-" + $(elem).attr("itemid")).length == 0) {
+		    $hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-" + hknreviewyear;
+		    $hknlink = $("<a></a>", {href: $hkn,
+				 id: "hkn-eval-" + $(item).attr("itemid"),
+				 text: "HKN Evaluation"});
+		    $(elem).find(".course-eval").append("<br>").append($hknlink);
+		}
+		
+		if ($(elem).find("#enrollment-" + $(elem).attr("itemid")).length == 0) {
+			$.post("data/getExtraDetails.php", {
+			    getEnrollment: true,
+			    classID: $(elem).attr("itemid"),
+			    semester: term + current_year
+			}, function (data) {
+			    var obj = $.parseJSON( data );
+			    if (obj.items.length == 0) {
+				    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-'"+ $(elem).attr("itemid") + "'>Currently no Picker users enrolled in " + $(elem).attr("itemid") + "</p>");
+			    } else {
+				    $(elem).find(".enrollment").append("<b class='picker-ratings'>Picker users enrolled in " + $(elem).attr("itemid") + ":</b></br>");
+			    }
+			    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-" + $(elem).attr("itemid") + "'>" + obj.items.join(", ") + "</p>");
+			    if (obj.items.indexOf(window.database.getObject("user", "athena")) > -1) {
+				var id = "#enroll-button-" + $(elem).attr("itemid");
+				id = id.replace(".", "\\.");
+				$(elem).find(id).html("Disenroll");
+			    }
+			});
+		}
+		
+		if ($(elem).find((".comments-of-" + $(elem).attr("itemid")).replace(".", "\\.")).length == 0) {
+			$.post("data/getExtraDetails.php", {
+				getComments: true,
+				classID: $(elem).attr("itemid")
+			}, function (data) {
+				var json = $.parseJSON(data);
+				var thisComment = $(elem).find(("#comment-" + $(elem).attr("itemid")).replace(".", "\\."));
+				if (json.items.length == 0) {
+					thisComment.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>Currently no comments.</p>");
+				} else {
+					thisComment.append("<table width='100%'></table>");
+					$.each(json.items, function (i, obj) {
+						thisTable = $(thisComment.find("table")[0]);
+						thisTable.append("<tr style='border-bottom: thin solid #f3f3f3;'></tr>");
+						
+						var thisRow = $(thisTable.find("tr")[i]);
+						thisRow.append("<td class='comments-first-col' width='3%' style='padding:10px'></td>");
+						thisRow.append("<td class = 'comments-second-col' width='17%' style='padding:10px'></td>");
+						thisRow.append("<td class='comments-third-col' width='80%' style='padding:10px'></td>");
+						
+						var firstColumn = $(thisRow.find("td")[0]);
+						var secondColumn = $(thisRow.find("td")[1]);
+						var thirdColumn = $(thisRow.find("td")[2]);
+						
+						secondColumn.append("<span class='ui-icon ui-icon-plusthick" + ((obj.votedUp == "true") ? " plusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.plusOn(this);return false;' onclick='userData.plusClick(this);return false;' onmouseout='userData.plusOff(this);return false;'></span>" );
+						secondColumn.append("<span class='ui-icon ui-icon-minusthick" + ((obj.votedDown == "true") ? " minusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.minusOn(this);return false;' onclick='userData.minusClick(this);return false;' onmouseout='userData.minusOff(this);return false;'></span>" );
+						secondColumn.append("<span class='ui-icon ui-icon-flag" + ((obj.flagClicked == "true") ? " flagClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.flagOn(this);return false;' onclick='userData.flagClick(this);return false;' onmouseout='userData.flagOff(this);return false;'></span>" );
+						firstColumn.append("<span class='picker-ratings'>" + obj.votes + "</span>");
+						thirdColumn.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>" + obj.comment + "</p><br>");
+						if (obj['is-current-user']) {
+							thirdColumn.append("<span class='picker-ratings'><i>Comment by:</i> " + obj.author + " <i>on</i> " + obj.timestamp + "</span><br><span><a classid='" + obj.id + "' href='#'" + " onclick='userData.deleteComment(this);return false;'>delete</a></span><br>" );	
+						}
+					});
+				}
+			});
+		}
+	} else {
+		$($(elem).find(".show-more-details")[0]).append("<p class='picker-ratings'>You must <a href='https://quanquan.scripts.mit.edu:444/demo1/upgrade/'>LOGIN</a> to see more details.</p>");
 	}
 	
-	if ($(elem).attr("itemid").split(".")[0] == "6" && $(elem).find("#hkn-eval-" + $(elem).attr("itemid")).length == 0) {
-	    $hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-" + hknreviewyear;
-	    $hknlink = $("<a></a>", {href: $hkn,
-			 id: "hkn-eval-" + $(item).attr("itemid"),
-			 text: "HKN Evaluation"});
-	    $(elem).find(".course-eval").append("<br>").append($hknlink);
-	}
-	
-	if ($(elem).find("#enrollment-" + $(elem).attr("itemid")).length == 0) {
-		$.post("data/getExtraDetails.php", {
-		    getEnrollment: true,
-		    classID: $(elem).attr("itemid"),
-		    semester: term + current_year
-		}, function (data) {
-		    var obj = $.parseJSON( data );
-		    if (obj.items.length == 0) {
-			    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-'"+ $(elem).attr("itemid") + "'>Currently no Picker users enrolled in " + $(elem).attr("itemid") + "</p>");
-		    } else {
-			    $(elem).find(".enrollment").append("<b class='picker-ratings'>Picker users enrolled in " + $(elem).attr("itemid") + ":</b></br>");
-		    }
-		    $(elem).find(".enrollment").append("<p class='picker-ratings' id='enrollment-" + $(elem).attr("itemid") + "'>" + obj.items.join(", ") + "</p>");
-		    if (obj.items.indexOf(window.database.getObject("user", "athena")) > -1) {
-			var id = "#enroll-button-" + $(elem).attr("itemid");
-			id = id.replace(".", "\\.");
-			$(elem).find(id).html("Disenroll");
-		    }
-		});
-	}
-	
-	if ($(elem).find((".comments-of-" + $(elem).attr("itemid")).replace(".", "\\.")).length == 0) {
-		$.post("data/getExtraDetails.php", {
-			getComments: true,
-			classID: $(elem).attr("itemid")
-		}, function (data) {
-			var json = $.parseJSON(data);
-			var thisComment = $(elem).find(("#comment-" + $(elem).attr("itemid")).replace(".", "\\."));
-			if (json.items.length == 0) {
-				thisComment.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>Currently no comments.</p>");
-			} else {
-				thisComment.append("<table width='100%'></table>");
-				$.each(json.items, function (i, obj) {
-					thisTable = $(thisComment.find("table")[0]);
-					thisTable.append("<tr style='border-bottom: thin solid #f3f3f3;'></tr>");
-					
-					var thisRow = $(thisTable.find("tr")[i]);
-					thisRow.append("<td class='comments-first-col' width='3%' style='padding:10px'></td>");
-					thisRow.append("<td class = 'comments-second-col' width='17%' style='padding:10px'></td>");
-					thisRow.append("<td class='comments-third-col' width='80%' style='padding:10px'></td>");
-					
-					var firstColumn = $(thisRow.find("td")[0]);
-					var secondColumn = $(thisRow.find("td")[1]);
-					var thirdColumn = $(thisRow.find("td")[2]);
-					
-					secondColumn.append("<span class='ui-icon ui-icon-plusthick" + ((obj.votedUp == "true") ? " plusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.plusOn(this);return false;' onclick='userData.plusClick(this);return false;' onmouseout='userData.plusOff(this);return false;'></span>" );
-					secondColumn.append("<span class='ui-icon ui-icon-minusthick" + ((obj.votedDown == "true") ? " minusClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.minusOn(this);return false;' onclick='userData.minusClick(this);return false;' onmouseout='userData.minusOff(this);return false;'></span>" );
-					secondColumn.append("<span class='ui-icon ui-icon-flag" + ((obj.flagClicked == "true") ? " flagClicked" : "") + "' classid='" + obj.id + "' " + "onmouseover='userData.flagOn(this);return false;' onclick='userData.flagClick(this);return false;' onmouseout='userData.flagOff(this);return false;'></span>" );
-					firstColumn.append("<span class='picker-ratings'>" + obj.votes + "</span>");
-					thirdColumn.append("<p class='picker-ratings comments-of-"+ $(elem).attr("itemid") + "'>" + obj.comment + "</p><br>");
-					if (obj['is-current-user']) {
-						thirdColumn.append("<span class='picker-ratings'><i>Comment by:</i> " + obj.author + " <i>on</i> " + obj.timestamp + "</span><br><span><a classid='" + obj.id + "' href='#'" + " onclick='userData.deleteComment(this);return false;'>delete</a></span><br>" );	
-					}
-				});
-			}
-		});
-	}
-	
-	$($($(elem).find(".show-more-details")[0]).find("a")).html("Hide more details");
+	$($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Hide more details");
 	showOrHide(elem);
 }
 
@@ -271,11 +278,15 @@ function hideMoreDetails(elem) {
 Hides class details (comments and ratings)
 */
 function hideExtraDetails(elem) {
-    $($(elem).find(".hidden-class-details")).slideToggle("fast");
-    $(elem).find(".course-eval").empty();
-    $(elem).find(".enrollment").empty();
-    $(elem).find(("#comment-" + elem.attr("itemid")).replace(".", "\\.")).empty();
-    $($($(elem).find(".show-more-details")[0]).find("a")).html("Show more details");
+    if (window.database.getObject("user", "userid") != null && window.database.getObject("user", "userid") != undefined) {
+	$($(elem).find(".hidden-class-details")).slideToggle("fast");
+	$(elem).find(".course-eval").empty();
+	$(elem).find(".enrollment").empty();
+	$(elem).find(("#comment-" + elem.attr("itemid")).replace(".", "\\.")).empty();
+    } else {
+	$($($(elem).find(".show-more-details")[0]).find("p")).empty();
+    }
+    $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Show more details");
     showOrHide(elem);
 }
 
@@ -290,7 +301,7 @@ function getClickedClass(evt) {
  Either shows or hides the extra details
  */
 function showOrHide(elem) {
-	var moreDeets = $($($(elem).find(".show-more-details")[0]).find("a"));
+	var moreDeets = $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings"));
 	var showHideOnclick = (moreDeets.html() == "Show more details") ?  "showExtraDetails($(this).parents('.course-lens'));" : "hideExtraDetails($(this).parents('.course-lens'));";
 	moreDeets.attr("onclick", showHideOnclick);
 	moreDeets.html((moreDeets.html() == "Show more details") ? "Show more details" : "Hide more details" );
@@ -314,4 +325,5 @@ function editMiniTimegridTitles() {
 		child.css("font-size", "12px");
 	}
     });
+    toggleUnitAdder();
 }

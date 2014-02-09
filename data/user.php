@@ -58,12 +58,6 @@ if (isset($_SERVER['SSL_CLIENT_S_DN_CN'])) {
 
 $items = array();
 
-/**
-DELETE DELETE DELETE AFTER MOVING FROM LOCAL
-**/
-$athena = "quanquan";
-$userid = "1101";
-
 if (isset($userid)) {
 	$arr = '{"type":"UserData","label":"user",
 			"athena":"' . $athena . '","userid":"' . $userid . '"}';

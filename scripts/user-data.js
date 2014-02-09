@@ -24,7 +24,7 @@ userData = {
 
 	// not used outside of this file
 	setMsg: function(element, msg) {
-		$(element).parent().parent().find('.message').html(msg);
+		$($(element).parents(".class-comments").find('.message')[0]).css("display", "block").html(msg);
 	},
 	
 	toggleComments: function(anchor) {
@@ -73,7 +73,7 @@ userData = {
 				  },
 				function(data){
 					// hide comment div
-					$(anchor).parent().hide();
+					$($(anchor).parents("tr")[0]).hide();
 				});
 		}
 	},

@@ -35,8 +35,8 @@
 				    alt="MIT" /></a>
 				<div id="betaText"><a id="home-link" href="#">Course Picker</a></div>
 			</div>
-			<span id="httpsStatus"><a href="https://quanquan.scripts.mit.edu:444/demo1/upgrade/">LOGIN</a></span>
 			<div id="topNav">
+			        <span id="httpsStatus"><a href="https://quanquan.scripts.mit.edu:444/demo1/upgrade/">LOGIN</a></span>
 				<a href="../help.html" target="_blank"> HELP!</a> |
 				<a href="credits.html" target="_blank">Credits</a> |
 				<a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a>|
@@ -99,6 +99,7 @@
                 tg:gridlistener = "showClickedClassDetails"
                 tg:gridlistenerinput = "getClickedClass"
                 style="height:250px"></div><br>
+	    <div id="total-units"></div>
 	    <a href="#" class="picker-ratings" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
             <div id="timed-classes-list"></div>
             <div id="picked-classes-list"></div>
@@ -125,6 +126,7 @@
 			<div data-ex-content=".description" class="course-description"></div>
 			<div data-ex-class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" data-ex-content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
 			<div data-ex-if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span data-ex-content=".prereqs"></span></div>
+			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div><br>
 		<div id="lecture-recitation-sections" style="display:block">
 			<div data-ex-if-exists="!lecture-section-of"><b>Lecture Sections:</b>
 			    <div data-ex-content="!lecture-section-of">
@@ -191,7 +193,7 @@
 		    </td>
 		    </tr>
 		    <tr><td>
-			<br><br><div class="show-more-details" style="visibility: hidden; display: none;"><a href="javascript: {}" onclick = "showExtraDetails($(this).parent().parent().parent().parent().parent().parent().parent());" style="margin:40%" class="picker-ratings">Show more details</a></div>
+			<br><br><div class="show-more-details" style="visibility: hidden; display: none;"><a href="javascript: {}" onclick = "showExtraDetails($(this).parents('.course-lens'));" style="margin:40%" class="picker-ratings">Show more details</a></div>
 		    	<div class="hidden-class-details" style="visibility: hidden; display: none;">
 		    		<div class="class-ratings">
 		    			<div data-ex-id-subcontent="rating-{{value}}" class="rating">
@@ -263,6 +265,7 @@
 		    		</div><br/>
 		    		<div class="class-comments"><span class="picker-ratings-header">Class Comments:</span><br><br>
 						<span data-ex-id-subcontent="comment-{{value}}"></span><br>
+						<div class="message picker-ratings" style="display:none"></div>
 						<div class="input">
 						<textarea style="margin: 10px; width: 50%; border: 1px solid #d3d3d3; height: 80px;"></textarea><br>
 						<input type="checkbox" style="margin: 10px;"></input>

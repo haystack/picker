@@ -14,13 +14,6 @@ mysql_select_db('picker+userdata');
 
 $items = array();
 
-/**
- *REMOVE LATER!!
- **/
-$userid = 1101;
-$athena = "quanquan";
-
-
 if(isset($_POST['getEnrollment'])) {
 	$semester = mysql_real_escape_string($_POST['semester']);
 	$classid = mysql_real_escape_string($_POST['classID']);
@@ -62,7 +55,7 @@ if (isset($_POST['getComments'])) {
     }
     while ($row = mysql_fetch_row($result)) {
             $comment = trim(preg_replace('/\n+/', ' ', $row[2]));
-            $string = '{"id": "' . $row[5] . '","timestamp":"' . $row[1] . '",
+            $string = '{"id": "' . $row[5] . '","timestamp":"' . date('M j, Y g:i A', strtotime($row[1])) . '",
                 "comment":"' . $comment . '", "votes":"' . $row[3] . '"';
             if ($row[4]) {
                 $string .= ',"author": "anonymous"' ;

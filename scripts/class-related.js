@@ -2,6 +2,9 @@
  * @description Maintenance of picked-classes -- stores data
  */
 
+/*
+ *Get stored data when logged in
+ */
 function getStoredSections() {
     var mysqlSections;
     var userID = window.database.getObject('user', 'userid');
