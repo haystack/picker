@@ -203,6 +203,7 @@ function showExtraDetails(elem) {
 			$.post("data/getExtraDetails.php", {
 			    getEnrollment: true,
 			    classID: $(elem).attr("itemid"),
+			    userid: window.database.getObject("user", "userid"),
 			    semester: term + current_year
 			}, function (data) {
 			    var obj = $.parseJSON( data );
@@ -223,6 +224,8 @@ function showExtraDetails(elem) {
 		if ($(elem).find((".comments-of-" + $(elem).attr("itemid")).replace(".", "\\.")).length == 0) {
 			$.post("data/getExtraDetails.php", {
 				getComments: true,
+				userid: window.database.getObject("user", "userid"),
+				athena: window.database.getObject("user", "athena"),
 				classID: $(elem).attr("itemid")
 			}, function (data) {
 				var json = $.parseJSON(data);

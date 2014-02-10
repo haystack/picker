@@ -15,6 +15,7 @@ mysql_select_db('picker+userdata');
 $items = array();
 
 if(isset($_POST['getEnrollment'])) {
+	$userid = $_POST['userid'];
 	$semester = mysql_real_escape_string($_POST['semester']);
 	$classid = mysql_real_escape_string($_POST['classID']);
 	if (!isset($_POST['getAll'])) {
@@ -43,6 +44,8 @@ if(isset($_POST['getEnrollment'])) {
 
 if (isset($_POST['getComments'])) {
     $classid = mysql_real_escape_string($_POST['classID']);
+    $userid = $_POST['userid'];
+    $athena = mysql_real_escape_string($_POST['athena']);
     if (!isset($_POST['getAll'])) {
         // assuming comments were scrubbed before insertion
         $result = mysql_query("SELECT u_athena, o_timestamp, o_comment, o_votes, o_anonymous, commentid, negative
