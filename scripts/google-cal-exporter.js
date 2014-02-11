@@ -8,6 +8,8 @@
  */
 
 var exportCalendarToGoogle = function() {
+    logData(["used google calendar exporter"]);
+    
     var clientId = '570198407136.apps.googleusercontent.com';
     var scope = 'https://www.googleapis.com/auth/calendar';
     var apiKey = 'AIzaSyDYJB_wBQzFz1I44HciiKqiT--qV8wT4k4';

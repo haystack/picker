@@ -58,6 +58,8 @@ userData = {
 					userData.setMsg(button, 'Successfully commented: ' + data);
 				});
 		}
+		
+		logData(["comment", $(textarea).val()]);
 	},
 	
 	deleteComment: function(anchor) {
@@ -76,6 +78,8 @@ userData = {
 					$($(anchor).parents("tr")[0]).hide();
 				});
 		}
+		
+		logData(["deleted comment", commentid, anchor]);
 	},
 	
 	drain: function(elt) {
@@ -113,6 +117,8 @@ userData = {
 				
 			return false;
 		}
+		
+		logData(["rated", $(star).parent().attr('classid')]);
 	},
 	
 	starOff: function(star) {
@@ -143,6 +149,8 @@ userData = {
 			});
 			return false;
 		}
+		
+		logData(["canceled rating", $(star).parent().attr('classid')]);
 	},
 	
 	cancelOff: function(cancel) {
@@ -164,6 +172,8 @@ userData = {
 					'class' : $(enrollment).attr('id').split("-")[2],
 					'enroll': '1'
 				});
+				
+				logData(["enrolled", $(enrollment).attr('id').split("-")[2]]);
 			} else {
 				$(enrollment).text("Show me as enrolled!");
 				$.post('scripts/post.php', {
@@ -172,6 +182,8 @@ userData = {
 					'class' : $(enrollment).attr('id').split("-")[2],
 					'enroll': '0'
 				});
+				
+				logData(["unenrolled", $(enrollment).attr('id').split("-")[2]]);
 			}
 		}
 	},
@@ -207,6 +219,8 @@ userData = {
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('plusClicked'); } );
+		
+		logData(["clickedPlus", commentID]);
         },
 
 	minusOn:  function(anchor) {
@@ -240,6 +254,8 @@ userData = {
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('minusClicked'); } );
+		
+		logData(["clickedMinus", commentID]);
 	},
 
 	flagOn:  function(anchor) {
@@ -261,5 +277,7 @@ userData = {
     			  commentid: commentID
     			}, 
     			function (data) { $(anchor).toggleClass('flagClicked'); } );
+		
+		logData(["clickedFlag", commentID]);
 	}
 }

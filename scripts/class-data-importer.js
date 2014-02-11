@@ -319,6 +319,8 @@ function parseNumber(num) {
     Pass in listener for calendar cells
 */
 function showClassesDuringTime(obj) {
+    logData["looked at classes during time", $(obj[0]).attr("classid")];
+	
     var classes = classes_by_time[$(obj[0]).attr("classid")];
     var backgroundc = $($(".timegrid-hline").find("[classid='" + $(obj[0]).attr("classid") + "']")).css("background-color");
     if ( backgroundc == "rgb(0, 0, 128)" || backgroundc == "#000080" ) {

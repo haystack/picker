@@ -15,6 +15,8 @@ function onShowScheduleDetails() {
     
     editMiniTimegridTitles();
     scroll(0, 0);
+    
+    logData(["showed large schedule"]);
 }
 
 function onShowSchedulePreview() {
@@ -32,4 +34,6 @@ function onShowSchedulePreview() {
     
     editMiniTimegridTitles();
     scroll(0, 0);
+    
+    logData(["showed small schedule"]);
 }

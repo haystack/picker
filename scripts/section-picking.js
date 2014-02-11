@@ -51,6 +51,8 @@ function doPick(sectionID) {
 
     showHidePickDiv(sectionID, true);
     updateMiniTimegrid(false);
+    
+    logData(["picked", sectionID]);
 }
 
 //Does the actual unpicking of a class
@@ -60,6 +62,8 @@ function doUnpick(sectionID) {
     
     showHidePickDiv(sectionID, false);
     updateMiniTimegrid(false);
+    
+    logData(["unpicked", sectionID]);
 }
 
 /*
@@ -91,22 +95,6 @@ function showHidePickDiv(sectionID, picked) {
         
         var button = thediv.find("button")[0];
         $(button).html(picked ? "Remove" : "Add");
-    }
-}
-
-/*
-Toggles the details of a class when header clicked
-Different from toggleClassBody in browse.js
-This refers to all class descripts
-toggleClassBody is only for the comments and extra details when the 
-class is hovered over
-*/
-function toggleBody(a, collapse) {
-    var div = $(a.parentNode).siblings("div")[0];
-    if (collapse) {
-	   div.style.display = "block";
-    } else {
-	   div.style.display = "none";
     }
 }
 

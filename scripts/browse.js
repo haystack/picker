@@ -59,8 +59,11 @@ function showPrereq(elmt, itemID, coords) {
         obj.coords = {x: 550, y: 100};
         Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext(), obj);
     }
-    else
+    else {
         Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
+    }
+    
+    logData(["lookedAtPrereqs", itemID]);
 }
 
 /*
@@ -74,7 +77,8 @@ function toggleClassBody(a) {
     } else {
 	   div.style.display = "none";
     }
-    howManyCollapsed();
+    
+    logData(["toggledClassBody"]);
 }
 
 //Checks to see if location is secure (ie uses https)
@@ -139,6 +143,8 @@ function showClickedClassDetails(clss) {
 	} else {
 		$(processPrereqs(clss, true)).click();
 	}
+	
+	logData(["showClassDetail", clss]);
 }
 
 /*
@@ -174,6 +180,7 @@ function showExtraDetails(elem) {
 			$link = $("<a></a>", {
 			    id: "course-eval-" + $(elem).attr("itemid"),
 			    href: $eval,
+			    target: "_blank",
 			    text: "MIT " + $(elem).attr("itemid") + " Course Evaluation"
 			});
 			$(elem).find(".course-eval").append($link);
@@ -183,7 +190,8 @@ function showExtraDetails(elem) {
 		    $hkn = "https://hkn.mit.edu/new_ug/search/show_eval/" + $(elem).attr("itemid") + "-" + hknreviewyear;
 		    $hknlink = $("<a></a>", {href: $hkn,
 				 id: "hkn-eval-" + $(item).attr("itemid"),
-				 text: "HKN Evaluation"});
+				 text: "HKN Evaluation",
+				 target: "_blank"});
 		    $(elem).find(".course-eval").append("<br>").append($hknlink);
 		}
 		
@@ -253,6 +261,8 @@ function showExtraDetails(elem) {
 	
 	$($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Hide more details");
 	showOrHide(elem);
+	
+	logData(["showExtraDetails", elem]);
 }
 
 /*
@@ -262,7 +272,7 @@ function hideMoreDetails(elem) {
 	$($(elem).find(".show-more-details")[0]).css({
 		"visibility": "hidden",
 		"display": "none"
-	});	
+	});
 }
 
 /*
@@ -279,6 +289,8 @@ function hideExtraDetails(elem) {
     }
     $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Show more details");
     showOrHide(elem);
+    
+    logData(["hideExtraDetails", elem]);
 }
 
 /*
