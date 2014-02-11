@@ -10,25 +10,13 @@
 function setupLogin() {
 	var athena = window.database.getObject("user", "athena");
 	var url = document.location.href;
-
-    if (window.location.host.search(/localhost/) >= 0 ) {
-        if (athena != null) {
-            $('#localhostLogin').html(' &bull; logged in as '+athena+'&bull; <a href="'+url+'" onClick="toggleLogin(false);">log out on localhost</a>');
-        } else {
-            $('#localhostLogin').html(' &bull; <a href="'+url+'" onClick="toggleLogin(true);">log in on localhost</a>');
-        }
-    }
-
-	else if (document.location.protocol == 'https:' && athena != null) {
-		url = url.replace('https:', 'http:');
-        //TODO: REPLACE WHEN MIGRATED TO PICKER NAMESPACE
-        url = "http://quanquan.scripts.mit.edu/demo1/upgrade/";
+	
+	if (document.location.protocol == 'https:' && athena != null) {
+		url = "http://picker.mit.edu";
 		$('#httpsStatus').html('logged in as ' + athena +
 			' &bull; <a href="' + url + '">LOGOUT</a>');
 	} else {
-		url = url.replace('http:', 'https:');
-        //TODO: REPLACE WHEN MIGRATED TO PICKER NAMESPACE
-        url = "https://quanquan.scripts.mit.edu:444/demo1/upgrade/";
+		url = "https://picker.mit.edu:444";
 		$('#httpsStatus').html('<a href="' + url + '">LOGIN</a>');
 	}
 

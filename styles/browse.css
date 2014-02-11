@@ -576,3 +576,8 @@ div.timegrid-xlabels-window, div.timegrid-ylabels-window {
 .timegrid-vline {
     cursor: pointer;
 }
+
+img.exhibit-toolboxWidget-button {
+    display: none;
+    visibility: hidden;
+}
