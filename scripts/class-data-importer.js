@@ -254,47 +254,49 @@ function loadStaticData(link, database, cont) {
     Function for processing the classes to fit within time slots
 */
 function processBeginningTime(t, section) {
-    var beg = t.split("-")[0];
-    var half = false;
-    var time = "";
-
-    if (beg != "To be arranged" && beg.indexOf("SELECTED") === -1) {
-        var days = [];
-        var validDay = /^[a-zA-Z]+$/;
-        if (beg.indexOf(' ') === -1 && beg.indexOf(",") === -1) {
-            beg = beg.split(".")[0].split("");
-        } else if (beg.indexOf('EVE') != -1) {
-            var parts = beg.split(" ");
-            beg = (parts[0] + (parseInt(parts[2].split("(")[1]) + 12) + "").split("");
-        } else {
-            if (beg.indexOf(",") === -1)
-                beg = beg.split(" ")[0].split("");
-            else {
-                beg = beg.split(" ")[0].split(",");
-                for (item in beg) 
-                    processBeginningTime(beg[item], section);
-                beg = [];
-            }
-        }
-        for (c in beg) {
-            if (beg[c].match(validDay)) {
-                days.push(beg[c]);
-            } else {
-                if (!half) {
-                    time = time + beg[c];
-                    if (beg[c] == ".")
-                        half = true;
-                }
-            }
-        }
-        if (parseInt(time) < 8) {
-            time = parseInt(time) + 12;
-        }
-        for (d in days) {
-            if (classes_by_time[days[d]+time] == null) 
-                classes_by_time[days[d]+time] = [];
-            classes_by_time[days[d]+time].push(section);
-        }
+    if (t != null && t != undefined) {
+	var beg = t.split("-")[0];
+	var half = false;
+	var time = "";
+    
+	if (beg != "To be arranged" && beg.indexOf("SELECTED") === -1) {
+	    var days = [];
+	    var validDay = /^[a-zA-Z]+$/;
+	    if (beg.indexOf(' ') === -1 && beg.indexOf(",") === -1) {
+		beg = beg.split(".")[0].split("");
+	    } else if (beg.indexOf('EVE') != -1) {
+		var parts = beg.split(" ");
+		beg = (parts[0] + (parseInt(parts[2].split("(")[1]) + 12) + "").split("");
+	    } else {
+		if (beg.indexOf(",") === -1)
+		    beg = beg.split(" ")[0].split("");
+		else {
+		    beg = beg.split(" ")[0].split(",");
+		    for (item in beg) 
+			processBeginningTime(beg[item], section);
+		    beg = [];
+		}
+	    }
+	    for (c in beg) {
+		if (beg[c].match(validDay)) {
+		    days.push(beg[c]);
+		} else {
+		    if (!half) {
+			time = time + beg[c];
+			if (beg[c] == ".")
+			    half = true;
+		    }
+		}
+	    }
+	    if (parseInt(time) < 8) {
+		time = parseInt(time) + 12;
+	    }
+	    for (d in days) {
+		if (classes_by_time[days[d]+time] == null) 
+		    classes_by_time[days[d]+time] = [];
+		classes_by_time[days[d]+time].push(section);
+	    }
+	}
     }
 }
 

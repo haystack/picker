@@ -256,10 +256,10 @@ function showExtraDetails(elem) {
 			});
 		}
 	} else {
-		$($(elem).find(".show-more-details")[0]).append("<p class='picker-ratings'>You must <a href='https://quanquan.scripts.mit.edu:444/demo1/upgrade/'>LOGIN</a> to see more details.</p>");
+		$($(elem).find(".show-more-details")[0]).append("<p class='picker-ratings'>You must <a href='https://picker.mit.edu:444/'>LOGIN</a> to see evaluations and comments.</p>");
 	}
 	
-	$($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Hide more details");
+	$($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Hide evaluations and comments");
 	showOrHide(elem);
 	
 	logData(["showExtraDetails", elem]);
@@ -287,7 +287,7 @@ function hideExtraDetails(elem) {
     } else {
 	$($($(elem).find(".show-more-details")[0]).find("p")).empty();
     }
-    $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Show more details");
+    $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings")).html("Show evaluations and comments");
     showOrHide(elem);
     
     logData(["hideExtraDetails", elem]);
@@ -305,9 +305,9 @@ function getClickedClass(evt) {
  */
 function showOrHide(elem) {
 	var moreDeets = $($($(elem).find(".show-more-details")[0]).find("a.picker-ratings"));
-	var showHideOnclick = (moreDeets.html() == "Show more details") ?  "showExtraDetails($(this).parents('.course-lens'));" : "hideExtraDetails($(this).parents('.course-lens'));";
+	var showHideOnclick = (moreDeets.html() == "Show evaluations and comments") ?  "showExtraDetails($(this).parents('.course-lens'));" : "hideExtraDetails($(this).parents('.course-lens'));";
 	moreDeets.attr("onclick", showHideOnclick);
-	moreDeets.html((moreDeets.html() == "Show more details") ? "Show more details" : "Hide more details" );
+	moreDeets.html((moreDeets.html() == "Show evaluations and comments") ? "Show evaluations and comments" : "Hide evaluations and comments" );
 }
 
 /*

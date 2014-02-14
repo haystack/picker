@@ -1,5 +1,4 @@
-{
-    "types": {
+{   "types": {
         "Class" : {
             "pluralLabel": "Classes"
         },

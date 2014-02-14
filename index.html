@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
     <head onload="getScript();">
         <title>MIT Course Picker</title>
@@ -27,27 +27,6 @@
 
         <link type="text/css" rel="stylesheet" href="styles/style.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
-        
-        <script>
-            if (!readCookie("dont-show-popup")) {
-                $(function() {
-                    $( "#dialog-survey" ).dialog({
-                      resizable: false,
-                      height:200,
-                      modal: true,
-                      buttons: {
-                        "Ok": function() {
-                          $(this).dialog( "close" );
-                        },
-                        "Don't show this again": function () {
-                          writeCookie("dont-show-popup", true);
-                          $(this).dialog("close");
-                        }
-                      }
-                    });
-                });   
-            }
-        </script>
     </head>
     <body data-ex-bubbleWidth="600">
 	<div id="headerStripe">
@@ -67,9 +46,9 @@
 			</div>
 		</div>
 	</div>
-        <div id="dialog-survey" title="Course Picker Survey">
-            <p><span class="ui-icon ui-icon-alert" style="float:left; margin:10px auto;"></span>Popups are annoying. But Course Picker needs your help to make this a better tool for you.
-            <a href="https://docs.google.com/forms/d/1289YWasfCedeURO3fLyf6ni08rx1jIBvvWtKpVnaSiY/viewform">Please take this quick survey: http://bit.ly/1eOyCwO </a> Thank you!</p>
+        <div id="dialog-survey" title="Course Picker Survey" style="background-color: #39FF14;">
+            <p><span class="ui-icon ui-icon-alert" style="float:left; margin:10px auto;"></span>Popups are annoying. Neon green more annoying. But Course Picker needs your help to make this a better tool for you.
+            <a href="https://docs.google.com/forms/d/1289YWasfCedeURO3fLyf6ni08rx1jIBvvWtKpVnaSiY/viewform">Please take this quick survey! </a> Thank you!</p>
         </div>
 	<!-- ==================== Schedule Details Layer ==================== -->
 	<div id="schedule-details-layer">
@@ -82,7 +61,7 @@
 		    tg:views="week" tg:eventSource="timegridEventSource"
 		    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
 	    </div>
-	    <div id="right-time-wrapper"><span><a href="javascript:void(0)"><img src="images/google-exp.png" height="70px" onclick="exportCalendarToGoogle();" /></a></span></br></br>
+	    <div id="right-time-wrapper"><span><a href="javascript:void(0)"><img src="images/google-exp.png" height="70px" onclick="exportCalendarToGoogle();" /></a></span><br /><br />
 	    <span id="right-time-wrapper-list">Select a <b>time slot</b> on the calendar to see which classes are offered starting at that time.</span>
 	    </div>
 	</div>
@@ -99,7 +78,7 @@
 		<!-- ==================== Search for a Class ==================== -->
 		<div class="introduction">
 		    <h2>Search for a class:</h2>
-		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch" onclick="removeSelectedTags();" data-ex-expressions="value, .label, .equivalent_subjects, .joint_subjects, .Instructor"></div></br></br>
+		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch" onclick="removeSelectedTags();" data-ex-expressions="value, .label, .equivalent_subjects, .joint_subjects, .Instructor"></div><br /><br />
 		</div>
 		<!-- ==================== Classes Layer ==================== -->
 		<div id="classes-layer">
@@ -116,7 +95,7 @@
 		</div>
 	    <!-- ==================== Schedule Preview Pane ==================== -->
 	    <div id="schedule-preview-pane">
-	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button><br>
+	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button><br />
 	    <p class="picker-ratings">Select a <b>time slot</b> on the calendar to see what classes are offered at that time.</p>
 	    <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
@@ -124,7 +103,7 @@
                 tg:listener = "showClassesDuringTime"
                 tg:gridlistener = "showClickedClassDetails"
                 tg:gridlistenerinput = "getClickedClass"
-                style="height:250px"></div><br>
+                style="height:250px"></div><br />
 	    <div id="total-units"></div>
 	    <a href="#" class="picker-ratings" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
             <div id="timed-classes-list"></div>
@@ -152,7 +131,7 @@
 			<div data-ex-content=".description" class="course-description"></div>
 			<div data-ex-class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" data-ex-content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
 			<div data-ex-if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span data-ex-content=".prereqs"></span></div>
-			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div><br>
+			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div><br />
 		<div id="lecture-recitation-sections" style="display:block">
 			<div data-ex-if-exists="!lecture-section-of"><b>Lecture Sections:</b>
 			    <div data-ex-content="!lecture-section-of">
@@ -219,13 +198,13 @@
 		    </td>
 		    </tr>
 		    <tr><td>
-			<br><br><div class="show-more-details" style="visibility: hidden; display: none;"><a href="javascript: {}" onclick = "showExtraDetails($(this).parents('.course-lens'));" style="margin:40%" class="picker-ratings">Show more details</a></div>
+			<br /><br /><div class="show-more-details" style="visibility: hidden; display: none;"><a href="javascript: {}" onclick = "showExtraDetails($(this).parents('.course-lens'));" style="margin:30%" class="picker-ratings">View evaluations and comments</a></div>
 		    	<div class="hidden-class-details" style="visibility: hidden; display: none;">
 		    		<div class="class-ratings">
 		    			<div data-ex-id-subcontent="rating-{{value}}" class="rating">
 					<div class="info">
 					<table width="100%"><tr><td width="60%">
-					<span class="picker-ratings-header">Your Rating:</span></br></br>
+					<span class="picker-ratings-header">Your Rating:</span><br /><br />
 					<div class="rate"
 						 data-ex-classid-content="value"
 						 data-ex-curvalue-subcontent="{{ !class-urating-of.rating }}">
@@ -269,7 +248,7 @@
 							onclick="userData.starClick(this);return false;"
 							onmouseout="userData.starOff(this);return false;">
 							<a href="#">7</a></span>
-					</div></br>
+					</div><br />
                                     <div data-ex-if="exists(!class-avg-rating-of)">
                                             <div data-ex-content="!class-avg-rating-of">
                                                     <span class="picker-ratings">Average Rating:</span><br/>
@@ -282,21 +261,21 @@
                             </div>
 				</td>
 				    <td width="40%">
-					<span class="picker-ratings course-eval"></span><br><br>
-					<span class="picker-ratings enrollment"></span><br>
+					<span class="picker-ratings course-eval"></span><br /><br />
+					<span class="picker-ratings enrollment"></span><br />
 					<button type="button" data-ex-id-subcontent="enroll-button-{{value}}" class="browse-button" onclick="userData.enrollUnenroll(this);">Show me as enrolled!</button>
 				    </td>
 				</tr></table>
                     	</div>
 		    		</div><br/>
-		    		<div class="class-comments"><span class="picker-ratings-header">Class Comments:</span><br><br>
-						<span data-ex-id-subcontent="comment-{{value}}"></span><br>
+		    		<div class="class-comments"><span class="picker-ratings-header">Class Comments:</span><br /><br />
+						<span data-ex-id-subcontent="comment-{{value}}"></span><br />
 						<div class="message picker-ratings" style="display:none"></div>
 						<div class="input">
-						<textarea style="margin: 10px; width: 50%; border: 1px solid #d3d3d3; height: 80px;"></textarea><br>
+						<textarea style="margin: 10px; width: 50%; border: 1px solid #d3d3d3; height: 80px;"></textarea><br />
 						<input type="checkbox" style="margin: 10px;"></input>
 						<span class="picker-ratings"> Leave anonymous comment. </span>
-						<br><button class="browse-button"
+						<br /><button class="browse-button"
 							data-ex-classid-content="value"
 							onclick="userData.comment(this);"
 							style="margin: 10px;">Leave comment</button>
