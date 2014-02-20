@@ -33,7 +33,10 @@ function toggleUnitAdder() {
 
 function addUnits(classID, units, reported) {
     // units given as "3-2-7" or "Arranged"
-    var unitArray = window.database.getObject(classID, "units").split('-');
+    var u = window.database.getObject(classID, "units");
+    if (u != null && u != undefined) {
+	var unitArray = u.split('-');
+    }
     if (unitArray.length == 1) {
         units.arranged = " + Arranged";
     }
