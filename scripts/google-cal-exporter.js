@@ -9,6 +9,8 @@
 
 var exportCalendarToGoogle = function() {
     logData(["used google calendar exporter"]);
+    Exhibit.UI.busyMessage('Loading into Google calendar');
+    Exhibit.UI.showBusyIndicator();
     
     var clientId = '708865523100.apps.googleusercontent.com';
     var scope = 'https://www.googleapis.com/auth/calendar';
@@ -28,6 +30,7 @@ var exportCalendarToGoogle = function() {
 
     var handleAuthResult = function(authResult) {
         if(authResult) {
+            Exhibit.UI.busyMessage('Done!');
             gapi.client.load("calendar", "v3", exportPickerCalendar);
         } else {
             alert("Authentication failed: please enter correct login information.");
@@ -35,8 +38,6 @@ var exportCalendarToGoogle = function() {
     }
   
     var exportPickerCalendar = function() {
-      var $ = jQuery;
-      
       var picked_classes = readCookie("picked-classes");
       picked_classes = parseSavedClasses(picked_classes);
       
@@ -85,7 +86,7 @@ var exportCalendarToGoogle = function() {
                 }
              }
         }
-        alert("Picked courses has been loaded into calendar.");
+        Exhibit.UI.hideBusyIndicator();
       }
 
   var day2ToInt = function(day2) {
@@ -186,7 +187,6 @@ var exportCalendarToGoogle = function() {
   }
   
   var withJquery = function() {
-      var $ = jQuery;
       $.getScript("https://apis.google.com/js/client.js", withGApi);
   }
 
@@ -194,7 +194,7 @@ var exportCalendarToGoogle = function() {
   var head= document.getElementsByTagName('head')[0];
 
   jqScript.type='text/javascript';
-  jqScript.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+  jqScript.src = 'https://apis.google.com/js/client.js';
 
   jqScript.onload = withJquery;
 
