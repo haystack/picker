@@ -2,14 +2,16 @@
 Writes the cookie that stores class data
 */
 function writeCookie(cookieName, data) {
-    var exDate = new Date();
-    if (data == '') {
-        exDate.setDate(exDate.getDate() - 1); // erase
-    } else {
-        exDate.setDate(exDate.getDate() + 7); // default expiration in a week
+    if (data != null) {
+	var exDate = new Date();
+	if (data == '') {
+	    exDate.setDate(exDate.getDate() - 1); // erase
+	} else {
+	    exDate.setDate(exDate.getDate() + 7); // default expiration in a week
+	}
+	var newData = parseIllegalCharacters(data);
+	document.cookie = cookieName+'='+newData+'; expires='+exDate+'; path=/';
     }
-    var newData = parseIllegalCharacters(data);
-    document.cookie = cookieName+'='+newData+'; expires='+exDate+'; path=/';
 }
 
 //Reads a cookie to get the saved class sections

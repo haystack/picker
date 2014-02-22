@@ -26,15 +26,24 @@ var exportCalendarToGoogle = function() {
     
     var checkAuth = function() {
         gapi.auth.authorize({client_id: clientId, scope: scope, immediate: false}, handleAuthResult);
+        Exhibit.UI.busyMessage('Please enable popups. Otherwise, your classes will not be loaded.');
+        setTimeout(function (){
+            Exhibit.UI.hideBusyIndicator();
+        }, 5000);
     }
 
     var handleAuthResult = function(authResult) {
+        Exhibit.UI.busyMessage('Loading into Google calendar');
+        Exhibit.UI.showBusyIndicator();
         if(authResult) {
-            Exhibit.UI.busyMessage('Done!');
+            Exhibit.UI.busyMessage('Done! Classes successfully loaded.');
             gapi.client.load("calendar", "v3", exportPickerCalendar);
         } else {
             alert("Authentication failed: please enter correct login information.");
         }
+        setTimeout(function () {
+            Exhibit.UI.hideBusyIndicator();
+        }, 5000);
     }
   
     var exportPickerCalendar = function() {
@@ -86,7 +95,6 @@ var exportCalendarToGoogle = function() {
                 }
              }
         }
-        Exhibit.UI.hideBusyIndicator();
       }
 
   var day2ToInt = function(day2) {
