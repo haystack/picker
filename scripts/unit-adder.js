@@ -36,14 +36,14 @@ function addUnits(classID, units, reported) {
     var u = window.database.getObject(classID, "units");
     if (u != null && u != undefined) {
 	var unitArray = u.split('-');
-    }
-    if (unitArray.length == 1) {
-        units.arranged = " + Arranged";
-    }
-    else if (unitArray.length == 3) {
-	units.lecture += parseInt(unitArray[0]);
-	units.lab += parseInt(unitArray[1]);
-	units.prep += parseInt(unitArray[2]);
-        units.total += parseInt(database.getObject(classID, "total-units"));
+	if (unitArray.length == 1) {
+	    units.arranged = " + Arranged";
+	}
+	else if (unitArray.length == 3) {
+	    units.lecture += parseInt(unitArray[0]);
+	    units.lab += parseInt(unitArray[1]);
+	    units.prep += parseInt(unitArray[2]);
+	    units.total += parseInt(database.getObject(classID, "total-units"));
+	}
     }
 }

@@ -22,10 +22,12 @@
 		<script src="scripts/google-cal-exporter.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script src="magnific-popup/jquery.magnific-popup.js"></script> 
 	
 		<link rel="exhibit/data" type="application/jsonp" href="//coursews.mit.edu/coursews/?term=2014SP&callback=?" data-ex-converter="processClassData"/>
 		<link rel="exhibit/data" type="application/json" href="data/schema.js" />
 
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
         <link type="text/css" rel="stylesheet" href="styles/style.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
     </head>
@@ -55,6 +57,7 @@
 	<div id="schedule-details-layer">
 	    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
 		<span class="picker-ratings">Weekly Schedule (WARNING: not your official schedule given by the Registrar)</span>
+		<span style="margin: 10%;"><button id="fill_in_recs" type="button" class="browse-button" style="background-color: #e6e6fa; padding: 10px; font-weight: bolder;" onclick="auto();">Fill in my recitations!</button></span>
 	    </div>
 	    <div id="schedule-details-layer-inner">
 
@@ -81,6 +84,8 @@
 		    <h2>Search for a class:</h2>
 		    <div class="text_search" data-ex-role="facet" data-ex-facet-class="TextSearch" onclick="removeSelectedTags();" data-ex-expressions="value, .label, .equivalent_subjects, .joint_subjects, .Instructor"></div><br /><br />
 		</div>
+		<a href="#test-popup" class="open-popup-link"></a>
+		<div id="test-popup" class="white-popup mfp-hide"></div>
 		<!-- ==================== Classes Layer ==================== -->
 		<div id="classes-layer">
 		    <div data-ex-role="collection" data-ex-item-types="Class"></div>
@@ -106,7 +111,8 @@
                 tg:gridlistenerinput = "getClickedClass"
                 style="height:250px"></div><br />
 	    <div id="total-units"></div>
-	    <a href="#" class="picker-ratings" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
+	    <a href="#" class="picker-ratings" style="display:block; background-color: #F0F8FF; text-align: center; padding: 5px;" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
+	    <a href="#" class="picker-ratings" style="display:block; background-color: #f5f5dc; text-align: center; padding: 5px;" onclick="auto();">Fill in my recitations!</a>
             <div id="timed-classes-list"></div>
             <div id="picked-classes-list"></div>
 	    </div>
@@ -306,5 +312,21 @@
             _uacct = "UA-2506456-4"; // this one is for picker.mit.edu
             urchinTracker();
         </script>
+	<script>// From jQuery object
+	    $(document).ready(function() {
+		if (!(readCookie("popup") == "true")) {
+		    $('.open-popup-link').magnificPopup({
+			items: {
+			    src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;">We listen to your suggestions!</b> <p style="font-size: 16px">Multiple students suggested an automatic recitation picker. <b style="font-size:18px">And we implemented it!</b>' +
+			    ' Check it out. Be sure to fill out the survey in the <i style="font-size: 18px;">top neon green bar</i> so we can keep adding cool stuff.</p></div>',
+			    type: 'inline'
+			}
+		    });   
+		}
+		
+		$('.open-popup-link').click();
+		writeCookie("popup", "true");
+	    });
+	</script>
     </body>
 </html>

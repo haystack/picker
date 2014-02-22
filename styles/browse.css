@@ -563,6 +563,7 @@ div.timegrid-xlabels-window, div.timegrid-ylabels-window {
 .browse-button {
     padding: 5px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .exhibit-cloudFacet-header {
@@ -580,4 +581,13 @@ div.timegrid-xlabels-window, div.timegrid-ylabels-window {
 img.exhibit-toolboxWidget-button {
     display: none;
     visibility: hidden;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
 }

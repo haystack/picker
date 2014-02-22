@@ -8,7 +8,8 @@ function writeCookie(cookieName, data) {
     } else {
         exDate.setDate(exDate.getDate() + 7); // default expiration in a week
     }
-    document.cookie = cookieName+'='+data+'; expires='+exDate+'; path=/';
+    var newData = parseIllegalCharacters(data);
+    document.cookie = cookieName+'='+newData+'; expires='+exDate+'; path=/';
 }
 
 //Reads a cookie to get the saved class sections
@@ -22,7 +23,8 @@ function readCookie(cookieName) {
         }
         var content = unescape(document.cookie.substring(start, end));
         if (content != '') {
-            return content;
+	    var readableContent = parseCookie(content);
+            return readableContent;
         }
         return null;
     }
@@ -110,4 +112,16 @@ function compareObject(o1, o2){
         }
     }
     return true;
+}
+
+//function for parsing the write cookie and read cookie methods to get rid of illegal characters
+function parseIllegalCharacters(data) {
+    data = data.replace(new RegExp(' ', 'g'), '&#32').replace(new RegExp(';', 'g'), '&#59').replace(new RegExp(',', 'g'), '&#44');
+    return data;
+}
+
+//function to parse cookie back to readable data
+function parseCookie(data) {
+    data = data.replace(new RegExp('&#32', 'g'), ' ').replace(new RegExp('&#59', 'g'), ';').replace(new RegExp('&#44', 'g'), ',');
+    return data;
 }
