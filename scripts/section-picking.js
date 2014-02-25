@@ -126,7 +126,10 @@ function parseSavedClasses(classes) {
                         saved.timeandplace = value;
                     else if (attr == "sectionData") 
                         saved.sectionData = value
-                 }
+		    else {
+			saved.timeandplace += "," + attr;
+		    }
+                }
                 class_data.push(saved);
             }
         }

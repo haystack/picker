@@ -59,13 +59,13 @@
 		<span class="picker-ratings">Weekly Schedule (WARNING: not your official schedule given by the Registrar)</span>
 		<span style="margin: 10%;"><button id="fill_in_recs" type="button" class="browse-button" style="background-color: #e6e6fa; padding: 10px; font-weight: bolder;" onclick="auto();">Fill in my recitations!</button></span>
 	    </div>
-	    <div id="schedule-details-layer-inner">
+	    <div id="schedule-details-layer-inner" media="print" class="print">
 
 		<div id="timegrid" tg:role="grid"
 		    tg:views="week" tg:eventSource="timegridEventSource"
 		    tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
 	    </div>
-	    <div id="right-time-wrapper"><span><a href="javascript:void(0)"><img src="images/google-exp.png" height="70px" onclick="exportCalendarToGoogle();" /></a></span><br /><br />
+	    <div id="right-time-wrapper" media="print" class="no-print"><span><a href="javascript:void(0)"><img src="images/google-exp.png" height="70px" onclick="exportCalendarToGoogle();" /></a></span><br /><br />
 	    <span id="right-time-wrapper-list">Select a <b>time slot</b> on the calendar to see which classes are offered starting at that time.</span>
 	    </div>
 	</div>
@@ -73,6 +73,8 @@
 	<div id="left-column" width="25%">
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "170"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".hass_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="HASS Categories" id='hass-categories-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".comm_req_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="Institute Requirements" id='common-reqs-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
 	</div>
 	</div>

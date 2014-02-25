@@ -122,6 +122,64 @@ function processOfficialDataItem(item) {
     for (attribute in item) {
         if (item[attribute] == '') { delete item[attribute]; }
     }
+    
+    if ('hass_attribute' in item)  {
+	var categories = item['hass_attribute'].split(",");
+	var hasses = [];
+	for (var i = 0; i < categories.length; i++) {
+		if (categories[i] == "HA") {
+			hasses.push("Hass-A");
+		} else if (categories[i] == "HS") {
+			hasses.push("Hass-S");
+		} else if (categories[i] == "HH") {
+			hasses.push("Hass-H");
+		} else if (categories[i] == "HE") {
+			hasses.push("Hass-E");
+		}
+	}
+	item['hass_attribute'] = hasses;
+    }
+    
+    if ('comm_req_attribute' in item || 'gir_attribute' in item) {
+	var newReqs = [];
+	if ('comm_req_attribute' in item ) {
+		var reqs = item['comm_req_attribute'].split(",");
+		for (var i = 0; i < reqs.length; i++) {
+			if (reqs[i] == "CIH") {
+				newReqs.push("CI-H");
+			} else if (reqs[i] == "CIM") {
+				newReqs.push("CI-M");
+			} else if (reqs[i] == "CIHW") {
+				newReqs.push("CI-HW");
+			}
+		}	
+	}
+	
+	if ('gir_attribute' in item) {
+		reqs = item['gir_attribute'].split(",");
+		for (var i = 0; i < reqs.length; i++) {
+			if (reqs[i] == "BIOL") {
+				newReqs.push("Biology");
+			} else if (reqs[i] == "CAL1") {
+				newReqs.push("Calculus-1");
+			} else if (reqs[i] == "CAL2") {
+				newReqs.push("Calculus-2");
+			} else if (reqs[i] == "CHEM") {
+				newReqs.push("Chemistry");
+			} else if (reqs[i] == "LAB" || reqs[i] == "LAB2") {
+				newReqs.push("Lab");
+			} else if (reqs[i] == "PHY1") {
+				newReqs.push("Physics-1");
+			} else if (reqs[i] == "PHY2") {
+				newReqs.push("Physics-2");
+			} else if (reqs[i] == "REST") {
+				newReqs.push("REST");
+			}
+		}
+	}
+	
+	item['comm_req_attribute'] = newReqs;
+    }
 
     if (term == 'FA') { item.Instructor = item.fall_instructors; } 
     else { item.Instructor = item.spring_instructors; }

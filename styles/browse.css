@@ -591,3 +591,14 @@ img.exhibit-toolboxWidget-button {
   max-width: 500px;
   margin: 20px auto;
 }
+
+@media print
+{
+    .print {
+	display: block !important;
+    }
+    
+    .no-print {
+	display: none !important;
+    }
+}
