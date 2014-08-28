@@ -180,6 +180,8 @@ function processOfficialDataItem(item) {
 	
 	item['comm_req_attribute'] = newReqs;
     }
+    
+    item['in-charge'] = item['in-charge'] + " (Class Admin)"
 
     if (term == 'FA') { item.Instructor = item.fall_instructors; } 
     else { item.Instructor = item.spring_instructors; }

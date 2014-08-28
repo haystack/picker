@@ -2,8 +2,8 @@
 <html>
     <head onload="getScript();">
         <title>MIT Course Picker</title>
-		<script src="//api.simile-widgets.org/exhibit/3.1.0rc/lib/jquery-1.7.2.min.js"></script>
-        <script src="//api.simile-widgets.org/exhibit/3.1.0rc/exhibit-api.js?log=true" type="text/javascript"></script>
+		<script src="//api.simile-widgets.org/exhibit/STABLE/lib/jquery-1.7.2.min.js"></script>
+        <script src="//api.simile-widgets.org/exhibit/STABLE/exhibit-api.js?log=true" type="text/javascript"></script>
         <script src="//simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
 		<script src="timegrid/scripts/jquery.simile.ajax.js"></script>
 		<script src="scripts/config.js" type="text/javascript"></script>
@@ -23,11 +23,12 @@
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 		<script src="magnific-popup/jquery.magnific-popup.js"></script>
-	
-		<link rel="exhibit/data" type="application/jsonp" href="//coursews.mit.edu/coursews/?term=2014SP&callback=?" data-ex-converter="processClassData"/>
+                <script>
+                    $(document.head).append('<link rel="exhibit/data" type="application/jsonp" href="//coursews.mit.edu/coursews/?term=' + current_year + term + '&callback=?" data-ex-converter="processClassData"/>');
+                </script>
 		<link rel="exhibit/data" type="application/json" href="data/schema.js" />
 
-	<link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
         <link type="text/css" rel="stylesheet" href="styles/style.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
     </head>
@@ -51,13 +52,15 @@
 	</div>
         <div id="dialog-survey" title="Course Picker Survey" style="background-color: #39FF14;">
             <p><span class="ui-icon ui-icon-alert" style="float:left; margin:10px auto;"></span>Popups are annoying. Neon green more annoying. But Course Picker needs your help to make this a better tool for you.
-            <a href="https://docs.google.com/forms/d/1289YWasfCedeURO3fLyf6ni08rx1jIBvvWtKpVnaSiY/viewform">Please take this quick survey! </a> Thank you!</p>
+            <a href="https://docs.google.com/forms/d/1289YWasfCedeURO3fLyf6ni08rx1jIBvvWtKpVnaSiY/viewform" target="_blank">Please take this quick survey! </a> Thank you!</p>
         </div>
 	<!-- ==================== Schedule Details Layer ==================== -->
 	<div id="schedule-details-layer">
 	    <div id="title" class="title"><button id="calendar_title" type="button" class="browse-button" style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
-		<span class="picker-ratings">Weekly Schedule (WARNING: not your official schedule given by the Registrar)</span>
-		<span style="margin: 10%;"><button id="fill_in_recs" type="button" class="browse-button" style="background-color: #e6e6fa; padding: 10px; font-weight: bolder;" onclick="auto();">Fill in my recitations!</button></span>
+		<span class="picker-ratings">Weekly Schedule (WARNING: not your official schedule given by the Registrar)</span><br>
+		<span><button id="fill_in_recs" type="button" class="browse-button" style="margin: 20px; background-color: #e6e6fa; padding: 10px; font-weight: bolder;" onclick="auto();">Fill in my recitations!</button>
+		    <button href="#" class="picker-ratings" style="background-color: #ffe5dc; text-align: center; padding: 10px;" onclick="exportToCourseRoad();">Export to CourseRoad</button></span>
+		<span class = "course_road"></span>
 	    </div>
 	    <div id="schedule-details-layer-inner" media="print" class="print">
 
@@ -71,11 +74,11 @@
 	</div>
 	<div id="left-wrapper">
 	<div id="left-column" width="25%">
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "170"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".hass_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="HASS Categories" id='hass-categories-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".comm_req_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="Institute Requirements" id='common-reqs-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "170"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "130"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".hass_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="HASS Categories" id='hass-categories-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".comm_req_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="Institute Requirements" id='common-reqs-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
 	</div>
 	</div>
 	    <!-- ==================== Browsing Interface ==================== -->
@@ -105,9 +108,9 @@
 	    <div id="schedule-preview-pane">
 	    <button class="browse-button" onclick="onShowScheduleDetails();">Full Calendar View</button><br />
 	    <p class="picker-ratings">Select a <b>time slot</b> on the calendar to see what classes are offered at that time.</p>
-	    <div id="mini-timegrid" tg:role="grid" 
+	    <div id="mini-timegrid" tg:role="grid"
                 tg:views="week" tg:eventSource="miniEventSource"
-                tg:mini="true" tg:dayStart="8" tg:dayEnd="22" 
+                tg:mini="true" tg:dayStart="8" tg:dayEnd="22"
                 tg:listener = "showClassesDuringTime"
                 tg:gridlistener = "showClickedClassDetails"
                 tg:gridlistenerinput = "getClickedClass"
@@ -115,6 +118,7 @@
 	    <div id="total-units"></div>
 	    <a href="#" class="picker-ratings" style="display:block; background-color: #F0F8FF; text-align: center; padding: 5px;" onclick="exportCalendarToGoogle();">Export classes to Google Calendar</a>
 	    <a href="#" class="picker-ratings" style="display:block; background-color: #f5f5dc; text-align: center; padding: 5px;" onclick="auto();">Fill in my recitations!</a>
+	    <div class="course_road"><a href="#" class="picker-ratings" style="display:block; background-color: #ffe5dc; text-align: center; padding: 5px;" onclick="exportToCourseRoad();">Export to CourseRoad</a></div>
             <div id="timed-classes-list"></div>
             <div id="picked-classes-list"></div>
 	    </div>
@@ -125,7 +129,7 @@
 	    </div>
 
 	    <!-- ==================== Class Lens ==================== -->
-	    <div data-ex-role="exhibit-lens" class="course-lens" style="display: none;" data-ex-item-types="Class" 
+	    <div data-ex-role="exhibit-lens" class="course-lens" style="display: none;" data-ex-item-types="Class"
 	    	onmouseover="showMoreDetails(this);" onmouseout="hideMoreDetails(this);">
 		<div class="course-title">
 		    <span data-ex-content=".semester" class="course-semester"></span>
@@ -305,7 +309,7 @@
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          
+
             ga('create', 'UA-47902948-1', 'mit.edu');
             ga('send', 'pageview');
         </script>
@@ -319,13 +323,13 @@
 		if (!(readCookie("popup") == "true")) {
 		    $('.open-popup-link').magnificPopup({
 			items: {
-			    src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;">We listen to your suggestions!</b> <p style="font-size: 16px">Multiple students suggested an automatic recitation picker. <b style="font-size:18px">And we implemented it!</b>' +
-			    ' Check it out. Be sure to fill out the survey in the <i style="font-size: 18px;">top neon green bar</i> so we can keep adding cool stuff.</p></div>',
+			    src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;">Course Picker now displays Fall 2014 classes</b> <p style="font-size: 16px">Please let us know if there are any errors in the schedule.' +
+			    ' Be sure to fill out the survey in the <i style="font-size: 18px;">top neon green bar</i> so we can keep adding cool stuff.<b style="font-size: 18px; display: block; text-align:center; margin: 10px;">Email <a href="mailto:course-picker@lists.csail.mit.edu">course-picker@lists.csail.mit.edu</a> with more urgent issues.</b></p></div>',
 			    type: 'inline'
 			}
-		    });   
+		    });
 		}
-		
+
 		$('.open-popup-link').click();
 		writeCookie("popup", "true");
 	    });

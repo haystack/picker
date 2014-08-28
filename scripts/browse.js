@@ -330,3 +330,79 @@ function editMiniTimegridTitles() {
     });
     toggleUnitAdder();
 }
+
+var query;
+
+/*
+ * Gets terms from checkbox popup
+ */
+function getTerms() {
+	var allVals = [];
+	var my_term;
+	var semester = $('input[name=semester]:checked', '#semester').val();
+	var year = $('input[name=year]:checked', '#year').val();
+	
+	if (semester != undefined && semester != null && year != undefined && year != null) {
+		my_term = parseInt(year)*4 + parseInt(semester);
+	}
+	if ($('input[name=remember_selections]:checked').length > 0) {
+		writeCookie('my_term', "" + my_term);
+	}
+	if (my_term != null && my_term != undefined) {
+		query = query + my_term + "&addclasses=";
+		var collection = readCookie("picked-classes");
+		var classes = parseSavedClasses(collection);
+		classes = uniqueObjArray(classes);
+		classes = $.map(classes, function( val, i ) {
+			return val["classID"];
+		});
+		query = query + classes.join(",");
+		window.location = query;
+	}
+}
+
+/*
+ * Exports classes to current semester of CourseRoad
+ */
+function exportToCourseRoad() {
+	var userID = window.database.getObject('user', 'userid');
+	if (userID == null) {
+		var href = "https://picker.mit.edu:444/";
+		if ($(".course_road").find("#login_message")[0] == undefined) {
+			$(".course_road").prepend('<h3 id="login_message">Must be logged in to export. <a href="'
+			+ href + '">Login</a></h3>');
+		}
+	} else {
+		var athena = window.database.getObject('user', 'athena');
+		query = "https://courseroad.mit.edu/?hash=" + athena + "&year=" + current_year + "&term=";
+		var my_term = readCookie('my_term');
+		if (my_term == null || my_term == undefined) {
+			my_term = parseInt(my_term);
+			$('.open-popup-link').magnificPopup({
+			items: {
+				src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;"><h3>Pick a semester(s) to add classes to CourseRoad:</h3><br>' +
+				    '<form id="semester" action=""><input type="radio" name="semester" value="1"> Fall<br><input type="radio" name="semester" value="2"> IAP<br>' +
+				    '<input type="radio" name="semester" value="3"> Spring<br><input type="radio" name="semester" value="4"> Summer<br></form><br>' +
+				    '<h3>Pick a year(s) to add classes:</h3><br>' +
+				    '<form id="year" action=""><input type="radio" name="year" value="0"> Prior Credit<br><input type="radio" name="year" value="0"> Freshman<br>' +
+				    '<input type="radio" name="year" value="1"> Sophomore<br><input type="radio" name="year" value="2"> Junior<br><input type="radio" name="year" value="3"> Senior<br></form><br>' +
+				    '<input name="remember_selections" type="checkbox" name="remember" value="1"> Remember My Selections <br><br>' +
+				    '<button class="browse-button" onclick="getTerms();">Export to CourseRoad!</button>' +
+				    '</div>',
+				type: 'inline'
+			    }
+			});
+			$('.open-popup-link').click();
+		} else {
+			query = query + my_term + "&addclasses=";
+			var collection = readCookie("picked-classes");
+			var classes = parseSavedClasses(collection);
+			classes = uniqueObjArray(classes);
+			classes = $.map(classes, function( val, i ) {
+				return val["classID"];
+			});
+			query = query + classes.join(",");
+			window.location = query;
+		}
+	}
+}

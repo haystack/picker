@@ -12,9 +12,9 @@ var exportCalendarToGoogle = function() {
     Exhibit.UI.busyMessage('Loading into Google calendar');
     Exhibit.UI.showBusyIndicator();
     
-    var clientId = '708865523100.apps.googleusercontent.com';
+    var clientId = '570198407136.apps.googleusercontent.com';
     var scope = 'https://www.googleapis.com/auth/calendar';
-    var apiKey = 'AIzaSyA4eSND4AU5UDdWpByNj868ABowMKM0Ge8';
+    var apiKey = 'AIzaSyDsqBuouXrFom3bQCmJANqclIt5pUDdiPI';
 
     var withGApi = function() {
       console.log("gapi loaded");
@@ -87,8 +87,11 @@ var exportCalendarToGoogle = function() {
                         }});
                 (function(x) {
                               request.execute(function(resp) {
-                                  if (resp) {
+                                  if (resp && !resp.error) {
                                       console.log("Added " + x);
+                                  } else {
+                                      console.log(resp.error);
+                                      console.log("Error occurred. Please contact course-picker@lists.csail.mit.edu to report an error with this functionality.");
                                   }
                              });
                           })(number + " "+ type);
