@@ -7,20 +7,18 @@
 ini_set('display_errors', 'On');
 ini_set('allow_url_fopen', 'true');
 
-mysql_connect('sql.mit.edu', 'picker', 'haystackpicker')
+$link = mysqli_connect('sql.mit.edu', 'picker', 'haystackpicker', 'picker+userdata')
 	or die('MySQL connect failed');
-mysql_select_db('picker+userdata');
-
 
 // POST handling
 if (isset($_POST['userid'])) {
-	$userid = mysql_real_escape_string($_POST['userid']);
+	$userid = mysqli_real_escape_string($link, $_POST['userid']);
 	// Returns picked sections as JSON
 	if (isset($_POST['getPickedSections'])) {
-		$semester = mysql_real_escape_string($_POST['semester']);
-		$result = mysql_query("SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0 AND semester='$semester';");
+		$semester = mysqli_real_escape_string($link, $_POST['semester']);
+		$result = mysqli_query($link, "SELECT * FROM picked_classes WHERE user_id=$userid AND deleted=0 AND semester='$semester';");
 		    $arr = array();
-		    while ($row = mysql_fetch_row($result)) {
+		    while ($row = mysqli_fetch_row($result)) {
 			    $arr[] = '"+sectionID:' . $row[2] . ',color:' . $row[3] . ',type:' . $row[4] . ',classID:' . $row[5] . ',classLabel:'
 						. $row[6] . ',timeandplace:' . $row[7] . ',sectionData:' . $row[8] . '"';
 		    }
@@ -36,15 +34,15 @@ else {
 	as a Javascript file */
 
 function getUser($athena, $email) {
-	$result = mysql_query("SELECT u_userid FROM users WHERE u_athena='$athena';");
-	if (mysql_num_rows($result) > 0) {
-		$row = mysql_fetch_row($result);
+	$result = mysqli_query($link, "SELECT u_userid FROM users WHERE u_athena='$athena';");
+	if (mysqli_num_rows($result) > 0) {
+		$row = mysqli_fetch_row($result);
 		return $row[0];
 	}
 	else {
-		mysql_query("INSERT INTO users (u_athena, u_email)
+		mysqli_query($link, "INSERT INTO users (u_athena, u_email)
 			VALUES ('$athena', '$email')");
-		return mysql_insert_id();
+		return mysqli_insert_id($link);
 	}
 }
 
@@ -64,9 +62,9 @@ if (isset($userid)) {
 	$items = array($arr);
 
 	// pull user's ratings
-	$result = mysql_query("SELECT r_classid, r_rating FROM ratings
+	$result = mysqli_query($link, "SELECT r_classid, r_rating FROM ratings
 		WHERE r_userid=$userid AND r_type=1;");
-	while ($row = mysql_fetch_row($result)) {
+	while ($row = mysqli_fetch_row($result)) {
 		
 		$rating_elts = array();
 		for ($i = 1; $i <= 7; $i++) {
@@ -86,16 +84,16 @@ if (isset($userid)) {
 
 /* ==== THINGS THAT SHOULD BE PULLED REGARDLESS OF AUTHENTICATION ==== */
 // pull average ratings
-$result = mysql_query("SELECT r_classid, AVG(r_rating),
+$result = mysqli_query($link, "SELECT r_classid, AVG(r_rating),
 	COUNT(r_rating) FROM ratings
 	WHERE r_type=1 GROUP BY r_classid;");
-while ($row = mysql_fetch_row($result)) {
+while ($row = mysqli_fetch_row($result)) {
 	$items[] = '{"type":"UserData","label":"AvgRating-' . $row[0] . '",
 		"class-avg-rating-of":"' . $row[0] . '",
 		"rating":"' . round($row[1],1) . '","total":"' . $row[2] . '"}';
 }
 
-mysql_close();
+mysqli_close($link);
 
 echo '{"items": [' . implode(",", $items) . '] }';
 
