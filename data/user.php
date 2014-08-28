@@ -28,12 +28,17 @@ if (isset($_POST['userid'])) {
 }
 
 else {
-	
+
 /*  This is the only file that should be connecting to
 	the database and should be interpreted by the application
 	as a Javascript file */
 
 function getUser($athena, $email) {
+    if (!isset($link)) {
+        $link = mysqli_connect('sql.mit.edu', 'picker', 'haystackpicker', 'picker+userdata')
+	        or die('MySQL connect failed');
+    }
+
 	$result = mysqli_query($link, "SELECT u_userid FROM users WHERE u_athena='$athena';");
 	if (mysqli_num_rows($result) > 0) {
 		$row = mysqli_fetch_row($result);
@@ -65,19 +70,19 @@ if (isset($userid)) {
 	$result = mysqli_query($link, "SELECT r_classid, r_rating FROM ratings
 		WHERE r_userid=$userid AND r_type=1;");
 	while ($row = mysqli_fetch_row($result)) {
-		
+
 		$rating_elts = array();
 		for ($i = 1; $i <= 7; $i++) {
 			if ($i <= $row[1])
 				$rating_elts[] = '"r' . $i . '":"true"';
 		}
-		
+
 		$str = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
 			"class-urating-of":"' . $row[0] . '", "rating":"' . $row[1] . '"';
 		if (count($rating_elts) > 0)
 			$str .= ', ' . implode(', ', $rating_elts);
 		$str .= '}';
-		
+
 		$items[] = $str;
 	}
 }
