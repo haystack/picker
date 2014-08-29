@@ -1,8 +1,6 @@
-var term = 'FA';
-
-var current_year = "2015";
-
-var current_term_facet = "Fall";
+term = 'FA';
+current_year = "2015";
+current_term_facet = "Fall";
 
 /*
 Need in formate YYYYMMDD
@@ -164,7 +162,7 @@ var sectionTypeToData = {
 }
 
 //maps GIR notation to course numbers
-var girData = {
+girData = {
 	"GIR:PHY1": ["8.01", "8.011", "8.012", "8.01L"],
 	"GIR:PHY2": ["8.02", "8.022", "8.021"],
 	"GIR:CAL1": ["18.01", "18.014", "18.01A"],

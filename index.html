@@ -7,7 +7,8 @@
         <script src="//simile-widgets.googlecode.com/svn-history/r900/timegrid/trunk/src/webapp/api/scripts/util/jquery.simile.js"></script>
 		<script src="timegrid/scripts/jquery.simile.ajax.js"></script>
 		<script src="scripts/config.js" type="text/javascript"></script>
-		<script src="timegrid/timegrid-api.js"></script>
+	    <script src="scripts/index.js" type="text/javascript"></script>
+    	<script src="timegrid/timegrid-api.js"></script>
 		<script src="scripts/mini-timegrid.js" type="text/javascript"></script>
 		<script src="scripts/class-data-importer.js" type="text/javascript"></script>
 	    <script src="scripts/stored-data.js" type="text/javascript"></script>
@@ -23,16 +24,14 @@
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 		<script src="magnific-popup/jquery.magnific-popup.js"></script>
-                <script>
-                    $(document.head).append('<link rel="exhibit/data" type="application/jsonp" href="//coursews.mit.edu/coursews/?term=' + current_year + term + '&callback=?" data-ex-converter="processClassData"/>');
-                </script>
-		<link rel="exhibit/data" type="application/json" href="data/schema.js" />
+		<link rel="exhibit/data" type="application/json" href="processed_class_data.json" />
+        <link rel="exhibit/data" type="application/json" href="data/schema.js" />
 
 	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
         <link type="text/css" rel="stylesheet" href="styles/style.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
     </head>
-    <body data-ex-bubbleWidth="600">
+    <body data-ex-ondataload="loadSavedData" data-ex-bubbleWidth="600">
 	<div id="headerStripe">
 		<div id="header">
 			<div id="logo">
