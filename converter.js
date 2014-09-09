@@ -44,6 +44,10 @@ function processOfficialDataItem(item) {
 
     if ('id' in item) {
         item['courseNumber'] = parseNumber(item.master_subject_id);
+        item['course_eval'] = '<a target="_blank" href="https://edu-apps.mit.edu/ose-rpt/subjectEvaluationSearch.htm?termId=&departmentId=&subjectCode=' + item.master_subject_id + '&instructorName=&search=Search"> Course Evaluation for ' + item.master_subject_id + '</a>';
+        if (item['id'].split(".")[0] == "6") {
+            item['course_eval_hkn'] = '<a target = "_blank" href="https://hkn.mit.edu/new_ug/search/show_eval/' + item['id'] + '-' +hknreviewyear + '"> HKN Review for ' + item.master_subject_id + '</a>';
+        }
     }
 
     for (attribute in item) {

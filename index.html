@@ -142,7 +142,9 @@
 			<div data-ex-content=".description" class="course-description"></div>
 			<div data-ex-class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" data-ex-content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
 			<div data-ex-if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span data-ex-content=".prereqs"></span></div>
-			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div><br />
+			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div>
+            <div data-ex-if-exists=".course_eval" class="course-eval-info" style="display:block;"><span data-ex-content=".course_eval"></span></div>
+            <div data-ex-if-exists=".course_eval_hkn" class="course-eval-hkn-info" style="display:block;"><span data-ex-content=".course_eval_hkn"></span></div><br />
 		<div id="lecture-recitation-sections" style="display:block">
 			<div data-ex-if-exists="!lecture-section-of"><b>Lecture Sections:</b>
 			    <div data-ex-content="!lecture-section-of">

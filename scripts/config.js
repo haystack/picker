@@ -18,7 +18,7 @@ var first_date = "2014-09-01T";
 /*
  Year of most recent HKN reviews
  */
-var hknreviewyear = "f2012";
+hknreviewyear = "f2012";
 
 /*
 Color table to be used to determine event color in the mini-calendar
