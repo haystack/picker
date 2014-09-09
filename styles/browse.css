@@ -135,7 +135,7 @@ div.exhibit-facet-header-filterControl img {
     visibility:     hidden;
 }
 #schedule-details-layer-inner {
-    margin:       1em; 
+    margin:       1em;
     margin-right: 21em;
 }
 @media print {
@@ -155,7 +155,7 @@ div.exhibit-facet-header-filterControl img {
     #schedule-details-layer-inner {
 	display: none
     }
-    
+
 }
 
 #schedule-details-layer div.title {
@@ -404,7 +404,7 @@ div.requirements {
 
 .star,
 .star a {background: url('../images/rating-star.gif') no-repeat 0 0px;}
-	
+
 .cancel a,
 .star a {
 	display: block;
@@ -476,7 +476,7 @@ div.comments div.input {
     -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
     box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */
 }
 
 #classes-layer button.collapse-classes{
@@ -592,12 +592,21 @@ img.exhibit-toolboxWidget-button {
   margin: 20px auto;
 }
 
+.login-error {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
 @media print
 {
     .print {
 	display: block !important;
     }
-    
+
     .no-print {
 	display: none !important;
     }

@@ -51,15 +51,17 @@ function getUser($athena, $email) {
 	}
 }
 
+$items = array();
+
 // determine user identity via certificates, store in $userid
 // accessible via: database.getObject("currentUser", "athena");
 if (isset($_SERVER['SSL_CLIENT_S_DN_CN'])) {
 	$athena = explode("@", $_SERVER['SSL_CLIENT_S_DN_Email']);
 	$athena = $athena[0];
 	$userid = getUser($athena, $_SERVER['SSL_CLIENT_S_DN_Email']);
+} elseif (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == '444') {
+    $items[] = '{"type": "UserError", "label": "certerror", "error": "No certificate."}';
 }
-
-$items = array();
 
 if (isset($userid)) {
 	$arr = '{"type":"UserData","label":"user",

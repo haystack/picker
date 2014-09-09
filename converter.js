@@ -22,14 +22,14 @@ function transformJSON(json) {
 
         // If true this is a cross-listed class, and this is not the "master" class
         // Ex. if this class is 18.062, rename it 6.042
-        if ('master_subject_id' in item && item.id != item.master_subject_id) {
+        /*if ('master_subject_id' in item && item.id != item.master_subject_id) {
             // Once both 18.062 and 6.042 are loaded, they will be merged as one class with two courses ["6", "18"]
             items[i] = {"id":item.master_subject_id, "course":item.course, "label":item.label, "type":item.type};
         }
-        // Otherwise, this is a regular class -- just load it
-        else {
-            processOfficialDataItem(item);
-        }
+        //Otherwise, this is a regular class -- just load it
+        else {*/
+        processOfficialDataItem(item);
+        //}
     }
 
     return json;

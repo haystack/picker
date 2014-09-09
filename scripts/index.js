@@ -19,7 +19,6 @@ function loadStaticData(link, database, cont) {
     var url = typeof link == "string" ? link : link.href;
     // Given a relative or absolute URL, returns the absolute URL
     url = Exhibit.Persistence.resolveURL(url);
-
     var fError = function(jqXHR, textStatus, errorThrown) {
         Exhibit.UI.hideBusyIndicator();
         Exhibit.UI.showHelp(Exhibit._("%general.failedToLoadDataFileMessage", link));
@@ -32,6 +31,15 @@ function loadStaticData(link, database, cont) {
             if (jsonObject != null) {
                 if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "Class") {
                     jsonObject = processOfficialData(jsonObject);
+                } else if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "UserError") {
+		            $('.error-popup-link').magnificPopup({
+			        items: {
+                        src: '<div class="login-error"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;"> Cannot login in. Please download an MIT certificate from: <a href="https://ist.mit.edu/certificates">MIT IS&T</a>. Only members of the MIT community may view logged in contents.</b></div>',
+                        type: 'inline'
+                        }
+		            });
+
+		            $('.error-popup-link').click();
                 }
                 database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url), cont);
             }
