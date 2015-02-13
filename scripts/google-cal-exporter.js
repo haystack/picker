@@ -185,7 +185,22 @@ var exportCalendarToGoogle = function() {
   }
   
   var getClassTime = function(item) {
-    return getClassLocandTime(item)[0];
+    var locAndTime = getClassLocandTime(item);
+    if (locAndTime.indexOf("EVE") > -1) {
+        var times = [];
+        var timeStrings = locAndTime[2].substring(1).split("-");
+        for (i in timeStrings) {
+            var hour = timeStrings[i].split(".")[0];
+            var minute = timeStrings[i].split(".")[1];
+            
+            if (minute !== undefined)
+                times.push(String(parseInt(hour) + 12) + "." + minute);
+            else
+                times.push(String(parseInt(hour) + 12));
+        }
+        return locAndTime[0] + times.join("-");
+    }
+    return locAndTime[0];
   }
   
   var getClassNumber = function(item) {

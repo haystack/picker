@@ -94,8 +94,7 @@
 		    <div data-ex-role="collection" data-ex-item-types="Class"></div>
 		    <div class="container">
 			</div><div data-ex-role="exhibit-view"
-			    data-ex-orders=".courseNumber"
-			    data-ex-possible-orders=".courseNumber, .label,  .semester, .offering, .level, .category, .units, .total-units"
+			    data-ex-orders=".sortCourseNumber, .sortDigitNumber, .sortCourseDecimalNumber"
 			    data-ex-show-all="false"
 			    data-ex-grouped="false">
 			</div>
@@ -323,7 +322,7 @@
 		if (!(readCookie("popup") == "true")) {
 		    $('.open-popup-link').magnificPopup({
 			items: {
-			    src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;">Course Picker now displays Spring 2015 classes</b> <p style="font-size: 16px">Please let us know if there are any errors in the schedule.' +
+			    src: '<div class="white-popup"><b style="font-size: 18px; display: block; text-align:center; margin: 10px;"><p style="font-size: 16px">Please let us know if there are any errors in the schedule.' +
 			    ' Be sure to fill out the survey in the <i style="font-size: 18px;">top bar</i> so we can keep adding cool stuff.<b style="font-size: 18px; display: block; text-align:center; margin: 10px;">Email <a href="mailto:course-picker@lists.csail.mit.edu">course-picker@lists.csail.mit.edu</a> with more urgent issues.</b></p></div>',
 			    type: 'inline',
             }
