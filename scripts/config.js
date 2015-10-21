@@ -1,24 +1,24 @@
-term = 'SP';
-current_year = "2015";
-current_term_facet = "Spring";
+term = 'FA';
+current_year = "2016";
+current_term_facet = "Fall";
 
 /*
 Need in formate YYYYMMDD
 no spaces for google calendar exporter
 */
-var last_date = "20150615";
+var last_date = "20151210";
 
 /*
 Dates of the first classes starting
 on each day of the week
 Format: YYYY-MM-DDT
 */
-var first_date = "2015-02-03T";
+var first_date = "2015-09-09T";
 
 /*
  Year of most recent HKN reviews
  */
-hknreviewyear = "s2014";
+hknreviewyear = "f2014";
 
 /*
 Color table to be used to determine event color in the mini-calendar

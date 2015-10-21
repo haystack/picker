@@ -71,7 +71,7 @@
 	<div id="left-wrapper">
 	<div id="left-column" width="25%">
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".level" data-ex-facet-class="Cloud" data-ex-facet-label="Level" id='level-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
-		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "130"></div>
+		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".course" data-ex-facet-class="Cloud" data-ex-fixed-order="1;2;3;4;5;6;7;8;9;10;11;12;14;15;16;17;18" data-ex-facet-label="Course (choose one to browse classes)" id='course-facet' data-ex-show-missing="false" data-ex-max-font-size="170" data-ex-min-font-size = "130"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".hass_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="HASS Categories" id='hass-categories-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".comm_req_attribute" data-ex-facet-class="Cloud" data-ex-facet-label="Institute Requirements" id='common-reqs-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
 		<div class = "facet-click" data-ex-role="exhibit-facet" data-ex-expression=".total-units" data-ex-facet-class="Cloud" data-ex-facet-label="Total Units" id='total-units-facet' data-ex-show-missing="false" data-ex-max-font-size = "170" data-ex-min-font-size = "130"></div>
@@ -94,7 +94,7 @@
 		    <div data-ex-role="collection" data-ex-item-types="Class"></div>
 		    <div class="container">
 			</div><div data-ex-role="exhibit-view"
-			    data-ex-orders=".sortCourseNumber, .sortDigitNumber, .sortCourseDecimalNumber"
+			    data-ex-orders=".id"
 			    data-ex-show-all="false"
 			    data-ex-grouped="false">
 			</div>
@@ -141,6 +141,7 @@
 			<div data-ex-content=".description" class="course-description"></div>
 			<div data-ex-class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" data-ex-content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
 			<div data-ex-if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span data-ex-content=".prereqs"></span></div>
+			<div data-ex-if-exists=".level" class="course-level" style="display: block;">Level: <span data-ex-content=".level"></span></div>
 			<div data-ex-if-exists=".units" class="course-units" style="display:block;">Units: <span data-ex-content=".units"></span></div>
             <div data-ex-if-exists=".course_eval" class="course-eval-info" style="display:block;"><span data-ex-content=".course_eval"></span></div>
             <div data-ex-if-exists=".course_eval_hkn" class="course-eval-hkn-info" style="display:block;"><span data-ex-content=".course_eval_hkn"></span></div><br />
