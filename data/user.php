@@ -37,7 +37,9 @@ else {
 	as a Javascript file */
 
 function getUser($athena, $email) {
+    global $link;  // to access same link from above
     if (!isset($link)) {
+        global $DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_NAME;
         $link = mysqli_connect($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_NAME)
 	        or die('MySQL connect failed');
     }
