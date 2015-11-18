@@ -7,7 +7,7 @@
 ini_set('display_errors', 'On');
 
 // Include the MySQL connect details
-include '../db_credentials.php';
+require('../db_credentials.php');
 
 mysql_connect($DB_HOST, $DB_USERNAME, $DB_PASSWORD)
 	or die('MySQL connect failed');
