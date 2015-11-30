@@ -6,7 +6,7 @@ current_term_facet = "Spring";
 Need in formate YYYYMMDD
 no spaces for google calendar exporter
 */
-var last_date = "20150512";
+var last_date = "20160512";
 
 /*
 Dates of the first classes starting
