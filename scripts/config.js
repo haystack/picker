@@ -1,6 +1,6 @@
-term = 'SP';
+term = 'FA';
 current_year = "2016";
-current_term_facet = "Spring";
+current_term_facet = "Fall";
 
 /*
 Need in formate YYYYMMDD
