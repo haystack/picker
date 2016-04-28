@@ -1,12 +1,12 @@
 term = 'FA';
-current_year = "2016";
+current_year = "2017";
 current_term_facet = "Fall";
 
 /*
 Need in formate YYYYMMDD
 no spaces for google calendar exporter
 */
-var last_date = "20160512";
+var last_date = "20161214";
 
 /*
 Dates of the first classes starting
