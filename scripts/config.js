@@ -13,7 +13,7 @@ Dates of the first classes starting
 on each day of the week
 Format: YYYY-MM-DDT
 */
-var first_date = "2015-09-09T";
+var first_date = "2016-09-07T";
 
 /*
  Year of most recent HKN reviews
